@@ -11,6 +11,10 @@ author: "Esteban M. Solórzano Zeledón"
 date: "Monday October 30, 2023"
 ---
 
+Image insert test
+
+![](stevens.png){width="200"}
+
 # Introduction
 
 The field of medical device development is rapidly evolving, with advancements in technology and the growing complexity of healthcare systems. Ensuring the safety, efficacy, and compliance of medical devices is paramount to protect patient health and well-being. This project proposes the creation of a comprehensive book that delves into the systems engineering aspects of medical device development.
