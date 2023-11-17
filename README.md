@@ -1,2 +1,2 @@
-# masters_stevens
-Masters Project Stevens Institute of Technology
+# Introduction
+This is the Git repository of a Masters Project at Stevens Institute of Technology
