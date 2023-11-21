@@ -1,17 +1,6 @@
 ---
 title: |
-  ![]({width=1in}  
-
-
-<img src="stevens.png" width="100" height="100">
-  
-  Stevens Institute of Technology  
-  
-  SYS 622  
-  
-  Homework 6
 author: "Esteban M. Solórzano Zeledón"
-date: "Monday October 30, 2023"
 ---
 
 Image insert test
