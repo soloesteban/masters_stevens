@@ -1,6 +1,9 @@
 ---
 title: |
-  ![](stevens.png){width=1in}  
+  ![]({width=1in}  
+
+
+<img src="stevens.png" width="100" height="100">
   
   Stevens Institute of Technology  
   
@@ -13,7 +16,7 @@ date: "Monday October 30, 2023"
 
 Image insert test
 
-![](stevens.png | width = 200)
+<img src="stevens.png" width="100" height="100">
 
 # Introduction
 
