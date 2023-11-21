@@ -13,7 +13,7 @@ date: "Monday October 30, 2023"
 
 Image insert test
 
-![](stevens.png){width="200"}
+![](stevens.png | width = 200)
 
 # Introduction
 
