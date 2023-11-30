@@ -1,4 +1,13 @@
 # Read Me
-This is the Git repository of Esteban Solorzano's Masters Project at the Stevens Institute of Technology.
+This is the GitHub repository of a Masters Project for Systems Engineering at the Stevens Institute of Technology.
+Candidate: Esteban M. Solorzano Zeledon
 
-Documents will be written using the markdown language to facilitate archiving, publishing, reuse and transfer.
+Several documents and artifacts will be written in languages SysML and markdown (.md):
+- MBSE,
+- platform independence,
+- standerization,
+- publishing flexibility,
+- reuse,
+- and transfer.
+
+Note: Publishing will be performed in formats such as Microsoft Word and PDF.
