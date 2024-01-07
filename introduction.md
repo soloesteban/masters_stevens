@@ -19,6 +19,12 @@ The field of medical device development is rapidly evolving, with advancements i
 
 # Objectives
 
-Table 2 provides the list of the main objectives of this project.
+The following are the main objectives of this project.
 
-OBJ0001 Compile and synthesize knowledge and best practices related to systems engineering in medical device development. OBJ0002 Provide a comprehensive resource that educates professionals and students in the field of systems engineering about the unique challenges and considerations specific to medical devices. OBJ0003 Offer practical guidance and tools for applying systems engineering principles throughout the entire lifecycle of medical device development. OBJ0004 Foster a deeper understanding of the regulatory requirements and standards governing medical devices and how they intersect with systems engineering processes.
+- **OBJ0001**: Compile and synthesize knowledge and best practices related to systems engineering in medical device development.
+- **OBJ0002**: Provide a comprehensive resource that educates professionals and students in the field of systems engineering about the unique challenges and considerations specific to medical devices.
+- **OBJ0003**: Offer practical guidance and tools for applying systems engineering principles throughout the entire lifecycle of medical device development.
+- **OBJ0004**: Foster a deeper understanding of the regulatory requirements and standards governing medical devices and how they intersect with systems engineering processes.
+
+
+
