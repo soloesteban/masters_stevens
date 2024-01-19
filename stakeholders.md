@@ -45,148 +45,101 @@ The following are the list of the project stakeholders
 
 ----------
 
-**Stakeholder ID:** STK000
+**Stakeholder ID:** STK0004
 
-**Name:** 
+**Name:** Adam Reinhardt
 
+![Alt text](image-3.png)
 
+**Institution:** Boston Scientific
 
-**Institution:** 
+**Role:** Supervisor, independent reviewer
 
-**Role:** 
-
-**Contact email:** 
-
-----------
-
-**Stakeholder ID:** STK000
-
-**Name:** 
-
-
-
-**Institution:** 
-
-**Role:** 
-
-**Contact email:** 
+**Contact email:** Adam.Reinhardt@bsci.com
 
 ----------
 
-**Stakeholder ID:** STK000
+**Stakeholder ID:** STK0005
 
-**Name:** 
+**Name:** Bijan Elahi
 
+![Alt text](image-4.png)
 
+**Institution:** Medtronic
 
-**Institution:** 
+**Role:** Medtronic Technical Fellow, corporate advisor, independent reviewer. Safety risk management
 
-**Role:** 
-
-**Contact email:** 
-
-----------
-
-**Stakeholder ID:** STK000
-
-**Name:** 
-
-
-
-**Institution:** 
-
-**Role:** 
-
-**Contact email:** 
+**Contact email:** bijan.elahi@medtronic.com
 
 ----------
 
-**Stakeholder ID:** STK000
+**Stakeholder ID:** STK0006
 
-**Name:** 
+**Name:** Sandy Weininger
 
+![Alt text](image-5.png)
 
+**Institution:** FDA, AAMI
 
-**Institution:** 
+**Role:** Medical Device Regulatory Agency advisor, independent reviewer
 
-**Role:** 
-
-**Contact email:** 
-
-----------
-
-**Stakeholder ID:** STK000
-
-**Name:** 
-
-
-
-**Institution:** 
-
-**Role:** 
-
-**Contact email:** 
+**Contact email:** Sandy.Weininger@fda.hhs.gov
 
 ----------
 
+**Stakeholder ID:** STK0007
 
-**Stakeholder ID:** STK000
+**Name:** Colin Mellars
 
-**Name:** 
+![Alt text](image-6.png)
 
+**Institution:** Roche
 
+**Role:** Director Systems Development and Integration, contributor
 
-**Institution:** 
+**Contact email:** colin.mellars@gmail.com
 
-**Role:** 
+----------
 
-**Contact email:** 
+**Stakeholder ID:** STK0008
+
+**Name:** Howard Simms
+
+![Alt text](image-7.png)
+
+**Institution:** Boston Scientific, retired
+
+**Role:** Medical Device Industry advisor, independent reviewer
+
+**Contact email:** systems2718@gmail.com
+
+----------
+
+**Stakeholder ID:** STK0009
+
+**Name:** Nathan Brown
+
+![Alt text](image-8.png)
+
+**Institution:** Boston Scientific
+
+**Role:** Principal Systems Development Engineer, independent reviewer
+
+**Contact email:** nathan.brown@bsci.com
 
 ----------
 
 
-**Stakeholder ID:** STK000
+**Stakeholder ID:** STK0010
 
-**Name:** 
+**Name:** Dr. Alejandro Salado
 
+![Alt text](image-9.png)
 
+**Institution:** University of Arizona
 
-**Institution:** 
+**Role:** Independent reviewer
 
-**Role:** 
-
-**Contact email:** 
-
-----------
-
-
-**Stakeholder ID:** STK000
-
-**Name:** 
-
-
-
-**Institution:** 
-
-**Role:** 
-
-**Contact email:** 
+**Contact email:** alejandrosalado@arizona.edu
 
 ----------
-
-
-**Stakeholder ID:** STK000
-
-**Name:** 
-
-
-
-**Institution:** 
-
-**Role:** 
-
-**Contact email:** 
-
-----------
-
-
