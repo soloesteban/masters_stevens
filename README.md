@@ -21,14 +21,14 @@ Note: As needed publishing will be provided in formats such as Microsoft Word, L
 
 The following links facilitate navigation of the project artifacts.
 
-[Introduction](introduction.md#introduction)
+[Introduction](Introduction.md#introduction)
 
 [Problem]
 
-[Scope](introduction.md#scope)
+[Scope](Introduction.md#scope)
 
 [Background]
 
-[Stakeholders](stakeholders.md)
+[Stakeholders](Stakeholders.md)
 
 [Methodology](Methodology.md)
