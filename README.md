@@ -4,16 +4,18 @@ This is the GitHub repository of a Masters Project for Systems Engineering at th
 
 **Candidate**: Esteban M. Solórzano Zeledón
 
-The project consists of modeling and documenting a system to capture, manage and publish knowledge of best practices for performing systems engineering of medical devices.
+The project consists of modeling and documenting a system to capture, manage and publish knowledge of best practices how to perform systems engineering of medical devices.
 
-Some of the documents and artifacts of this project are modeled in SysML and documented in markdown (.md). This is to facilitate:
+Several of the documents and artifacts of this project are modeled in SysML, Capella and documented in markdown (.md). This enables:
 - platform independence,
 - standerization,
 - publishing flexibility,
 - reuse,
 - and transfer.
 
-Note: As needed publishing will be performed in formats such as Microsoft Word, Latex and PDF.
+The markdown is primarily done using Visual Studio Code.
+
+Note: As needed publishing will be provided in formats such as Microsoft Word, Latex and PDF.
 
 # Project Index
 
