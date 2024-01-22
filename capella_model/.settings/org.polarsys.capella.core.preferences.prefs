@@ -1,0 +1,13 @@
+CapellaAirdFragmentFileExtension=airdfragment
+DetectionVersion=true
+columnsNumberTitleBlock=2
+defaultTitleBlock=false
+eclipse.preferences.version=1
+linesNumberTitleBlock=2
+org.polarsys.capella.core.sirius.analysis.preferences.diagrams.functionalchain.label.incomplete=false
+org.polarsys.capella.core.sirius.analysis.preferences.diagrams.functionalchain.label.invalid=true
+org.polarsys.capella.core.sirius.analysis.preferences.diagrams.operationalprocess.label.incomplete=false
+org.polarsys.capella.core.sirius.analysis.preferences.diagrams.operationalprocess.label.invalid=true
+org.polarsys.capella.core.sirius.analysis.preferences.diagrams.physicalpath.label.incomplete=false
+org.polarsys.capella.core.sirius.analysis.preferences.diagrams.physicalpath.label.invalid=true
+tableTitleBlock=NameSEPARATORfeature\:nameSEPARATORLast change dateSEPARATORaql\:self.getLastModificationDate()SEPARATORSummarySEPARATORaql\:self.target.summarySEPARATORDescriptionSEPARATORfeature\:documentation

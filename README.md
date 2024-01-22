@@ -4,7 +4,9 @@ This is the GitHub repository of a Masters Project for Systems Engineering at th
 
 **Candidate**: Esteban M. Solórzano Zeledón
 
-Project documents and artifacts will be modeled in languages SysML and documented in markdown (.md). This is to facilitate:
+The project consists of modeling and documenting a system to capture, manage and publish knowledge of best practices for performing systems engineering of medical devices.
+
+Some of the documents and artifacts of this project are modeled in SysML and documented in markdown (.md). This is to facilitate:
 - platform independence,
 - standerization,
 - publishing flexibility,
@@ -15,8 +17,16 @@ Note: As needed publishing will be performed in formats such as Microsoft Word, 
 
 # Project Index
 
-The following links facilitate navigation to the masters project artifacts.
+The following links facilitate navigation of the project artifacts.
 
 [Introduction](introduction.md#introduction)
 
+[Problem]
+
+[Scope](introduction.md#scope)
+
+[Background]
+
 [Stakeholders](stakeholders.md)
+
+[Methodology](Methodology.md)

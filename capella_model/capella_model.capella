@@ -43,19 +43,89 @@
       <ownedFunctionPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalActivityPkg"
           id="9f71c19b-f288-492c-8d7f-fc4b5733e9f9" name="Operational Activities">
         <ownedOperationalActivities xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
-            id="88f2a73d-f6d5-441c-9775-4402a7e5405f" name="Root Operational Activity"/>
+            id="88f2a73d-f6d5-441c-9775-4402a7e5405f" name="Root Operational Activity">
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="932bdde3-c214-46a4-b0f3-7fd865ef1c9a" name="Manage medical device systems engineering knowledge">
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+                id="f8afe668-ebb6-4672-8040-0b01283ed376" name="Update medical device systems engineering knowledge">
+              <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+                  id="7ded662b-73c2-4250-9af2-9873d9ccd88a" name="Remove Knowledge"/>
+              <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+                  id="d1199445-e647-4c02-8100-0abb3faeff47" name="Add knowledge"/>
+            </ownedFunctions>
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+                id="9046db7a-157e-4cb6-91f4-bb8dde972536" name="Store medical device systems engineering knowledge"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="9eef35a9-b3f1-4dbe-a743-21f07e186c40" name="Retrieve medical device systems engineering knowledge">
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+                id="ae685c5c-03a6-4440-b086-ff7312c83dd8" name="Search Knowledge"/>
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+                id="9aab44f2-ec54-4b85-b69f-859fff1c8de6" name="Display knowledge"/>
+          </ownedFunctions>
+        </ownedOperationalActivities>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg"
           id="350aef4c-867a-4f20-b5b9-dd54d83b9e22" name="Operational Capabilities">
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="f017208b-5f19-4e2e-a74f-936b57253b2c" name="Generate medical systems">
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="daf48417-0662-4d35-a933-fbdc2213e2c9" involved="#76bbd7ca-eb9e-49f1-a1b5-3deb8f469730"/>
+              id="63708fb2-b205-4b85-9781-4a2ff3f6e2e1" involved="#76bbd7ca-eb9e-49f1-a1b5-3deb8f469730"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="b4f60079-cb75-48d3-8711-d34766dbab18" involved="#ca94f05e-c0f6-4050-ae90-85691b130a84"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="34536ecc-5201-4981-a6cb-157e5308545e" name="Learn systems engineering">
+            id="34536ecc-5201-4981-a6cb-157e5308545e" name="Adquire Knowledge">
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
-              id="48551a11-3d74-4506-9986-44e54775c860" involved="#76bbd7ca-eb9e-49f1-a1b5-3deb8f469730"/>
+              id="34643ad6-9cc7-454e-ad0b-cd10af6a1848" involved="#76bbd7ca-eb9e-49f1-a1b5-3deb8f469730"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="4fce95df-5adc-4d1f-bab9-1cf2e86d7aaa" involved="#55cc90e4-e151-486e-8195-510dc5788781"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="54e1acec-0b66-4df1-b508-1c3b57c43e8d" involved="#0cada7a9-75ac-4378-ba3b-953c20704910"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="a4260f25-c350-44cf-b8c8-561edba8db81" name="Generate knowledge">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="d517c989-845c-4813-bba5-83397672b9b4" involved="#55cc90e4-e151-486e-8195-510dc5788781"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="1f2c1f49-ef5f-45d0-8b99-5fedfdfbfee4" involved="#76bbd7ca-eb9e-49f1-a1b5-3deb8f469730"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="6bb6f3d4-af30-486a-9c9a-a0eaadde5100" involved="#e9292270-e532-43ed-80c3-790136404cc4"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="740784e1-bb4a-4cd1-b20a-248c0d9f7a2a" name="Deploy Knowledge">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="ef8e182d-6753-4dd3-ae93-f234998ca6da" involved="#274b97ad-a2f9-4cb5-b65a-2ce8795ad969"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="f84d5fa7-b83b-4e82-97c5-0b3045b43f24" involved="#55cc90e4-e151-486e-8195-510dc5788781"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="9dd9d966-cc3e-4921-a135-6a9ef7c3224e" name="Share Knowledge (Learnings, feedback)">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="030d8d12-2255-4056-8e6e-4dee1d298eb9" involved="#76bbd7ca-eb9e-49f1-a1b5-3deb8f469730"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="1a61f0a9-a7fe-404d-a967-54c03bb19dec" involved="#274b97ad-a2f9-4cb5-b65a-2ce8795ad969"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="a5185e75-85eb-4ca4-89e8-bfbb819d29b0" name="Restrict knowledge">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="aa11b2e2-6480-471c-b379-45ddd9c6df30" involved="#931bba06-1d07-424e-a8f6-d902cedd6bda"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="be4e4b9c-ca5f-475c-8e56-534a27c0cc7c" involved="#55cc90e4-e151-486e-8195-510dc5788781"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="5052c016-3571-4c7f-b8ea-60c38af7e574" name="Supply standards">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="c48d9bf7-657a-462e-8b91-6e4fba58c2bb" involved="#32c4136c-b3fe-41e6-aed1-ed156c091c58"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="bf91dc8a-c472-4839-a708-48bb2b7b78ae" involved="#55cc90e4-e151-486e-8195-510dc5788781"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="ee62c180-0883-41aa-94fc-e9ca4221946c" name="Apply Knowledge">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="acad2571-cbec-440d-a6a0-9f3333ec07ec" involved="#55cc90e4-e151-486e-8195-510dc5788781"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="dd8ae8d2-11a8-4b1f-8778-aaa287238142" involved="#76bbd7ca-eb9e-49f1-a1b5-3deb8f469730"/>
         </ownedOperationalCapabilities>
       </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
@@ -66,27 +136,84 @@
           name="Roles"/>
       <ownedEntityPkg xsi:type="org.polarsys.capella.core.data.oa:EntityPkg" id="366a206d-efa7-44bb-aa9d-75a0c834e5b0"
           name="Operational Entities">
-        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="09434518-f212-4042-bb2d-793def080be3"
-            name="Book Developer" abstractType="#274b97ad-a2f9-4cb5-b65a-2ce8795ad969"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="4d09be13-74a5-45fa-9027-2e10fe18a486"
             name="Medical Device Company" abstractType="#931bba06-1d07-424e-a8f6-d902cedd6bda"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="bc59fbd7-67d3-4469-8c1f-6883ca29a92e"
             name="Academic Institution" abstractType="#66113f3c-fba8-4397-b3ac-474c4ec0822e"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="df76273e-5b79-4799-bf57-742f9866e276"
-            name="Book Publisher" abstractType="#e8799648-4db9-4e33-9592-83d561341fda"/>
-        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="274b97ad-a2f9-4cb5-b65a-2ce8795ad969"
-            name="Book Developer" actor="true" human="true"/>
+            name="Knowledge Publisher" abstractType="#e8799648-4db9-4e33-9592-83d561341fda"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="9bac2f8a-6355-4876-8dec-cecafca34da3"
+            name="Medical Device Regulatory Body" abstractType="#c0ea045a-acb9-4e7e-9069-c3735edfa386"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="91814882-1617-4520-8679-484dcd0305e1"
+            name="Medical Systems Engineering Knowledge System" abstractType="#55cc90e4-e151-486e-8195-510dc5788781"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="2f81f827-f086-4ef2-9aa0-b06ce15c1868"
+            name="Medical Device User" abstractType="#512bfe9e-9054-4190-b03a-e05875baa4cf"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="0dd8dc73-4884-4f9a-9452-e5a79922c246"
+            name="Medical Device Patient" abstractType="#f31908a8-76d4-4ab5-b99b-920da0ec5974"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="d003b2dd-2216-4b55-a5fd-79e17c0e8aa8"
+            name="Standards" abstractType="#32c4136c-b3fe-41e6-aed1-ed156c091c58"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="931bba06-1d07-424e-a8f6-d902cedd6bda"
             name="Medical Device Company">
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="f96dce2a-16cf-4e91-b14a-7c114ee9fd90"
               name="Medical Systems Engineer" abstractType="#76bbd7ca-eb9e-49f1-a1b5-3deb8f469730"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="2e8253dd-290b-46d6-9aac-2cbe57d99c23"
+              name="Medical System" abstractType="#ca94f05e-c0f6-4050-ae90-85691b130a84"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="24fa2abd-d634-44dc-9878-6226c0e3206b"
+              name="Management" abstractType="#0fc5c035-2eea-4b43-9ca3-ce735f7ca845"/>
           <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="76bbd7ca-eb9e-49f1-a1b5-3deb8f469730"
-              name="Medical Systems Engineer" actor="true" human="true"/>
+              name="Medical Systems Engineer" description="&lt;p>The medical systems engineer is interested in learning and applying best pratices and useful knowledge on how to perform&amp;nbsp;systems engineering of medical devices.&lt;/p>&#xA;"
+              actor="true" human="true"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="ca94f05e-c0f6-4050-ae90-85691b130a84"
+              name="Medical System"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="0fc5c035-2eea-4b43-9ca3-ce735f7ca845"
+              name="Management" actor="true" human="true"/>
+          <ownedCommunicationMeans xsi:type="org.polarsys.capella.core.data.oa:CommunicationMean"
+              id="f0eba18a-799e-41dd-9a46-156c5f959901" name="Learnings" source="#ca94f05e-c0f6-4050-ae90-85691b130a84"
+              target="#76bbd7ca-eb9e-49f1-a1b5-3deb8f469730"/>
         </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="66113f3c-fba8-4397-b3ac-474c4ec0822e"
-            name="Academic Institution"/>
+            name="Academic Institution">
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="6710bb6d-f989-447b-a320-30fe0822969a"
+              name="Systems Engineering Professor" abstractType="#e9292270-e532-43ed-80c3-790136404cc4"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="82ae45c3-f9aa-457f-bf69-16eabdc00de8"
+              name="Systems Engineering Student" abstractType="#0cada7a9-75ac-4378-ba3b-953c20704910"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="e9292270-e532-43ed-80c3-790136404cc4"
+              name="Systems Engineering Professor" actor="true" human="true"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="0cada7a9-75ac-4378-ba3b-953c20704910"
+              name="Systems Engineering Student" actor="true" human="true"/>
+        </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="e8799648-4db9-4e33-9592-83d561341fda"
-            name="Book Publisher"/>
+            name="Knowledge Publisher">
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="09434518-f212-4042-bb2d-793def080be3"
+              name="Knowledge Developer" abstractType="#274b97ad-a2f9-4cb5-b65a-2ce8795ad969"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="274b97ad-a2f9-4cb5-b65a-2ce8795ad969"
+              name="Knowledge Developer" actor="true" human="true"/>
+        </ownedEntities>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="c0ea045a-acb9-4e7e-9069-c3735edfa386"
+            name="Medical Device Regulatory Body">
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="295b1296-a819-4176-9a69-0b268124548a"
+              name="Regulatory Body Stakeholder" abstractType="#0e71f0fa-e8fe-4b80-beec-ee3c18af65c4"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="0e71f0fa-e8fe-4b80-beec-ee3c18af65c4"
+              name="Regulatory Body Stakeholder" actor="true" human="true"/>
+        </ownedEntities>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="55cc90e4-e151-486e-8195-510dc5788781"
+            name="Medical Systems Engineering Knowledge System"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="512bfe9e-9054-4190-b03a-e05875baa4cf"
+            name="Medical Device User" actor="true" human="true"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="f31908a8-76d4-4ab5-b99b-920da0ec5974"
+            name="Medical Device Patient" description="&lt;p>The Medical Device Patient is the target of the medical device. The patient needs to benefit from the use of a properly designed&amp;nbsp;medical device.&lt;/p>&#xA;"
+            actor="true" human="true"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="32c4136c-b3fe-41e6-aed1-ed156c091c58"
+            name="Standards" description="&lt;p>The standards refer to systems engineering industry standards such as ISO 15288 and medical device standards such as IEC 60601-1&lt;/p>&#xA;">
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="0eb365d8-9b80-4cbf-8543-730b202be567"
+              name="Systems Engineering Standards" abstractType="#8fb9bdc2-c051-4afe-9a30-f7c45081025d"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="b63768ce-c765-48bd-a711-9cbaaa20dfd3"
+              name="Medical Device Standards" abstractType="#160ab307-e20d-4851-bc9c-56af5a649883"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="8fb9bdc2-c051-4afe-9a30-f7c45081025d"
+              name="Systems Engineering Standards"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="160ab307-e20d-4851-bc9c-56af5a649883"
+              name="Medical Device Standards"/>
+        </ownedEntities>
       </ownedEntityPkg>
     </ownedArchitectures>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis"
@@ -95,13 +222,56 @@
           id="685d3284-42e3-4da4-9836-57b32766e5d2" name="System Functions">
         <ownedSystemFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
             id="ad7e7e94-06c3-41a2-8401-87d718702bc3" name="Root System Function">
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="e825f986-13a7-4bca-a795-8b3d4128b0f3" name="Manage medical device systems engineering knowledge">
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                id="55259dd7-e39b-4095-ad08-5977e3277c60" name="Update medical device systems engineering knowledge">
+              <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                  id="2213eb9c-cda3-471f-9b28-d17949cd1eab" targetElement="#f8afe668-ebb6-4672-8040-0b01283ed376"
+                  sourceElement="#55259dd7-e39b-4095-ad08-5977e3277c60"/>
+            </ownedFunctions>
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                id="bb5bc514-7aad-48e0-9730-b25f46c86993" name="Store medical device systems engineering knowledge">
+              <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                  id="bd77ac2a-2ae9-40b9-af09-d96e1be31f96" targetElement="#9046db7a-157e-4cb6-91f4-bb8dde972536"
+                  sourceElement="#bb5bc514-7aad-48e0-9730-b25f46c86993"/>
+            </ownedFunctions>
+            <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+                id="f635a745-45e0-45b6-a735-bb3fa9bae0b3" targetElement="#932bdde3-c214-46a4-b0f3-7fd865ef1c9a"
+                sourceElement="#e825f986-13a7-4bca-a795-8b3d4128b0f3"/>
+          </ownedFunctions>
           <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
               id="33b78591-f141-42d7-acee-0719486d8c89" targetElement="#88f2a73d-f6d5-441c-9775-4402a7e5405f"
               sourceElement="#ad7e7e94-06c3-41a2-8401-87d718702bc3"/>
         </ownedSystemFunctions>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.ctx:CapabilityPkg"
-          id="119783e9-e88d-49c4-931c-73681de89785" name="Capabilities"/>
+          id="119783e9-e88d-49c4-931c-73681de89785" name="Capabilities">
+        <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
+            id="f4234a0e-0c6f-4479-b1f4-4f61ad62ed08" name="Update medical device systems engineering knowledge">
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="933fb6bd-625b-4365-a8b1-0ec27a0cbefc" targetElement="#f8afe668-ebb6-4672-8040-0b01283ed376"
+              sourceElement="#f4234a0e-0c6f-4479-b1f4-4f61ad62ed08"/>
+        </ownedCapabilities>
+        <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
+            id="f37b260b-8230-4c2a-be76-95d5eabe5dd1" name="Store medical device systems engineering knowledge">
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="136d8938-40c2-4b2f-ab4c-8fbdc68a719a" targetElement="#9046db7a-157e-4cb6-91f4-bb8dde972536"
+              sourceElement="#f37b260b-8230-4c2a-be76-95d5eabe5dd1"/>
+        </ownedCapabilities>
+        <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
+            id="791bad68-da53-4649-acd4-e697b35ac78d" name="Manage medical device systems engineering knowledge">
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="6b4f58af-35e7-4c11-aae4-e11d94c3036e" targetElement="#932bdde3-c214-46a4-b0f3-7fd865ef1c9a"
+              sourceElement="#791bad68-da53-4649-acd4-e697b35ac78d"/>
+        </ownedCapabilities>
+        <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
+            id="04ec8115-1638-4505-9f4c-19e6f810f3a7" name="Root Operational Activity">
+          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
+              id="d359bc57-6d3e-4ac6-ab7b-5b4e38b22017" targetElement="#88f2a73d-f6d5-441c-9775-4402a7e5405f"
+              sourceElement="#04ec8115-1638-4505-9f4c-19e6f810f3a7"/>
+        </ownedCapabilities>
+      </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
           id="c292d281-6f79-4673-ba11-ba48dc3cd53c" name="Interfaces"/>
       <ownedDataPkg xsi:type="org.polarsys.capella.core.data.information:DataPkg"
@@ -224,6 +394,8 @@
           id="0a407bb5-98f0-48e2-a097-43f3822d742d" name="Logical Functions">
         <ownedLogicalFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
             id="73ee9f11-c734-4073-8338-840457e31a40" name="Root Logical Function">
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="e3991503-e326-4a4b-9c48-174a9e11f94e" name="LogicalFunction 1"/>
           <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
               id="dd6b02e2-a748-47ff-a878-12241fa36672" targetElement="#ad7e7e94-06c3-41a2-8401-87d718702bc3"
               sourceElement="#73ee9f11-c734-4073-8338-840457e31a40"/>
