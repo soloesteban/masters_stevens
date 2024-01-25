@@ -7,7 +7,7 @@ The following are the list of the project stakeholders
 
 **Name:** Dr. Dinesh Verma
 
-![Alt text](image.png)
+![Alt text](Images/image.png)
 
 **Institution:** Stevens Institute of Technology, SERC
 
@@ -21,7 +21,7 @@ The following are the list of the project stakeholders
 
 **Name:** Dr. Alparslan Emrah Bayrak
 
-![Alt text](image-1.png)
+![Alt text](Images/image-1.png)
 
 **Institution:** Stevens Institute of Technology, SERC
 
@@ -35,7 +35,7 @@ The following are the list of the project stakeholders
 
 **Name:** Esteban M. Solórzano
 
-![Alt text](image-2.png)
+![Alt text](Images/image-2.png)
 
 **Institution:** Stevens Institute of Technology, Boston Scientific, INCOSE
 
@@ -49,7 +49,7 @@ The following are the list of the project stakeholders
 
 **Name:** Adam Reinhardt
 
-![Alt text](image-3.png)
+![Alt text](Images/image-3.png)
 
 **Institution:** Boston Scientific
 
@@ -63,7 +63,7 @@ The following are the list of the project stakeholders
 
 **Name:** Bijan Elahi
 
-![Alt text](image-4.png)
+![Alt text](Images/image-4.png)
 
 **Institution:** Medtronic
 
@@ -77,7 +77,7 @@ The following are the list of the project stakeholders
 
 **Name:** Sandy Weininger
 
-![Alt text](image-5.png)
+![Alt text](Images/image-5.png)
 
 **Institution:** FDA, AAMI
 
@@ -91,7 +91,7 @@ The following are the list of the project stakeholders
 
 **Name:** Colin Mellars
 
-![Alt text](image-6.png)
+![Alt text](Images/image-6.png)
 
 **Institution:** Roche
 
@@ -105,7 +105,7 @@ The following are the list of the project stakeholders
 
 **Name:** Howard Simms
 
-![Alt text](image-7.png)
+![Alt text](Images/image-7.png)
 
 **Institution:** Boston Scientific, retired
 
@@ -119,7 +119,7 @@ The following are the list of the project stakeholders
 
 **Name:** Nathan Brown
 
-![Alt text](image-8.png)
+![Alt text](Images/image-8.png)
 
 **Institution:** Boston Scientific
 
@@ -134,7 +134,7 @@ The following are the list of the project stakeholders
 
 **Name:** Dr. Alejandro Salado
 
-![Alt text](image-9.png)
+![Alt text](Images/image-9.png)
 
 **Institution:** University of Arizona
 

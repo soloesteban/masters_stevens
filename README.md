@@ -13,9 +13,9 @@ Several of the documents and artifacts of this project are modeled in SysML, Cap
 - reuse,
 - and transfer.
 
-The markdown is primarily done using Visual Studio Code.
+The markdown files were primarily edited using Visual Studio Code.
 
-Note: As needed publishing will be provided in formats such as Microsoft Word, Latex and PDF.
+**Note:** As needed publishing will be provided in formats such as Microsoft Word, Latex and PDF.
 
 # Project Index
 

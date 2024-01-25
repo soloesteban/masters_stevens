@@ -5,7 +5,7 @@ author: "Esteban M. Solórzano Zeledón"
 
 Image insert test
 
-<img src="stevens.png" width="100" height="100">
+<img src="Images/stevens.png" width="100" height="100">
 
 # Introduction
 
