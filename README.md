@@ -32,3 +32,15 @@ The following links facilitate navigation of the project artifacts.
 [Stakeholders](stakeholders.md)
 
 [Methodology](Methodology.md)
+
+System Model
+
+- [ ] Add an explanation of the modeling framework being used.
+
+[Operational Analysis](capella_model/Operational%20Analysis.md)
+
+System Analysis
+
+Logical Analysis
+
+Physical Analysis
