@@ -1,6 +1,26 @@
-**Title:** Medical Device Systems Engineering Book Survey
+## Medical Device Systems Engineering Book Survey
+
+The following are proposed questions for a survey directed to systems engineering who work in the medical device industry.
 
 1. How would you rate your overall experience as a systems engineer in the medical device industry?
+
+<Feb 9, 2024>
+Feedback from Howard: the question is too vague. There are too many dimensions in the response.
+Suggestion of a better question: Can you identify the most important subject areas I wish I knew more about?
+
+Tell me about the most challenging situation you faced (hard lesson) but wished you learned first.
+
+Opportunity: Reveal what the reader wants to learn or wishes someone has told them.
+
+The most valuable things to for a systems engineer:
+- Asking the right question
+- Stating the right problem
+- Active lisiteninig
+- Identify when someone is lying to you.
+- Identify when views are prejudice. (How they look at the world)
+- Identify a threshold of carry (it matters). Where does error become relevant and where is does not become irrelevant. How wrong can it be and still be ok. When do things become relevant and not irrelevant.
+
+<Feb 9, 2024>
 
 2. What specific challenges do you face in the systems engineering of medical devices and systems?
 
