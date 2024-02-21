@@ -4,7 +4,15 @@ The following are proposed questions for a survey directed to systems engineerin
 
 1. How would you rate your overall experience as a systems engineer in the medical device industry?
 
-<Feb 9, 2024>
+<!---
+Comments from meeting on Feb 14, 2024
+Nathan Brown on says you are asking someone to evaluate themselves. You will get people who think they are really good. No value of it. Suggestion to drop question 1.
+
+Adam says it would be better to quantify what projects they had, problems they faced. Quantify in time.
+-->
+
+<!---
+Comment from Howard Simms on Feb 9, 2024
 Feedback from Howard: the question is too vague. There are too many dimensions in the response.
 Suggestion of a better question: Can you identify the most important subject areas I wish I knew more about?
 
@@ -13,29 +21,79 @@ Tell me about the most challenging situation you faced (hard lesson) but wished 
 Opportunity: Reveal what the reader wants to learn or wishes someone has told them.
 
 The most valuable things to for a systems engineer:
-- Asking the right question
-- Stating the right problem
-- Active lisiteninig
+- Ask the right question
+- State the right problem
+- Active listening
 - Identify when someone is lying to you.
-- Identify when views are prejudice. (How they look at the world)
-- Identify a threshold of carry (it matters). Where does error become relevant and where is does not become irrelevant. How wrong can it be and still be ok. When do things become relevant and not irrelevant.
+- Identify when there are prejudice views. (How someone views the world)
+- Identify a "do I care" threshold (when it matters).
+- Where does error become relevant and where is does not become irrelevant. How wrong can it be and still be ok. When do things become relevant and not irrelevant.
 
-<Feb 9, 2024>
+End of comment
+-->
 
 2. What specific challenges do you face in the systems engineering of medical devices and systems?
 
+<!---
+Comments from meeting on Feb 14, 2024
+Nathan Brown says its a little broad. Needs to be rewritten to have a selection of challanges and probably include a write in field. Determine what are the challanges and allow people to select from.
+-->
+
 3. What key topics or areas would you like a dedicated book on medical device systems engineering to cover?
+
+<!---
+Comments from meeting on Feb 14, 2024
+Suggestion from Nathan to provide a list to choose from.
+Adam says that if question number 2 was written better it could answer question number 3. For example "What percentage of projects were late due to ______? A Pareto from question 2 can provide the topics.
+-->
 
 4. On a scale of 1 to 5, how important is practical, real-world case studies and examples in a systems engineering book for medical devices?
 
+<!---
+Comments from meeting on Feb 14, 2024
+Probably most people would answer high. It is kind of expected people would want examples.
+Adam says a personalized story matters to a lot of people. Probably this question would not generate new learnings.
+-->
+
 5. What types of tools or methodologies do you find most valuable in your day-to-day work as a systems engineer for medical devices?
+
+<!---
+Comments from meeting on Feb 14, 2024
+Nathan to split the question into tools and methodologies
+Maybe more focus on methodologies than tools. You can use Excel for a House of Quality.
+
+Adam says people would be looking or be interested in real world solutions using tools that implement methodologies.
+Think what I'm going to do with the answers I get back.
+-->
 
 6. How crucial do you believe collaboration and communication between different engineering disciplines are in the development of medical device systems?
 
+<!---
+Comments from meeting on Feb 14, 2024
+Adam says "Which engineering disciplines understand the systems engineering language?" Example SysML makes sense to Jim Sievert because of UML familiarity but does not makes sense for Mechanical Engineers.
+Language to engineer compatibility and interface.
+Nathan needs more time to analyze this question.
+-->
+
 7. What level of detail would you prefer in a book: broad concepts with high-level overviews or in-depth technical details with specific examples?
+
+<!---
+Comments from meeting on Feb 14, 2024
+Adam says "What are examples one or more books that you have read that resonated for you as a systems engineer in medical devices? And why"
+
+Need to word smith this question.
+-->
 
 8. Are there any specific regulations or standards you feel should be addressed in a comprehensive medical device systems engineering book?
 
+<!---
+Comments from meeting on Feb 14, 2024
+Adam said: Use tools such as Adwords to find what people have been searching for. Consult INCOSE there could be support to get Adwords.
+
+Note:Be wary of people lying in surveys.
+-->
+
 9. Would you prefer the book to focus more on theoretical frameworks or practical implementation strategies in the context of medical device systems engineering?
+
 
 10. Are there any specific formats (e.g., printed book, e-book, interactive online content) that you find most accessible and beneficial for learning?

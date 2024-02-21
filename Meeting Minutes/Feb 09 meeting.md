@@ -23,6 +23,7 @@ flowchart LR
     Actor --- id1[Use Case]
     id1 --- Object
 ```
+
 ```mermaid
 flowchart LR
     Actor --- id1[Use Case]

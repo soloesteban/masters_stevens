@@ -103,6 +103,8 @@
               id="1f2c1f49-ef5f-45d0-8b99-5fedfdfbfee4" involved="#76bbd7ca-eb9e-49f1-a1b5-3deb8f469730"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="6bb6f3d4-af30-486a-9c9a-a0eaadde5100" involved="#e9292270-e532-43ed-80c3-790136404cc4"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="3eaa0d7c-bb8f-4bc9-9e6b-ab982d24c682" involved="#f6a22f0e-8fcb-49cf-848f-bdd23dcab991"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="740784e1-bb4a-4cd1-b20a-248c0d9f7a2a" name="Deploy Knowledge" status="#f0da320b-e058-4f82-ae28-dd24a11841db">
@@ -142,6 +144,7 @@
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="10225087-a954-46ab-8c00-4ba1839adfa6" name="Elicitate Knowledge Needs"
+            description="&lt;p>Survey for systems engineers&lt;/p>&#xA;&#xA;&lt;p>&lt;a href=&quot;https://github.com/soloesteban/masters_stevens/blob/main/Survey%20for%20Systems%20Engineers.md&quot;>https://github.com/soloesteban/masters_stevens/blob/main/Survey%20for%20Systems%20Engineers.md&lt;/a>&lt;/p>&#xA;&#xA;&lt;p>&amp;nbsp;&lt;/p>&#xA;"
             status="#f0da320b-e058-4f82-ae28-dd24a11841db">
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="be680877-1a7e-4b91-968c-59a10f5d89ea" involved="#0cada7a9-75ac-4378-ba3b-953c20704910"/>
@@ -188,6 +191,8 @@
             name="Medical Device Regulations" abstractType="#9bc5fe7f-87cf-4661-9f5f-a8fc3aacae2a"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="f78a842c-0994-44c1-8b25-86acf3b554c5"
             name="Consultants" abstractType="#f6a22f0e-8fcb-49cf-848f-bdd23dcab991"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="4bdec933-e072-4316-92d4-61b2a3e1c953"
+            name="System Engineering Tool Vendors" abstractType="#a8ca7c99-bafa-4d1a-8677-fe5b6a821f8c"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="931bba06-1d07-424e-a8f6-d902cedd6bda"
             name="Medical Device Company" status="#f0da320b-e058-4f82-ae28-dd24a11841db">
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="f96dce2a-16cf-4e91-b14a-7c114ee9fd90"
@@ -269,6 +274,8 @@
             name="Medical Device Regulations"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="f6a22f0e-8fcb-49cf-848f-bdd23dcab991"
             name="Consultants"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="a8ca7c99-bafa-4d1a-8677-fe5b6a821f8c"
+            name="System Engineering Tool Vendors"/>
       </ownedEntityPkg>
     </ownedArchitectures>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis"
