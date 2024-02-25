@@ -1,5 +1,7 @@
 # Methodology
 
+The following methodology was used to develope the systems engineering of medical devices book.
+
 - Use Stevens Institute of Technology guidelines and templates for masters project.
 
 - Develop the book as a system: stakeholder needs, concept, architecture, models, requirements, verification/validation.

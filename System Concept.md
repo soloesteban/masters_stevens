@@ -34,7 +34,7 @@ This presentation would tell the story of the proposed project by starting with 
 
 # Book as a system
 
-Breakdown of how you can conceptualize your book as a system:
+Breakdown of how to conceptualize the book as a system:
 
 ## Identify User Needs
 

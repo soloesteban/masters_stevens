@@ -4,3 +4,9 @@
 
 https://www.linkedin.com/pulse/mbse-arcadia-method-ontology-elements-traceability-helder-castro/
 
+15288
+
+INCOSE Systems Engineering Handbook
+
+Capella book
+
