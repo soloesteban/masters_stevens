@@ -98,13 +98,40 @@ Probably most people would answer high. It is kind of expected people would want
 Adam says a personalized story matters to a lot of people. Probably this question would not generate new learnings.
 -->
 
-2. What tools do you find most valuable in your day-to-day work as a systems engineer for medical devices?
-Examples of tools are: Cameo Systems Modeler, JIRA, Capella, hardware tools.
+2. What tools do you find most valuable in your day-to-day work as a systems engineer for medical devices? Why?
 
-3. What methodologies do you find most valuable in your day-to-day work as a systems engineer for medical devices?
-Examples of methodologies are: MBSE, trade studies, SysML.
+<!--
+Meeting with Dr. Salado on Feb 26, 2024:
+Some tools can give indication if the work is preventive (ideal) versus reactive (fire fighting). Jira is an example of firefighting.
+
+Caution: What is considered valuable is a matter of preception, depends on the nature of the organization.
+
+remove the mention of examples.
+Examples of tools are: Cameo Systems Modeler, JIRA, Capella,
+
+Include a why.
+Probably ask list the tools you work with and the time distributed to them.
+
+Capture the demographics. All the things that effect they way they work. Provides context to the all the answers.
+1. How many people they work with.
+2. Quantity of projects.
+3. Recieved formal training in systems engineeering?
+
+-->
+
+3. What methodologies do you find most valuable in your day-to-day work as a systems engineer for medical devices? Why? What was the outcome? Why was is selected? Why was it useful? What alternatives were considered? 
 
 <!---
+Meeting with Dr. Salado on Feb 26, 2024:
+Remove text. Examples of methodologies are: MBSE, trade studies, SysML.
+
+Be careful if answers are only methodology. They might not be experts in the methodology and/or implementation.
+
+Might need to ask questions about the decisions made with the methodology, outcomes and acceptance criteria (sucessS). This is needed to determine if the methodology was acceptable.
+
+The paths of education and growth of systems engineers can bias the results.
+
+
 Comments from meeting with Nathan and Adam on Feb 14, 2024:
 Nathan to split the question into tools and methodologies
 Maybe more focus on methodologies than tools. You can use Excel for a House of Quality.
@@ -124,9 +151,14 @@ Language to engineer compatibility and interface.
 Nathan needs more time to analyze this question.
 -->
 
+
+5. What are examples of one or more books, articles, papers that you have read that resonated for you as a systems engineer working with medical devices?
+<!---
+Replaced the previous question with a suggestion from Adam.
+
 5. What level of detail would you prefer in a book: broad concepts with high-level overviews or in-depth technical details with specific examples?
 
-<!---
+
 Comments from meeting on Feb 14, 2024
 Adam says "What are examples one or more books that you have read that resonated for you as a systems engineer in medical devices? And why"
 
