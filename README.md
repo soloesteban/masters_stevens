@@ -17,31 +17,68 @@ The markdown files were primarily edited using Visual Studio Code.
 
 **Note:** As needed publishing will be provided in formats such as Microsoft Word, Latex and PDF.
 
-# Project Index
+## Project Index
 
 The following links facilitate navigation of the project artifacts.
 
 [Introduction](introduction.md#introduction)
 
-[Problem]
+- [Problem]
 
-[Scope](introduction.md#scope)
+- [Scope](introduction.md#scope)
 
-[Background]
+- [Background](/introduction.md#background)
 
-[Stakeholders](stakeholders.md)
+    - What is a medical device systems engineer?
 
-[Methodology](Methodology.md)
+Makes Innovative Systems to improve people’s lives.
 
-System Model
+<!--Add an image of the human body categories/divisions. Use BSC marketing artwork that shows the parts of the body -->
+
+Makes “Meaningful” Innovative Systems to improve people’s lives
+
+
+A Successful System … meets the user’s requirements, operates successfully in the field, has a long, useful operating life and can be upgraded easily to accommodate new requirements and technological innovation
+
+
+- [Project Stakeholders](stakeholders.md)
+
+- [Methodology](Methodology.md)
+
+## System Model
 
 - [ ] Add an explanation of the modeling framework being used.
 
-[Operational Analysis](capella_model/Operational%20Analysis.md)
+- [Functional Deficiency Operational Deficiency]
+<!--This section is a step of the systems engineering flow -->
 
-System Analysis
+- [Identify Stakeholder Expectations (User Needs)]
+<!--This section is a step of the systems engineering flow -->
 
-Logical Analysis
+- Generate System Concepts, Define System Context
+<!--This section is a step of the systems engineering flow -->
 
-Physical Analysis
+- [Identify Operational View and System Objectives](capella_model/Operational%20Analysis.md)
+<!--This section is a step of the systems engineering flow -->
+<!--This section is a step of the Arcadia Method -->
 
+- [System Requirements]
+<!--This section is a step of the systems engineering flow -->
+
+- [System Analysis](capella_model/System%20Analysis.md)
+
+- [Develop Functional View](capella_model/Logical%20analysis.md)
+<!--This section is a step of the systems engineering flow -->
+<!--This section is a step of the Arcadia Method -->
+
+- [Develop Physical View](capella_model/Logical%20analysis.md)
+<!--This section is a step of the systems engineering flow -->
+<!--This section is a step of the Arcadia Method -->
+
+- [System Model]
+<!--This section is a step of the systems engineering flow -->
+
+- [Design Detail]
+<!--This section is a step of the systems engineering flow -->
+
+- [Configuration/Implementation]

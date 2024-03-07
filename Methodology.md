@@ -1,5 +1,6 @@
 # Methodology
 
+## General methods
 The following methodology was used to develope the systems engineering of medical devices book.
 
 - Use Stevens Institute of Technology guidelines and templates for masters project.
@@ -21,3 +22,43 @@ The following methodology was used to develope the systems engineering of medica
 - Peer Review: Seek input and feedback from experts in the field to validate the content's accuracy and relevance.
 
 - Use Git and/or GitHub as repository for the master’s project artifacts.
+
+
+## Systems Engineering Methods
+
+### Systems Engineering Model
+
+<!-- Insert flow diagram -->
+
+``` mermaid
+
+---
+title: Systems Engineering Model
+---
+flowchart TD
+    id1(Functional Deficiency / Operational Deficiency)
+    id2(Identify Stakeholder Expectations / User Needs)
+    id3(Generate System Concepts / Define System Context)
+    id4(Identify Operational View & System Objectives)
+    id5(System Requirements)
+    id6(Develop Functional View)
+    id7(Develop Physical View)
+    id8(System Model)
+    id9(Design Detail)
+
+    id1 --> id2
+    id2 --> id3
+    id3 --> id4
+    id4 --> id5
+    id5 --> id6
+    id5 --> id7
+    id6 --> id8
+    id7 --> id8
+    id8 --> id9
+    
+
+
+```
+
+### Arcadia Method
+
