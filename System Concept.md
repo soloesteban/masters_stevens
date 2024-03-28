@@ -1,6 +1,12 @@
+# Solution
+
+Deploy Medical Device Systems Engineering Knowledge as a System, not as a process.
+
+
+
 # Book as a system
 
-Breakdown of how to conceptualize the book as a system:
+The following is a breakdown of how to conceptualize the book as a system:
 
 ## Identify User Needs
 

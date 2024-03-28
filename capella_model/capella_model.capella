@@ -120,8 +120,7 @@
               id="f84d5fa7-b83b-4e82-97c5-0b3045b43f24" involved="#55cc90e4-e151-486e-8195-510dc5788781"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="9dd9d966-cc3e-4921-a135-6a9ef7c3224e" name="Share Knowledge (Learnings, feedback)"
-            status="#f0da320b-e058-4f82-ae28-dd24a11841db">
+            id="9dd9d966-cc3e-4921-a135-6a9ef7c3224e" name="Provide Feedback" status="#f0da320b-e058-4f82-ae28-dd24a11841db">
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="030d8d12-2255-4056-8e6e-4dee1d298eb9" involved="#76bbd7ca-eb9e-49f1-a1b5-3deb8f469730"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
@@ -311,6 +310,16 @@
                 id="fed81685-bd3e-4864-a4ce-51cd2428a148" involved="#08922769-3c4a-46c7-8fb7-15773fc83a0f"
                 source="#e4216a74-40ec-4c13-8447-e2e35c72d1a8" target="#9d9165d8-cc0d-4d03-a021-d78353c03bfd"/>
           </ownedFunctionalChains>
+          <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
+              id="a3989302-115a-44bb-bd5c-4bc4a04d7ae8" name="FunctionalChain 2">
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="93a0c85a-74d5-4a3a-92c0-7501c4a1990d" involved="#e64bf546-3115-4908-aca2-ad31ff7936cd"
+                source="#1a45cadd-5653-49ab-b5a8-aad169f229ca" target="#156b0ef5-0a8d-4629-9d4a-c1364f1ce395"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="156b0ef5-0a8d-4629-9d4a-c1364f1ce395" involved="#a38ccf14-9584-49b2-9de2-a793962620e9"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="1a45cadd-5653-49ab-b5a8-aad169f229ca" involved="#e8b48da3-a17b-47b8-8ca0-9e6ce41113e1"/>
+          </ownedFunctionalChains>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
               id="e825f986-13a7-4bca-a795-8b3d4128b0f3" name="Manage medical device systems engineering knowledge"
               status="#f0da320b-e058-4f82-ae28-dd24a11841db">
@@ -324,7 +333,7 @@
                     sourceElement="#f024831d-0e98-449d-b5a4-ceffeb4dc7bc"/>
               </ownedFunctions>
               <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-                  id="56e0da2d-0003-4ca6-adf7-e09867396c7e" name="Add knowledge">
+                  id="56e0da2d-0003-4ca6-adf7-e09867396c7e" name="Store knowledge">
                 <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                     id="d69fa506-21b0-4a3f-9f6d-e530f418ada3" name="FIP 1"/>
                 <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
@@ -347,6 +356,11 @@
                   id="102e3271-57c6-4fdb-a4f5-760efd880d86" name="supply knowledge">
                 <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
                     id="4d4ee4a8-c3c2-4c5f-a438-ffa1c24ce0f1" name="FOP 1"/>
+              </ownedFunctions>
+              <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+                  id="d44d0c59-8625-4466-9f78-978cc73cdc2b" name="supply knowledge_1">
+                <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                    id="5156e5aa-c81b-4f90-9840-073e304cacce" name="FOP 1_1"/>
               </ownedFunctions>
               <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
                   id="2213eb9c-cda3-471f-9b28-d17949cd1eab" targetElement="#f8afe668-ebb6-4672-8040-0b01283ed376"
@@ -406,13 +420,15 @@
                 id="3a899edd-9911-40aa-b7db-ab738912f1c2" name="FIP 1"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="a38ccf14-9584-49b2-9de2-a793962620e9" name="select_knowledge" kind="GATHER">
+              id="a38ccf14-9584-49b2-9de2-a793962620e9" name="Gather Knowledge" kind="GATHER">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="44667855-946b-4be4-b446-e3979ca2985d" name="FIP 1"/>
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="16316ca6-8a00-4f6c-9a84-dce6cf6653ed" name="FIP 2"/>
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="15485804-a145-4ad6-a717-11bd03f20e1f" name="FIP 3"/>
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="b96fad9f-8f2e-403c-9bfe-0b77318e136a" name="FIP 4"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
                 id="71c0ae87-ad24-4a74-b0fd-4fef2f2c6e8e" name="FOP 1"/>
           </ownedFunctions>
@@ -424,7 +440,7 @@
                 id="8d4a5b54-99b0-4de4-b175-f83c7809b392" name="FOP 1"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="4e47c349-1f57-418e-8d19-626081553b9b" name="Deploy system">
+              id="4e47c349-1f57-418e-8d19-626081553b9b" name="Deploy knowledge">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="fde60b37-0a44-4322-b050-bbc4e8a3e8f5" name="FIP 1"/>
           </ownedFunctions>
@@ -458,6 +474,9 @@
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="d006bc1e-c870-4d2a-9032-94bfab05fc44" name="FunctionalExchange 9"
               target="#fde60b37-0a44-4322-b050-bbc4e8a3e8f5" source="#dce4ca57-82d1-424c-9139-f1329f898998"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="aaeae778-94a1-48f6-a847-1fa7ec8f58f4" name="FunctionalExchange 10"
+              target="#b96fad9f-8f2e-403c-9bfe-0b77318e136a" source="#5156e5aa-c81b-4f90-9840-073e304cacce"/>
         </ownedSystemFunctions>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.ctx:CapabilityPkg"
@@ -666,9 +685,6 @@
             id="a0fb3a7a-c9f4-4295-9ec2-50f1457aade9" targetElement="#9bac2f8a-6355-4876-8dec-cecafca34da3"
             sourceElement="#e3363f08-77e6-4335-9a79-85535506c669"/>
         <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-            id="0820cd45-a975-48e0-b53b-5da176ba4972" targetElement="#91814882-1617-4520-8679-484dcd0305e1"
-            sourceElement="#eb6a67fe-cd0f-462e-8caa-9c60b3d76857"/>
-        <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
             id="c572bb6a-ae43-4021-b74c-74226eabc031" targetElement="#2f81f827-f086-4ef2-9aa0-b06ce15c1868"
             sourceElement="#4126f6a4-8ffd-4e17-a9b6-e7a4ebd0d135"/>
         <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
@@ -696,13 +712,11 @@
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="fe409d7d-5bc2-4bba-bbdc-d6e7ff47207f"
             name="Medical Device Company" abstractType="#5836fcd1-18a0-4d37-952f-b403826912f9"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="462c3373-fa4a-4ee9-a6a6-55f5439344e7"
-            name="Academic Institution" abstractType="#c616e1de-5a0a-4417-a98a-10c0118125c8"/>
+            name="Academic Institutions" abstractType="#c616e1de-5a0a-4417-a98a-10c0118125c8"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="fe6facbe-cf70-46e2-8194-c5c3d1f44f98"
             name="Knowledge Publisher" abstractType="#93c3735f-85cc-4876-88da-89da39c21109"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="e3363f08-77e6-4335-9a79-85535506c669"
             name="Medical Device Regulatory Body" abstractType="#5e05dc41-401f-4066-917d-67617c601ce1"/>
-        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="eb6a67fe-cd0f-462e-8caa-9c60b3d76857"
-            name="Medical Systems Engineering Knowledge" abstractType="#4e839c16-5d16-4826-bbcb-d8740bd5767e"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="4126f6a4-8ffd-4e17-a9b6-e7a4ebd0d135"
             name="Medical Device User" abstractType="#ed8ba9e5-86c1-4c49-9ab3-2b4e2b280436"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="516dc1f7-a73b-4f2e-8b1d-7c3db065b1f2"
@@ -761,7 +775,7 @@
               sourceElement="#5836fcd1-18a0-4d37-952f-b403826912f9"/>
         </ownedSystemComponents>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
-            id="c616e1de-5a0a-4417-a98a-10c0118125c8" name="Academic Institution"
+            id="c616e1de-5a0a-4417-a98a-10c0118125c8" name="Academic Institutions"
             actor="true">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="c7d1c6f5-2030-4ecc-96fa-1040984c2d56" targetElement="#eb4a91d6-4e5b-4f8b-b32e-5759fac7278d"
@@ -785,13 +799,6 @@
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="a3e6d7e1-34e2-4b88-8388-ea8ecd7f1370" targetElement="#c0ea045a-acb9-4e7e-9069-c3735edfa386"
               sourceElement="#5e05dc41-401f-4066-917d-67617c601ce1"/>
-        </ownedSystemComponents>
-        <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
-            id="4e839c16-5d16-4826-bbcb-d8740bd5767e" name="Medical Systems Engineering Knowledge"
-            actor="true">
-          <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
-              id="2c13a661-e264-44b1-b904-c8c070f9b40f" targetElement="#55cc90e4-e151-486e-8195-510dc5788781"
-              sourceElement="#4e839c16-5d16-4826-bbcb-d8740bd5767e"/>
         </ownedSystemComponents>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
             id="ed8ba9e5-86c1-4c49-9ab3-2b4e2b280436" name="Medical Device User" actor="true">
@@ -820,6 +827,9 @@
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
             id="60c4ba46-6d0a-45dd-b4ff-6acb186ef914" name="Medical Device Regulations"
             actor="true">
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="92a0ef66-2d34-4f9b-9420-118bd547688d" targetElement="#d44d0c59-8625-4466-9f78-978cc73cdc2b"
+              sourceElement="#60c4ba46-6d0a-45dd-b4ff-6acb186ef914"/>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="6220b347-25a4-4229-a2bd-d6d7380972ae" targetElement="#9bc5fe7f-87cf-4661-9f5f-a8fc3aacae2a"
               sourceElement="#60c4ba46-6d0a-45dd-b4ff-6acb186ef914"/>

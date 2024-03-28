@@ -1,12 +1,14 @@
 # Stakeholder Needs
 
+<!--Model the following as a SysML flow diagram --->
+
 ## Elicitation
 
 ### Surveys
 
 ### Interviews
 
-#### Boston Scientific Systems Enginees
+#### Boston Scientific Systems Engineers
 
 #### Medtronic Systems Engineers
 
@@ -21,4 +23,3 @@
 #### Papers
 
 #### Books
-

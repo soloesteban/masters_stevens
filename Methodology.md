@@ -1,11 +1,12 @@
 # Methodology
 
 ## General methods
-The following methodology was used to develope the systems engineering of medical devices book.
+
+The following methodology was used for the Masters Project in Systems Engineering.
 
 - Use Stevens Institute of Technology guidelines and templates for masters project.
 
-- Develop the book as a system: stakeholder needs, concept, architecture, models, requirements, verification/validation.
+- Develop the "book" as a system: stakeholder needs, concept, architecture, models, requirements, verification/validation.
 
 - Select and utilize systems engineering methods and tools from courses of Stevens School of Systems and Enterprises.
 
@@ -62,3 +63,4 @@ flowchart TD
 
 ### Arcadia Method
 
+<!--Provide a brief explanation of the Arcadia Method here. -->
