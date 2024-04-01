@@ -1,8 +1,11 @@
 <!---
-Implement the survey using online form tools such as Survey Monkey.
+Implement the survey using online form tools such as Survey Monkey or Microsoft forms.
 
 Adam did suggest to use adverbs to get data of what topics the systems engineers who work in medical devices are looking for.
 -->
+
+Location of the form is https://forms.office.com/Pages/ResponsePage.aspx?id=g7S4tZdV50qOJ_zEZKO1hOlgINU2QotDs1E-b7Yg-3ZURFFHUTJGR09XT0I2VElCR1paVktBQVVKRS4u
+
 
 ## Medical Device Systems Engineering Book Survey
 
@@ -39,7 +42,8 @@ The most valuable things to for a systems engineer:
 End of comment
 -->
 
-1. Select what are the most important challenges you have faced in the systems engineering of medical devices and systems?
+<!--1. Select what are the most important challenges you have faced in the systems engineering of medical devices and systems.-->
+1. Please identify the primary challenges you have encountered in the systems engineering process for medical devices. Select all that apply from the following options
 
 - [ ] Regulatory Compliance
 - [ ] Safety and Efficacy
@@ -98,8 +102,9 @@ Probably most people would answer high. It is kind of expected people would want
 Adam says a personalized story matters to a lot of people. Probably this question would not generate new learnings.
 -->
 
-2. What tools do you find most valuable in your day-to-day work as a systems engineer for medical devices? Why?
-
+<!-- 2. What tools do you find most valuable in your day-to-day work as a systems engineer for medical devices? Why?-->
+2. What tools do you find indispensable in your daily tasks as a systems engineer? Please select all that apply from the following options:
+2.1 Could you please elaborate on why you find the selected tools valuable in your day-to-day work as a systems engineer? Feel free to provide specific examples or experiences that illustrate their importance.
 <!--
 Meeting with Dr. Salado on Feb 26, 2024:
 Some tools can give indication if the work is preventive (ideal) versus reactive (fire fighting). Jira is an example of firefighting.
@@ -119,7 +124,58 @@ Capture the demographics. All the things that effect they way they work. Provide
 
 -->
 
-3. What methodologies do you find most valuable in your day-to-day work as a systems engineer for medical devices? Why? What was the outcome? Why was is selected? Why was it useful? What alternatives were considered? 
+- [ ] CAD software (e.g., SolidWorks, Altium)<!--- for designing components and assemblies with precision.-->
+- [ ] System modeling tools (e.g., MagicDraw, Capella, Cameo Systems Modeler, Hardware Description Language)
+- [ ] Engineering tools (e.g., LabView, compilers, IDEs, debuggers, LabView, test automation)
+- [ ] Data analysis and visualization tools (e.g., Minitab, MatLab, R, Python, Tableau)
+- [ ] Simulation tools (e.g., ANSYS, COMSOL, SPICE)<!-- - for testing designs and analyzing performance before physical prototyping.-->
+- [ ] Requirement management software (e.g., Cockpit, IBM DOORS, Jama)<!--> - for organizing and tracking project requirements.-->
+- [ ] Version control systems (e.g., Git, AccuRev, SVN)<!-- - for managing changes to design files and collaborating with team members.-->
+- [ ] Regulatory compliance software (e.g., MasterControl, Greenlight Guru)<!-- - for ensuring adherence to medical device regulations and standards.-->
+- [ ] Risk management tools (e.g., FMEA software)<!-- - for identifying and mitigating potential hazards in device design and development.-->
+- [ ] Documentation tools (e.g., Microsoft Word, OneNote, Markdown, Wiki)<!-- for creating technical documents, manuals, and reports.-->
+- [ ] Project management software (e.g., Jira, Microsoft Project)<!-- - for scheduling tasks, tracking progress, and coordinating team efforts.-->
+- [ ] Quality management systems (e.g., ISO 13485-compliant software)<!-- - for maintaining quality standards throughout the product lifecycle.-->
+- [ ] Collaboration tools (e.g., Slack, Microsoft Teams, SharePoint)<!-- - for communication and sharing information with colleagues and stakeholders.-->
+- [ ] Other (please specify)
+
+
+<!--3. What methodologies do you find most valuable in your day-to-day work as a systems engineer for medical devices? Why? What was the outcome? Why was is selected? Why was it useful? What alternatives were considered?-->
+3. Which methodologies do you consider most beneficial in your daily tasks as a systems engineer working with medical devices? Please select all that apply from the following options:
+
+3.1. Could you please provide insights into why you find the selected methodologies valuable in your day-to-day work as a systems engineer for medical devices? Describe the outcomes or benefits you've experienced by employing these methodologies. Additionally, if applicable, mention any alternative methodologies that were considered but not chosen, and the rationale behind your selection.
+
+- [ ] Agile
+- [ ] V-Model
+- [ ] Model-Based Systems Engineering (MBSE)
+- [ ] Waterfall Methodology
+- [ ] Kanban
+- [ ] Lean Systems Engineering
+- [ ] Spiral Model
+- [ ] Prototyping
+- [ ] Design for Six Sigma (DFSS)
+- [ ] ISO 13485 (Quality Management Systems) Compliance Processes
+- [ ] IEC 62304 (Software Lifecycle) Compliance Processes
+- [ ] Failure Mode and Effects Analysis (FMEA)
+- [ ] Requirements Management (e.g., Cockpit, JAMA, DOORS)
+- [ ] Risk Management (e.g., ISO 14971)
+- [ ] Verification and Validation (V&V) Processes
+- [ ] Change Control Processes
+- [ ] Configuration Management
+- [ ] Continuous Integration/Continuous Deployment (CI/CD)
+- [ ] Human Factors Engineering Methods
+- [ ] Regulatory Compliance Frameworks (e.g., FDA, CE Mark)
+- [ ] Design Control Processes
+- [ ] System Safety Engineering (e.g., IEC 60601 series)
+- [ ] Reliability Engineering Methods
+- [ ] IEC 62366, Usability Engineering Practices
+- [ ] Cross-disciplinary Collaboration (e.g., JIRA, Confluence)
+- [ ] Value Stream Mapping (VSM)
+- [ ] Design Thinking Methods
+- [ ] Other (please specify)
+
+
+
 
 <!---
 Meeting with Dr. Salado on Feb 26, 2024:
@@ -140,7 +196,8 @@ Adam says people would be looking or be interested in real world solutions using
 Think what I'm going to do with the answers I get back.
 -->
 
-4. Which engineering disciplines grasp the deliverables and artifacts of systems engineering?
+<!-- 4. Which engineering disciplines grasp the deliverables and artifacts of systems engineering?-->
+4. Please indicate which job roles, in your opinion, possess a good understanding of the deliverables and artifacts produced by systems engineers?
 
 <!---
 6. How crucial do you believe collaboration and communication between different engineering disciplines are in the development of medical device systems?
@@ -151,8 +208,31 @@ Language to engineer compatibility and interface.
 Nathan needs more time to analyze this question.
 -->
 
+- [ ] Biomedical Engineers
+- [ ] Systems Engineers
+- [ ] Mechanical Engineers
+- [ ] Electrical Engineers
+- [ ] Quality Assurance/Quality Control Specialists
+- [ ] Regulatory Affairs Specialists
+- [ ] Product Development Engineers
+- [ ] Manufacturing Engineers
+- [ ] Clinical Engineers
+- [ ] Software Engineers
+- [ ] Project Managers
+- [ ] Research and Development Scientists
+- [ ] Design Engineers
+- [ ] Process Engineers
+- [ ] Field Service Engineers
+- [ ] Technical Support Engineers
+- [ ] Validation Engineers
+- [ ] Risk Management Specialists
+- [ ] Compliance Engineers
+- [ ] Supply Chain/Logistics Engineers
+- [ ] Marketing/Sales
 
-5. What are examples of one or more books, articles, papers that you have read that resonated for you as a systems engineer working with medical devices?
+
+<!--5. What are examples of one or more books, articles, papers that you have read that resonated for you as a systems engineer working with medical devices?-->
+5. Could you share examples of books, articles, or papers that have resonated with you as a systems engineer working with medical devices? Please provide one or more titles and, if possible, briefly explain how they impacted your work or perspective. Your insights will help us better understand valuable resources in this field.
 <!---
 Replaced the previous question with a suggestion from Adam.
 
@@ -165,16 +245,43 @@ Adam says "What are examples one or more books that you have read that resonated
 Need to word smith this question.
 -->
 
-6. Are there any specific regulations or standards you feel should be addressed in a comprehensive medical device systems engineering book?
+<!-- 6. Are there any specific regulations or standards you feel should be addressed in a comprehensive medical device systems engineering book?-->
+6. In your opinion, what regulations or standards should be covered in a comprehensive medical device systems engineering book? Please provide your suggestions below.
 
 <!---
 Comments from meeting on Feb 14, 2024
 Adam said: Use tools such as Adwords to find what people have been searching for. Consult INCOSE there could be support to get Adwords.
 
 Note: Be wary of people lying in surveys.
+
 -->
+<!--
+Probably skip this question
 
 7. Would you prefer the book to focus more on theoretical frameworks or practical implementation strategies in the context of medical device systems engineering?
 
+--->
 
-8. Are there any specific formats (e.g., printed book, e-book, interactive online content) that you find most accessible and beneficial for learning?
+<!--7. Are there any specific formats (e.g., printed book, e-book, interactive online content) that you find most accessible and beneficial for learning?-->
+7. What learning formats do you find most accessible and beneficial? Please select all that apply from the following options.
+
+- [ ] Printed books
+- [ ] E-books
+- [ ] Interactive online courses
+- [ ] Audiobooks
+- [ ] Podcasts
+- [ ] Video lectures
+- [ ] Webinars
+- [ ] Virtual reality (VR) simulations
+- [ ] Interactive multimedia presentations
+- [ ] Mobile apps
+- [ ] Online forums or discussion boards
+- [ ] Worksheets or printable materials
+- [ ] Hands-on workshops or labs
+- [ ] Mentored/self-paced online learning platforms
+- [ ] Social media groups or communities for learning
+- [ ] Gamified learning platforms or apps
+- [ ] Textbooks
+- [ ] Infographics or visual summaries
+- [ ] Live online classes or tutorials
+- [ ] Digital flashcards or quizzes

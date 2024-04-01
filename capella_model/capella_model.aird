@@ -75,7 +75,7 @@
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dF4LIbjREe6ANf-QiIzqFg" key="Content:" value="[OCB] Operational Capabilities"/>
         </eAnnotations>
         <eAnnotations xmi:type="description:DAnnotation" uid="_dF4yMLjREe6ANf-QiIzqFg" source="TitleBlockContent">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dF4yMbjREe6ANf-QiIzqFg" key="Content:" value="2024-03-17 21:14:07"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dF4yMbjREe6ANf-QiIzqFg" key="Content:" value="2024-03-17 22:14:07"/>
         </eAnnotations>
         <eAnnotations xmi:type="description:DAnnotation" uid="_dF5ZQLjREe6ANf-QiIzqFg" source="TitleBlockContent">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dF5ZQbjREe6ANf-QiIzqFg" key="Content:" value=""/>
@@ -2285,7 +2285,7 @@
             <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@containerMappings[name='DT_TitleBlockContainer']/@subContainerMappings[name='DT_TitleBlockLineContainer']/@subContainerMappings[name='DT_TitleBlockColumnContainer']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@containerMappings[name='DT_TitleBlockContainer']/@subContainerMappings[name='DT_TitleBlockLineContainer']/@subContainerMappings[name='DT_TitleBlockColumnContainer']"/>
-          <ownedElements xmi:type="diagram:DNodeListElement" uid="_dF7OcLjREe6ANf-QiIzqFg" target="_dF4yMLjREe6ANf-QiIzqFg" name="2024-03-17 21:14:07" semanticElements="_dF4yMLjREe6ANf-QiIzqFg">
+          <ownedElements xmi:type="diagram:DNodeListElement" uid="_dF7OcLjREe6ANf-QiIzqFg" target="_dF4yMLjREe6ANf-QiIzqFg" name="2024-03-17 22:14:07" semanticElements="_dF4yMLjREe6ANf-QiIzqFg">
             <ownedStyle xmi:type="diagram:Square" uid="_dF7OcbjREe6ANf-QiIzqFg" showIcon="false" labelAlignment="LEFT" labelPosition="node" color="209,209,209">
               <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']/@defaultLayer/@containerMappings[name='DT_TitleBlockContainer']/@subContainerMappings[name='DT_TitleBlockLineContainer']/@subContainerMappings[name='DT_TitleBlockColumnContainer']/@subNodeMappings[name='DT_TitleBlockCellNode']/@conditionnalStyles.0/@style"/>
             </ownedStyle>
@@ -3425,7 +3425,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Contextual%20System%20Actors']/@defaultLayer/@nodeMappings[name='SC_System']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_3GKA4uAHEe6kGeGejcquDw" target="4e839c16-5d16-4826-bbcb-d8740bd5767e" name="Medical Systems Engineering Knowledge" semanticElements="4e839c16-5d16-4826-bbcb-d8740bd5767e" incomingEdges="_3GO5YOAHEe6kGeGejcquDw" width="7" height="7" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_3GKA4uAHEe6kGeGejcquDw" name="Medical Systems Engineering Knowledge" incomingEdges="_3GO5YOAHEe6kGeGejcquDw" width="7" height="7" resizeKind="NSEW">
       <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_3GKA4-AHEe6kGeGejcquDw" showIcon="false" workspacePath="/org.polarsys.capella.core.ui.resources/icons/full/svg/SystemActor.svg">
         <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Contextual%20System%20Actors']/@defaultLayer/@nodeMappings[name='SC_System']/@conditionnalStyles.1/@style"/>
       </ownedStyle>
@@ -3524,7 +3524,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Contextual%20System%20Actors']/@defaultLayer/@edgeMappings[name='SC_System_Actor']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_3GO5YOAHEe6kGeGejcquDw" target="eb6a67fe-cd0f-462e-8caa-9c60b3d76857" semanticElements="eb6a67fe-cd0f-462e-8caa-9c60b3d76857" sourceNode="_v4l_kLx8Ee68uogJSZ-CRw" targetNode="_3GKA4uAHEe6kGeGejcquDw">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_3GO5YOAHEe6kGeGejcquDw" sourceNode="_v4l_kLx8Ee68uogJSZ-CRw" targetNode="_3GKA4uAHEe6kGeGejcquDw">
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_3GO5YeAHEe6kGeGejcquDw" targetArrow="NoDecoration" strokeColor="0,0,0">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Contextual%20System%20Actors']/@defaultLayer/@edgeMappings[name='SC_System_Actor']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_3GO5YuAHEe6kGeGejcquDw"/>
@@ -3643,9 +3643,9 @@
         <intersectionMapping xmi:type="description_2:IntersectionMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Actor%20-%20Operational%20Actor']/@intersection.0"/>
       </cells>
     </lines>
-    <lines xmi:type="table:DLine" uid="_PNpj-dOUEe6vT7_6aV8pFQ" target="4e839c16-5d16-4826-bbcb-d8740bd5767e" semanticElements="4e839c16-5d16-4826-bbcb-d8740bd5767e" label="Medical Systems Engineering Knowledge">
+    <lines xmi:type="table:DLine" uid="_PNpj-dOUEe6vT7_6aV8pFQ" label="Medical Systems Engineering Knowledge">
       <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Actor%20-%20Operational%20Actor']/@ownedLineMappings[name='SAOA%20System%20Actor%20Line']"/>
-      <cells xmi:type="table:DCell" uid="_PNrZKdOUEe6vT7_6aV8pFQ" target="2c13a661-e264-44b1-b904-c8c070f9b40f" semanticElements="2c13a661-e264-44b1-b904-c8c070f9b40f" label="X" column="_w5QLZbx8Ee68uogJSZ-CRw">
+      <cells xmi:type="table:DCell" uid="_PNrZKdOUEe6vT7_6aV8pFQ" label="X" column="_w5QLZbx8Ee68uogJSZ-CRw">
         <intersectionMapping xmi:type="description_2:IntersectionMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Actor%20-%20Operational%20Actor']/@intersection.0"/>
       </cells>
     </lines>

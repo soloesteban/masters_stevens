@@ -2,6 +2,10 @@
 
 <!--Model the following as a SysML flow diagram --->
 
+Understanding the needs and expectations of stakeholders is crucial for ensuring the repository meets their requirements. Here are the stakeholder needs and expectations:
+
+<!-- include table of user needs-->
+
 ## Elicitation
 
 ### Surveys
