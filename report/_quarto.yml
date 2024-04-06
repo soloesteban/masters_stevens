@@ -1,0 +1,26 @@
+project:
+  type: book
+
+book:
+  title: "Medical Device Systems Engineering Knowledge Repository Report"
+  author: "Esteban Solorzano"
+  date: "4/2/2024"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - methodology.qmd
+    - operational_analysis.qmd
+    - physical_architecture.qmd
+    - references.qmd    
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+

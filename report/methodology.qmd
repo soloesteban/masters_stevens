@@ -1,6 +1,14 @@
-# Methodology
+---
+title: "Methodology"
+format: html
+---
 
-<!-- this document was migrated to the Quatro project report. No need to continue updating this file. -->
+The study adopts a Systems Engineering approach, which involves analyzing the entire content management process as a system with interconnected components. This methodology allows for a holistic understanding of the system's requirements, interactions, and potential improvements. The research methodology encompasses:
+
+1. **Requirement Analysis:** Identifying the key requirements for efficient content management, including version control, compatibility with various file formats, and ease of collaboration.
+2. **System Modeling:** Utilizing SysML (Systems Modeling Language) to create diagrams such as sequence diagrams, activity diagrams, and state machine diagrams to visualize the content management process and its interactions.
+3. **Evaluation:** Assessing existing tools and technologies for content management, including Quatro and its capabilities in rendering content into different formats like HTML and PDF.
+4. **Proposal:** Proposing a refined content management methodology tailored to the specific needs of online reference books in medical device systems engineering.
 
 ## General methods
 
@@ -12,7 +20,7 @@ The following methodology was used for the Masters Project in Systems Engineerin
 
 - Select and utilize systems engineering methods and tools from courses of Stevens School of Systems and Enterprises.
 
-- Select and utilize industry standards such as IEC 15288 and the INCOSE (International Council on Systems Engineering) Systems Engineering Handbook.
+- Select and utilize industry standards such as IEC 15288 and the INCOSE (International Council on Systems Engineering) Systems Engineering Handbook @incose_incose_2023.
 
 - Literature Review: Conduct an extensive review of existing literature, research papers, and relevant resources in the field of systems engineering and medical devices.
 
@@ -31,13 +39,11 @@ The following methodology was used for the Masters Project in Systems Engineerin
 
 ### Systems Engineering Model
 
-<!-- Insert flow diagram -->
-
-``` mermaid
-
----
+<!-- Insert flow diagram 
 title: Systems Engineering Model
----
+-->
+
+```{mermaid}
 flowchart TD
     id1(Functional Deficiency / Operational Deficiency)
     id2(Identify Stakeholder Expectations / User Needs)
@@ -48,7 +54,6 @@ flowchart TD
     id7(Develop Physical View)
     id8(System Model)
     id9(Design Detail)
-
     id1 --> id2
     id2 --> id3
     id3 --> id4
@@ -57,8 +62,5 @@ flowchart TD
     id5 --> id7
     id6 --> id8
     id7 --> id8
-    id8 --> id9
-    
-
-
+    id8 --> id9    
 ```

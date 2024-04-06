@@ -1,5 +1,7 @@
 # References
 
+<!-- Would need to migrate the references to BIB format in order to cite in the .qmd files and render-->
+
 **Instructions**: Add references to sources such as literature, papers, websites in this section.
 
 https://www.linkedin.com/pulse/mbse-arcadia-method-ontology-elements-traceability-helder-castro/
@@ -98,4 +100,8 @@ Course Outline:
 Company: RBC Medical Innovations 15200 Santa Fe Trail Drive Suite 100 Lenexa, KS
 
 https://rbccorp.com/medical-device-design-development/systems-engineering-support/
+
+
+
+## Interview with an AI agent that plays the role of a medical device systems engineer
 

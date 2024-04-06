@@ -4,7 +4,7 @@ Implement the survey using online form tools such as Survey Monkey or Microsoft 
 Adam did suggest to use adverbs to get data of what topics the systems engineers who work in medical devices are looking for.
 -->
 
-Location of the form is https://forms.office.com/Pages/ResponsePage.aspx?id=g7S4tZdV50qOJ_zEZKO1hOlgINU2QotDs1E-b7Yg-3ZURFFHUTJGR09XT0I2VElCR1paVktBQVVKRS4u
+Created the survey as a Microsoft Form at https://forms.office.com/Pages/ResponsePage.aspx?id=g7S4tZdV50qOJ_zEZKO1hOlgINU2QotDs1E-b7Yg-3ZURFFHUTJGR09XT0I2VElCR1paVktBQVVKRS4u
 
 
 ## Medical Device Systems Engineering Book Survey
@@ -175,6 +175,28 @@ Capture the demographics. All the things that effect they way they work. Provide
 - [ ] Other (please specify)
 
 
+<!--
+
+April 2 meeting with Adam Reinhardt
+Breakup question 4 or put similar items together. For example: Agile, Waterfall Methodology, Spiral Model, Kanban are project lifecycles.
+Requirements Management Process instead of mentioning specific tools.
+
+-->
+
+Agile Methods (e.g., Agile, Kanban)
+Traditional Development Models (e.g., V-Model, Waterfall, Spiral Model)
+Model-Based Approaches (e.g., Model-Based Systems Engineering, Prototyping)
+Quality and Compliance (e.g., Design for Six Sigma, ISO 13485, IEC 62304)
+Risk Management (e.g., ISO 14971, FMEA)
+Verification and Validation Processes
+Change Control Processes
+Configuration Management
+Lean and Continuous Improvement (e.g., Continuous Integration/Continuous Deployment, Value Stream Mapping)
+Human Factors and Usability (e.g., Human Factors Engineering, IEC 62366, Usability Engineering)
+Regulatory Compliance (Regulatory Compliance Frameworks: FDA, CE Mark; Design Control, System Safety Engineering: IEC 60601 series)
+Engineering Practices (e.g., Requirements Management, Reliability Engineering)
+Cross-disciplinary Collaboration
+Innovative Design Approaches (e.g., Design Thinking Methods, Theory Inventive Problem Solving)
 
 
 <!---
@@ -230,6 +252,13 @@ Nathan needs more time to analyze this question.
 - [ ] Supply Chain/Logistics Engineers
 - [ ] Marketing/Sales
 
+<!-- 
+April 2, 2024
+
+complement the question "Please indicate which job roles, in your opinion, possess a good understanding of the deliverables and artifacts produced by systems engineers?" with "Who do you interact with most?"
+
+
+-->
 
 <!--5. What are examples of one or more books, articles, papers that you have read that resonated for you as a systems engineer working with medical devices?-->
 5. Could you share examples of books, articles, or papers that have resonated with you as a systems engineer working with medical devices? Please provide one or more titles and, if possible, briefly explain how they impacted your work or perspective. Your insights will help us better understand valuable resources in this field.
@@ -285,3 +314,7 @@ Probably skip this question
 - [ ] Infographics or visual summaries
 - [ ] Live online classes or tutorials
 - [ ] Digital flashcards or quizzes
+
+
+
+<!-- Add question "Is it ok to reach out to you if I have follow-up question?--- >

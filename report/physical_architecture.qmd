@@ -1,0 +1,32 @@
+---
+title: "Physical Architecture"
+format: html
+---
+
+## Top Level System Breakdown
+
+![](images/paste-1.png)
+
+The image is a SysML block definition diagram (BDD) for a physical architecture. It shows the breakdown of a system into its parts at a high level. Here’s a breakdown of the components:
+
+-   **Knowledge Repository:** This block stores knowledge, the data that the system operates on.
+
+-   **Search Engine:** This block finds information within the knowledge repository. It takes a search query as input and provides results.
+
+-   **Maintenance Mechanism:** This block is responsible for maintaining the system. It includes an update mechanism and access control.
+
+    -   **Update Mechanism:** This block updates the knowledge repository.
+
+    -   **Access Control:** This block controls access to the system, by authenticating users.
+
+-   **Storage:** This block stores data, the knowledge repository or other system data.
+
+-   **User Interface:** This block allows users to interact with the system. It provides content to the user and can receive content from the user.
+
+-   **Display:** This block presents information to the user.
+
+-   **Content:** This block refers to the data that is presented by the user interface and displayed.
+
+-   **Metadata:** This block provides data about other blocks in the system.
+
+The diagram also shows the relationships between these blocks. For example, the search engine has a part relationship with the knowledge repository. This means that the search engine is a component of the knowledge repository. The user interface also has a content relationship with the content block. This means that the user interface displays content.

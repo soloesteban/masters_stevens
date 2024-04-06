@@ -1,0 +1,3 @@
+# Summary
+
+This project delves into the intricacies of defining and managing content in online reference books, particularly focusing on the domain of medical device systems engineering. The study employs Systems Engineering principles to analyze and propose a methodology for efficiently defining content and a system for managing it.
