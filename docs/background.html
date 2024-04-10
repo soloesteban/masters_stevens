@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.552">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Medical Device Systems Engineering Knowledge Repository Report - 3&nbsp; Background</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./methodology.html" rel="next">
+<link href="./intro.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./background.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Background</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Medical Device Systems Engineering Knowledge Repository Report</a> 
+        <div class="sidebar-tools-main">
+    <a href="./Medical-Device-Systems-Engineering-Knowledge-Repository-Report.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./background.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Background</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./methodology.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Methodology</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./mission.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Mission Description</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./goals_objectives.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Goals and Objectives</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./operational_analysis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Operational Analysis</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./physical_architecture.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Physical Architecture</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./conclusions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Conclusions</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./survey.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Survey Knowledge Needs</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#systems-engineering-in-medical-device-industry" id="toc-systems-engineering-in-medical-device-industry" class="nav-link active" data-scroll-target="#systems-engineering-in-medical-device-industry"><span class="header-section-number">3.1</span> Systems Engineering in Medical Device Industry</a></li>
+  <li><a href="#what-is-a-medical-system" id="toc-what-is-a-medical-system" class="nav-link" data-scroll-target="#what-is-a-medical-system"><span class="header-section-number">3.2</span> What is a Medical System?</a>
+  <ul class="collapse">
+  <li><a href="#examples-of-medical-systems" id="toc-examples-of-medical-systems" class="nav-link" data-scroll-target="#examples-of-medical-systems"><span class="header-section-number">3.2.1</span> Examples of medical systems</a></li>
+  </ul></li>
+  <li><a href="#medical-device-industry-faces-many-challenges" id="toc-medical-device-industry-faces-many-challenges" class="nav-link" data-scroll-target="#medical-device-industry-faces-many-challenges"><span class="header-section-number">3.3</span> Medical Device Industry Faces Many Challenges</a></li>
+  <li><a href="#medical-system-product-life-cycle" id="toc-medical-system-product-life-cycle" class="nav-link" data-scroll-target="#medical-system-product-life-cycle"><span class="header-section-number">3.4</span> Medical System Product Life Cycle</a></li>
+  <li><a href="#role-as-medical-device-systems-engineer" id="toc-role-as-medical-device-systems-engineer" class="nav-link" data-scroll-target="#role-as-medical-device-systems-engineer"><span class="header-section-number">3.5</span> Role as Medical Device Systems Engineer</a>
+  <ul class="collapse">
+  <li><a href="#internal-stakeholders" id="toc-internal-stakeholders" class="nav-link" data-scroll-target="#internal-stakeholders"><span class="header-section-number">3.5.1</span> Internal stakeholders</a></li>
+  <li><a href="#external-stakeholders" id="toc-external-stakeholders" class="nav-link" data-scroll-target="#external-stakeholders"><span class="header-section-number">3.5.2</span> External stakeholders</a></li>
+  </ul></li>
+  <li><a href="#medical-device-systems-engineering" id="toc-medical-device-systems-engineering" class="nav-link" data-scroll-target="#medical-device-systems-engineering"><span class="header-section-number">4</span> Medical Device Systems Engineering</a>
+  <ul class="collapse">
+  <li><a href="#components-of-medical-device-systems-engineering" id="toc-components-of-medical-device-systems-engineering" class="nav-link" data-scroll-target="#components-of-medical-device-systems-engineering"><span class="header-section-number">4.1</span> Components of Medical Device Systems Engineering</a></li>
+  <li><a href="#challenges-and-best-practices" id="toc-challenges-and-best-practices" class="nav-link" data-scroll-target="#challenges-and-best-practices"><span class="header-section-number">4.2</span> Challenges and Best Practices:</a></li>
+  <li><a href="#what-is-different-about-medical-technology-industry-versus-the-rest-of-systems-engineering" id="toc-what-is-different-about-medical-technology-industry-versus-the-rest-of-systems-engineering" class="nav-link" data-scroll-target="#what-is-different-about-medical-technology-industry-versus-the-rest-of-systems-engineering"><span class="header-section-number">4.3</span> What is different about Medical Technology Industry versus the “Rest of Systems Engineering”?</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Background</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<!--
+This document provides background to the project
+-->
+<section id="systems-engineering-in-medical-device-industry" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="systems-engineering-in-medical-device-industry"><span class="header-section-number">3.1</span> Systems Engineering in Medical Device Industry</h2>
+<p>David M. Cronin from Cognition <!--explain a little bit about the company background-->states that for many, the phrase “systems engineering” is typically associated with large aerospace and defense companies; companies making products that are developed over many years, with long lives in the market, extremely high costs, and a relatively low total number of products manufactured. Many of these companies also employ “large,” permanent teams of systems engineers, which could be daunting to a small device company. Few device engineers are seen at conferences on systems engineering. Instead, these events include transportation, infrastructure, government, space, and of course aerospace and defense. A casual observer might think that systems engineering is not intended for the medical device industry. This is unfortunate!<!-- source: https://blog.cognition.us/medical-product-development-systems-engineering --></p>
+</section>
+<section id="what-is-a-medical-system" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="what-is-a-medical-system"><span class="header-section-number">3.2</span> What is a Medical System?</h2>
+<p>According to the FDA a medical device (system) is “any instrument, machine, contrivance, implant, in vitro reagent that’s intended to treat, cure, prevent, mitigate, diagnose disease”</p>
+<p>Source: Section 201(h) of the Federal Food, Drug, and Cosmetic Act</p>
+<section id="examples-of-medical-systems" class="level3" data-number="3.2.1">
+<h3 data-number="3.2.1" class="anchored" data-anchor-id="examples-of-medical-systems"><span class="header-section-number">3.2.1</span> Examples of medical systems</h3>
+<p>The following are examples of medical systems. The list is not exhaustive. <!--
+Include photos of examples of medical devices
+--></p>
+<ul>
+<li>Spinal Tumor RF Ablation System</li>
+<li>Invasive / Non Invasive Ventilator</li>
+<li>Renal RF Ablation System</li>
+<li>Vascular Compression System</li>
+<li>Intra-Aortic Balloon Pump</li>
+<li>Medical Information Management System</li>
+<li>Endoilluminator</li>
+<li>RF Puncture Generator</li>
+<li>Bleed Monitoring System</li>
+<li>Pulsed Field Ablation System</li>
+<li>Nerve Tissue RF Ablation System</li>
+</ul>
+</section>
+</section>
+<section id="medical-device-industry-faces-many-challenges" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="medical-device-industry-faces-many-challenges"><span class="header-section-number">3.3</span> Medical Device Industry Faces Many Challenges</h2>
+<ul>
+<li>Constant time pressure launching safe and effective products
+<ul>
+<li>~70% of medical products are delivered late.</li>
+<li>Time to define requirements has increased 29% and unplanned requirements churn has increased 81%.</li>
+</ul></li>
+<li>Shifting regulatory landscape
+<ul>
+<li>E.g., Software as a Medical Device (SaMD), Software in a Medical Device (SiMD), Medical Device Regulation (MDR), In Vitro Diagnostic Regulation (IVDR), etc.</li>
+<li>Cost of adherence and impact on business strategy.</li>
+</ul></li>
+<li>Quality issues represent significant financial impact
+<ul>
+<li>Non-routine quality events cost the industry between $2.5 and $5 billion per year on average.</li>
+<li>On average, one company per year has seen a 10% drop in share price after a single, major quality event.</li>
+</ul></li>
+<li>Constant increasing complexity, particularly with software
+<ul>
+<li>Software has become the biggest cause of medical device recalls.</li>
+<li>E.g., The global artificial intelligence/machine learning medical device market was an estimated $4 billion in 2022 and is anticipated to reach $35.5 billion by 2032.</li>
+<li>E.g., Remote patient monitoring market was valued at $2.1 billion in 2022 and expected to reach $8.1 by 2030.</li>
+<li>Increasing risk of cybersecurity concerns.</li>
+</ul></li>
+<li>Heavy focus on acquisition and geographically distributed development teams
+<ul>
+<li>E.g., The medical devices sector in Q2 2023 witnessed deals worth $33 billion, a growth of 42% compared to Q1 2023 and 87% compared to Q2 2022.</li>
+</ul></li>
+</ul>
+<!-- 
+Include a reference
+
+https://www.mckinsey.com/~/media/McKinsey/McKinsey Solutions/Numetrics/Resources/Insights on  Medical devices Numetrics.pdf , https:/www.mckinsey.com/~/media/mckinsey/dotcom/client_service/public sector/regulatory excellence/the_business_case_for_medical_device_quality.ashx
+
+-->
+<!--
+Find where the image is.
+
+![alt text](image.png)
+-->
+<!--
+Include a reference
+
+Credit to Philip J. O'Keefe, PE, MLE. Image was taken from http://www.engineeringexpert.net/Engineering-Expert-Witness-Blog/systems-engineering-in-medical-device-design-introduction
+
+-->
+</section>
+<section id="medical-system-product-life-cycle" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="medical-system-product-life-cycle"><span class="header-section-number">3.4</span> Medical System Product Life Cycle</h2>
+<ul>
+<li>Exploratory: Is there viability to solve a clinical need?</li>
+<li>Technology Development: Can we make this technology?</li>
+<li>Product Development: Create the end product</li>
+<li>Sustaining: Keep a product on the market and enhance the system</li>
+</ul>
+<p>Many life saving devices come with significant risk which must be mitigated through a defined system design process. A seamless integration of the design and development process and the safety risk management process will allow devices to be safety used on humans. The development process is described in ISO 13485, the international standard for the development of medical devices. ISO 14971 is the international standard for the evaluation of the safety risk of a medical device.<!--A system engineering approach to the design of medical devices provides a holistic approach to ensuring these devices are safe for their intended use.--> Universities and companies hoping to use their devices in clinical trials on patients are required to follow a well-defined process incorporating design and development planning, design input, design output, design review, design verification, and design validation.</p>
+<!--
+Include a reference
+
+Source: https://ieeexplore.ieee.org/document/9272015 
+
+M. Wehde, "System Design Approach to Medical Device Development," 2020 IEEE International Symposium on Systems Engineering (ISSE), Vienna, Austria, 2020, pp. 1-3, doi: 10.1109/ISSE49799.2020.9272015. keywords: {Safety;Risk management;Medical devices;ISO Standards;Clinical trials;Standards;Planning;Safety Risk Management;Clinical Trials;Medical Devices},
+
+--->
+</section>
+<section id="role-as-medical-device-systems-engineer" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="role-as-medical-device-systems-engineer"><span class="header-section-number">3.5</span> Role as Medical Device Systems Engineer</h2>
+<p>Stakeholders that medical device systems engineers work with:</p>
+<section id="internal-stakeholders" class="level3" data-number="3.5.1">
+<h3 data-number="3.5.1" class="anchored" data-anchor-id="internal-stakeholders"><span class="header-section-number">3.5.1</span> Internal stakeholders</h3>
+<ul>
+<li>Bioinformatics</li>
+<li>Biotechnology</li>
+<li>Biomedical Engineering</li>
+<li>Chemical Engineering</li>
+<li>Clinical Research</li>
+<li>Control Engineering</li>
+<li>Data Science and Analytics</li>
+<li>Design Quality Assurance</li>
+<li>Electrical Engineering</li>
+<li>Finance</li>
+<li>Industrial Engineering</li>
+<li>Materials Engineering</li>
+<li>Mechanical Engineering</li>
+<li>Project Management</li>
+<li>Regulatory Affairs and Compliance</li>
+<li>Software Engineering</li>
+<li>Computer Science</li>
+<li>Supply Engineering</li>
+<li>Systems Engineering</li>
+</ul>
+<!--
+I could probably put the following in a table format.
+
+
+Biomedical Engineering: This discipline is at the core of medical system development. Biomedical engineers apply principles of engineering to healthcare and medical fields. They work on devices, imaging technology, prosthetics, and various medical equipment.
+
+Electrical Engineering: Electrical engineers play a crucial role in medical systems, especially in the design of medical devices that involve electronics, sensors, and control systems. They work on everything from circuit design to signal processing.
+
+Mechanical Engineering: Mechanical engineers contribute to the design and development of medical devices, ranging from prosthetics to complex imaging equipment and robotic surgical systems. They focus on mechanics, materials, and product design.
+
+Software Engineering and Computer Science: With the advancement of medical technology, software engineers and computer scientists are essential in developing the software that operates medical devices, manages patient data, and enables communication between different systems.
+
+Bioinformatics and Biotechnology: These disciplines involve the use of computational tools and biological data to develop technologies and software for managing biological information, genomics, and drug development.
+
+Chemical Engineering: In the development of pharmaceuticals, drug delivery systems, and the manufacturing of medical substances, chemical engineers play a significant role in ensuring the efficiency and safety of these elements.
+
+Materials Engineering: Developing new materials that are biocompatible, durable, and safe for medical devices, implants, and equipment is crucial. Materials engineers contribute their expertise in selecting and designing materials suitable for medical use.
+
+Industrial Engineering: Industrial engineers may focus on optimizing healthcare systems, streamlining processes in hospitals or clinics, and improving the overall efficiency of healthcare delivery.
+
+Control Engineering: Control engineers work on systems that require precise control, such as automated drug delivery systems, robotics in surgery, or other systems where accurate control is necessary.
+
+--->
+</section>
+<section id="external-stakeholders" class="level3" data-number="3.5.2">
+<h3 data-number="3.5.2" class="anchored" data-anchor-id="external-stakeholders"><span class="header-section-number">3.5.2</span> External stakeholders</h3>
+<ul>
+<li>Patients</li>
+<li>Medicine and Healthcare Professionals</li>
+<li>Insurance Companies</li>
+<li>Governments</li>
+<li>Standards Organizations</li>
+<li>Distributors</li>
+</ul>
+</section>
+</section>
+<section id="medical-device-systems-engineering" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Medical Device Systems Engineering</h1>
+<p>Medical Device Systems Engineering is a multidisciplinary field that encompasses the design, development, and implementation of medical devices. It integrates engineering concepts, medical knowledge, regulatory compliance, and user-centered design principles to ensure the seamless functioning of complex medical systems. This approach bridges the gap between technical innovation and patient-centric care, leading to the creation of advanced devices that address healthcare challenges. <!--
+Citation
+
+C. Nocchi, “Mastering Medical Device Systems Engineering: A Holistic Approach to Healthcare Innovation | LinkedIn.” [Online]. Available: https://www.linkedin.com/pulse/mastering-medical-device-systems-engineering-holistic-chris-nocchi/
+
+ --></p>
+<section id="components-of-medical-device-systems-engineering" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="components-of-medical-device-systems-engineering"><span class="header-section-number">4.1</span> Components of Medical Device Systems Engineering</h2>
+<ul>
+<li>Requirements Analysis and Definition: Understanding the clinical needs and user requirements is the foundation of any medical device. Engineers collaborate closely with medical professionals to define specifications, ensuring that the device aligns with its intended purpose.</li>
+<li>Design and Development: This phase involves translating requirements into tangible design elements, encompassing hardware, software, and user interfaces. Iterative design processes are common, enabling refinements based on feedback and testing.</li>
+<li>Risk Management: Identifying and mitigating risks is essential to ensure patient safety. Engineers assess potential hazards and develop strategies to minimize or eliminate them throughout the device’s lifecycle.</li>
+<li>Verification and Validation: Rigorous testing and validation protocols are crucial to verify that the device meets its intended functionality and is safe for use. This includes laboratory testing, simulations, and clinical trials.</li>
+<li>Regulatory Compliance: Adhering to regulations set by authorities such as the FDA, EMA, or other regional bodies is paramount. Engineers ensure that devices meet these standards and navigate the complex landscape of approvals.</li>
+<li>Human Factors Engineering: Designing devices with user experience in mind is critical for healthcare professionals to effectively operate the technology in real-world settings. Ergonomics and usability are key considerations.</li>
+<li>Interoperability and Integration: Many medical devices are part of larger healthcare systems. Ensuring seamless integration and communication between devices is crucial for data exchange and coordinated care.</li>
+</ul>
+<!--
+Citation
+
+C. Nocchi, “Mastering Medical Device Systems Engineering: A Holistic Approach to Healthcare Innovation | LinkedIn.” [Online]. Available: https://www.linkedin.com/pulse/mastering-medical-device-systems-engineering-holistic-chris-nocchi/
+
+ -->
+</section>
+<section id="challenges-and-best-practices" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="challenges-and-best-practices"><span class="header-section-number">4.2</span> Challenges and Best Practices:</h2>
+<ul>
+<li>Complexity and Innovation: The integration of diverse technologies, ranging from hardware to software, poses challenges in managing complexity while fostering innovation. Embracing modular design and agile methodologies can streamline the development process.</li>
+<li>Regulatory Compliance: Navigating the regulatory landscape requires a deep understanding of regional requirements. Engaging regulatory experts early in the process and maintaining thorough documentation eases the compliance journey.</li>
+<li>Human-Centered Design: Prioritizing the end user’s needs and experience can significantly impact device adoption and success. Regular user testing and feedback loops help refine design elements.</li>
+<li>Risk Management: Identifying and managing risks requires a proactive approach. A thorough understanding of potential hazards, supported by regular risk assessments, is essential.</li>
+<li>Cross-Disciplinary Collaboration: Effective communication among engineers, medical professionals, regulatory experts, and other stakeholders is key. Collaboration fosters a comprehensive understanding of all facets of device development.</li>
+</ul>
+<!--
+Citation
+
+C. Nocchi, “Mastering Medical Device Systems Engineering: A Holistic Approach to Healthcare Innovation | LinkedIn.” [Online]. Available: https://www.linkedin.com/pulse/mastering-medical-device-systems-engineering-holistic-chris-nocchi/
+
+ -->
+</section>
+<section id="what-is-different-about-medical-technology-industry-versus-the-rest-of-systems-engineering" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="what-is-different-about-medical-technology-industry-versus-the-rest-of-systems-engineering"><span class="header-section-number">4.3</span> What is different about Medical Technology Industry versus the “Rest of Systems Engineering”?</h2>
+<!-- 
+Include a reference
+
+Source: Chris Unger
+Chief Systems Engineer, GE Healthcare, ESEP
+Colead, INCOSE Healthcare WG Why is Systems Engineering Challenging
+in Medical Technology?
+
+-->
+<ul>
+<li>Compliance with regulations: Food and Drug Administration (FDA), International Electrotechnical Commission (IEC; French: Commission électrotechnique internationale), International Organization for Standardization (ISO), Health Insurance Portability and Accountability Act (HIPAA), International Classification of Diseases (ICD-10), etc.<!---Provide definitions of the acronyms listed in this sentence --></li>
+<li>Defects are VERY costly to handle (audit, warning letters, recalls, …)</li>
+<li>Most products are developed in a geographically distributed way</li>
+<li>Rapid technology evolution is impacting development and delivery
+<ul>
+<li>AI, IoT, product variants, Mobile Medical Apps, complex deployment models, cloud.</li>
+</ul></li>
+<li>Extreme time to market pressures: 1st to market usually gains 80% share. <!--Courtesy of Kim Cobb, IBM Rational--></li>
+<li>Market Driven versus Contract Driven.
+<ul>
+<li>Customer of “systems engineering” is internal (marketing, product management).</li>
+<li>Requirements, dates, budgets are more ‘flexible’…success is judged by the market, not by a single customer.</li>
+</ul></li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./intro.html" class="pagination-link" aria-label="Introduction">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./methodology.html" class="pagination-link" aria-label="Methodology">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Methodology</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

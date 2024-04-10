@@ -1,0 +1,293 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Medical Device Systems Engineering Knowledge Repository Report",
+    "section": "",
+    "text": "Preface\nThis is a Quarto report of the Masters Project in Systems Engineering.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "1  Summary",
+    "section": "",
+    "text": "The field of medical device development is rapidly evolving, driven by technological advancements and the increasing complexity of healthcare systems. Ensuring the safety, efficacy, and compliance of these devices is paramount for protecting patient health and well-being. In response to this need, this project proposes the creation of a comprehensive knowledge repository focusing on the systems engineering aspects of medical device development. The objectives of this endeavor include designing a cohesive resource that compiles knowledge and best practices, educating professionals and students in systems engineering about the unique challenges of medical devices, offering practical guidance throughout the device lifecycle, and deepening understanding of regulatory requirements. The proposed methodology entailed developing the book systematically, incorporating industry standards and literature reviews, gathering insights through interviews and surveys, structuring content with clarity and coherence, and validating accuracy through peer review. Leveraging tools like Git and GitHub, this project aims to facilitate collaboration and ensure the relevance of its content. This report encapsulates the systematic approach and comprehensive scope of the project, promising to deliver a valuable resource for those involved in medical device development and systems engineering.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "2  Introduction",
+    "section": "",
+    "text": "2.1 Impact\nThe creation of a comprehensive book on the systems engineering of medical devices is essential to bridge the knowledge gap between engineering and healthcare, ensuring the continued development of safe and effective medical technologies. This project aims to contribute significantly to this important field, benefiting professionals, students, and the broader healthcare industry.\nThis system will serve as a valuable resource for: - Systems engineers looking to specialize in medical device development. - Healthcare professionals and clinicians seeking a deeper understanding of the engineering processes behind medical devices. - Regulatory experts striving to align systems engineering practices with compliance requirements. - Students and educators in systems engineering and biomedical engineering programs.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "background.html",
+    "href": "background.html",
+    "title": "3  Background",
+    "section": "",
+    "text": "3.1 Systems Engineering in Medical Device Industry\nDavid M. Cronin from Cognition states that for many, the phrase “systems engineering” is typically associated with large aerospace and defense companies; companies making products that are developed over many years, with long lives in the market, extremely high costs, and a relatively low total number of products manufactured. Many of these companies also employ “large,” permanent teams of systems engineers, which could be daunting to a small device company. Few device engineers are seen at conferences on systems engineering. Instead, these events include transportation, infrastructure, government, space, and of course aerospace and defense. A casual observer might think that systems engineering is not intended for the medical device industry. This is unfortunate!",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Background</span>"
+    ]
+  },
+  {
+    "objectID": "background.html#what-is-a-medical-system",
+    "href": "background.html#what-is-a-medical-system",
+    "title": "3  Background",
+    "section": "3.2 What is a Medical System?",
+    "text": "3.2 What is a Medical System?\nAccording to the FDA a medical device (system) is “any instrument, machine, contrivance, implant, in vitro reagent that’s intended to treat, cure, prevent, mitigate, diagnose disease”\nSource: Section 201(h) of the Federal Food, Drug, and Cosmetic Act\n\n3.2.1 Examples of medical systems\nThe following are examples of medical systems. The list is not exhaustive. \n\nSpinal Tumor RF Ablation System\nInvasive / Non Invasive Ventilator\nRenal RF Ablation System\nVascular Compression System\nIntra-Aortic Balloon Pump\nMedical Information Management System\nEndoilluminator\nRF Puncture Generator\nBleed Monitoring System\nPulsed Field Ablation System\nNerve Tissue RF Ablation System",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Background</span>"
+    ]
+  },
+  {
+    "objectID": "background.html#medical-device-industry-faces-many-challenges",
+    "href": "background.html#medical-device-industry-faces-many-challenges",
+    "title": "3  Background",
+    "section": "3.3 Medical Device Industry Faces Many Challenges",
+    "text": "3.3 Medical Device Industry Faces Many Challenges\n\nConstant time pressure launching safe and effective products\n\n~70% of medical products are delivered late.\nTime to define requirements has increased 29% and unplanned requirements churn has increased 81%.\n\nShifting regulatory landscape\n\nE.g., Software as a Medical Device (SaMD), Software in a Medical Device (SiMD), Medical Device Regulation (MDR), In Vitro Diagnostic Regulation (IVDR), etc.\nCost of adherence and impact on business strategy.\n\nQuality issues represent significant financial impact\n\nNon-routine quality events cost the industry between $2.5 and $5 billion per year on average.\nOn average, one company per year has seen a 10% drop in share price after a single, major quality event.\n\nConstant increasing complexity, particularly with software\n\nSoftware has become the biggest cause of medical device recalls.\nE.g., The global artificial intelligence/machine learning medical device market was an estimated $4 billion in 2022 and is anticipated to reach $35.5 billion by 2032.\nE.g., Remote patient monitoring market was valued at $2.1 billion in 2022 and expected to reach $8.1 by 2030.\nIncreasing risk of cybersecurity concerns.\n\nHeavy focus on acquisition and geographically distributed development teams\n\nE.g., The medical devices sector in Q2 2023 witnessed deals worth $33 billion, a growth of 42% compared to Q1 2023 and 87% compared to Q2 2022.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Background</span>"
+    ]
+  },
+  {
+    "objectID": "background.html#medical-system-product-life-cycle",
+    "href": "background.html#medical-system-product-life-cycle",
+    "title": "3  Background",
+    "section": "3.4 Medical System Product Life Cycle",
+    "text": "3.4 Medical System Product Life Cycle\n\nExploratory: Is there viability to solve a clinical need?\nTechnology Development: Can we make this technology?\nProduct Development: Create the end product\nSustaining: Keep a product on the market and enhance the system\n\nMany life saving devices come with significant risk which must be mitigated through a defined system design process. A seamless integration of the design and development process and the safety risk management process will allow devices to be safety used on humans. The development process is described in ISO 13485, the international standard for the development of medical devices. ISO 14971 is the international standard for the evaluation of the safety risk of a medical device. Universities and companies hoping to use their devices in clinical trials on patients are required to follow a well-defined process incorporating design and development planning, design input, design output, design review, design verification, and design validation.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Background</span>"
+    ]
+  },
+  {
+    "objectID": "background.html#role-as-medical-device-systems-engineer",
+    "href": "background.html#role-as-medical-device-systems-engineer",
+    "title": "3  Background",
+    "section": "3.5 Role as Medical Device Systems Engineer",
+    "text": "3.5 Role as Medical Device Systems Engineer\nStakeholders that medical device systems engineers work with:\n\n3.5.1 Internal stakeholders\n\nBioinformatics\nBiotechnology\nBiomedical Engineering\nChemical Engineering\nClinical Research\nControl Engineering\nData Science and Analytics\nDesign Quality Assurance\nElectrical Engineering\nFinance\nIndustrial Engineering\nMaterials Engineering\nMechanical Engineering\nProject Management\nRegulatory Affairs and Compliance\nSoftware Engineering\nComputer Science\nSupply Engineering\nSystems Engineering\n\n\n\n\n3.5.2 External stakeholders\n\nPatients\nMedicine and Healthcare Professionals\nInsurance Companies\nGovernments\nStandards Organizations\nDistributors",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Background</span>"
+    ]
+  },
+  {
+    "objectID": "background.html#components-of-medical-device-systems-engineering",
+    "href": "background.html#components-of-medical-device-systems-engineering",
+    "title": "3  Background",
+    "section": "4.1 Components of Medical Device Systems Engineering",
+    "text": "4.1 Components of Medical Device Systems Engineering\n\nRequirements Analysis and Definition: Understanding the clinical needs and user requirements is the foundation of any medical device. Engineers collaborate closely with medical professionals to define specifications, ensuring that the device aligns with its intended purpose.\nDesign and Development: This phase involves translating requirements into tangible design elements, encompassing hardware, software, and user interfaces. Iterative design processes are common, enabling refinements based on feedback and testing.\nRisk Management: Identifying and mitigating risks is essential to ensure patient safety. Engineers assess potential hazards and develop strategies to minimize or eliminate them throughout the device’s lifecycle.\nVerification and Validation: Rigorous testing and validation protocols are crucial to verify that the device meets its intended functionality and is safe for use. This includes laboratory testing, simulations, and clinical trials.\nRegulatory Compliance: Adhering to regulations set by authorities such as the FDA, EMA, or other regional bodies is paramount. Engineers ensure that devices meet these standards and navigate the complex landscape of approvals.\nHuman Factors Engineering: Designing devices with user experience in mind is critical for healthcare professionals to effectively operate the technology in real-world settings. Ergonomics and usability are key considerations.\nInteroperability and Integration: Many medical devices are part of larger healthcare systems. Ensuring seamless integration and communication between devices is crucial for data exchange and coordinated care.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Background</span>"
+    ]
+  },
+  {
+    "objectID": "background.html#challenges-and-best-practices",
+    "href": "background.html#challenges-and-best-practices",
+    "title": "3  Background",
+    "section": "4.2 Challenges and Best Practices:",
+    "text": "4.2 Challenges and Best Practices:\n\nComplexity and Innovation: The integration of diverse technologies, ranging from hardware to software, poses challenges in managing complexity while fostering innovation. Embracing modular design and agile methodologies can streamline the development process.\nRegulatory Compliance: Navigating the regulatory landscape requires a deep understanding of regional requirements. Engaging regulatory experts early in the process and maintaining thorough documentation eases the compliance journey.\nHuman-Centered Design: Prioritizing the end user’s needs and experience can significantly impact device adoption and success. Regular user testing and feedback loops help refine design elements.\nRisk Management: Identifying and managing risks requires a proactive approach. A thorough understanding of potential hazards, supported by regular risk assessments, is essential.\nCross-Disciplinary Collaboration: Effective communication among engineers, medical professionals, regulatory experts, and other stakeholders is key. Collaboration fosters a comprehensive understanding of all facets of device development.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Background</span>"
+    ]
+  },
+  {
+    "objectID": "background.html#what-is-different-about-medical-technology-industry-versus-the-rest-of-systems-engineering",
+    "href": "background.html#what-is-different-about-medical-technology-industry-versus-the-rest-of-systems-engineering",
+    "title": "3  Background",
+    "section": "4.3 What is different about Medical Technology Industry versus the “Rest of Systems Engineering”?",
+    "text": "4.3 What is different about Medical Technology Industry versus the “Rest of Systems Engineering”?\n\n\nCompliance with regulations: Food and Drug Administration (FDA), International Electrotechnical Commission (IEC; French: Commission électrotechnique internationale), International Organization for Standardization (ISO), Health Insurance Portability and Accountability Act (HIPAA), International Classification of Diseases (ICD-10), etc.\nDefects are VERY costly to handle (audit, warning letters, recalls, …)\nMost products are developed in a geographically distributed way\nRapid technology evolution is impacting development and delivery\n\nAI, IoT, product variants, Mobile Medical Apps, complex deployment models, cloud.\n\nExtreme time to market pressures: 1st to market usually gains 80% share. \nMarket Driven versus Contract Driven.\n\nCustomer of “systems engineering” is internal (marketing, product management).\nRequirements, dates, budgets are more ‘flexible’…success is judged by the market, not by a single customer.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Background</span>"
+    ]
+  },
+  {
+    "objectID": "methodology.html",
+    "href": "methodology.html",
+    "title": "4  Methodology",
+    "section": "",
+    "text": "4.1 General methods\nThe following methodology was used for the Masters Project in Systems Engineering.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Methodology</span>"
+    ]
+  },
+  {
+    "objectID": "methodology.html#general-methods",
+    "href": "methodology.html#general-methods",
+    "title": "4  Methodology",
+    "section": "",
+    "text": "Use Stevens Institute of Technology guidelines and templates for masters project.\nDevelop the “knowledge repository” as a system: stakeholder needs, concept, architecture, models, requirements, verification/validation.\nSelect and utilize systems engineering methods and tools from courses of Stevens School of Systems and Enterprises.\nSelect and utilize industry standards such as IEC 15288 and the INCOSE (International Council on Systems Engineering) Systems Engineering Handbook INCOSE (2023).\nLiterature Review: Conduct an extensive review of existing literature, research papers, and relevant resources in the field of systems engineering and medical devices.\nInterviews and Surveys: Collect insights and best practices from industry experts, professionals, and academics in both systems engineering and medical device development.\nContent Development: Create well-structured chapters and sections based on the outlined scope, ensuring clarity and coherence throughout the book.\nGraphics and Illustrations: Include diagrams, flowcharts, and illustrations to enhance understanding and provide practical examples.\nPeer Review: Seek input and feedback from experts in the field to validate the content’s accuracy and relevance.\nUse Git and/or GitHub as repository for the master’s project artifacts.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Methodology</span>"
+    ]
+  },
+  {
+    "objectID": "methodology.html#systems-engineering-methods",
+    "href": "methodology.html#systems-engineering-methods",
+    "title": "4  Methodology",
+    "section": "4.2 Systems Engineering Methods",
+    "text": "4.2 Systems Engineering Methods\n\n4.2.1 System Engineering constraints and considerations\nTable 4.1 provides an outline of the system engineering constraints and considerations of the system.\n\n\n\nTable 4.1: Systems Engineering Constraints and Considerations\n\n\n\n\n\n\n\n\n\nDomain\nPlan\n\n\nStrategy\nThe generation of the system engineering artifacts will follow the roadmap provided in course document SYS-625\n\n\nDocumentation\nThe system engineering documentation will be generated as Quatro report that is rendered in HTML and PDF.\n\n\nUnits\nThe system of units used in this document will be the International System of Units (SI) unless otherwise indicated.\n\n\nDiagrams\nSystem modeling will be made using OMG Systems Modeling Language (OMG SysML).(“About the OMG System Modeling Language Specification Version 2.0 Beta. The Object Management Group” 2023)\n\n\nTables\nAll table templates are customized for purposes of this report. There is no work instruction or standard operating procedure that is define the table layouts to use.\n\n\nDocument Navigation\nHyperlinks are embedded in the document to facilitate navigation of information with identifications.\n\n\n\n\n\n\n\n\n4.2.2 Systems Engineering Model\nFigure 4.1 shows the system engineering roadmap used for the Programmable Playground system. The roadmap source of information is course SYS 625.\n\n\n\n\n\n\n\n\nflowchart TD\n    id1(Functional Deficiency / Operational Deficiency)\n    id2(Identify Stakeholder Expectations / User Needs)\n    id3(Generate System Concepts / Define System Context)\n    id4(Identify Operational View & System Objectives)\n    id5(System Requirements)\n    id6(Develop Functional View)\n    id7(Develop Physical View)\n    id8(System Model)\n    id9(Design Detail)\n    id1 --&gt; id2\n    id2 --&gt; id3\n    id3 --&gt; id4\n    id4 --&gt; id5\n    id5 --&gt; id6\n    id5 --&gt; id7\n    id6 --&gt; id8\n    id7 --&gt; id8\n    id8 --&gt; id9    \n\n\n\n\n\n\n\n\nFigure 4.1: System Engineering Strategy\n\n\n\n\n\n\n\n“About the OMG System Modeling Language Specification Version 2.0 Beta. The Object Management Group.” 2023. July 2023. https://www.omg.org/spec/SysML/.\n\n\nINCOSE, ed. 2023. INCOSE Systems Engineering Handbook. 5th edition. Hoboken, NJ: Wiley.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Methodology</span>"
+    ]
+  },
+  {
+    "objectID": "mission.html",
+    "href": "mission.html",
+    "title": "5  Mission Description",
+    "section": "",
+    "text": "5.1 Mission",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Mission Description</span>"
+    ]
+  },
+  {
+    "objectID": "goals_objectives.html",
+    "href": "goals_objectives.html",
+    "title": "6  Goals and Objectives",
+    "section": "",
+    "text": "6.1 Stakeholders",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Goals and Objectives</span>"
+    ]
+  },
+  {
+    "objectID": "goals_objectives.html#sec-stakeholders",
+    "href": "goals_objectives.html#sec-stakeholders",
+    "title": "6  Goals and Objectives",
+    "section": "",
+    "text": "Table 6.1: Stakeholders\n\n\n\n\n\nID\nStakeholder\nDescription\nType [active, passive, sponsor]",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Goals and Objectives</span>"
+    ]
+  },
+  {
+    "objectID": "goals_objectives.html#sec-stakeholders_expectations",
+    "href": "goals_objectives.html#sec-stakeholders_expectations",
+    "title": "6  Goals and Objectives",
+    "section": "6.2 Stakeholders expectations",
+    "text": "6.2 Stakeholders expectations\nStakeholder expectations were elicited from the stakeholders and documented in Table 6.3. The stakeholders were interviewed and/or surveyed to record their expectations. Not all stakeholders were addressed directly, this was case of the medical device regulatory bodies. Published medical device regulations were consulted to determine what are the expectations of the Regulatory Bodies.\n\n\n\nTable 6.2: Stakeholders expectations\n\n\n\n\n\n\n\n\n\n\n\n\nID\nExpectation Title\nExpectation Description\nExpectation type [capability, characteristic]\nStakeholder ID",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Goals and Objectives</span>"
+    ]
+  },
+  {
+    "objectID": "goals_objectives.html#sec-sacred_expectations",
+    "href": "goals_objectives.html#sec-sacred_expectations",
+    "title": "6  Goals and Objectives",
+    "section": "6.3 Sacred expectations",
+    "text": "6.3 Sacred expectations\nTable 6.3 shows the stakeholder expectations determines as “sacred”.\n\n\n\nTable 6.3: Sacred stakeholder expectations\n\n\n\n\n\n\n\n\n\n\nStakeholder expectation ID\nExpectation Title\nExpectation Description",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Goals and Objectives</span>"
+    ]
+  },
+  {
+    "objectID": "goals_objectives.html#sec-objectives",
+    "href": "goals_objectives.html#sec-objectives",
+    "title": "6  Goals and Objectives",
+    "section": "6.4 Objectives",
+    "text": "6.4 Objectives\n\nTable 6.4 provides the list of the system objectives.\n\n\n\nTable 6.4: Objectives\n\n\n\n\n\n\n\n\n\nID\nObjective\n\n\n\n\nOBJ0001\nDesign a system that will compile and synthesize knowledge and best practices related to systems engineering in medical device development.\n\n\nOBJ0002\nProvide a comprehensive resource that educates professionals and students in the field of systems engineering about the unique challenges and considerations specific to medical devices.\n\n\nOBJ0003\nOffer practical guidance and tools for applying systems engineering principles throughout the entire lifecycle of medical device development.\n\n\nOBJ0004\nFoster a deeper understanding of the regulatory requirements and standards governing medical devices and how they intersect with systems engineering processes.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Goals and Objectives</span>"
+    ]
+  },
+  {
+    "objectID": "goals_objectives.html#sec-concept_operations",
+    "href": "goals_objectives.html#sec-concept_operations",
+    "title": "6  Goals and Objectives",
+    "section": "6.5 Concept of Operations",
+    "text": "6.5 Concept of Operations\nThis section defines the system context for the knowledge repository. The analysis employs a SysML block definition diagram.\nA context diagram is a diagram that defines the boundary between the system, or part of a system, and its environment, showing the entities that interact with it. (“System Context Diagram” 2019) \nThe context diagram shows the system’s inputs and outputs and sets a baseline for developing the internal architecture (Larson et al. 2009). Context is what surrounds the system. It contains entities that are “just on the outside of the system” but are relevant to it (Crawley, Cameron, and Selva 2015).\nFigure 6.1 shows the Medical Device System context.\n\n\n\n\n\n\n\nFigure 6.1: Medical Device System Context Diagram\n\n\n\n\n\n\n\n\nCrawley, Edward, Bruce Cameron, and Daniel Selva. 2015. System Architecture: Strategy and Product Development for Complex Systems. 1st edition. Boston: Pearson.\n\n\nLarson, Wiley J., Douglas H. Kirkpatrick, Jerry Jon Sellers, Lawrence Dale Thomas, and Dinesh Verma. 2009. Applied Space Systems Engineering. 1st edition. Boston, Mass.: McGraw-Hill Education.\n\n\n“System Context Diagram.” 2019. https://en.wikipedia.org/w/index.php?title=System_context_diagram&oldid=876798296.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Goals and Objectives</span>"
+    ]
+  },
+  {
+    "objectID": "operational_analysis.html",
+    "href": "operational_analysis.html",
+    "title": "7  Operational Analysis",
+    "section": "",
+    "text": "7.0.1 Knowledge Repository\nThe core element of the system is the Knowledge Repository block. This block represents a database or information storage system that houses the medical device systems engineering knowledge base. The knowledge base is comprised of multiple Content elements, indicated by the notation “[1..*]”. This multiplicity signifies that the repository must contain at least one content element, and the number of content elements can be limitless. The content would likely encompasses details about regulatory, risk management, requirements management, and other relevant medical device systems engineering information.\nThe knowledge repository also includes a Search Engine component. This component plays a critical role in facilitating efficient retrieval of information from the content base. Users can leverage the search engine to locate specific knowledge items based on their needs.\nThe knowledge repository possesses two key properties:\nInteraction and Data Flow\nThe diagram depicts two key data flows associated with the knowledge repository:",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Operational Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "operational_analysis.html#system-use-cases",
+    "href": "operational_analysis.html#system-use-cases",
+    "title": "7  Operational Analysis",
+    "section": "7.1 System Use Cases",
+    "text": "7.1 System Use Cases\nThis section analyzes the knowledge repository system use cases and modeled with a SysML use case diagram. Figure 7.1 depicts a central block representing the knowledge repository itself, surrounded by actors and their associated use cases.\n\n\n\n\n\n\nFigure 7.1: System Use Cases\n\n\n\n\n7.1.1 Actors and their Roles\n\nMedical Device Systems Engineer: This primary actor interacts with the system for browsing, searching, contributing, and updating knowledge relevant to medical device engineering.\nConsultants: Similar to systems engineers, consultants utilize the system for various knowledge management tasks.\nStandards Bodies: This actor leverages the repository to access and potentially contribute knowledge related to medical device standards.\nAcademics: This actor participates by searching for and potentially contributing knowledge that furthers the academic understanding of medical devices.\nRegulatory Bodies: Regulatory bodies interact with the system to access relevant knowledge for their oversight functions within the medical device industry.\nAdministrator: This privileged actor plays a crucial role in managing access control, determining what information different actor types can view and update within the repository.\n\nUse Cases and System Functionality:\n\nBrowse Knowledge: This use case allows actors to explore the knowledge repository freely, potentially leading to serendipitous discovery of relevant information.\nSearch Knowledge: This use case facilitates targeted knowledge retrieval through a search mechanism within the repository.\nContribute Knowledge: This use case empowers qualified actors, such as engineers and consultants, to enrich the repository by adding new knowledge.\nUpdate Knowledge: This use case enables actors to maintain the accuracy and relevance of the repository by allowing them to update existing information.\nManage Access Control (Administrator): This restricted use case allows administrators to define and enforce access permissions, ensuring the integrity and security of the knowledge base.\n\n\n\n7.1.2 Browse Knowledge Use Case\n\n\n\n7.1.3 Search Knowledge Use Case\n\n\n\n7.1.4 Contribute Knowledge Use Case\n\n\n\n7.1.5 Update Knowledge Use Case\n\n\n\n7.1.6 Manage Access Control Use Case\n\n\n\n7.1.7 Collaboration and Knowledge Sharing\nThe presence of diverse actors and their associated use cases highlights the collaborative nature of the knowledge repository system. The system fosters knowledge sharing within the medical device industry, allowing engineers, consultants, and regulatory bodies to access and contribute valuable information. Academics and standards bodies can also benefit by leveraging the repository for research and standard development purposes.\n\nThe SysML use case diagram demonstrates a well-defined knowledge repository system designed to facilitate knowledge sharing and management within the medical device industry. The diverse set of actors and their associated use cases emphasize the system’s potential to serve a wide range of stakeholders. Future analysis could explore the system’s internal structure, including its knowledge representation and retrieval mechanisms, to provide a more comprehensive understanding of its functionality.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Operational Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "operational_analysis.html#operational-scenarios",
+    "href": "operational_analysis.html#operational-scenarios",
+    "title": "7  Operational Analysis",
+    "section": "7.2 Operational Scenarios",
+    "text": "7.2 Operational Scenarios\nThe operational scenarios are created to demonstrate the use cases can be satisfied (validation).\n\n7.2.1 Main System Operational Scenario\n\nThis section analyzes a SysML sequence diagram representing the interaction between a medical device systems engineer and a knowledge repository system. Figure 7.2 depicts the knowledge retrieval process crucial for informed systems engineering within the medical device development domain.\n\n\n\n\n\n\nFigure 7.2: System Main Function Sequence Diagram\n\n\n\nActors and Interactions:\nThe sequence diagram focuses on two primary actors:\n\nMedical Device Systems Engineer: This actor represents the user of the system, an engineer seeking knowledge pertinent to medical device design or development.\nKnowledge Repository: This block represents the system component housing the relevant knowledge base for medical devices.\n\nThe interaction commences with the activation of the Medical Device Systems Engineer. This signifies the engineer encountering a knowledge need, prompting them to initiate a search within the knowledge repository. The engineer transmits a request to the knowledge repository, likely specifying the desired knowledge domain or specific keywords related to their need.\nKnowledge Retrieval Process:\nUpon receiving the request, the knowledge repository executes a Search for Knowledge Item operation. This operation signifies the system’s internal process of identifying relevant knowledge within its storage. The diagram incorporates a time constraint, indicating that the search should be completed within 10 seconds or less. This emphasizes the system’s prioritization of search efficiency, ensuring timely knowledge retrieval for the engineer.\nFollowing a successful search, the knowledge repository retrieves the identified knowledge item. This retrieved item could encompass various formats such as technical references, design guidelines, or regulatory guidelines relevant to medical devices. Finally, the knowledge repository transmits the retrieved knowledge item back to the engineer, enabling them to analyze the information and utilize it to address their specific knowledge need.\nSignificance for Medical Device Development:\nThis SysML sequence diagram offers a simplified yet insightful representation of a critical interaction within the medical device development process. Efficient access to relevant knowledge empowers engineers to make informed decisions concerning design, development, and regulatory compliance. The time constraint on the search operation underscores the importance of a well-structured and indexed knowledge repository, facilitating rapid retrieval of necessary information.\nFurther Considerations:\nWhile this diagram provides a foundational understanding of the knowledge search process, further exploration could involve:\n\nInvestigating alternative interaction scenarios, such as browsing by category or utilizing advanced search functionalities.\nAnalyzing potential error conditions during the search process and the system’s response mechanisms.\nConsidering the knowledge repository’s internal structure and indexing methods for efficient retrieval.\n\nBy delving deeper into these aspects, a more comprehensive understanding of the knowledge retrieval system and its impact on informed decision-making within the medical device development domain can be achieved.\n\n\n7.2.2 Browse Knowledge Operational Scenario\n\n\n\n7.2.3 Search Knowledge Operational Scenario\n\n\n\n7.2.4 Contribute Knowledge Operational Scenario\n\n\n\n7.2.5 Update Knowledge Operational Scenario\nFigure 7.3 is a sequence diagram demonstrates a simplified content update process within the knowledge repository system. It highlights the interaction between the engineer and the knowledge repository, but doesn’t show details like content format validation or error handling.\n\n\n\n\n\n\nFigure 7.3: Update Content Sequence Diagram\n\n\n\nThe image depicts a SysML sequence diagram for updating content in the knowledge repository system. The diagram showcases the interaction between a medical device systems engineer and the knowledge repository.\nHere’s a breakdown of the interaction sequence:\n\nThe medical device systems engineer initiates the update process by calling the initiateUpdate() function.\nThe knowledge repository receives the initiateUpdate() call and responds with the updateContent(content) function, prompting the engineer to provide the new content.\nThe engineer provides the content through the updateContent(content) function call.\nThe knowledge repository then performs the saveContent() function to store the updated content.\nAfter successful update, the knowledge repository sends a confirmation message through the updateSuccessful() function.\n\n\n\n7.2.6 Manage Access Control Operational Scenario\n\n\n\n\n\nCronin, David M. n.d. “Accelerate Medical Device Development with Systems Engineering.” https://blog.cognition.us/medical-product-development-systems-engineering.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Operational Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "physical_architecture.html",
+    "href": "physical_architecture.html",
+    "title": "8  Physical Architecture",
+    "section": "",
+    "text": "8.1 Top Level System Breakdown\nThe image is a SysML block definition diagram (BDD) for a physical architecture. It shows the breakdown of a system into its parts at a high level. Here’s a breakdown of the components:\nThe diagram also shows the relationships between these blocks. For example, the search engine has a part relationship with the knowledge repository. This means that the search engine is a component of the knowledge repository. The user interface also has a content relationship with the content block. This means that the user interface displays content.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Physical Architecture</span>"
+    ]
+  },
+  {
+    "objectID": "physical_architecture.html#top-level-system-breakdown",
+    "href": "physical_architecture.html#top-level-system-breakdown",
+    "title": "8  Physical Architecture",
+    "section": "",
+    "text": "Knowledge Repository: This block stores knowledge, the data that the system operates on.\nSearch Engine: This block finds information within the knowledge repository. It takes a search query as input and provides results.\nMaintenance Mechanism: This block is responsible for maintaining the system. It includes an update mechanism and access control.\n\nUpdate Mechanism: This block updates the knowledge repository.\nAccess Control: This block controls access to the system, by authenticating users.\n\nStorage: This block stores data, the knowledge repository or other system data.\nUser Interface: This block allows users to interact with the system. It provides content to the user and can receive content from the user.\nDisplay: This block presents information to the user.\nContent: This block refers to the data that is presented by the user interface and displayed.\nMetadata: This block provides data about other blocks in the system.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Physical Architecture</span>"
+    ]
+  },
+  {
+    "objectID": "conclusions.html",
+    "href": "conclusions.html",
+    "title": "9  Conclusions",
+    "section": "",
+    "text": "The following are the conclusions of the project: - Explain the importance of a systematic and comprehensive approach to medical device development, particularly emphasizing the integration of systems engineering principles. - Highlight the evolving landscape of healthcare technology, the critical need to prioritize safety, efficacy, and compliance in device development, and the unique challenges posed by medical devices within this context. - Explain the proposed project’s objectives, methodology, and collaborative approach, recognizing the value of creating a cohesive resource that synthesizes knowledge, educates stakeholders, provides practical guidance, and fosters deeper understanding of regulatory requirements. - Ephasize the significance of addressing these considerations holistically to ensure the successful development and deployment of safe and effective medical devices.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Conclusions</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "“About the OMG System Modeling Language Specification\nVersion 2.0 Beta. The Object Management Group.” 2023. July 2023.\nhttps://www.omg.org/spec/SysML/.\n\n\nCrawley, Edward, Bruce Cameron, and Daniel Selva. 2015. System\nArchitecture: Strategy and Product Development for Complex Systems.\n1st edition. Boston: Pearson.\n\n\nCronin, David M. n.d. “Accelerate Medical Device Development with\nSystems Engineering.” https://blog.cognition.us/medical-product-development-systems-engineering.\n\n\nINCOSE, ed. 2023. INCOSE Systems Engineering\nHandbook. 5th edition. Hoboken, NJ: Wiley.\n\n\nLarson, Wiley J., Douglas H. Kirkpatrick, Jerry Jon Sellers, Lawrence\nDale Thomas, and Dinesh Verma. 2009. Applied Space Systems\nEngineering. 1st edition. Boston, Mass.: McGraw-Hill Education.\n\n\n“System Context Diagram.” 2019. https://en.wikipedia.org/w/index.php?title=System_context_diagram&oldid=876798296.",
+    "crumbs": [
+      "References"
+    ]
+  },
+  {
+    "objectID": "survey.html",
+    "href": "survey.html",
+    "title": "Appendix A — Survey Knowledge Needs",
+    "section": "",
+    "text": "The following survey was used to collect knowledge needs from systems engineers. The survey was deployed as a Microsoft Form at the following link: https://forms.office.com/r/UKeWtta0gv\n\nPlease identify the primary challenges you have encountered in the systems engineering process for medical devices. Select all that apply from the following options:\n\n\nRegulatory Compliance\nSafety and Efficacy\nInterdisciplinary Collaboration\nSystems Integration\nCybersecurity\nUsability and Human Factors\nLifecycle Management\nCost Constraints\nGlobal Market Access\nEmerging Technologies\nOther:\n\n\nWhat tools do you find indispensable in your daily tasks as a systems engineer? Please select all that apply from the following options:\n\n\nCAD software (e.g., SolidWorks, Altium, Autodesk Inventor, CATIA)\nSystem modeling tools (e.g., MagicDraw, Capella, Enterprise Architect, Hardware Description Languages)\nEngineering tools (e.g., LabView, compilers, IDEs, debuggers, test automation software, instrumentation software)\nData analysis and visualization tools (e.g., Minitab, MatLab, R, Python, Tableau)\nSimulation tools (e.g., Simulink, ANSYS, COMSOL, SPICE)\nRequirement management software (e.g., Cockpit, IBM DOORS, Jama)\nVersion control systems (e.g., Git, AccuRev, SVN)\nRegulatory compliance software (e.g., MasterControl, Greenlight Guru)\nRisk management tools (e.g., FMEA software)\nDocumentation tools (e.g., Microsoft Office, OneNote, Markdown, Wiki, Html)\nProject management software (e.g., Jira, Microsoft Project)\nQuality management systems (e.g., ISO 13485-compliant software)\nCollaboration tools (e.g., Slack, Microsoft Teams, SharePoint)\nOther:\n\n\nCould you please elaborate on why you find the selected tools valuable in your day-to-day work as a systems engineer? Feel free to provide specific examples or experiences that illustrate their importance.\nWhich methodologies do you consider most beneficial in your daily tasks as a systems engineer working with medical devices? Please select all that apply from the following options:\n\n\nAgile Methods (e.g., Agile, Kanban)\nTraditional Development Models (e.g., V-Model, Waterfall, Spiral Model)\nModel-Based Approaches (e.g., Model-Based Systems Engineering, Prototyping)\nQuality and Compliance (e.g., Design for Six Sigma, ISO 13485, IEC 62304)\nRisk Management (e.g., ISO 14971, FMEA)\nVerification and Validation Processes\nChange Control Processes\nConfiguration Management\nLean and Continuous Improvement (e.g., Continuous Integration/Continuous Deployment, Value Stream Mapping)\nHuman Factors and Usability (e.g., Human Factors Engineering, IEC 62366, Usability Engineering)\nRegulatory Compliance (Regulatory Compliance Frameworks: FDA, CE Mark; Design Control, System Safety Engineering: IEC 60601 series)\nEngineering Practices (e.g., Requirements Management, Reliability Engineering)\nCross-disciplinary Collaboration\nInnovative Design Approaches (e.g., Design Thinking Methods, Theory Inventive Problem Solving)\nOther:\n\n\nCould you please provide insights into why you find the selected methodologies valuable in your day-to-day work as a systems engineer for medical devices? Describe the outcomes or benefits you’ve experienced by employing these methodologies. Additionally, if applicable, mention any alternative methodologies that were considered but not chosen, and the rationale behind your selection.\nWhich job roles do you primarily engage with in your daily activities?\n\n\nValidation Engineers\nSupply Chain/Logistics Engineers\nResearch and Development Scientists\nSystems Engineers\nCompliance Engineers\nRegulatory Affairs Specialists\nProject Managers\nTechnical Support Engineers\nElectrical Engineers\nProcess Engineers\nDesign Engineers\nMechanical Engineers\nBiomedical Engineers\nClinical Engineers\nProduct Development Engineers\nQuality Assurance/Quality Control Specialists\nSoftware Engineers\nRisk Management Specialists\nMarketing/Sales\nField Service Engineers\nManufacturing Engineers\nOther:\n\n\nPlease indicate which job roles, in your opinion, possess a good understanding of the deliverables and artifacts produced by systems engineers? Software Engineers\n\n\nValidation Engineers\nElectrical Engineers\nBiomedical Engineers\nMarketing/Sales\nCompliance Engineers\nProcess Engineers\nRegulatory Affairs Specialists\nField Service Engineers\nDesign Engineers\nQuality Assurance/Quality Control Specialists\nSupply Chain/Logistics Engineers\nProduct Development Engineers\nProject Managers\nClinical Engineers\nRisk Management Specialists\nTechnical Support Engineers\nSystems Engineers\nResearch and Development Scientists\nMechanical Engineers\nManufacturing Engineers\nOther:\n\n\nCould you share examples of books, articles, or papers that have resonated with you as a systems engineer working with medical devices? Please provide one or more titles and, if possible, briefly explain how they impacted your work or perspective. Your insights will help us better understand valuable resources in this field.\nIn your opinion, what regulations or standards should be covered in a comprehensive medical device systems engineering book? Please provide your suggestions below.\nWhat learning formats do you find most accessible and beneficial? Please select all that apply from the following options:\n\n\nPrinted books\nE-books\nInteractive online courses\nAudiobooks\nPodcasts\nVideo lectures\nWebinars\nVirtual reality (VR) simulations\nInteractive multimedia presentations\nMobile apps\nOnline forums or discussion boards\nWorksheets or printable materials\nHands-on workshops or labs\nMentored/self-paced online learning platforms\nSocial media groups or communities for learning\nGamified learning platforms or apps\nTextbooks\nInfographics or visual summaries\nLive online classes or tutorials\nDigital flashcards or quizzes\nOther:\n\n\nWould you be open to further contact if there were follow-up questions?\n\n\nYes\nNo\n\n\nEmail",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Survey Knowledge Needs</span>"
+    ]
+  }
+]
