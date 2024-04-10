@@ -1,0 +1,137 @@
+---
+title: "Survey Knowledge Needs"
+format: html
+---
+
+The following survey was used to collect knowledge needs from systems engineers. The survey was deployed as a Microsoft Form at the following link: https://forms.office.com/r/UKeWtta0gv
+
+1. Please identify the primary challenges you have encountered in the systems engineering process for medical devices. Select all that apply from the following options:
+- [  ] Regulatory Compliance
+- [  ] Safety and Efficacy
+- [  ] Interdisciplinary Collaboration
+- [  ] Systems Integration
+- [  ] Cybersecurity
+- [  ] Usability and Human Factors
+- [  ] Lifecycle Management
+- [  ] Cost Constraints
+- [  ] Global Market Access
+- [  ] Emerging Technologies
+- [  ] Other:
+
+2. What tools do you find indispensable in your daily tasks as a systems engineer? Please select all that apply from the following options:
+- [  ] CAD software (e.g., SolidWorks, Altium, Autodesk Inventor, CATIA)
+- [  ] System modeling tools (e.g., MagicDraw, Capella, Enterprise Architect, Hardware Description Languages)
+- [  ] Engineering tools (e.g., LabView, compilers, IDEs, debuggers, test automation software, instrumentation software)
+- [  ] Data analysis and visualization tools (e.g., Minitab, MatLab, R, Python, Tableau)
+- [  ] Simulation tools (e.g., Simulink, ANSYS, COMSOL, SPICE)
+- [  ] Requirement management software (e.g., Cockpit, IBM DOORS, Jama)
+- [  ] Version control systems (e.g., Git, AccuRev, SVN)
+- [  ] Regulatory compliance software (e.g., MasterControl, Greenlight Guru)
+- [  ] Risk management tools (e.g., FMEA software)
+- [  ] Documentation tools (e.g., Microsoft Office, OneNote, Markdown, Wiki, Html)
+- [  ] Project management software (e.g., Jira, Microsoft Project)
+- [  ] Quality management systems (e.g., ISO 13485-compliant software)
+- [  ] Collaboration tools (e.g., Slack, Microsoft Teams, SharePoint)
+- [  ] Other:
+
+3. Could you please elaborate on why you find the selected tools valuable in your day-to-day work as a systems engineer? Feel free to provide specific examples or experiences that illustrate their importance.
+
+4. Which methodologies do you consider most beneficial in your daily tasks as a systems engineer working with medical devices? Please select all that apply from the following options:
+- [  ] Agile Methods (e.g., Agile, Kanban)
+- [  ] Traditional Development Models (e.g., V-Model, Waterfall, Spiral Model)
+- [  ] Model-Based Approaches (e.g., Model-Based Systems Engineering, Prototyping)
+- [  ] Quality and Compliance (e.g., Design for Six Sigma, ISO 13485, IEC 62304)
+- [  ] Risk Management (e.g., ISO 14971, FMEA)
+- [  ] Verification and Validation Processes
+- [  ] Change Control Processes
+- [  ] Configuration Management
+- [  ] Lean and Continuous Improvement (e.g., Continuous Integration/Continuous Deployment, Value Stream Mapping)
+- [  ] Human Factors and Usability (e.g., Human Factors Engineering, IEC 62366, Usability Engineering)
+- [  ] Regulatory Compliance (Regulatory Compliance Frameworks: FDA, CE Mark; Design Control, System Safety Engineering: IEC 60601 series)
+- [  ] Engineering Practices (e.g., Requirements Management, Reliability Engineering)
+- [  ] Cross-disciplinary Collaboration
+- [  ] Innovative Design Approaches (e.g., Design Thinking Methods, Theory Inventive Problem Solving)
+- [  ] Other:
+
+5. Could you please provide insights into why you find the selected methodologies valuable in your day-to-day work as a systems engineer for medical devices? Describe the outcomes or benefits you've experienced by employing these methodologies. Additionally, if applicable, mention any alternative methodologies that were considered but not chosen, and the rationale behind your selection.
+
+6. Which job roles do you primarily engage with in your daily activities?
+- [  ] Validation Engineers
+- [  ] Supply Chain/Logistics Engineers
+- [  ] Research and Development Scientists
+- [  ] Systems Engineers
+- [  ] Compliance Engineers
+- [  ] Regulatory Affairs Specialists
+- [  ] Project Managers
+- [  ] Technical Support Engineers
+- [  ] Electrical Engineers
+- [  ] Process Engineers
+- [  ] Design Engineers
+- [  ] Mechanical Engineers
+- [  ] Biomedical Engineers
+- [  ] Clinical Engineers
+- [  ] Product Development Engineers
+- [  ] Quality Assurance/Quality Control Specialists
+- [  ] Software Engineers
+- [  ] Risk Management Specialists
+- [  ] Marketing/Sales
+- [  ] Field Service Engineers
+- [  ] Manufacturing Engineers
+- [  ] Other:
+
+7. Please indicate which job roles, in your opinion, possess a good understanding of the deliverables and artifacts produced by systems engineers?
+Software Engineers
+- [  ] Validation Engineers
+- [  ] Electrical Engineers
+- [  ] Biomedical Engineers
+- [  ] Marketing/Sales
+- [  ] Compliance Engineers
+- [  ] Process Engineers
+- [  ] Regulatory Affairs Specialists
+- [  ] Field Service Engineers
+- [  ] Design Engineers
+- [  ] Quality Assurance/Quality Control Specialists
+- [  ] Supply Chain/Logistics Engineers
+- [  ] Product Development Engineers
+- [  ] Project Managers
+- [  ] Clinical Engineers
+- [  ] Risk Management Specialists
+- [  ] Technical Support Engineers
+- [  ] Systems Engineers
+- [  ] Research and Development Scientists
+- [  ] Mechanical Engineers
+- [  ] Manufacturing Engineers
+- [  ] Other:
+
+8. Could you share examples of books, articles, or papers that have resonated with you as a systems engineer working with medical devices? Please provide one or more titles and, if possible, briefly explain how they impacted your work or perspective. Your insights will help us better understand valuable resources in this field.
+
+9. In your opinion, what regulations or standards should be covered in a comprehensive medical device systems engineering book? Please provide your suggestions below.
+
+10. What learning formats do you find most accessible and beneficial? Please select all that apply from the following options:
+- [  ] Printed books
+- [  ] E-books
+- [  ] Interactive online courses
+- [  ] Audiobooks
+- [  ] Podcasts
+- [  ] Video lectures
+- [  ] Webinars
+- [  ] Virtual reality (VR) simulations
+- [  ] Interactive multimedia presentations
+- [  ] Mobile apps
+- [  ] Online forums or discussion boards
+- [  ] Worksheets or printable materials
+- [  ] Hands-on workshops or labs
+- [  ] Mentored/self-paced online learning platforms
+- [  ] Social media groups or communities for learning
+- [  ] Gamified learning platforms or apps
+- [  ] Textbooks
+- [  ] Infographics or visual summaries
+- [  ] Live online classes or tutorials
+- [  ] Digital flashcards or quizzes
+- [  ] Other:
+
+11. Would you be open to further contact if there were follow-up questions?
+- [  ] Yes
+- [  ] No
+
+12. Email

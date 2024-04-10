@@ -1,0 +1,88 @@
+---
+title: "Goals and Objectives"
+format: html
+---
+
+@sec-stakeholders provides the list of active, passive and sponsor stakeholders of the programmable playground system. @sec-stakeholders_expectations provides the list of stakeholder expectations that are classified as either capability or characteristic. @sec-sacred_expectations extracts which stakeholder expectations are considered sacred. @sec-objectives provides the system objectives. @sec-concept_operations explains the concept of operations of the system.
+
+## Stakeholders {#sec-stakeholders}
+
+::: {#tbl-stakeholders}
+| ID  | Stakeholder | Description | Type \[active, passive, sponsor\] |
+|-----|-------------|-------------|-----------------------------------|
+|     |             |             |                                   |
+|     |             |             |                                   |
+|     |             |             |                                   |
+
+Stakeholders
+:::
+
+## Stakeholders expectations {#sec-stakeholders_expectations}
+
+Stakeholder expectations were elicited from the stakeholders and documented in @tbl-sacred_expectations. The stakeholders were interviewed and/or surveyed to record their expectations. Not all stakeholders were addressed directly, this was case of the medical device regulatory bodies. Published medical device regulations were consulted to determine what are the expectations of the Regulatory Bodies.
+
+::: {#tbl-stakeholders_expectations}
+| ID  | Expectation Title | Expectation Description | Expectation type \[capability, characteristic\] | Stakeholder ID |
+|---------------|---------------|---------------|---------------|---------------|
+|     |                   |                         |                                                 |                |
+|     |                   |                         |                                                 |                |
+|     |                   |                         |                                                 |                |
+
+Stakeholders expectations
+:::
+
+## Sacred expectations {#sec-sacred_expectations}
+
+@tbl-sacred_expectations shows the stakeholder expectations determines as “sacred”.
+
+::: {#tbl-sacred_expectations}
+| Stakeholder expectation ID | Expectation Title | Expectation Description |
+|----------------------------|-------------------|-------------------------|
+|                            |                   |                         |
+|                            |                   |                         |
+|                            |                   |                         |
+
+Sacred stakeholder expectations
+:::
+
+## Objectives {#sec-objectives}
+<!--
+March 11, 2024. Need to revisit the objectives.
+-->
+
+@tbl-objectives provides the list of the system objectives.
+
+::: {#tbl-objectives}
+| ID      | Objective                                                                                                                                                                                 |
+|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| OBJ0001 | Design a system that will compile and synthesize knowledge and best practices related to systems engineering in medical device development.                                               |
+| OBJ0002 | Provide a comprehensive resource that educates professionals and students in the field of systems engineering about the unique challenges and considerations specific to medical devices. |
+| OBJ0003 | Offer practical guidance and tools for applying systems engineering principles throughout the entire lifecycle of medical device development.                                             |
+| OBJ0004 | Foster a deeper understanding of the regulatory requirements and standards governing medical devices and how they intersect with systems engineering processes.                           |
+
+Objectives
+:::
+
+## Concept of Operations {#sec-concept_operations}
+
+This section defines the system context for the knowledge repository. The analysis employs a SysML block definition diagram.
+
+A context diagram is a diagram that defines the boundary between the system, or part of a system, and its environment, showing the entities that interact with it. [@systemc2019] 
+
+The context diagram shows the system’s inputs and outputs and sets a baseline for developing the internal architecture [@larson2009]. Context is what surrounds the system. It contains entities that are “just on the outside of the system” but are relevant to it [@crawley2015].
+
+@fig-system_context shows the Medical Device System context.
+
+<!--Insert system context diagram image here. Create caption and update cross references -->
+
+::: {#fig-system_context}
+![](images/paste-3.png)
+
+Medical Device System Context Diagram
+:::
+
+```{=html}
+<!--
+Provide an explanation of the system context diagram
+-->
+```

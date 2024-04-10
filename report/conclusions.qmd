@@ -1,0 +1,10 @@
+---
+title: "Conclusions"
+format: html
+---
+
+The following are the conclusions of the project:
+- Explain the importance of a systematic and comprehensive approach to medical device development, particularly emphasizing the integration of systems engineering principles.
+- Highlight the evolving landscape of healthcare technology, the critical need to prioritize safety, efficacy, and compliance in device development, and the unique challenges posed by medical devices within this context.
+- Explain the proposed project's objectives, methodology, and collaborative approach, recognizing the value of creating a cohesive resource that synthesizes knowledge, educates stakeholders, provides practical guidance, and fosters deeper understanding of regulatory requirements.
+- Ephasize the significance of addressing these considerations holistically to ensure the successful development and deployment of safe and effective medical devices.

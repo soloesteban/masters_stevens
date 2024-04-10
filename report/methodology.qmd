@@ -5,44 +5,51 @@ format: html
 
 The study adopts a Systems Engineering approach, which involves analyzing the entire content management process as a system with interconnected components. This methodology allows for a holistic understanding of the system's requirements, interactions, and potential improvements. The research methodology encompasses:
 
-1. **Requirement Analysis:** Identifying the key requirements for efficient content management, including version control, compatibility with various file formats, and ease of collaboration.
-2. **System Modeling:** Utilizing SysML (Systems Modeling Language) to create diagrams such as sequence diagrams, activity diagrams, and state machine diagrams to visualize the content management process and its interactions.
-3. **Evaluation:** Assessing existing tools and technologies for content management, including Quatro and its capabilities in rendering content into different formats like HTML and PDF.
-4. **Proposal:** Proposing a refined content management methodology tailored to the specific needs of online reference books in medical device systems engineering.
+1.  **Requirement Analysis:** Identifying the key requirements for efficient content management, including version control, compatibility with various file formats, and ease of collaboration.
+2.  **System Modeling:** Utilizing SysML (Systems Modeling Language) to create diagrams such as sequence diagrams, activity diagrams, and state machine diagrams to visualize the content management process and its interactions.
+3.  **Evaluation:** Assessing existing tools and technologies for content management, including Quatro and its capabilities in rendering content into different formats like HTML and PDF.
+4.  **Proposal:** Proposing a refined content management methodology tailored to the specific needs of online reference books in medical device systems engineering.
 
 ## General methods
 
 The following methodology was used for the Masters Project in Systems Engineering.
 
-- Use Stevens Institute of Technology guidelines and templates for masters project.
-
-- Develop the "knowledge repository" as a system: stakeholder needs, concept, architecture, models, requirements, verification/validation.
-
-- Select and utilize systems engineering methods and tools from courses of Stevens School of Systems and Enterprises.
-
-- Select and utilize industry standards such as IEC 15288 and the INCOSE (International Council on Systems Engineering) Systems Engineering Handbook @incose_incose_2023.
-
-- Literature Review: Conduct an extensive review of existing literature, research papers, and relevant resources in the field of systems engineering and medical devices.
-
-- Interviews and Surveys: Collect insights and best practices from industry experts, professionals, and academics in both systems engineering and medical device development.
-
-- Content Development: Create well-structured chapters and sections based on the outlined scope, ensuring clarity and coherence throughout the book.
-
-- Graphics and Illustrations: Include diagrams, flowcharts, and illustrations to enhance understanding and provide practical examples.
-
-- Peer Review: Seek input and feedback from experts in the field to validate the content's accuracy and relevance.
-
-- Use Git and/or GitHub as repository for the master’s project artifacts.
-
+-   Use Stevens Institute of Technology guidelines and templates for masters project.
+-   Develop the "knowledge repository" as a system: stakeholder needs, concept, architecture, models, requirements, verification/validation.
+-   Select and utilize systems engineering methods and tools from courses of Stevens School of Systems and Enterprises.
+-   Select and utilize industry standards such as IEC 15288 and the INCOSE (International Council on Systems Engineering) Systems Engineering Handbook @incose_incose_2023.
+-   Literature Review: Conduct an extensive review of existing literature, research papers, and relevant resources in the field of systems engineering and medical devices.
+-   Interviews and Surveys: Collect insights and best practices from industry experts, professionals, and academics in both systems engineering and medical device development.
+-   Content Development: Create well-structured chapters and sections based on the outlined scope, ensuring clarity and coherence throughout the book.
+-   Graphics and Illustrations: Include diagrams, flowcharts, and illustrations to enhance understanding and provide practical examples.
+-   Peer Review: Seek input and feedback from experts in the field to validate the content's accuracy and relevance.
+-   Use Git and/or GitHub as repository for the master’s project artifacts.
 
 ## Systems Engineering Methods
 
+### System Engineering constraints and considerations
+
+@tbl-panel provides an outline of the system engineering constraints and considerations of the system.
+
+::: {#tbl-panel}
+|                     |                                                                                                                                                                       |
+|--------------------|----------------------------------------------------|
+| **Domain**          | **Plan**                                                                                                                                                              |
+| Strategy            | The generation of the system engineering artifacts will follow the roadmap provided in course document SYS-625                                                        |
+| Documentation       | The system engineering documentation will be generated as Quatro report that is rendered in HTML and PDF.                                                             |
+| Units               | The system of units used in this document will be the International System of Units (SI) unless otherwise indicated.                                                  |
+| Diagrams            | System modeling will be made using OMG Systems Modeling Language (OMG SysML).[@noauthor_about_2023]                                                                   |
+| Tables              | All table templates are customized for purposes of this report. There is no work instruction or standard operating procedure that is define the table layouts to use. |
+| Document Navigation | Hyperlinks are embedded in the document to facilitate navigation of information with identifications.                                                                 |
+
+Systems Engineering Constraints and Considerations
+:::
+
 ### Systems Engineering Model
 
-<!-- Insert flow diagram 
-title: Systems Engineering Model
--->
+@fig-strategy shows the system engineering roadmap used for the Programmable Playground system. The roadmap source of information is course SYS 625.
 
+::: {#fig-strategy}
 ```{mermaid}
 flowchart TD
     id1(Functional Deficiency / Operational Deficiency)
@@ -64,3 +71,6 @@ flowchart TD
     id7 --> id8
     id8 --> id9    
 ```
+
+System Engineering Strategy
+:::
