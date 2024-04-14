@@ -2,20 +2,21 @@
 
 <!-- Would need to migrate the references to BIB format in order to cite in the .qmd files and render-->
 
-**Instructions**: Add references to sources such as literature, papers, websites in this section.
-
 https://www.linkedin.com/pulse/mbse-arcadia-method-ontology-elements-traceability-helder-castro/
 
 https://sebokwiki.org/wiki/Healthcare_Systems_Engineering
 
+- [ ] Consult paper 2015 INCOSE IS best paper *“SysML Activity Models for Applying ISO 14971 Medical Device Risk and Safety Management Across the System Lifecycle”*.
+
+<!--
+
+Migrated the content in this comment block to the Quarto report
+
+Migrated the content in this comment block to the Quarto report
 - ISO 15288: Systems and software engineering - System life cycle processes
 - ISO 14971: Application of Risk Management to Medical Devices
 - IEC 62366-1: Application of Usability Engineering to Medical Devices
 - INCOSE Systems Engineering Handbook
-
-- [ ] Find a book on Capella Arcadia Method.
-- [ ] Consult paper 2015 INCOSE IS best paper *“SysML Activity Models for Applying ISO 14971 Medical Device Risk and Safety Management Across the System Lifecycle”*.
-
 
 # Prelimanry books related to systems engineering of medical devices
 
@@ -25,9 +26,6 @@ by Mr. Martin A. Coe
 Description: This book introduces practical systems engineering methods for the design and development of commercially engineered systems, focused on the design of medical devices. It begins with systems engineering definitions, fundamentals and proceeds by integrating systems engineering activities into the development process to demonstrate a successful system design. This book serves as a practical reference for product development professionals of all backgrounds and for students within engineering, project management and quality specialties.
 
 The book is available to purchase from Amazon at https://www.amazon.com/Robust-Systems-Engineering-Medical-Device/dp/1703701097
-
-<!-- This book could serve as source for the new book I'm working on-->
-
 
 Healthcare Systems Engineering by
 Paul M. Griffin, Harriet B. Nembhard, Christopher J. DeFlitch, Nathaniel D. Bastian, Hyojung Kang, David A. Munoz
@@ -45,7 +43,7 @@ Healthcare systems engineering overlaps with industrial engineering, operations 
 
 The book is available to purchase from Wiley at https://www.wiley.com/en-us/Healthcare+Systems+Engineering-p-9781118971086
 
-
+-->
 
 # Courses directed to systems engineers who work in the medical device industry
 

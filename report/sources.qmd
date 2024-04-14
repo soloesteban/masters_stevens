@@ -1,0 +1,102 @@
+---
+title: "Sources"
+format: html
+---
+
+```{=html}
+<!-- 
+
+Make a digram of the sources of the needs, requirements. Use as references the sources viewpoint from the book on Systems Engineering dymistified.
+
+Some sources:
+Books
+Survey
+Training programs outlines
+Job profile descriptions
+FDA query of most popular medical devices submitted for approval
+Interviews of systems engineers
+Papers
+
+-->
+```
+::: {#fig-sources_needs_requirements}
+![](images/paste-16.png)
+
+Knowledge Repository System sources of needs and requirements
+:::
+
+@fig-sources_needs_requirements is a SysML block definition diagram that shows the sources of needs and requirements for designing a knowledge repository for medical device systems engineering. The blocks in the diagram represent different sources of information that can be used to identify the needs and requirements of the knowledge repository.
+
+The diagram lists valid (legal source element) sources:
+
+-   Job descriptions
+
+-   Training material
+
+-   Literature
+
+-   Publications
+
+-   Articles
+
+-   Standards
+
+-   Databases
+
+-   Surveys
+
+-   Interviews
+
+-   Webinars
+
+The inclusion of "Forbidden Source Element" highlights the importance of critical evaluation when selecting information sources. Reliable and verifiable sources like publications, standards, and legal databases should be prioritized for designing the knowledge repository.
+
+**Papers**
+
+Some example papers found that can serve as source for the design of the medical device systems engineering repository are:
+
+-   Jones, D.J. and Masters, M.T. (2008), 11.1.3 Medical Device Development Process. INCOSE International Symposium, 18: 1215-1230. https://doi.org/10.1002/j.2334-5837.2008.tb00873.x [@jones2008]
+-   Maheshwari, Apoorv. (2015). Application of Systems Engineering to Regulatory Compliance Activities for Medical Devices. [@maheshwari2015]
+-   Corns, S. and Gibson, C. (2012), A Model-based Reference Architecture for Medical Device Development. INCOSE International Symposium, 22: 2066-2075. <https://doi.org/10.1002/j.2334-5837.2012.tb01457.x> [@corns2012]
+
+**Submissions of medical devices**
+
+**Webinars**
+
+<!--
+
+Find two or more example webinars that discuss systems engineering of medical devices
+
+[ ] Extact the transcript of the following webinar https://www.youtube.com/watch?v=r_Eh-VEm55E&list=WL&index=6
+Title: Systems Perspective Engineering : A webinar on Medical Device product development
+Author: Katie McHugh, Lead Systems Engineer, MPR Associates, Inc.
+Include it as reference
+
+-->
+
+Webinars that discuss systems engineering in the medical device industry can serve as sources for the needs and requirements of the knowledge repository. An example is MassMEDIC Sponsored Webinar: Systems Engineering for Medical Device Development by Sunrise Labs, Inc [@massmedi2022]. Thjis webinar discussed how Systems Engineering contributes to success in complex medical device development, by discussing the role of a Systems Engineer and describing the Systems Engineering process.
+
+The medical device systems engineering knowledge repository should cover points mentioned in the webinar:
+
+-   **Foundational Concepts:**
+    -   Define Medical Device Systems Engineering and its role in the development lifecycle.
+    -   Understand the complexities of modern medical devices (electrical, mechanical, software integration).
+-   **Systems Engineering Process:**
+    -   Key stages involved in Systems Engineering for medical devices (concept to commercialization).
+    -   Techniques for requirements definition, management, and traceability.
+-   **Cross-functional Collaboration:**
+    -   Effective communication and coordination between various engineering disciplines (electrical, mechanical, software).
+    -   Integration with other devices and user interfaces.
+-   **Risk Management:**
+    -   Identify and mitigating risks associated with medical device development.
+    -   Design test protocols and mitigation response plans.
+-   **Regulatory Considerations:**
+    -   Understand and adhering to design control regulations for medical devices (e.g., ISO 13485).
+-   **Project Management:**
+    -   Strategies for staying on budget and schedule in medical device development projects.
+-   **Case Studies:**
+    -   Real-world examples showcasing successful application of Systems Engineering in medical device development.
+
+<!--
+Include an explanation of the survey. Results and reference the sections in the Appendix.
+-->

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Medical Device Systems Engineering Knowledge Repository Report - 6&nbsp; Mission Description</title>
+<title>Medical Device Systems Engineering Knowledge Repository Report - 5&nbsp; Problem</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -30,8 +50,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./sources.html" rel="next">
-<link href="./problem.html" rel="prev">
+<link href="./mission.html" rel="next">
+<link href="./methodology.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -81,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./mission.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Mission Description</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./problem.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Problem</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -141,13 +161,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./problem.html" class="sidebar-item-text sidebar-link">
+  <a href="./problem.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Problem</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./mission.html" class="sidebar-item-text sidebar-link active">
+  <a href="./mission.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Mission Description</span></span></a>
   </div>
 </li>
@@ -238,7 +258,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#mission" id="toc-mission" class="nav-link active" data-scroll-target="#mission"><span class="header-section-number">6.1</span> Mission</a></li>
+  <li><a href="#problem-statement" id="toc-problem-statement" class="nav-link active" data-scroll-target="#problem-statement"><span class="header-section-number">5.1</span> Problem Statement</a>
+  <ul class="collapse">
+  <li><a href="#problem-from-the-perspective-of-non-systems-engineers" id="toc-problem-from-the-perspective-of-non-systems-engineers" class="nav-link" data-scroll-target="#problem-from-the-perspective-of-non-systems-engineers"><span class="header-section-number">5.1.1</span> Problem from the perspective of non-systems engineers</a></li>
+  <li><a href="#problem-from-the-perspective-of-systems-engineers" id="toc-problem-from-the-perspective-of-systems-engineers" class="nav-link" data-scroll-target="#problem-from-the-perspective-of-systems-engineers"><span class="header-section-number">5.1.2</span> Problem from the perspective of systems engineers</a></li>
+  </ul></li>
+  <li><a href="#problem-modeled-as-a-casual-loop" id="toc-problem-modeled-as-a-casual-loop" class="nav-link" data-scroll-target="#problem-modeled-as-a-casual-loop"><span class="header-section-number">5.2</span> Problem modeled as a casual loop</a></li>
+  <li><a href="#contributing-factors" id="toc-contributing-factors" class="nav-link" data-scroll-target="#contributing-factors"><span class="header-section-number">5.3</span> Contributing factors</a>
+  <ul class="collapse">
+  <li><a href="#lack-of-books-and-literature-of-systems-engineering-of-medical-devices" id="toc-lack-of-books-and-literature-of-systems-engineering-of-medical-devices" class="nav-link" data-scroll-target="#lack-of-books-and-literature-of-systems-engineering-of-medical-devices"><span class="header-section-number">5.3.1</span> Lack of books and literature of systems engineering of medical devices</a></li>
+  <li><a href="#very-few-papers-on-systems-engineering-of-medical-devices" id="toc-very-few-papers-on-systems-engineering-of-medical-devices" class="nav-link" data-scroll-target="#very-few-papers-on-systems-engineering-of-medical-devices"><span class="header-section-number">5.3.2</span> Very few papers on systems engineering of medical devices</a></li>
+  <li><a href="#systems-engineering-is-used-more-in-other-fields" id="toc-systems-engineering-is-used-more-in-other-fields" class="nav-link" data-scroll-target="#systems-engineering-is-used-more-in-other-fields"><span class="header-section-number">5.3.3</span> Systems engineering is used more in other fields</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -247,7 +278,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Mission Description</span></h1>
+<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Problem</span></h1>
 </div>
 
 
@@ -264,11 +295,175 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This section provides the system mission, and business rationale.</p>
-<section id="mission" class="level2" data-number="6.1">
-<h2 data-number="6.1" class="anchored" data-anchor-id="mission"><span class="header-section-number">6.1</span> Mission</h2>
+<section id="problem-statement" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="problem-statement"><span class="header-section-number">5.1</span> Problem Statement</h2>
+<!--
+Describe the problem that is being addressed here
+-->
+<p>In recent years, the field of medical device systems engineering has gained significant attention due to the increasing complexity of medical devices and the rigorous regulatory requirements they must meet. As a result, there has been a noticeable growth in the number of books and resources dedicated to medical devices <!--this specialized area of systems engineering-->. Topics covered in these books may include regulatory compliance, risk management, quality assurance, and design principles tailored to medical devices. But there is very few books on systems engineering for medical devices.</p>
+<!--On the other hand,-->
+<p>Systems engineering is a broad discipline applied across various industries, including aerospace, automotive, defense, telecommunications, and more. Therefore, there are numerous books available on systems engineering principles, methods, and applications in these fields.</p>
+<p>The number of books on systems engineering of medical devices is fewer in comparison to those covering systems engineering in more established industries.</p>
+<section id="problem-from-the-perspective-of-non-systems-engineers" class="level3" data-number="5.1.1">
+<h3 data-number="5.1.1" class="anchored" data-anchor-id="problem-from-the-perspective-of-non-systems-engineers"><span class="header-section-number">5.1.1</span> Problem from the perspective of non-systems engineers</h3>
+<p>Lack of a clear understanding of what is systems engineering of medical devices:</p>
+<ul>
+<li>Colleagues and senior leadership aren’t clear…<!--this statement is being supported by the survey results on which dicisplines understand the systems engineering deliverables--></li>
+<li>If it is ‘requirements’ (or even models), why does that add value?</li>
+<li>Medical Device Systems Engineering can look like more paperwork (or more modeling work)</li>
+<li>And have a separate function? Why not hire more software and hardware people “who actually deliver things the customer uses”?</li>
+</ul>
+</section>
+<section id="problem-from-the-perspective-of-systems-engineers" class="level3" data-number="5.1.2">
+<h3 data-number="5.1.2" class="anchored" data-anchor-id="problem-from-the-perspective-of-systems-engineers"><span class="header-section-number">5.1.2</span> Problem from the perspective of systems engineers</h3>
+<p>Medical Device Systems Engineers don’t seem to agree what it is…but everyone seems sure they know and are right.</p>
+<!-- Source: Chris Unger
+Chief Systems Engineer, GE Healthcare, ESEP
+Colead, INCOSE Healthcare WG Why is Systems Engineering Challenging
+in Medical Technology?-->
+<!--
+Describe how many books on systems engineering are on medical systems versus other fields. Perform a similar comparison with papers. This would be an interesting comparison to show as a visualization.
+-->
+</section>
+</section>
+<section id="problem-modeled-as-a-casual-loop" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="problem-modeled-as-a-casual-loop"><span class="header-section-number">5.2</span> Problem modeled as a casual loop</h2>
+<!--
+Add caption and references to the casual loop image.
+-->
+<p><a href="#fig-casual_loop" class="quarto-xref">Figure&nbsp;<span>5.1</span></a> is a diagram of a causal loop <span class="citation" data-cites="sterman2000">(<a href="references.html#ref-sterman2000" role="doc-biblioref">Sterman and Sterman 2000</a>)</span> that shows a system where investment in systems engineering yields positive results. The diagram shows that increased profits can lead to more resources for better systems engineering which help reduce unsuccessful medical devices.</p>
+<div id="fig-casual_loop" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-casual_loop-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/paste-15.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-casual_loop-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5.1: Problem modeled as a casual loop
+</figcaption>
+</figure>
+</div>
+<p><strong>Analysis of the Causal Loop in the Image:</strong></p>
+<p>An explanation of the elements that make up the casual loop is given as follows:</p>
+<ul>
+<li><p><strong>Unsuccessful Medical Devices (U)</strong> –&gt; <strong>Decreased Profits (P)</strong> (Negative) - Unsuccessful devices lead to lower sales and profitability.</p></li>
+<li><p><strong>Profits (P)</strong> –&gt; <strong>Resources for Systems Engineering (SE)</strong> (Positive) - More profits allow for more investment in systems engineering.</p></li>
+<li><p><strong>Understanding of Systems Engineering (SE)</strong> –&gt; <strong>Decreased Unsuccessful Medical Devices (U)</strong> (Negative) - Better understanding of systems engineering leads to fewer poorly designed devices. If there’s a lack of understanding of systems engineering principles among stakeholders in the medical device industry, it can lead to ineffective utilization or implementation of systems engineering methodologies in the development process.</p></li>
+<li><p><strong>Resources for Systems Engineering (SE)</strong> –&gt; <strong>Improved Understanding of Systems Engineering (SE)</strong> (Positive) - More resources dedicated to systems engineering education improves understanding.</p></li>
+</ul>
+<p><strong>Feedback Loops:</strong></p>
+<ul>
+<li><strong>Balancing Loop (B):</strong> This loop discourages unsuccessful devices. As unsuccessful devices (U) increase, profits (P) decrease. This decrease in profits (P) leads to fewer resources for systems engineering (SE). Less resources for systems engineering (SE) leads to a poorer understanding of systems engineering (SE), which ultimately leads to more unsuccessful devices (U). This loop creates pressure to improve systems engineering practices to break the cycle of unsuccessful devices.</li>
+</ul>
+<p><strong>Key Points:</strong></p>
+<ul>
+<li><p>The diagram shows a reinforcing cycle (B) that discourages unsuccessful devices. This is because better understanding of systems engineering leads to fewer unsuccessful devices, which increases profits, which allows for more investment in systems engineering, and so on.</p></li>
+<li><p>Low adoption of systems engineering results in ineffective medical device development processes. Without proper systems engineering practices, the development processes may lack holistic consideration of all system components, leading to inefficiencies, errors, and delays.</p></li>
+<li><p>Ineffective development processes can contribute to increased incidents of device failures. Without robust systems engineering practices, there’s a higher likelihood of design flaws, inadequate testing, and safety issues in medical devices, leading to higher failure rates and potential harm to patients.</p></li>
+</ul>
+<!--
+ Show a casual loop that a lack of understanding of systems engineering for medical devices contributes to keep systems engineering low in use in the medical device industry.
+ -->
+<!--
+Show the problem as a stock and flow diagram
+ 
+ stock: systems engineers with medical device systems engineering knowledge
+ stock: systems engineers with no medical device systems engineering knowledge
+ stock: successfull medical devices
+ flow: rate of learning medical device systems engineering
+ flow: retirement rate
+ flow: expierence rate
+ stock: medical device systems engineering knowledge
+ flow: knowledge obsolence rate
+ flow: updated knowledge rate
+-->
+<!--
+Add image title "Problem statement modeled as a casual loop".
+-->
+<!--
+Cite in this section the book about Business Dynamics.
+-->
+<!--
+Backup content enclosed in this comment block
+
+- **Low Adoption of Systems Engineering:** Due to the lack of understanding, there is low adoption of systems engineering practices in the medical device industry. This leads to insufficient incorporation of systems thinking, integration, and optimization in the development process of medical devices.
+
+- **Ineffective Medical Device Development Processes:** 
+
+- **Increased Incidents of Device Failures:** 
+
+- **Loop Reinforcement:** The increased incidents of device failures further reinforce the perception of the importance of systems engineering. However, without addressing the root cause of the lack of understanding of systems engineering, this loop perpetuates, keeping systems engineering low in use in the medical device industry.
+
+This causal loop illustrates how a lack of understanding of systems engineering for medical devices can create a reinforcing feedback loop that perpetuates low adoption of systems engineering practices, leading to ineffective development processes and increased incidents of device failures. Addressing this lack of understanding is crucial for improving the utilization of systems engineering in the medical device industry and enhancing the safety and reliability of medical devices.
+-->
+</section>
+<section id="contributing-factors" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="contributing-factors"><span class="header-section-number">5.3</span> Contributing factors</h2>
+<section id="lack-of-books-and-literature-of-systems-engineering-of-medical-devices" class="level3" data-number="5.3.1">
+<h3 data-number="5.3.1" class="anchored" data-anchor-id="lack-of-books-and-literature-of-systems-engineering-of-medical-devices"><span class="header-section-number">5.3.1</span> Lack of books and literature of systems engineering of medical devices</h3>
+<p>The are very few books that teach systems engineering in the context of medical device development. Of the few books found are the following:</p>
+<ul>
+<li><p>“<em>Robust Systems Engineering for Medical Device Design</em>” by Mr.&nbsp;Martin A. Coe. Description: This book introduces practical systems engineering methods for the design and development of commercially engineered systems, focused on the design of medical devices. It begins with systems engineering definitions, fundamentals and proceeds by integrating systems engineering activities into the development process to demonstrate a successful system design <span class="citation" data-cites="coe2019">(<a href="references.html#ref-coe2019" role="doc-biblioref">Coe 2019</a>)</span>.</p></li>
+<li><p>“<em>Healthcare Systems Engineering</em>” by Paul M. Griffin, et al.&nbsp;Description: Offers comprehensive coverage of the healthcare system, healthcare delivery, and healthcare systems modeling <span class="citation" data-cites="healthca">(<a href="references.html#ref-healthca" role="doc-biblioref"><span>“Healthcare Systems Engineering | Wiley,”</span> n.d.</a>)</span>.</p></li>
+</ul>
+<!--
+
+Show that there is only one out of [total] abstracts submitted to INCOSE International Workshop that talk about medical devices.
+
+Show the quantity of papers that talk about medical device systems engineering.
+
+Show the quantity of books of aerospace versus medical device systems engineering.
+
+from aerospace
+https://www.google.com/search?sca_esv=94e5231ad7b8805c&rlz=1C1ONGR_enUS1070US1070&sxsrf=ACQVn0_Y01M5jvVeIz5BTLD3vTdFQpRlTg:1710735793799&q=books+on+aerospace+systems+engineering&tbm=bks&source=lnms&sa=X&ved=2ahUKEwjty6y6-_yEAxVzG9AFHcW1AQcQ0pQJegQIWxAB&biw=1535&bih=743&dpr=1.25
+
+from automotive
+
+https://www.google.com/search?q=books+on+automobile+systems+engineering&sca_esv=94e5231ad7b8805c&rlz=1C1ONGR_enUS1070US1070&biw=1535&bih=743&tbm=bks&sxsrf=ACQVn09eXVa8QjEFzcWyBGv_H62nJ2EQ-A%3A1710735799224&ei=t8H3ZeunDfGvur8PmcK--A8&ved=0ahUKEwir3_e8-_yEAxXxl-4BHRmhD_8Q4dUDCAk&uact=5&oq=books+on+automobile+systems+engineering&gs_lp=Eg1nd3Mtd2l6LWJvb2tzIidib29rcyBvbiBhdXRvbW9iaWxlIHN5c3RlbXMgZW5naW5lZXJpbmdIgyRQzwRYryJwAXgAkAEAmAHYAaABpRiqAQYwLjExLjW4AQPIAQD4AQGYAgKgAqQDwgIIEAAYgAQYogSYAwCIBgGSBwMyLTKgB-IX&sclient=gws-wiz-books
+
+ -->
+</section>
+<section id="very-few-papers-on-systems-engineering-of-medical-devices" class="level3" data-number="5.3.2">
+<h3 data-number="5.3.2" class="anchored" data-anchor-id="very-few-papers-on-systems-engineering-of-medical-devices"><span class="header-section-number">5.3.2</span> Very few papers on systems engineering of medical devices</h3>
+<p>There are very few papers on the application of systems engineering to medical devices. In the 34th Annual INCOSE International Symposium, of the 83 papers presented none were in the context of medical devices. Of the 48 presentations, only 2 were in the context of medical devices <span class="citation" data-cites="is2024">(<a href="references.html#ref-is2024" role="doc-biblioref"><strong>is2024?</strong></a>-)</span>.</p>
+<!--
+Presentation#33
+Bridging Systems Engineering Models and Multi-Fidelity
+Analytical Models - MBSE Application to a Medication
+Auto-Injector Design
+
+Presentation#40
+Modeling Data Management for a Next Generation Photon
+Counting CT Scanner
+-->
+</section>
+<section id="systems-engineering-is-used-more-in-other-fields" class="level3" data-number="5.3.3">
+<h3 data-number="5.3.3" class="anchored" data-anchor-id="systems-engineering-is-used-more-in-other-fields"><span class="header-section-number">5.3.3</span> Systems engineering is used more in other fields</h3>
+<p>Systems engineering is employed more in other fields than the medical device industry. Some of the top fields where systems engineering is used include:</p>
+<ul>
+<li><p><strong>Aerospace and Defense:</strong> Systems engineering plays a crucial role in designing and developing complex aircraft, spacecraft, missiles, and defense systems.</p></li>
+<li><p><strong>Automotive Industry:</strong> In the automotive sector, systems engineering is essential for designing vehicles with integrated and optimized systems for safety, performance, and efficiency.</p></li>
+<li><p><strong>Information Technology:</strong> Systems engineering is utilized in IT for designing, implementing, and managing large-scale computer systems, networks, and software applications.</p></li>
+<li><p><strong>Telecommunications:</strong> Systems engineering is vital for designing and optimizing telecommunications networks, including mobile networks, satellite systems, and internet infrastructure.</p></li>
+<li><p><strong>Energy Sector:</strong> Systems engineering is employed in the energy industry for designing and managing complex energy production and distribution systems, including power plants, renewable energy systems, and smart grids.</p></li>
+<li><p><strong>Transportation:</strong> Systems engineering is crucial in designing and optimizing transportation systems, including railways, highways, airports, and public transportation systems.</p></li>
+<li><p><strong>Manufacturing:</strong> Systems engineering is used in manufacturing for designing and optimizing production processes, supply chain management systems, and industrial automation systems.</p></li>
+<li><p><strong>Environmental Engineering:</strong> In environmental engineering, systems engineering is applied to design and manage complex environmental systems, such as water treatment plants, waste management systems, and pollution control systems.</p></li>
+<li><p><strong>Robotics and Automation:</strong> Systems engineering is essential for designing and integrating robotic systems and automation solutions across various industries, including manufacturing, healthcare, and agriculture.</p></li>
+</ul>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-coe2019" class="csl-entry" role="listitem">
+Coe, Mr Martin A. 2019. <em>Robust Systems Engineering for Medical Device Design</em>. Independently published.
+</div>
+<div id="ref-healthca" class="csl-entry" role="listitem">
+<span>“Healthcare Systems Engineering | Wiley.”</span> n.d. <a href="https://www.wiley.com/en-us/Healthcare+Systems+Engineering-p-9781118971086">https://www.wiley.com/en-us/Healthcare+Systems+Engineering-p-9781118971086</a>.
+</div>
+<div id="ref-sterman2000" class="csl-entry" role="listitem">
+Sterman, John, and John D. Sterman. 2000. <em>Business Dynamics: Systems Thinking and Modeling for a Complex World with CD-ROM</em>. HAR/CDR edition. Boston: McGraw-Hill Education.
+</div>
+</div>
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -683,13 +878,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./problem.html" class="pagination-link" aria-label="Problem">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Problem</span></span>
+      <a href="./methodology.html" class="pagination-link" aria-label="Methodology">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Methodology</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./sources.html" class="pagination-link" aria-label="Sources">
-        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Sources</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./mission.html" class="pagination-link" aria-label="Mission Description">
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Mission Description</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

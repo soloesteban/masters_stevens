@@ -12,7 +12,10 @@ book:
     - intro.qmd
     - background.qmd
     - methodology.qmd
+    - problem.qmd
     - mission.qmd
+    - sources.qmd
+    - stakeholders.qmd
     - goals_objectives.qmd
     - operational_analysis.qmd
     - physical_architecture.qmd
@@ -20,6 +23,9 @@ book:
     - references.qmd
   appendices:
     - survey.qmd
+    - standards.qmd
+    - definitions.qmd
+    - risks.qmd
 
 
 bibliography: references.bib

@@ -1,5 +1,9 @@
 # Problem
 
+<!--
+The content of this markdown file was migrated to the Quarto project. No need to update this file anymore.
+-->
+
 <!--Describe the problem that is being addressed here -->
 
 In recent years, the field of medical device systems engineering has gained significant attention due to the increasing complexity of medical devices and the rigorous regulatory requirements they must meet. As a result, there has been a noticeable growth in the number of books and resources dedicated to medical devices <!--this specialized area of systems engineering-->. Topics covered in these books may include regulatory compliance, risk management, quality assurance, and design principles tailored to medical devices. But there is very few books on systems engineering for medical devices.

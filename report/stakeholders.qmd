@@ -1,0 +1,64 @@
+---
+title: "Stakeholders"
+format: html
+---
+
+```{=html}
+<!-- 
+
+Make a digram of the stakeholders. Use as references the stakeholders viewpoint from the book on Systems Engineering dymistified.
+
+Stakeholders:
+
+Medical Device Systems Engineer
+Repository administrator
+Standards
+Academics
+Regulatory Bodies
+
+The medical device systems engineer can be both a customer and a source (SME for content creation for the repository)
+
+-->
+```
+
+::: {#fig-stakeholders_diagram}
+![](images/paste-17.png)
+
+Stakeholders View of the Medical Device Knowledge Repository
+:::
+
+@fig-stakeholders_diagram depicts a SysML block definition diagram (bdd) centered on a block named “Knowledge Repository” which represents a medical device systems engineering knowledge repository. The diagram showcases various stakeholders that have an interest in this repository.
+
+Here's a breakdown of the stakeholder that have interest in the “Knowledge Repository” block:
+
+-   **Government:** This block signifies government entities with an interest in the knowledge repository. This could include regulatory bodies that oversee the medical device industry.
+
+-   **Non-profit organizations:** This block represents non-profit organizations that may have a stake in the knowledge repository. This could include organizations such as AAMI (Association for the Advancement of Medical Instrumentation) that focus on patient safety or medical device innovation.
+
+-   **Standards organizations:** This block signifies standards organizations that set requirements for medical devices. These standards organizations would likely have an interest in ensuring that the knowledge repository includes information on relevant standards.
+
+-   **Systems Engineering Tool Vendors:** This block represents vendors that develop systems engineering tools. These vendors may have an interest in the knowledge repository as a way to improve the capabilities of their tools.
+
+-   **Regulatory Bodies:** This block signifies regulatory bodies that govern the medical device industry. These regulatory bodies would likely have an interest in ensuring that the knowledge repository includes information on relevant regulations.
+
+-   **Consultants:** This block represents consultants who provide services to the medical device industry. These consultants may have an interest in the knowledge repository as a way to stay up-to-date on the latest developments in medical device systems engineering.
+
+-   **Medical Device Systems Engineers:** This block signifies medical device systems engineers who design and develop medical devices. These engineers would likely be the primary users of the knowledge repository.
+
+-   **Academics:** This block represents academic institutions that conduct research in medical device systems engineering. These institutions may have an interest in the knowledge repository as a way to share their research findings.
+
+-   **Repository Host:** This block signifies the organization or entity that hosts the knowledge repository. This could be a government agency, a non-profit organization, or a commercial entity.
+
+-   **Administrator:** This block signifies the person or team responsible for administering the knowledge repository. This could include tasks such as adding new content, maintaining the repository software, and ensuring security.
+
+Overall, the SysML block definition diagram provides a useful high-level overview of the stakeholders who have an interest in the medical device systems engineering knowledge repository. This information is helpful for understanding the needs of these stakeholders and for planning the development and maintenance of the knowledge repository.
+
+<!--
+
+Some additional insights that can be gleaned from the diagram:
+
+-   The fact that the “Knowledge Repository” block is located in the center of the diagram suggests that it is a central resource that is important to all of the stakeholders.
+
+-   The lines connecting the stakeholder blocks to the “Knowledge Repository” block indicate that all of the stakeholders have a two-way relationship with the repository. In other words, the stakeholders can both access information from the repository and contribute information to the repository.
+
+-->
