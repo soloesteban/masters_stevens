@@ -65,7 +65,7 @@ Objectives
 
 ## Concept of Operations {#sec-concept_operations}
 
-This section defines the system context for the knowledge repository. The analysis employs a SysML block definition diagram.
+This section defines the system context for the MedSE knowledge repository. The analysis employs a SysML block definition diagram.
 
 A context diagram is a diagram that defines the boundary between the system, or part of a system, and its environment, showing the entities that interact with it. [@systemc2019] 
 

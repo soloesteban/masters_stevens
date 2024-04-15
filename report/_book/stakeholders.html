@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -75,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
 <body class="nav-sidebar floating">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -91,7 +111,23 @@ ul.task-list li input[type="checkbox"] {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Stakeholders</span></h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
@@ -237,25 +273,10 @@ ul.task-list li input[type="checkbox"] {
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Stakeholders</span></h1>
-</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
 
 
 <!-- 
@@ -271,9 +292,55 @@ Academics
 Regulatory Bodies
 
 The medical device systems engineer can be both a customer and a source (SME for content creation for the repository)
+
+-->
+<div id="fig-stakeholders_diagram" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-stakeholders_diagram-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/paste-17.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-stakeholders_diagram-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8.1: MedSE Knowledge Repository Stakeholders View
+</figcaption>
+</figure>
+</div>
+<p><a href="#fig-stakeholders_diagram" class="quarto-xref">Figure&nbsp;<span>8.1</span></a> depicts a SysML block definition diagram (bdd) centered on a block named “Knowledge Repository” which represents the MedSE knowledge repository. The diagram showcases various stakeholders that have an interest in this repository.</p>
+<p>There are three categories of stakeholders <span class="citation" data-cites="sterman2000">(<a href="references.html#ref-sterman2000" role="doc-biblioref">Sterman and Sterman 2000</a>)</span>, which are as follows:</p>
+<ul>
+<li><p><strong>Customer</strong>, which represents the set of roles that will benefit from the medical device systems engineering knowledge repository system.</p></li>
+<li><p><strong>External</strong>, which represents the set of roles that have an interest in the system that will limit or restrict the system in some way.</p></li>
+<li><p><strong>Supplier</strong>, which represents the set of roles that are interested in developing and delivering the system.</p></li>
+</ul>
+<p>Here’s a breakdown of the stakeholder that have interest in the “Knowledge Repository” block:</p>
+<ul>
+<li><p><strong>Government:</strong> This block signifies government entities with an interest in the knowledge repository. This could include regulatory bodies that oversee the medical device industry.</p></li>
+<li><p><strong>Non-profit organizations:</strong> This block represents non-profit organizations that may have a stake in the knowledge repository. This could include organizations such as AAMI (Association for the Advancement of Medical Instrumentation) that focus on patient safety or medical device innovation.</p></li>
+<li><p><strong>Standards organizations:</strong> This block signifies standards organizations that set requirements for medical devices. These standards organizations would likely have an interest in ensuring that the knowledge repository includes information on relevant standards.</p></li>
+<li><p><strong>Systems Engineering Tool Vendors:</strong> This block represents vendors that develop systems engineering tools. These vendors may have an interest in the knowledge repository as a way to improve the capabilities of their tools.</p></li>
+<li><p><strong>Regulatory Bodies:</strong> This block signifies regulatory bodies that govern the medical device industry. These regulatory bodies would likely have an interest in ensuring that the knowledge repository includes information on relevant regulations.</p></li>
+<li><p><strong>Consultants:</strong> This block represents consultants who provide services to the medical device industry. These consultants may have an interest in the knowledge repository as a way to stay up-to-date on the latest developments in medical device systems engineering.</p></li>
+<li><p><strong>Medical Device Systems Engineers:</strong> This block signifies medical device systems engineers who design and develop medical devices. These engineers would likely be the primary users of the knowledge repository.</p></li>
+<li><p><strong>Academics:</strong> This block represents academic institutions that conduct research in medical device systems engineering. These institutions may have an interest in the knowledge repository as a way to share their research findings.</p></li>
+<li><p><strong>Repository Host:</strong> This block signifies the organization or entity that hosts the knowledge repository. This could be a government agency, a non-profit organization, or a commercial entity.</p></li>
+<li><p><strong>Administrator:</strong> This block signifies the person or team responsible for administering the knowledge repository. This could include tasks such as adding new content, maintaining the repository software, and ensuring security.</p></li>
+</ul>
+<p>Overall, the SysML block definition diagram provides a useful high-level overview of the stakeholders who have an interest in the medical device systems engineering knowledge repository. This information is helpful for understanding the needs of these stakeholders and for planning the development and maintenance of the knowledge repository.</p>
+<!--
+
+Some additional insights that can be gleaned from the diagram:
+
+-   The fact that the “Knowledge Repository” block is located in the center of the diagram suggests that it is a central resource that is important to all of the stakeholders.
+
+-   The lines connecting the stakeholder blocks to the “Knowledge Repository” block indicate that all of the stakeholders have a two-way relationship with the repository. In other words, the stakeholders can both access information from the repository and contribute information to the repository.
+
 -->
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-sterman2000" class="csl-entry" role="listitem">
+Sterman, John, and John D. Sterman. 2000. <em>Business Dynamics: Systems Thinking and Modeling for a Complex World with CD-ROM</em>. HAR/CDR edition. Boston: McGraw-Hill Education.
+</div>
+</div>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

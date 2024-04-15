@@ -128,6 +128,73 @@ This causal loop illustrates how a lack of understanding of systems engineering 
 ```
 ## Contributing factors
 
+### Systems engineering is used more in other fields
+
+Systems engineering is employed more in other fields than the medical device industry. Some of the top fields where systems engineering is used include:
+
+-   **Aerospace and Defense:** Systems engineering plays a crucial role in designing and developing complex aircraft, spacecraft, missiles, and defense systems.
+
+-   **Automotive Industry:** In the automotive sector, systems engineering is essential for designing vehicles with integrated and optimized systems for safety, performance, and efficiency.
+
+-   **Information Technology:** Systems engineering is utilized in IT for designing, implementing, and managing large-scale computer systems, networks, and software applications.
+
+-   **Telecommunications:** Systems engineering is vital for designing and optimizing telecommunications networks, including mobile networks, satellite systems, and internet infrastructure.
+
+-   **Energy Sector:** Systems engineering is employed in the energy industry for designing and managing complex energy production and distribution systems, including power plants, renewable energy systems, and smart grids.
+
+-   **Transportation:** Systems engineering is crucial in designing and optimizing transportation systems, including railways, highways, airports, and public transportation systems.
+
+-   **Manufacturing:** Systems engineering is used in manufacturing for designing and optimizing production processes, supply chain management systems, and industrial automation systems.
+
+-   **Environmental Engineering:** In environmental engineering, systems engineering is applied to design and manage complex environmental systems, such as water treatment plants, waste management systems, and pollution control systems.
+
+-   **Robotics and Automation:** Systems engineering is essential for designing and integrating robotic systems and automation solutions across various industries, including manufacturing, healthcare, and agriculture.
+
+### Very few papers on systems engineering of medical devices
+
+There are very few papers on the application of systems engineering to medical devices that are published as articles, and/or presented in conferences.
+
+In the 34th Annual INCOSE International Symposium, of the 83 papers presented none were in the context of medical devices. Of the 48 presentations, only 2 were in the context of medical devices [@is2024-].
+
+```{=html}
+<!--
+Presentation#33
+Bridging Systems Engineering Models and Multi-Fidelity
+Analytical Models - MBSE Application to a Medication
+Auto-Injector Design
+
+Presentation#40
+Modeling Data Management for a Next Generation Photon
+Counting CT Scanner
+-->
+```
+An article database query was performed using a software called IHS Goldfire [@goldfire] to determine how many peer reviewed articles (including articles within books) discuss systems engineering of a medical device. IHS Goldfire is a software platform developed by IHS Markit that contains tools for knowledge discovery, problem-solving, technology scouting, innovation management, and intellectual property management. @tbl-query_results_papers shows the query results per application field. Between 1980 and 2024 there were a total of 3432 articles that discuss systems engineering of a medical device. This is significantly less than the 40732 peer reviewed articles found for systems engineering for military applications.
+
+<!--
+Optional content for this section
+
+![](images/paste-18.png)
+
+Most of the articles were published in Springer.
+
+![](images/paste-19.png)
+-->
+
+::: {#tbl-query_results_papers}
+| Application Field | Articles in books | Articles and Journals | Total |
+|-------------------|-------------------|-----------------------|-------|
+| Medical Devices   | 2799              | 633                   | 3432  |
+| Military          | 14908             | 25824                 | 40732 |
+| Aerospace         | 12443             | 19254                 | 31697 |
+| Automotive        | 13082             | 9433                  | 22515 |
+| Software          | 24587             | 48953                 | 73540 |
+| Telecomunications | 15897             | 10841                 | 26738 |
+| Transportation    | 20139             | 23044                 | 43183 |
+| Manufacturing     | 21205             | 28341                 | 49546 |
+
+Quantity of peer reviewed systems engineering articles per application field since 1980
+:::
+
 ### Lack of books and literature of systems engineering of medical devices
 
 The are very few books that teach systems engineering in the context of medical device development. Of the few books found are the following:
@@ -154,40 +221,3 @@ https://www.google.com/search?q=books+on+automobile+systems+engineering&sca_esv=
 
  -->
 ```
-### Very few papers on systems engineering of medical devices
-
-There are very few papers on the application of systems engineering to medical devices. In the 34th Annual INCOSE International Symposium, of the 83 papers presented none were in the context of medical devices. Of the 48 presentations, only 2 were in the context of medical devices [@is2024-].
-
-```{=html}
-<!--
-Presentation#33
-Bridging Systems Engineering Models and Multi-Fidelity
-Analytical Models - MBSE Application to a Medication
-Auto-Injector Design
-
-Presentation#40
-Modeling Data Management for a Next Generation Photon
-Counting CT Scanner
--->
-```
-### Systems engineering is used more in other fields
-
-Systems engineering is employed more in other fields than the medical device industry. Some of the top fields where systems engineering is used include:
-
--   **Aerospace and Defense:** Systems engineering plays a crucial role in designing and developing complex aircraft, spacecraft, missiles, and defense systems.
-
--   **Automotive Industry:** In the automotive sector, systems engineering is essential for designing vehicles with integrated and optimized systems for safety, performance, and efficiency.
-
--   **Information Technology:** Systems engineering is utilized in IT for designing, implementing, and managing large-scale computer systems, networks, and software applications.
-
--   **Telecommunications:** Systems engineering is vital for designing and optimizing telecommunications networks, including mobile networks, satellite systems, and internet infrastructure.
-
--   **Energy Sector:** Systems engineering is employed in the energy industry for designing and managing complex energy production and distribution systems, including power plants, renewable energy systems, and smart grids.
-
--   **Transportation:** Systems engineering is crucial in designing and optimizing transportation systems, including railways, highways, airports, and public transportation systems.
-
--   **Manufacturing:** Systems engineering is used in manufacturing for designing and optimizing production processes, supply chain management systems, and industrial automation systems.
-
--   **Environmental Engineering:** In environmental engineering, systems engineering is applied to design and manage complex environmental systems, such as water treatment plants, waste management systems, and pollution control systems.
-
--   **Robotics and Automation:** Systems engineering is essential for designing and integrating robotic systems and automation solutions across various industries, including manufacturing, healthcare, and agriculture.

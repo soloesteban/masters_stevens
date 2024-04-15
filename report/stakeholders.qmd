@@ -20,14 +20,21 @@ The medical device systems engineer can be both a customer and a source (SME for
 
 -->
 ```
-
 ::: {#fig-stakeholders_diagram}
 ![](images/paste-17.png)
 
-Stakeholders View of the Medical Device Knowledge Repository
+MedSE Knowledge Repository Stakeholders View 
 :::
 
-@fig-stakeholders_diagram depicts a SysML block definition diagram (bdd) centered on a block named “Knowledge Repository” which represents a medical device systems engineering knowledge repository. The diagram showcases various stakeholders that have an interest in this repository.
+@fig-stakeholders_diagram depicts a SysML block definition diagram (bdd) centered on a block named “Knowledge Repository” which represents the MedSE knowledge repository. The diagram showcases various stakeholders that have an interest in this repository.
+
+There are three categories of stakeholders [@sterman2000], which are as follows:
+
+-   **Customer**, which represents the set of roles that will benefit from the medical device systems engineering knowledge repository system.
+
+-   **External**, which represents the set of roles that have an interest in the system that will limit or restrict the system in some way.
+
+-   **Supplier**, which represents the set of roles that are interested in developing and delivering the system.
 
 Here's a breakdown of the stakeholder that have interest in the “Knowledge Repository” block:
 
@@ -53,6 +60,7 @@ Here's a breakdown of the stakeholder that have interest in the “Knowledge Rep
 
 Overall, the SysML block definition diagram provides a useful high-level overview of the stakeholders who have an interest in the medical device systems engineering knowledge repository. This information is helpful for understanding the needs of these stakeholders and for planning the development and maintenance of the knowledge repository.
 
+```{=html}
 <!--
 
 Some additional insights that can be gleaned from the diagram:
@@ -62,3 +70,4 @@ Some additional insights that can be gleaned from the diagram:
 -   The lines connecting the stakeholder blocks to the “Knowledge Repository” block indicate that all of the stakeholders have a two-way relationship with the repository. In other words, the stakeholders can both access information from the repository and contribute information to the repository.
 
 -->
+```

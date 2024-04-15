@@ -19,13 +19,15 @@ Papers
 
 -->
 ```
+## Source model
+
 ::: {#fig-sources_needs_requirements}
 ![](images/paste-16.png)
 
-Knowledge Repository System sources of needs and requirements
+The MedSE Knowledge Repository System sources of needs and requirements
 :::
 
-@fig-sources_needs_requirements is a SysML block definition diagram that shows the sources of needs and requirements for designing a knowledge repository for medical device systems engineering. The blocks in the diagram represent different sources of information that can be used to identify the needs and requirements of the knowledge repository.
+@fig-sources_needs_requirements is a SysML block definition diagram that shows the sources of needs and requirements for designing a MedSE knowledge repository. The blocks in the diagram represent different sources of information that can be used to identify the needs and requirements of the knowledge repository.
 
 The diagram lists valid (legal source element) sources:
 
@@ -51,18 +53,131 @@ The diagram lists valid (legal source element) sources:
 
 The inclusion of "Forbidden Source Element" highlights the importance of critical evaluation when selecting information sources. Reliable and verifiable sources like publications, standards, and legal databases should be prioritized for designing the knowledge repository.
 
-**Papers**
+## Articles
 
-Some example papers found that can serve as source for the design of the medical device systems engineering repository are:
+Some example articles found that can serve as source for the design of the MedSE knowledge repository are:
 
 -   Jones, D.J. and Masters, M.T. (2008), 11.1.3 Medical Device Development Process. INCOSE International Symposium, 18: 1215-1230. https://doi.org/10.1002/j.2334-5837.2008.tb00873.x [@jones2008]
 -   Maheshwari, Apoorv. (2015). Application of Systems Engineering to Regulatory Compliance Activities for Medical Devices. [@maheshwari2015]
 -   Corns, S. and Gibson, C. (2012), A Model-based Reference Architecture for Medical Device Development. INCOSE International Symposium, 22: 2066-2075. <https://doi.org/10.1002/j.2334-5837.2012.tb01457.x> [@corns2012]
 
-**Submissions of medical devices**
+## Medical Device Trends
 
-**Webinars**
+The FDA provides public databases and reports that can provide insight of what are the most common medical devices that are in use and the characteristics of those devices [@health2024].
 
+### Medical Device Classification
+
+@fig-distribution_class_medical_device shows the distribution in percentage of medical devices registered with the FDA by class, as of February 1, 2024.
+
+::: {#fig-distribution_class_medical_device}
+![](images/paste-20.png)
+
+Distribution of Medical Devices Registered with the FDA (as of February 1, 2024)
+:::
+
+Here's a breakdown of the data displayed in the chart:
+
+-   Class III makes up the largest portion of registered devices at around 60%.
+
+-   Class II is the second most common class of device at around 35%.
+
+-   Class I devices and "Other" devices each make up a smaller portion of registered devices.
+
+It is important to note that the FDA regulates medical devices based on the level of risk they pose to patients. Class III devices are considered the highest risk, while Class I devices are considered the lowest risk [@health2023].
+
+### Implantable versus non-implantable
+
+@fig-implantable_versus_plantable is a line graph that shows the percentage of implantable and non-implantable medical devices.
+
+::: {#fig-implantable_versus_plantable}
+![](images/paste-21.png)
+
+Proportion of Implantable vs. Non-Implantable Medical Devices Registered with the FDA (as of February 1, 2024)
+:::
+
+The data shows that as of February 1, 2024, implantable medical devices make up a smaller percentage of registered devices than non-implantable devices.
+
+Implantable medical devices are devices that are inserted into the body for a long period of time. Examples of implantable medical devices include pacemakers, artificial hips, and breast implants. Non-implantable medical devices are devices that are used on the body but are not inserted into it. Examples of non-implantable medical devices include stethoscopes, blood pressure cuffs, and bandages.
+
+### Medical Specialties
+
+@fig-Medical_Devices_Specialty shows the distribution of FDA-registered medical devices by medical specialty, based on FDA product codes, as of February 1, 2024.
+
+::: {#fig-Medical_Devices_Specialty}
+![](images/paste-22.png)
+
+Distribution of FDA-Registered Medical Devices by Medical Specialty (as of February 1, 2024)
+:::
+
+Here's what we can gleaned from the chart:
+
+-   **Specialties with the most devices:** The specialties with the highest percentage of registered devices are:
+
+    -   Orthopedic
+
+    -   General and Plastic Surgery
+
+    -   Cardiovascular
+
+    -   General Hospital
+
+-   **Specialties with the least devices:** The specialties with the lowest percentage of registered devices are:
+
+    -   Clinical Toxicology
+
+    -   Immunology
+
+    -   Microbiology
+
+    -   Clinical Chemistry
+
+    -   Hematology
+
+It's important to note that the number of devices registered in a particular specialty doesn't necessarily reflect the number of procedures performed in that specialty. For example, there may be a relatively small number of complex orthopedic devices compared to the number of simple bandages used in wound care, but both would be classified under orthopedic devices.
+
+Some reasons why some specialties might have more devices than others:
+
+-   **Surgical specialties:** Surgical specialties tend to have a wider variety of devices because they use devices for a variety of procedures.
+
+-   **Chronic conditions:** Specialties that treat chronic conditions may have a wider variety of devices because they may use devices to monitor or treat the condition over time.
+
+### FDA Product Code
+
+@fig-FDA_Product_Codes_Terms_Devices is word cloud that highlights the most frequent terms from FDA Product Codes of registered devices.
+
+::: {#fig-FDA_Product_Codes_Terms_Devices}
+![](images/paste-23.png)
+
+Most frequent FDA Product Codes Terms of the registered devices (as of February 1, 2024)
+:::
+
+Based on the word cloud, the most frequent FDA Product Code Terms for registered medical devices with the FDA as of February 1, 2024:
+
+-   **Surgical**
+
+-   **Tracheostomy**
+
+-   **Cardiovascular**
+
+-   **Wireless**
+
+-   **Synthetic**
+
+-   **Adult**
+
+-   **Cervical**
+
+-   **Spinal**
+
+-   **Electrode**
+
+-   **Plastic**
+
+It appears that surgical devices and those used in cardiology are the most common. There is also a high prevalence of terms related to materials like synthetic and plastic, along with terms related to location or application like cervical and tracheostomy.
+
+## Webinars
+
+```{=html}
 <!--
 
 Find two or more example webinars that discuss systems engineering of medical devices
@@ -73,10 +188,12 @@ Author: Katie McHugh, Lead Systems Engineer, MPR Associates, Inc.
 Include it as reference
 
 -->
+```
+Webinars that discuss systems engineering in the medical device industry can serve as sources for the needs and requirements of the MedSE knowledge repository. Two examples of webinars that were analyzed to extract source information were the following.
 
-Webinars that discuss systems engineering in the medical device industry can serve as sources for the needs and requirements of the knowledge repository. An example is MassMEDIC Sponsored Webinar: Systems Engineering for Medical Device Development by Sunrise Labs, Inc [@massmedi2022]. Thjis webinar discussed how Systems Engineering contributes to success in complex medical device development, by discussing the role of a Systems Engineer and describing the Systems Engineering process.
+### MassMEDIC Sponsored Webinar: Systems Engineering for Medical Device Development by Sunrise Labs, Inc [@massmedi2022].
 
-The medical device systems engineering knowledge repository should cover points mentioned in the webinar:
+This webinar discussed how Systems Engineering contributes to success in complex medical device development, by discussing the role of a Systems Engineer and describing the Systems Engineering process. From this webinar, the MedSE knowledge repository should incorporate the following key points:
 
 -   **Foundational Concepts:**
     -   Define Medical Device Systems Engineering and its role in the development lifecycle.
@@ -97,6 +214,99 @@ The medical device systems engineering knowledge repository should cover points 
 -   **Case Studies:**
     -   Real-world examples showcasing successful application of Systems Engineering in medical device development.
 
+### Systems Perspective Engineering : A webinar on Medical Device product development [@systems2020]
+
+```{=html}
+<!--
+Systems Perspective Engineering : A webinar on Medical Device product development
+
+Aug 24, 2020
+Usability engineering can be viewed as a product lifecycle process and can be effectively integrated with an overall systems engineering approach.
+
+ When viewed with this systems perspective, we see users and their needs, environments, constraints, and risks as part of the product or device under development.
+
+ In this session, participants will explore this systems perspective on usability engineering and how it can be integrated in an overall development process. 
+
+About our Speakers: Katie McHugh, Lead Systems Engineer, MPR Associates, Inc. Kathleen McHugh is a project manager and lead systems engineer with over 15 years of experience designing a wide variety of medical device systems. Her experience ranges from low-cost single use devices to complex, electromechanical systems for both hospital and home use. As the leader of MPR's systems engineering center of excellence, Kathleen has a particular focus on project management, systems engineering, usability and risk management processes.
+Key moments
+-->
+```
+This webinar discussed how usability engineering can be integrated into the systems engineering process for medical device development. From this webinar, the MedSE knowledge repository should incorporate the following key points:
+
+-   **Usability Engineering Process:**
+
+    -   Iterative process applied throughout development.
+
+    -   Complements design control and risk management.
+
+    -   Follows IEC 62366 and FDA guidance.
+
+    -   Involves user research, task analysis, risk analysis, formative evaluations, and summative validation.
+
+-   **Systems Engineering Approach (V Model):**
+
+    -   Starts with understanding user needs and defining requirements.
+
+    -   Breaks down the system into manageable pieces.
+
+    -   Focuses on mitigating technical risks early.
+
+    -   Integrates different disciplines throughout development.
+
+-   **Why Integrate Usability into Systems Engineering?**
+
+    -   Usability is a project-level risk that should be mitigated early.
+
+    -   Usability engineering tools complement the V model.
+
+    -   Early integration reduces design risk and rework later.
+
+-   **Who Owns Usability?**
+
+    -   Ideally, the systems engineer due to their focus on mitigating risks.
+
+    -   Can be someone else with influence to plan and integrate usability activities.
+
+-   **Usability Engineering Strategy:**
+
+    -   Should be planned early and scaled based on device risk.
+
+    -   Defines the types of evaluations and resources needed throughout development.
+
+    -   Integrates usability activities throughout all development phases.
+
+-   **Recommendations for Reducing Usability Risk:**
+
+    -   Consider usability risk mitigation early in system architecture planning.
+
+    -   Shift usability evaluation of critical hardware subsystems earlier.
+
+    -   Evaluate software user interfaces before coding and implementation.
+
+    -   Develop instructions for use and training as subsystems to be iterated on.
+
+    -   Strategically sequence development of features based on usability risk.
+
+    -   Plan ahead for materials and control of devices for usability studies.
+
+**Additionally, the webinar covered:**
+
+-   Examples of usability engineering tools used throughout the development process.
+
+-   How to develop a usability engineering plan.
+
+-   How to conduct usability studies at different development phases.
+
+## Survey
+
+```{=html}
 <!--
 Include an explanation of the survey. Results and reference the sections in the Appendix.
+-->
+```
+
+## Training program outlines
+
+<!--
+Review the outlines of trainings provided by consultants
 -->
