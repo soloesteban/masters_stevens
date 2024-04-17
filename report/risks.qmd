@@ -49,3 +49,27 @@ The following risks have been identified for medical device companies that can b
 - Ability to execute appropriate decisions to discontinue, write-down or reduce the funding of any research and development projects, including projects from in-process research and development from acquisitions, in growth adjacencies or otherwise,
 
 - Dependence on acquisitions, alliances or investments to introduce new products or technologies and to enter new or adjacent growth markets and ability to fund them or to fund contingent payments with respect to those acquisitions, alliances and investments.
+
+
+<!--
+
+Risks captured from the Abbott 10-k available at https://www.abbottinvestor.com/node/36356/html
+
+https://www.abbottinvestor.com/financials/sec-filings
+
+
+Abbott’s research and development efforts may not succeed in developing commercially successful products and technologies, which may cause Abbott’s revenue and profitability to decline:
+
+To remain competitive, Abbott must continue to launch new products and technologies. To accomplish this, Abbott commits substantial efforts, funds, and other resources to research and development. A risk of failure is inherent in the research and development of new products and technologies. Abbott must make ongoing substantial expenditures without any assurance that its efforts will be commercially successful. Failure can occur at any point in the process, including after significant funds have been invested.
+Promising new products and technologies may fail to reach the market or may only have limited commercial success because of efficacy or safety concerns, failure to achieve positive clinical outcomes, inability to obtain necessary regulatory approvals, limited scope of approved uses, excessive costs to manufacture, failure to establish or maintain intellectual property rights, or infringement of the intellectual property rights of others. Even if Abbott successfully develops new products or enhancements or new generations of Abbott’s existing products, they may be quickly rendered obsolete by changing customer preferences, changing industry or regulatory standards, or competitors’ innovations. Innovations may not be accepted quickly in the marketplace because of, among other things, entrenched patterns of clinical practice or uncertainty over third-party reimbursement. Abbott cannot state with certainty when or whether any of its products under development will be launched, whether it will be able to develop, license, or otherwise acquire compounds or products, or whether any products will be commercially successful. Failure to launch successful new products or technologies, or new indications or uses for existing products, may cause Abbott’s products or technologies to become obsolete, causing Abbott’s revenues and operating results to suffer.
+
+Significant safety concerns could arise for Abbott’s products, which could have a material adverse effect on Abbott’s revenues and financial condition:
+
+Health care products typically receive regulatory approval based on data obtained in controlled clinical trials of limited duration. Following regulatory approval, these products will be used over longer periods of time in many patients. Investigators may also conduct additional, and perhaps more extensive, studies. When new safety concerns are reported, Abbott may be required to amend the conditions of use for a product. For example, Abbott may be required to provide additional warnings on a product’s label or narrow its approved intended use, either of which could reduce the product’s market acceptance. If serious safety concerns arise with an Abbott product, sales of the product have been and could be halted by Abbott or by regulatory authorities. Safety concerns affecting suppliers’ or competitors’ products also may reduce the market acceptance of Abbott’s products.
+In addition, in the ordinary course of business, Abbott is the subject of product liability claims and lawsuits alleging that its products or the products of other companies that Abbott promotes have resulted or could result in an unsafe condition for, or injury to, patients. Product liability claims and lawsuits, safety alerts or product recalls, and other allegations of product safety or quality issues, regardless of their validity or ultimate outcome, may have a material adverse effect on Abbott’s business and reputation and on Abbott’s ability to attract and retain customers. Consequences may also include additional costs, a decrease in market share for the products, lower income or exposure to other claims. Product liability losses are self-insured and could have a material adverse effect on Abbott’s profitability, cash flows, and financial condition.
+
+New products and technological advances by Abbott’s competitors may negatively affect Abbott’s results of operations:
+
+Abbott’s products face intense competition from competitors' products and technological advances. Competitors’ products may be safer, more effective, more effectively marketed or sold, or have lower prices or superior performance features than Abbott’s products. Further, the development of new technology, health care products and medicines, and the development of new treatments for disease could significantly change the competitive landscape of the health care industry and negatively impact the demand for certain Abbott products. Abbott cannot predict with certainty the timing or impact of the introduction of competitors’ products and technological advances.
+
+-->

@@ -51,7 +51,7 @@ The book is available to purchase from Wiley at https://www.wiley.com/en-us/Heal
 
 https://www.tonex.com/training-courses/systems-engineering-for-medical-device-development/
 
-A company called Tonex provides a course called *"Systems Engineering for Medical Device Development"*
+A company called Tonex<!--citation needed--> provides a course called *"Systems Engineering for Medical Device Development"*
 
 Course objectives:
 - Understand the fundamentals of systems engineering as applied to medical device development.
@@ -99,7 +99,6 @@ Company: RBC Medical Innovations 15200 Santa Fe Trail Drive Suite 100 Lenexa, KS
 
 https://rbccorp.com/medical-device-design-development/systems-engineering-support/
 
-
-
 ## Interview with an AI agent that plays the role of a medical device systems engineer
 
+<!-- Ask AI to act like a systems engineer who works with medical devices. Ask questions to the AI -->
