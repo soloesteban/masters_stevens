@@ -1,18 +1,11 @@
 # References
 
-<!-- Would need to migrate the references to BIB format in order to cite in the .qmd files and render-->
-
-https://www.linkedin.com/pulse/mbse-arcadia-method-ontology-elements-traceability-helder-castro/
+<!-- The content in this document migrated to the Quarto report
 
 https://sebokwiki.org/wiki/Healthcare_Systems_Engineering
 
 - [ ] Consult paper 2015 INCOSE IS best paper *“SysML Activity Models for Applying ISO 14971 Medical Device Risk and Safety Management Across the System Lifecycle”*.
 
-<!--
-
-Migrated the content in this comment block to the Quarto report
-
-Migrated the content in this comment block to the Quarto report
 - ISO 15288: Systems and software engineering - System life cycle processes
 - ISO 14971: Application of Risk Management to Medical Devices
 - IEC 62366-1: Application of Usability Engineering to Medical Devices
@@ -43,15 +36,13 @@ Healthcare systems engineering overlaps with industrial engineering, operations 
 
 The book is available to purchase from Wiley at https://www.wiley.com/en-us/Healthcare+Systems+Engineering-p-9781118971086
 
--->
-
 # Courses directed to systems engineers who work in the medical device industry
 
-<!--Another source for the system design inputs can be the outline of courses directed to systems engineers who work in the medical device Industry. I could compare the outlines of several training courses to find commonalities in objectives, topics and training materials they use. --->
+Another source for the system design inputs can be the outline of courses directed to systems engineers who work in the medical device Industry. I could compare the outlines of several training courses to find commonalities in objectives, topics and training materials they use.
 
 https://www.tonex.com/training-courses/systems-engineering-for-medical-device-development/
 
-A company called Tonex<!--citation needed--> provides a course called *"Systems Engineering for Medical Device Development"*
+A company called Tonex provides a course called *"Systems Engineering for Medical Device Development"*
 
 Course objectives:
 - Understand the fundamentals of systems engineering as applied to medical device development.
@@ -89,11 +80,11 @@ Course Outline:
 
 ## Job Profiles of Systems Engineers who work in medical device companies
 
-<!-- Investigate and review the job profiles of systems engineers who work in the medical device industry. Check what skills, talents and functions are requested. What is the most important skills and knowledge that is being requested. Probably a sample of 10 could be sufficient.--->
+Investigate and review the job profiles of systems engineers who work in the medical device industry. Check what skills, talents and functions are requested. What is the most important skills and knowledge that is being requested. Probably a sample of 10 could be sufficient.
 
 ## Companies that offer systems engineering services for medical device development
 
-<!-- Investigate the companies that offer systems engineering services for medical device development. Check what skills, knowledge they have that the offer that their clients don't have or is insufficient. What resources do they use-->
+Investigate the companies that offer systems engineering services for medical device development. Check what skills, knowledge they have that the offer that their clients don't have or is insufficient. What resources do they use
 
 Company: RBC Medical Innovations 15200 Santa Fe Trail Drive Suite 100 Lenexa, KS
 
@@ -101,4 +92,4 @@ https://rbccorp.com/medical-device-design-development/systems-engineering-suppor
 
 ## Interview with an AI agent that plays the role of a medical device systems engineer
 
-<!-- Ask AI to act like a systems engineer who works with medical devices. Ask questions to the AI -->
+Ask AI to act like a systems engineer who works with medical devices. Ask questions to the AI -->

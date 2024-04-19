@@ -6,7 +6,7 @@ This document contains snippets of content, ideas, tasks
 
 - [X] Complete the systems engineering survey.
 - [X] Test out survey (verify the survey) <!-- Would be interesting to mention that the survey was designed and verified --> <!-- in progress-->
-- [ ] Run survey <!--Try to run the survey at the INCOSE Healthcare conference and the Boston Scientific Systems Engineering Community of Practice-->
+- [X] Run survey <!--Try to run the survey at the INCOSE Healthcare conference and the Boston Scientific Systems Engineering Community of Practice-->
 - [ ] Complete book architecture: logical and physical
 - [X] Idea. I could develop a casual loop explaining how an increase of medical device system engineering knowledge among systems engineers would lead to an increase of more successful medical systems.
 - [X] Contact the Fellow Systems Engineer Mathan Krishnappan under Emem and ask about what he thinks of a book about medical device systems engineering. I put a meeting for Friday March 29, 2024.
