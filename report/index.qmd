@@ -1,5 +1,13 @@
 # Preface {.unnumbered}
 
-This is a Quarto report of the Masters Project in Systems Engineering.
+::: {.callout-caution}
+The report published on this website is a draft and subject to frequent updates. Please be aware that the content may change over time as revisions are made. Thank you for your understanding.
+:::
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+::: {.callout-tip}
+If you have questions, comments, or feedback, please contact Esteban Solorzano.
+
+[esteban.solorzano@gmail.com](esteban.solorzano@gmail.com)
+:::
+
+This is the report of the Medical Device Systems Engineering (MedSE) Knowledge Repository.

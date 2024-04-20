@@ -3,6 +3,16 @@ title: "Problem"
 format: html
 ---
 
+::: {.callout-caution}
+The report published on this website is a draft and subject to frequent updates. Please be aware that the content may change over time as revisions are made. Thank you for your understanding.
+:::
+
+::: {.callout-tip}
+If you have questions, comments, or feedback, please contact Esteban Solorzano.
+
+[esteban.solorzano@gmail.com](esteban.solorzano@gmail.com)
+:::
+
 ## Problem Statement
 
 ```{=html}

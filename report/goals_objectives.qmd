@@ -3,6 +3,17 @@ title: "Goals and Objectives"
 format: html
 ---
 
+::: {.callout-caution}
+The report published on this website is a draft and subject to frequent updates. Please be aware that the content may change over time as revisions are made. Thank you for your understanding.
+:::
+
+::: {.callout-tip}
+If you have questions, comments, or feedback, please contact Esteban Solorzano.
+
+[esteban.solorzano@gmail.com](esteban.solorzano@gmail.com)
+:::
+
+
 @sec-stakeholders provides the list of active, passive and sponsor stakeholders of the programmable playground system. @sec-stakeholders_expectations provides the list of stakeholder expectations that are classified as either capability or characteristic. @sec-sacred_expectations extracts which stakeholder expectations are considered sacred. @sec-objectives provides the system objectives. @sec-concept_operations explains the concept of operations of the system.
 
 ## Stakeholders {#sec-stakeholders}

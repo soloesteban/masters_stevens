@@ -3,8 +3,22 @@ title: "Conclusions"
 format: html
 ---
 
+::: {.callout-caution}
+The report published on this website is a draft and subject to frequent updates. Please be aware that the content may change over time as revisions are made. Thank you for your understanding.
+:::
+
+::: {.callout-tip}
+If you have questions, comments, or feedback, please contact Esteban Solorzano.
+
+[esteban.solorzano@gmail.com](esteban.solorzano@gmail.com)
+:::
+
 The following are the conclusions of the project:
+
 - Explain the importance of a systematic and comprehensive approach to medical device development, particularly emphasizing the integration of systems engineering principles.
+
 - Highlight the evolving landscape of healthcare technology, the critical need to prioritize safety, efficacy, and compliance in device development, and the unique challenges posed by medical devices within this context.
+
 - Explain the proposed project's objectives, methodology, and collaborative approach, recognizing the value of creating a cohesive resource that synthesizes knowledge, educates stakeholders, provides practical guidance, and fosters deeper understanding of regulatory requirements.
+
 - Ephasize the significance of addressing these considerations holistically to ensure the successful development and deployment of safe and effective medical devices.

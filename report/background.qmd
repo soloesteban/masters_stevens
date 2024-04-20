@@ -8,6 +8,16 @@ format: html
 This document provides background to the project
 -->
 ```
+::: {.callout-caution}
+The report published on this website is a draft and subject to frequent updates. Please be aware that the content may change over time as revisions are made. Thank you for your understanding.
+:::
+
+::: {.callout-tip}
+If you have questions, comments, or feedback, please contact Esteban Solorzano.
+
+[esteban.solorzano@gmail.com](esteban.solorzano@gmail.com)
+:::
+
 ## Systems Engineering in Medical Device Industry
 
 David M. Cronin from a company called Cognition that provides software solutions for requirements management and lifecycle management of medical devices states that for many, the phrase “systems engineering” is typically associated with large aerospace and defense companies; companies making products that are developed over many years, with long lives in the market, extremely high costs, and a relatively low total number of products manufactured. Many of these companies also employ “large,” permanent teams of systems engineers, which could be daunting to a small device company. Few device engineers are seen at conferences on systems engineering. Instead, these events include transportation, infrastructure, government, space, and of course aerospace and defense. A casual observer might think that systems engineering is not intended for the medical device industry. This is unfortunate!" [@cronina]. <!-- source: https://blog.cognition.us/medical-product-development-systems-engineering -->

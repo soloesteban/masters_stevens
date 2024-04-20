@@ -3,6 +3,16 @@ title: "Methodology"
 format: html
 ---
 
+::: {.callout-caution}
+The report published on this website is a draft and subject to frequent updates. Please be aware that the content may change over time as revisions are made. Thank you for your understanding.
+:::
+
+::: {.callout-tip}
+If you have questions, comments, or feedback, please contact Esteban Solorzano.
+
+[esteban.solorzano@gmail.com](esteban.solorzano@gmail.com)
+:::
+
 The study adopts a Systems Engineering approach, which involves analyzing the entire content management process as a system with interconnected components. This methodology allows for a holistic understanding of the system's requirements, interactions, and potential improvements. The research methodology encompasses:
 
 1.  **Requirement Analysis:** Identifying the key requirements for efficient content management, including version control, compatibility with various file formats, and ease of collaboration.
@@ -20,7 +30,7 @@ The following methodology was used for the Masters Project in Systems Engineerin
 -   Select and utilize industry standards such as IEC 15288 and the INCOSE (International Council on Systems Engineering) Systems Engineering Handbook @incose_incose_2023.
 -   Literature Review: Conduct an extensive review of existing literature, research papers, and relevant resources in the field of systems engineering and medical devices.
 -   Interviews and Surveys: Collect insights and best practices from industry experts, professionals, and academics in both systems engineering and medical device development.
--   Content Development: Create well-structured chapters and sections based on the outlined scope, ensuring clarity and coherence throughout the book.
+-   Content Development: Create well-structured chapters and sections based on the outlined scope, ensuring clarity and coherence.
 -   Graphics and Illustrations: Include diagrams, flowcharts, and illustrations to enhance understanding and provide practical examples.
 -   Peer Review: Seek input and feedback from experts in the field to validate the content's accuracy and relevance.
 -   Use Git and/or GitHub as repository for the master’s project artifacts.
