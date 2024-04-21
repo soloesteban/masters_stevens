@@ -98,7 +98,9 @@ Here's a breakdown of the data displayed in the chart:
 
 -   Class I devices and "Other" devices each make up a smaller portion of registered devices.
 
-It is important to note that the FDA regulates medical devices based on the level of risk they pose to patients. Class III devices are considered the highest risk, while Class I devices are considered the lowest risk [@health2023].
+::: {.callout-note}
+The FDA regulates medical devices based on the level of risk they pose to patients. Class III devices are considered the highest risk, while Class I devices are considered the lowest risk [@health2023].
+:::
 
 ### Implantable versus non-implantable
 
@@ -148,7 +150,9 @@ Here's what we can gleaned from the chart:
 
     -   Hematology
 
-It's important to note that the number of devices registered in a particular specialty doesn't necessarily reflect the number of procedures performed in that specialty. For example, there may be a relatively small number of complex orthopedic devices compared to the number of simple bandages used in wound care, but both would be classified under orthopedic devices.
+::: {.callout-note}
+The number of devices registered in a particular specialty doesn't necessarily reflect the number of procedures performed in that specialty. For example, there may be a relatively small number of complex orthopedic devices compared to the number of simple bandages used in wound care, but both would be classified under orthopedic devices.
+:::
 
 Some reasons why some specialties might have more devices than others:
 
@@ -312,13 +316,6 @@ This webinar discussed how usability engineering can be integrated into the syst
 
 -   How to conduct usability studies at different development phases.
 
-## Survey
-
-```{=html}
-<!--
-Include an explanation of the survey. Results and reference the sections in the Appendix.
--->
-```
 ## Courses directed to systems engineers who work in the medical device industry
 
 <!--Another source for the system design inputs can be the outline of courses directed to systems engineers who work in the medical device Industry. I could compare the outlines of several training courses to find commonalities in objectives, topics and training materials they use. --->
@@ -685,6 +682,22 @@ The following sources for the MedSE Knowledge Repository was obtained from the a
 -   Real-world examples and exercises to reinforce learning and practical application.
 
 -   Guidance on professional development resources and certifications relevant to the field.
+
+## Survey
+
+```{=html}
+<!--
+Include an explanation of the survey. Results and reference the sections in the Appendix.
+-->
+```
+This section dives into the insights gleaned from a survey conducted in April 2024. The survey targeted systems engineers working in the field of medical device development. The survey received responses from a diverse group of professionals from leading companies including Boston Scientific, the FDA, Nudge BG, BIOTRONIK, and others. The primary objective of this survey was to identify the knowledge and resources that are most valuable to medical device systems engineers in their daily work.
+
+The analysis of the survey responses was aimed to inform the development of the MedSE knowledge repository.
+
+The following section will present a detailed analysis of the survey findings.<!--Explore the  methodologies, tools, and regulations  considered most valuable by medical device systems engineers.  We will also examine the learning formats they find most accessible and beneficial  for  professional development. These insights will guide the content selection and structure of the knowledge repository, ensuring it effectively addresses the needs and preferences of its target audience.-->
+
+For reference, the template used for the survey questions is included in [Appendix Survey](/survey.qmd) of this report. This will allow readers to gain a deeper understanding of the specific questions asked and the context surrounding the survey responses.
+
 
 ```{=html}
 <!--

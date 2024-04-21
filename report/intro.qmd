@@ -17,7 +17,11 @@ The field of medical device development is rapidly evolving, with advancements i
 The creation of a comprehensive knowledge repository on the systems engineering of medical devices is essential to bridge the knowledge gap between engineering and healthcare, ensuring the continued development of safe and effective medical technologies. This project aims to contribute significantly to this important field, benefiting professionals, students, and the broader healthcare industry.
 
 This system <!--(book)-->will serve as a valuable resource for:
+
 - Systems engineers looking to specialize in medical device development.
+
 - Healthcare professionals and clinicians seeking a deeper understanding of the engineering processes behind medical devices.
+
 - Regulatory experts striving to align systems engineering practices with compliance requirements.
+
 - Students and educators in systems engineering and biomedical engineering programs.

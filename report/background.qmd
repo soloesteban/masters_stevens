@@ -8,14 +8,14 @@ format: html
 This document provides background to the project
 -->
 ```
-::: {.callout-caution}
+::: callout-caution
 The report published on this website is a draft and subject to frequent updates. Please be aware that the content may change over time as revisions are made. Thank you for your understanding.
 :::
 
-::: {.callout-tip}
+::: callout-tip
 If you have questions, comments, or feedback, please contact Esteban Solorzano.
 
-[esteban.solorzano@gmail.com](esteban.solorzano@gmail.com)
+[esteban.solorzano\@gmail.com](esteban.solorzano@gmail.com)
 :::
 
 ## Systems Engineering in Medical Device Industry
@@ -24,9 +24,7 @@ David M. Cronin from a company called Cognition that provides software solutions
 
 ## What is a Medical System?
 
-According to the FDA a medical device (system) is “any instrument, machine, contrivance, implant, in vitro reagent that's intended to treat, cure, prevent, mitigate, diagnose disease”
-
-Source: Section 201(h) of the Federal Food, Drug, and Cosmetic Act
+According to Section 201(h) of the Federal Food, Drug, and Cosmetic Act, a medical device (system) is “any instrument, machine, contrivance, implant, in vitro reagent that's intended to treat, cure, prevent, mitigate, diagnose disease” [@21usc3].
 
 ### Examples of medical systems
 
@@ -103,14 +101,21 @@ Include photos of examples of medical devices
 
 ## Medical Device Regulation
 
-The medical devices that are manufactured, marketed and commercializeed are subject to regulation by numerous worldwide regulatory bodies, including the FDA and comparable international regulatory agencies. These agencies require manufacturers of medical devices to comply with applicable laws and regulations governing development, testing, manufacturing, labeling, marketing and distribution. Medical devices are also generally subject to varying levels of regulatory control based on risk level of the device.
+The medical devices that are manufactured, marketed and commercialized are subject to regulation by numerous worldwide regulatory bodies, including the FDA and comparable international regulatory agencies. These agencies require manufacturers of medical devices to comply with applicable laws and regulations governing development, testing, manufacturing, labeling, marketing and distribution. Medical devices are also generally subject to varying levels of regulatory control based on risk level of the device.
 
 In the U.S., authorization to distribute a new device can generally be met in one of two ways [@bostons]:
 
--   The first process requires that a premarket notification (510(k)) be made to the FDA to demonstrate that the device is as safe and effective as, or substantially equivalent to, a legally marketed device (the “predicate” device). Applicants must submit performance data to establish substantial equivalence. In some instances, data from human clinical trials must also be submitted in support of a 510(k) premarket notification. If so, these data must be collected in a manner that conforms to the applicable Investigational Device Exemption (IDE) regulations. The FDA must issue a decision finding substantial equivalence before commercial distribution can occur. Changes to cleared devices that could not significantly affect the safety or effectiveness of the device can generally be made without additional 510(k) premarket notifications; otherwise, a new 510(k) is required.
--   The second process requires the submission of a premarket approval (PMA) application to the FDA to demonstrate that the device is safe and effective for its intended use. This approval process applies to most Class III devices and generally requires clinical data to support the safety and effectiveness of the device, obtained in adherence with IDE requirements. The FDA will approve the PMA application if it finds that there is a reasonable assurance that the device is safe and effective for its intended purpose and that the proposed manufacturing is in compliance with the Quality System Regulation (QSR). For novel technologies, the FDA may seek input from an advisory panel of medical experts and seek their views on the safety, effectiveness and benefit-risk of the device. The PMA process is generally more detailed, lengthier and more expensive than the 510(k) process.
+### Premarket Notification (510(k))
 
-In the European Union (EU), it is required to comply with the Medical Device Regulation (MDR or EU MDR) which became effective in May 2021, superseding the existing Medical Device and Active Implantable Medical Device Directives. Medical devices which have a valid CE Certificate to the prior Directives (issued before May 2021) can continue to be sold during the applicable transition period or until the CE Certificate expires, whichever comes first, providing there are no significant changes to the design or intended use. The CE Mark, which is required to sell medical devices in the EU is affixed following a Conformity Assessment and either approval from the appointed independent Notified Body or through self-certification by the manufacturer. The selected pathway to CE marking is based on device risk classification. CE marking indicates conformity to the applicable General Safety and Performance Requirements (GSPRs) for the MDR. The MDR changes multiple aspects of the regulatory framework for CE marking, such as increased clinical evidence requirements, changes to labelling, and new requirements, including Unique Device Identification (UDI), and many new post-market reporting obligations. MDR also modifies and increases the compliance requirements for the medical device industry and will continue to require significant investment over the next few years to transition all products. The CE mark continues to be a prerequisite for successful registration in many other global geographies. In addition, other EU countries continue to impose significant local registration requirements despite the implementation of MDR, and the United Kingdom has introduced new requirements following its exit from the EU.
+The premarket notification (510(k)) is made to the FDA to demonstrate that the device is as safe and effective as, or substantially equivalent to, a legally marketed device (the “predicate” device). Applicants must submit performance data to establish substantial equivalence. In some instances, data from human clinical trials must also be submitted in support of a 510(k) premarket notification. If so, these data must be collected in a manner that conforms to the applicable Investigational Device Exemption (IDE) regulations. The FDA must issue a decision finding substantial equivalence before commercial distribution can occur. Changes to cleared devices that could not significantly affect the safety or effectiveness of the device can generally be made without additional 510(k) premarket notifications; otherwise, a new 510(k) is required.
+
+### Premarket Approval (PMA) Application
+
+The submission of a premarket approval (PMA) application to the FDA demonstrates that the device is safe and effective for its intended use. This approval process applies to most Class III devices and generally requires clinical data to support the safety and effectiveness of the device, obtained in adherence with IDE requirements. The FDA will approve the PMA application if it finds that there is a reasonable assurance that the device is safe and effective for its intended purpose and that the proposed manufacturing is in compliance with the Quality System Regulation (QSR). For novel technologies, the FDA may seek input from an advisory panel of medical experts and seek their views on the safety, effectiveness and benefit-risk of the device. The PMA process is generally more detailed, lengthier and more expensive than the 510(k) process.
+
+## European Union (EU)
+
+In the European Union (EU), it is required to comply with the Medical Device Regulation (MDR or EU MDR) which became effective in May 2021, superseding the existing Medical Device and Active Implantable Medical Device Directives. Medical devices which have a valid CE Certificate [@cemarki] to the prior Directives (issued before May 2021) can continue to be sold during the applicable transition period or until the CE Certificate expires, whichever comes first, providing there are no significant changes to the design or intended use. The CE Mark, which is required to sell medical devices in the EU is affixed following a Conformity Assessment and either approval from the appointed independent Notified Body or through self-certification by the manufacturer. The selected pathway to CE marking is based on device risk classification. CE marking indicates conformity to the applicable General Safety and Performance Requirements (GSPRs) for the MDR. The MDR changes multiple aspects of the regulatory framework for CE marking, such as increased clinical evidence requirements, changes to labeling, and new requirements, including Unique Device Identification (UDI), and many new post-market reporting obligations. MDR also modifies and increases the compliance requirements for the medical device industry and will continue to require significant investment over the next few years to transition all products. The CE mark continues to be a prerequisite for successful registration in many other global geographies. In addition, other EU countries continue to impose significant local registration requirements despite the implementation of MDR, and the United Kingdom has introduced new requirements following its exit from the EU.
 
 It is also required to comply with the regulations of every other country where the product will be commercialized before launch or maintain new products on the market, including regulations that have been introduced in many countries in the Middle East and Southeast Asia that previously did not have medical device regulations, or had minimal regulations. In Japan, it is required to comply with Japan’s Ministry of Health, Labor and Welfare (MHLW) regulations. In conjunction with the MHLW, the Pharmaceutical and Medical Device Agency is an independent agency that is responsible for reviewing drug and medical device applications and works with the MHLW to assess new product safety, develop comprehensive regulations, and monitor post-market safety.
 
@@ -118,9 +123,8 @@ The FDA and other worldwide regulatory agencies and competent authorities active
 
 International sales of medical devices manufactured in the U.S. that are not approved by the FDA for use in the U.S., or that are banned or deviate from lawful performance standards, are subject to FDA export requirements. Additionally, exported devices are subject to the regulatory requirements of each country to which the device is exported.
 
-## Medical Device Industry Faces Many Challenges
-
-Some important challenges faced by the medical device industry:
+::: callout-important
+Some challenges faced by the medical device industry:
 
 -   Constant time pressure launching safe and effective products
     -   \~70% of medical products are delivered late.
@@ -138,9 +142,14 @@ Some important challenges faced by the medical device industry:
     -   Increasing risk of cybersecurity concerns.
 -   Heavy focus on acquisition and geographically distributed development teams
     -   E.g., The medical devices sector in Q2 2023 witnessed deals worth \$33 billion, a growth of 42% compared to Q1 2023 and 87% compared to Q2 2022.
+:::
+
+![](images/paste-42.png){#comic_art}
 
 ```{=html}
 <!-- 
+## Medical Device Industry Faces Many Challenges
+
 Include a reference
 
 https://www.mckinsey.com/~/media/McKinsey/McKinsey Solutions/Numetrics/Resources/Insights on  Medical devices Numetrics.pdf , https:/www.mckinsey.com/~/media/mckinsey/dotcom/client_service/public sector/regulatory excellence/the_business_case_for_medical_device_quality.ashx
@@ -165,9 +174,12 @@ Credit to Philip J. O'Keefe, PE, MLE. Image was taken from http://www.engineerin
 ## Medical System Product Life Cycle
 
 -   Exploratory: Is there viability to solve a clinical need?
+
 -   Technology Development: Can we make this technology?
--   Product Development: Create the end product
--   Sustaining: Keep a product on the market and enhance the system
+
+-   Product Development: Create the end product.
+
+-   Sustaining: Keep a product on the market and enhance the system.
 
 Many life saving devices come with significant risk which must be mitigated through a defined system design process. A seamless integration of the design and development process and the safety risk management process will allow devices to be safety used on humans. The development process is described in ISO 13485, the international standard for the development of medical devices. ISO 14971 is the international standard for the evaluation of the safety risk of a medical device.<!--A system engineering approach to the design of medical devices provides a holistic approach to ensuring these devices are safe for their intended use.--> Universities and companies hoping to use their devices in clinical trials on patients are required to follow a well-defined process incorporating design and development planning, design input, design output, design review, design verification, and design validation [@wehde2020].
 

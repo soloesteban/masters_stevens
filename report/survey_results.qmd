@@ -1,0 +1,523 @@
+---
+title: "Survey Results"
+format: html
+---
+
+::: callout-caution
+The report published on this website is a draft and subject to frequent updates. Please be aware that the content may change over time as revisions are made. Thank you for your understanding.
+:::
+
+::: callout-tip
+If you have questions, comments, or feedback, please contact Esteban Solorzano.
+
+[esteban.solorzano\@gmail.com](esteban.solorzano@gmail.com)
+:::
+
+This section contains the survey results for a total of 22 respondents.
+
+## Question 1: Please identify the primary challenges you have encountered in the systems engineering process for medical devices. Select all that apply from the following options:
+
+```{=html}
+<!--
+GPT: Analyze the results for the following survey question done to systems engineers who work with medical devices: Please identify the primary challenges you have encountered in the systems engineering process for medical devices. Select all that apply from the following options: 
+-->
+```
+@fig-Question1_results is a bar graph of question 1 results.
+
+::: {#fig-Question1_results}
+![](images/paste-31.png)
+
+Question 1 results
+:::
+
+The biggest challenge according to question 1 results is **Systems Integration** with 13 respondents. Following closely behind are **Interdisciplinary Collaboration** and **Safety and Efficacy** at 11 and 14 respondents respectively.
+
+Other challenges faced by systems engineers working on medical devices include:
+
+-   **Cybersecurity** (9 respondents)
+
+-   **Usability and Human Factors** (7 respondents)
+
+-   **Regulatory Compliance** (9 respondents)
+
+-   **Cost Constraints** (3 respondents)
+
+-   **Global Market Access** (1 respondent)
+
+-   **Emerging Technologies** (2 respondents)
+
+-   **Other** (4 respondents)
+
+## Question 2: What tools do you find indispensable in your daily tasks as a systems engineer? Please select all that apply from the following options:
+
+```{=html}
+<!--
+GPT: Analyze the results for the following survey question done to systems engineers who work with medical devices: What tools do you find indispensable in your daily tasks as a systems engineer? Please select all that apply from the following options:
+-->
+```
+@fig-Question2_results is a bar graph of question 2 results.
+
+::: {#fig-Question2_results}
+![](images/paste-32.png)
+
+Question 2 results
+:::
+
+Based on question 2 results, the most indispensable tools for systems engineers working on medical devices are **Requirement management software** and **Documentation tools**, with 18 and 15 respondents selecting them respectively.
+
+Following these two are:
+
+-   **Data analysis and visualization tools** (11 respondents)
+
+-   **Collaboration tools** (13 respondents)
+
+These findings suggest that a significant portion of a systems engineer's time is spent on managing requirements, documenting processes, collaborating with team members, and analyzing data.
+
+Here’s a deeper look into some of the other tools selected by the respondents:
+
+-   **Engineering tools** (e.g., LabView) (7 respondents)
+
+-   **Risk management tools** (e.g., FMEA) (7 respondents)
+
+-   **Simulation tools** (e.g., Simulink) (16 respondents)
+
+-   **Version control systems** (e.g., Git) (10 respondents)
+
+-   **Project management software** (12 respondents)
+
+-   **Quality management systems** (5 respondents)
+
+## Question 3: Could you please elaborate on why you find the selected tools valuable in your day-to-day work as a systems engineer? Feel free to provide specific examples or experiences that illustrate their importance.
+
+```{=html}
+<!--
+GPT: The following is a follow-up question to the previous survey question: "Could you please elaborate on why you find the selected tools valuable in your day-to-day work as a systems engineer? Feel free to provide specific examples or experiences that illustrate their importance.". Analyze the following results:
+-->
+```
+@fig-Question3_results is a word cloud of question 3 results.
+
+::: {#fig-Question3_results}
+![](images/paste-34.png)
+
+Question 3 results
+:::
+
+The analysis of the results of this follow-up question reveals several key themes regarding why systems engineers find specific tools valuable:
+
+**1. Structure and Documentation:**
+
+-   Requirement management and documentation tools provide a framework to record decisions and trace how activities meet requirements. This ensures traceability and simplifies demonstrating compliance with regulations. (Example: "Cockpit is used to navigate, trace and clearly understand our requirements and source/rationale")
+
+**2. Collaboration and Communication:**
+
+-   Collaboration tools are essential for communication within the team and across disciplines. They facilitate information dissemination and decision making throughout the development process. (Example: "Collaboration and communication is key for Systems engineering. Tools that help facilitate communication and the system's boundaries are critical.")
+
+**3. Information Management:**
+
+-   Data analysis and visualization tools, version control systems, and quality management systems help gather information, keep it up-to-date, and create a clear picture of the project's status. (Example: "It's the only way to create a complete picture of product design requirements, risks, and tests.")
+
+**4. Specific Needs of Medical Device Development:**
+
+-   Some engineers highlighted the importance of tools tailored to medical device development, such as FMEA for risk management. (Example: "As a Design Assurance Engineer, I focus on communication/collaboration tools, project management software (JIRA), and requirements management (JAMA).")
+
+**5. Balancing Functionality with Efficiency:**
+
+-   While some emphasized the importance of powerful tools like Matlab, others stressed that tools should not become a hindrance and should prioritize getting the job done efficiently. (Example: "Overall, they help in getting the job done without being a hinderance.")
+
+::: callout-note
+-   The responses suggest a preference for familiar and widely used tools like Microsoft Office suite alongside more specialized engineering tools.
+
+-   There's a recognition that the "best" tools depend on the specific role and project within medical device systems engineering.
+:::
+
+## Question 4: Which methodologies do you consider most beneficial in your daily tasks as a systems engineer working with medical devices? Please select all that apply from the following options:
+
+```{=html}
+<!--
+Analyze the results for the following survey question done to systems engineers who work with medical devices: Which methodologies do you consider most beneficial in your daily tasks as a systems engineer working with medical devices? Please select all that apply from the following options:
+-->
+```
+@fig-Question4_results is a bar graph shows the results of a survey question asking systems engineers working on medical devices which methodologies they find most beneficial in their daily tasks.
+
+::: {#fig-Question4_results}
+![](images/paste-35.png)
+
+Question 4 results
+:::
+
+Here's a breakdown of the findings:
+
+-   **Model-Based Approaches (e.g., MBSE, SysML)** is the most popular methodology, with 12 respondents selecting it.
+
+-   **Engineering Practices (e.g., Requirements Engineering, Design Reviews)** follows closely behind at 15 respondents.
+
+-   **Quality and Compliance (e.g., FMEA, HACCP)** is another well-regarded methodology, with 16 respondents finding it beneficial.
+
+These results suggest that systems engineers working on medical devices heavily rely on methodologies that provide structure and guidance throughout the development process. This is likely due to the rigorous requirements for safety and regulatory compliance in the medical device industry.
+
+Here’s a closer look at some of the other methodologies selected by the respondents:
+
+-   **Risk Management (e.g., ISO 14971)** (14 respondents)
+
+-   **Verification and Validation Processes** (12 respondents)
+
+-   **Change Control Processes** (10 respondents)
+
+-   **Configuration Management** (8 respondents)
+
+-   **Agile Methods (e.g., Agile, Kanban)** (6 respondents)
+
+-   **Human Factors and Usability (e.g., HFMEA)** (4 respondents)
+
+-   **Lean and Continuous Improvement** (6 respondents)
+
+-   **Cross-disciplinary Collaboration** (12 respondents)
+
+-   **Innovative Design Approaches (e.g., TRIZ)** (5 respondents)
+
+## Question 5: Could you please provide insights into why you find the selected methodologies valuable in your day-to-day work as a systems engineer for medical devices? Describe the outcomes or benefits you've experienced by employing these methodologies. Additionally, if applicable, mention any alternative methodologies that were considered but not chosen, and the rationale behind your selection.
+
+@fig-Question5_results is word cloud of question 5 results.
+
+::: {#fig-Question5_results}
+![](images/paste-36.png)
+
+Question 5 results
+:::
+
+```{=html}
+<!--
+GPT: The following is a follow-up question to the previous survey question: "Could you please provide insights into why you find the selected methodologies valuable in your day-to-day work as a systems engineer for medical devices? Describe the outcomes or benefits you've experienced by employing these methodologies. Additionally, if applicable, mention any alternative methodologies that were considered but not chosen, and the rationale behind your selection.". Analyze the following results:
+-->
+```
+The follow-up survey question provided valuable insights into why specific methodologies are beneficial for systems engineers working on medical devices. Here's a breakdown of the key themes:
+
+**1. Emphasis on Requirements and System Definition:**
+
+-   The system engineers highlighted the importance of methodologies like **requirements engineering** and **model-based approaches (MBSE)**. These methodologies ensure a clear understanding of what the system needs to do and how it will function, leading to fewer rework loops and more efficient development. (Example: "Don't know, what are my choices? have to get the requirements correct and properly scoped... Model-based approaches allow better insight into how the system might behave...")
+
+**2. Communication and Collaboration:**
+
+-   The critical role of **cross-disciplinary collaboration** was emphasized. Methodologies that facilitate communication across teams (e.g., engineering, design, user experience) are essential for developing a cohesive medical device. (Example: "Cross-disciplinary collaboration is at the heart of what I do - nothing sticks if there isn't full understanding and agreement...")
+
+**3. Risk Management and Safety:**
+
+-   **Quality and compliance methodologies** (e.g., FMEA, HACCP [@nutrition2024a]) were considered valuable for managing risks and ensuring the device meets regulatory requirements. (Example: "These are either required or the most efficient approaches to getting work completed. Procedures and systems drive these tools more than others...")
+
+**4. Specific Needs of Medical Devices:**
+
+-   Some system engineers pointed out that some methodologies, like Human Factors and Usability are particularly important for medical devices due to the focus on user safety and interaction. (Example: "Human Factors and Usability - reports on things like formative studies are important to have in documenting requirement rationale.")
+
+**5. Balancing Efficiency and Innovation:**
+
+-   While **engineering practices** and established methodologies are crucial, some mentioned the potential benefits of **agile methods** for flexibility and adapting to changing requirements. (Example: "Agile methods are highly effective in helping to focus on the highest value first, preventing scope creep and supporting a 'fail fast' mindset.")
+
+**6. Regulatory Considerations:**
+
+-   A few responses suggested that regulatory requirements should not solely dictate the chosen methodologies. However, a well-defined systems engineering approach can facilitate regulatory compliance. (Example: "Again, many of processes listed did not strike me as medical device specific. I also think regulatory should not drive systems engineering but good systems engineering should deliver what you need to get the product approved in many cases.")
+
+## Question 6: Which job roles do you primarily engage with in your daily activities?
+
+```{=html}
+<!--
+GPT: Analyze the results for the following survey question done to systems engineers who work with medical devices: Which job roles do you primarily engage with in your daily activities?:
+-->
+```
+@fig-Question6_results is a bar graph depicting the results of a survey question asking systems engineers working on medical devices which job roles they interact with most in their daily activities.
+
+::: {#fig-Question6_results}
+![](images/paste-37.png)
+
+Question 6 results
+:::
+
+Here's a breakdown of the findings, based on the number of respondents who selected each category:
+
+-   **System Engineers** (20 respondents) are the most frequently mentioned collaborators, likely due to their crucial role in bringing the designed system to life.
+
+-   **Project Managers** (13 respondents) closely follow, highlighting the importance of cross-functional collaboration on medical device projects.
+
+Following these two roles are:
+
+-   **Software Engineers** (15 respondents)
+
+-   **Quality Assurance/Quality Control (QA/QC) Engineers** (14 respondents)
+
+-   **Regulatory Affairs Specialists** (9 respondents)
+
+These responses demonstrate the interdisciplinary nature of systems engineering in the medical device field. Effective communication and collaboration among these various roles are essential for the successful development of medical devices.
+
+Here's a look at some of the less frequent interactions, but still important for systems engineers:
+
+-   **Design Engineers** (9 respondents)
+
+-   **Field Service Engineers** (4 respondents)
+
+-   **Technical Support Engineers** (5 respondents)
+
+-   **Validation Engineers** (2 respondents)
+
+-   **Risk Management Specialists** (7 respondents)
+
+-   **Compliance Engineers** (4 respondents)
+
+-   **Supply Chain/Logistics Engineers** (2 respondents)
+
+-   **Marketing/Sales** (6 respondents)
+
+## Question 7: Please indicate which job roles, in your opinion, possess a good understanding of the deliverables and artifacts produced by systems engineers?
+
+```{=html}
+<!--
+GPT: The following is a follow-up question to the previous survey question: "Please indicate which job roles, in your opinion, possess a good understanding of the deliverables and artifacts produced by systems engineers?". Analyze the following results and compare with the previous analysis:
+-->
+```
+@fig-Question7_results is a word cloud of question 7 results.
+
+::: {#fig-Question7_results}
+![](images/paste-38.png)
+
+Question 7 results
+:::
+
+The overlap between the two most frequently mentioned job roles in both surveys is interesting. Here's a breakdown of the findings:
+
+-   **Project Managers** (13 respondents in the previous survey and 8 respondents in the follow-up question) continue to be identified as a key role that understands the deliverables and artifacts produced by systems engineers. This highlights the importance of their role in overseeing the entire project lifecycle and ensuring systems engineers' work aligns with project goals.
+
+Here are some other insights from the follow-up question:
+
+-   **Quality Assurance/Quality Control (QA/QC) Engineers** (14 respondents in the previous survey and 9 respondents in the follow-up question) are likely involved in the verification and validation processes of medical devices, making them familiar with the systems engineering deliverables needed to ensure quality.
+
+-   **Regulatory Affairs Specialists** (9 respondents in the previous survey and 3 respondents in the follow-up question) understand the regulatory requirements that systems engineers consider throughout the design process.
+
+The follow-up question also highlights some roles that may benefit from a stronger understanding of systems engineering deliverables:
+
+-   **Software Engineers** (15 respondents in the previous survey and 5 respondents in the follow-up question) collaborate frequently with systems engineers, but their understanding of deliverables might be limited depending on their area of focus within the software development process.
+
+-   **Electrical and Mechanical Engineers** (24 respondents in the previous survey and 2 respondents in the follow-up question) could benefit from a clear understanding of the system-level design considerations provided by systems engineers.
+
+Overall, the survey results suggest that while some roles naturally have a better understanding of systems engineers' deliverables due to close collaboration (e.g., project managers, QA/QC engineers), there's an opportunity to improve communication and knowledge sharing across disciplines (e.g., software engineers, design engineers). This can enhance overall collaboration and ensure everyone involved has a clear understanding of how their work contributes to the medical device development process.
+
+## Question 8: Could you share examples of books, articles, or papers that have resonated with you as a systems engineer working with medical devices? Please provide one or more titles and, if possible, briefly explain how they impacted your work or perspective. Your insights will help us better understand valuable resources in this field.
+
+@fig-Question8_results is a word cloud of question 8 results.
+
+::: {#fig-Question8_results}
+![](images/paste-39.png)
+
+Question 8 results
+:::
+
+```{=html}
+<!--
+Gemini: Analyze the results for the following survey question done to systems engineers who work with medical devices: "Could you share examples of books, articles, or papers that have resonated with you as a systems engineer working with medical devices? Please provide one or more titles and, if possible, briefly explain how they impacted your work or perspective. Your insights will help us better understand valuable resources in this field.":
+-->
+```
+The following is a breakdown of the mentioned resources and how they resonated with the respondents:
+
+**Books:**
+
+-   **Design for Six Sigma by Creveling, Slutsky, and Antis (ISBN 0-13-009223-1):** This book focuses on a methodology for process improvement, which can be valuable for optimizing medical device development [@creveling2002]. (One respondent mentioned it but no details on impact were provided)
+
+-   **Human error: models and management by James Reason:** This book explores human factors and error management, a crucial aspect of medical device safety [@reason1990]. (One respondent mentioned it but no details on impact were provided)
+
+-   **Anything by Nancy Leveson or Gerrit Muller:** These authors are known for their work on safety-critical systems, highly relevant to medical devices. (One respondent mentioned these authors but no specific titles were mentioned)
+
+-   **The Five Dysfunctions of a Team by Patrick Lencioni:** This book, though not specific to medical devices, addresses team collaboration and communication, essential skills for systems engineers [@lencioni2002]. (One respondent highlighted its impact on their understanding of cross-functional collaboration)
+
+-   **Systems Engineering, Principles and Practice:** This book provides a general overview of the field, useful for understanding core systems engineering concepts even if not specific to medical devices [@kossiakoff2020]. (One respondent mentioned it as a high-level overview)
+
+**Articles and Papers:**
+
+-   **"Worth the Effort? Closed Loop Infusion Pump Integration" by Pettus and Vanderveen (AAMI 2013):** This article likely focuses on a specific case study of medical device integration, potentially offering practical insights [@pettus2013]. (One respondent mentioned it but no details on impact were provided)
+
+**Training Materials:**
+
+-   **Architecture and Systems Engineering Online Program from MIT**: This training focused on modeling, a crucial skill for systems engineers [@technology]. (One respondent highlighted its value)
+
+-   **INCOSE Systems Engineering Handbook:** This widely recognized resource provides a comprehensive guide to systems engineering practices [@incoses2023]. (Multiple respondents mentioned it as a main guide or reference)
+
+-   **Stanford Biodesign textbook:** This resource likely focuses on biomedical device design and development processes [@biodesig]. (One respondent mentioned it but no details on impact were provided)
+
+-   **Webinars from Intertek on 60601 standards:** These webinars address medical device safety standards (IEC 60601), essential knowledge for systems engineers. (One respondent mentioned them as a valuable resource)
+
+-   **Company Training Materials (Boston Scientific):** Some respondents learned from their employers' training programs, highlighting the importance of company-specific processes and knowledge sharing.
+
+**Overall Insights:**
+
+-   There is no single "go-to" resource, but a combination of books, articles, training materials, and on-the-job experience appears to be most beneficial.
+
+-   **Systems Engineering** fundamentals are considered crucial, with resources like the INCOSE Systems Engineering Handbook being highly regarded.
+
+-   **Medical Device Specific Knowledge:** Resources that address specific challenges and considerations of medical device development are also valuable (e.g., standards, case studies).
+
+-   **Soft Skills:** Resources on collaboration, communication, and team dynamics can be beneficial for systems engineers working in a cross-functional environment.
+
+## Question 9: In your opinion, what regulations or standards should be covered in a comprehensive medical device systems engineering book? Please provide your suggestions below.
+
+```{=html}
+<!--
+Gemini: Analyze the results for the following survey question done to systems engineers who work with medical devices: "In your opinion, what regulations or standards should be covered in a comprehensive medical device systems engineering book? Please provide your suggestions below.":
+-->
+```
+@fig-Question9_results is a word cloud of question 9 results.
+
+::: {#fig-Question9_results}
+![](images/paste-40.png)
+
+Question 9 results
+:::
+
+The survey question provide information for what regulations and standards should be covered in the MedSE knowledge repository. Here's a breakdown of the suggestions:
+
+**Essential Standards:**
+
+-   **ISO 13485:2016 - Medical devices - Quality management systems - Requirements for regulatory purposes:** This standard outlines the quality management system requirements for medical device manufacturers. (Multiple respondents mentioned it)
+
+-   **IEC 60601 series - Medical electrical equipment:** This series of standards sets forth safety requirements for various aspects of medical electrical equipment. (Multiple respondents mentioned it, with some highlighting specific parts like IEC 60601-1)
+
+-   **ISO 14971:2019 - Medical devices - Application of risk management to medical devices:** This standard outlines a risk management process for medical devices. (Multiple respondents mentioned it)
+
+**Additional Considerations:**
+
+-   **ISO 9001:2015 - Quality management systems - Requirements:** While ISO 9001 is a general quality management standard, it can be a foundational principle for medical device quality systems. (One respondent mentioned it)
+
+-   **ISO 10993 series - Biological evaluation of medical devices:** This series addresses the biocompatibility (interaction with living tissue) of medical devices. (One respondent mentioned it)
+
+-   **Other Standards:** A few respondents mentioned specific standards like ISO 15288 (Systems and software engineering — System life cycle processes) or IEC 62304 (Medical Device Software - Software Life Cycle Processes) that may be relevant depending on the specific medical device being developed.
+
+**Structure and Application:**
+
+-   Several respondents emphasized the importance of presenting the regulations and standards in a hierarchical manner, starting with foundational concepts and then progressing to more specific details.
+
+-   One respondent highlighted the need for the MedSE knowledge repository to explain how these regulations apply within the context of ISO 13485, the core quality management system standard for medical devices.
+
+**Beyond Just Standards:**
+
+-   A few respondents suggested including systems engineering fundamentals and common themes that apply across various regulations and standards.
+
+-   One respondent emphasized the need for a scalable systems engineering process tailored to medical devices, which could be useful for training purposes.
+
+**Overall, the survey results suggest that a comprehensive medical device systems engineering book should cover the following:**
+
+-   Core regulations and standards, including ISO 13485, IEC 60601 series, and ISO 14971.
+
+-   Additional standards may be relevant depending on the specific device being developed.
+
+-   The MedSE knowledge repository should explain how these regulations and standards are applied within the medical device development process.
+
+-   Foundational systems engineering principles should be integrated throughout the MedSE knowledge repository.
+
+-   The presentation of information should be structured and hierarchical, allowing readers to find information based on their level of understanding.
+
+## Question 10: What learning formats do you find most accessible and beneficial? Please select all that apply from the following options:
+
+```{=html}
+<!--
+Gemini: Analyze the results for the following survey question done to systems engineers who work with medical devices: "What learning formats do you find most accessible and beneficial? Please select all that apply from the following options":
+-->
+```
+@fig-Question10_results is a bar graph of question 10 results.
+
+::: {#fig-Question10_results}
+![](images/paste-41.png)
+
+Question 10 results
+:::
+
+The survey question results show the following preferences for learning formats among systems engineers working on medical devices:
+
+-   **E-books (8 respondents)** and **Webinars (6 respondents)** are the most popular options, likely due to their flexibility and accessibility. They allow engineers to learn at their own pace and convenience.
+
+-   **Interactive online courses (12 respondents)** are also relatively popular, providing a more structured learning experience with opportunities for interactivity.
+
+-   **Printed books (8 respondents)** remain a valuable resource, offering in-depth information and a reference point for future needs.
+
+Here's a look at some of the less frequent selections:
+
+-   **Audiobooks (3 respondents)** and **Podcasts (6 respondents)** can be helpful for consuming information while multitasking or commuting.
+
+-   **Video lectures (7 respondents)** can be informative, but may require dedicated viewing time.
+
+-   **Mobile apps (1 respondent)** may be useful for on-the-go learning but may lack depth on complex topics.
+
+-   **Online forums or discussion boards (1 respondent)** and **Social media groups or communities (0 respondents)** can be helpful for staying updated on the latest trends and connecting with other professionals, but may not be the most structured way to acquire in-depth knowledge.
+
+-   **Hands-on workshops or labs (12 respondents)** were selected by a significant number of respondents, highlighting the importance of practical learning for systems engineers.
+
+-   **Mentored/self-paced online learning (7 respondents)** can provide personalized guidance and flexibility.
+
+::: callout-note
+Respondents could select all that apply, so many engineers likely utilize a combination of these formats to maximize their learning and stay up-to-date in medical device systems engineering.
+:::
+
+```{=html}
+<!--
+Derived content requirements.
+
+Content Structures for Medical Device Systems Engineering Knowledge Repository - Focused on Education and Preparation:
+Considering the goal of educating and preparing systems engineers for the medical device field, here are some content structure breakdowns using header titles:
+
+Structure 1: Foundational Knowledge to Advanced Applications
+
+Systems Engineering Fundamentals
+- Introduction to Systems Engineering Concepts (Systems Thinking, Stakeholders, Boundaries)
+- Understanding the V-Model and Systems Development Lifecycle
+- Applying Requirements Engineering Principles (FRCs, DRCs, Traceability)
+- Introduction to Modeling and Simulation Techniques (e.g., UML, SysML)
+- Risk Management Fundamentals (FMEA, HACCP, Hazard Identification)
+- Project Management Essentials for Systems Engineers (Planning, Scheduling, Risk Management)
+
+Medical Device Specific Knowledge
+- Overview of the Medical Device Development Lifecycle (Concept to Market)
+- Essential Regulatory Affairs for Medical Devices (ISO 13485, IEC 60601 Series)
+- Introduction to Human Factors and Usability Engineering (HFMEA Principles)
+- Design for Manufacturability and Assembly (DFMA) Considerations
+
+Advanced Topics and Applications
+- Model-Based Systems Engineering (MBSE) for Medical Devices (Benefits, Methodologies)
+- Software Considerations in Medical Device Systems (Safety, Integration)
+- Cybersecurity for Medical Devices (Risk Management, Secure Design Practices)
+- Interoperability and Integration of Medical Devices (Standards, Communication Protocols)
+
+
+Structure 2: Learning Path Approach
+
+Getting Started with Medical Device Systems Engineering
+- Core Systems Engineering Methodologies (Requirements Engineering, Risk Management)
+- Essential Medical Device Knowledge (Lifecycle Phases, Regulatory Landscape)
+- Building Effective Collaboration and Communication Skills (Cross-Functional Teams)
+
+Deep Dive into Medical Device Systems Engineering
+- Advanced Systems Engineering Techniques (Model-Based Systems Engineering, Traceability Matrices)
+- Risk Management in Medical Devices (FMEA Applications, Mitigation Strategies)
+- Design Considerations for Medical Devices (Human Factors Principles, DFMA Techniques)
+
+Mastering Medical Device Systems Engineering
+- Analyzing Case Studies and Best Practices in Medical Device Development
+- Exploring Emerging Technologies in Medical Devices (AI, Machine Learning)
+- Identifying Continuous Learning Resources and Strategies (Professional Development)
+
+
+Structure 3: Competency-Based Learning
+
+Core Competencies for Medical Device Systems Engineers
+- Applying Systems Engineering Fundamentals (V-Model, Requirements Engineering)
+- Demonstrating Knowledge of Medical Device Regulations and Standards (ISO 13485, IEC 60601)
+- Implementing Risk Management and Safety Practices (FMEA, Hazard Analysis)
+- Mastering Design and Verification & Validation Processes (DFMA, Testing Strategies)
+- Effectively Collaborating and Communicating with Stakeholders (Written & Verbal Communication)
+
+Learning Resources by Competency
+- Curated Articles, Tutorials, and E-books Aligned with Each Competency
+- Recommended Online Courses and Training Modules for Skill Development
+- Real-World Case Studies and Examples Illustrating Competency Application
+
+Self-Assessment Tools and Skill Development Activities
+- Interactive Quizzes and Knowledge Checks to Assess Understanding
+- Practical Exercises and Project Templates to Apply Learned Concepts
+- Resources for Identifying and Filling Skill Gaps (Self-Assessment Tools, Training Recommendations)
+
+These structures prioritize building a strong foundation in systems engineering principles and then apply them to the specific context of medical devices. They also emphasize providing  learning resources  and  opportunities for  skill development  to  prepare  systems engineers  for success in this field.
+-->
+```

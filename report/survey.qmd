@@ -1,5 +1,5 @@
 ---
-title: "Survey Knowledge Needs"
+title: "Medical Device Systems Engineering Survey Template"
 format: html
 ---
 
@@ -14,7 +14,7 @@ If you have questions, comments, or feedback, please contact Esteban Solorzano.
 :::
 
 
-The following survey was used to collect knowledge needs from systems engineers. The survey was deployed as a Microsoft Form at the following link: https://forms.office.com/r/UKeWtta0gv
+The following survey template was used to elicitate knowledge needs from systems engineers who work with medical devices. The survey was deployed as a Microsoft Form at the following link: https://forms.office.com/r/UKeWtta0gv
 
 1. Please identify the primary challenges you have encountered in the systems engineering process for medical devices. Select all that apply from the following options:
 - [  ] Regulatory Compliance
