@@ -124,7 +124,7 @@ The FDA and other worldwide regulatory agencies and competent authorities active
 International sales of medical devices manufactured in the U.S. that are not approved by the FDA for use in the U.S., or that are banned or deviate from lawful performance standards, are subject to FDA export requirements. Additionally, exported devices are subject to the regulatory requirements of each country to which the device is exported.
 
 ::: callout-important
-Some challenges faced by the medical device industry:
+According to Webinar Applications of Systems Engineering in Healthcare, lead by Chris Unger, Ph.D. ESEP of GE Healthcare and Vincent Balgos of Jama Software, some challenges faced by the medical device industry:
 
 -   Constant time pressure launching safe and effective products
     -   \~70% of medical products are delivered late.

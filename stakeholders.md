@@ -2,20 +2,14 @@
 
 The following are the list of the project stakeholders
 
-----------
-**Stakeholder ID:** STK0001
-
-**Name:** Dr. Dinesh Verma
-
-![Alt text](Images/image.png)
-
-**Institution:** Stevens Institute of Technology, SERC
-
-**Role:** Project Advisor
-
-**Contact email:** dverma@stevens.edu
-
-----------
+|                                                        |
+|--------------------------------------------------------|
+| **Stakeholder ID:** STK0001                            |
+| **Name:** Dr. Dinesh Verma                             |
+| ![Alt text](Images/image.png)                          |
+| **Institution:** Stevens Institute of Technology, SERC |
+| **Role:** Project Advisor                              |
+| **Contact email:** dverma\@stevens.edu                 |
 
 **Stakeholder ID:** STK0002
 
@@ -27,9 +21,9 @@ The following are the list of the project stakeholders
 
 **Role:** Academic Advisor
 
-**Contact email:** ebayrak@stevens.edu
+**Contact email:** ebayrak\@stevens.edu
 
-----------
+------------------------------------------------------------------------
 
 **Stakeholder ID:** STK0003
 
@@ -41,9 +35,9 @@ The following are the list of the project stakeholders
 
 **Role:** Candidate
 
-**Contact email:** Esteban.SolorzanoZeledon@bsci.com
+**Contact email:** Esteban.SolorzanoZeledon\@bsci.com
 
-----------
+------------------------------------------------------------------------
 
 **Stakeholder ID:** STK0004
 
@@ -55,9 +49,9 @@ The following are the list of the project stakeholders
 
 **Role:** Supervisor, independent reviewer
 
-**Contact email:** Adam.Reinhardt@bsci.com
+**Contact email:** Adam.Reinhardt\@bsci.com
 
-----------
+------------------------------------------------------------------------
 
 **Stakeholder ID:** STK0005
 
@@ -69,9 +63,9 @@ The following are the list of the project stakeholders
 
 **Role:** Medtronic Technical Fellow, corporate advisor, independent reviewer. Safety risk management
 
-**Contact email:** bijan.elahi@medtronic.com
+**Contact email:** bijan.elahi\@medtronic.com
 
-----------
+------------------------------------------------------------------------
 
 **Stakeholder ID:** STK0006
 
@@ -83,9 +77,9 @@ The following are the list of the project stakeholders
 
 **Role:** Medical Device Regulatory Agency advisor, independent reviewer
 
-**Contact email:** Sandy.Weininger@fda.hhs.gov
+**Contact email:** Sandy.Weininger\@fda.hhs.gov
 
-----------
+------------------------------------------------------------------------
 
 **Stakeholder ID:** STK0007
 
@@ -97,9 +91,9 @@ The following are the list of the project stakeholders
 
 **Role:** Director Systems Development and Integration, contributor
 
-**Contact email:** colin.mellars@gmail.com
+**Contact email:** colin.mellars\@gmail.com
 
-----------
+------------------------------------------------------------------------
 
 **Stakeholder ID:** STK0008
 
@@ -111,9 +105,9 @@ The following are the list of the project stakeholders
 
 **Role:** Medical Device Industry advisor, independent reviewer
 
-**Contact email:** systems2718@gmail.com
+**Contact email:** systems2718\@gmail.com
 
-----------
+------------------------------------------------------------------------
 
 **Stakeholder ID:** STK0009
 
@@ -125,10 +119,9 @@ The following are the list of the project stakeholders
 
 **Role:** Principal Systems Development Engineer, independent reviewer
 
-**Contact email:** nathan.brown@bsci.com
+**Contact email:** nathan.brown\@bsci.com
 
-----------
-
+------------------------------------------------------------------------
 
 **Stakeholder ID:** STK0010
 
@@ -140,6 +133,6 @@ The following are the list of the project stakeholders
 
 **Role:** Independent reviewer
 
-**Contact email:** alejandrosalado@arizona.edu
+**Contact email:** alejandrosalado\@arizona.edu
 
-----------
+------------------------------------------------------------------------
