@@ -554,7 +554,7 @@
     "href": "system_req.html",
     "title": "13  System Requirements",
     "section": "",
-    "text": "Table 13.1 is the MedSE Knowledge Repository System Requirements. The requirements were modeled as a SysML requirements table and exported as an HTML file that was embedded to this report.\n\n\n\n\nTable 13.1: System Requirements",
+    "text": "Caution\n\n\n\nThe report published on this website is a draft and subject to frequent updates. Please be aware that the content may change over time as revisions are made. Thank you for your understanding.\n\n\n\n\n\n\n\n\nTip\n\n\n\nIf you have questions, comments, or feedback, please contact Esteban Solorzano.\nesteban.solorzano@gmail.com\n\n\nTable 13.1 is the MedSE Knowledge Repository System Requirements. The requirements were modeled as a SysML requirements table and exported as an HTML file that was embedded to this report.\n\n\n\n\nTable 13.1: System Requirements",
     "crumbs": [
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>System Requirements</span>"
     ]
