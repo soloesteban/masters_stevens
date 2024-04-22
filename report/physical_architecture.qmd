@@ -3,16 +3,15 @@ title: "Physical Architecture"
 format: html
 ---
 
-::: {.callout-caution}
+::: callout-caution
 The report published on this website is a draft and subject to frequent updates. Please be aware that the content may change over time as revisions are made. Thank you for your understanding.
 :::
 
-::: {.callout-tip}
+::: callout-tip
 If you have questions, comments, or feedback, please contact Esteban Solorzano.
 
-[esteban.solorzano@gmail.com](esteban.solorzano@gmail.com)
+[esteban.solorzano\@gmail.com](esteban.solorzano@gmail.com)
 :::
-
 
 > “How the system will be built”.
 
@@ -20,9 +19,15 @@ The Physical Analysis perspective defines the finalized architecture of the syst
 
 ## Top Level System Breakdown
 
-![](images/paste-1.png)
+@fig-physical_top_level is a SysML block definition diagram (BDD) for a physical architecture. It shows the breakdown of a system into it assemblies at a high level.
 
-The image is a SysML block definition diagram (BDD) for a physical architecture. It shows the breakdown of a system into its parts at a high level. Here’s a breakdown of the components:
+::: {#fig-physical_top_level}
+![](images/paste-44.png)
+
+Top Level Physical Architecture
+:::
+
+Here’s a breakdown of the assemblies:
 
 -   **Knowledge Repository:** This block stores knowledge, the data that the system operates on.
 
@@ -40,8 +45,54 @@ The image is a SysML block definition diagram (BDD) for a physical architecture.
 
 -   **Display:** This block presents information to the user.
 
--   **Content:** This block refers to the data that is presented by the user interface and displayed.
-
--   **Metadata:** This block provides data about other blocks in the system.
+-   **Content Section:** This block refers to the data that is presented by the user interface and displayed.
 
 The diagram also shows the relationships between these blocks. For example, the search engine has a part relationship with the knowledge repository. This means that the search engine is a component of the knowledge repository. The user interface also has a content relationship with the content block. This means that the user interface displays content.
+
+## **MedSE Knowledge Repository Content and Metadata Structure**
+
+@fig-Content_Physical_Architecture is SysML block definition diagram depicts the content structure of the MedSE knowledge repository. It represents the various content types and their interrelationships.
+
+::: {#fig-Content_Physical_Architecture}
+![](images/paste-46.png)
+
+Content Physical Architecture
+:::
+
+### **Content Breakdown:**
+
+The diagram is segregated into two primary sections:
+
+1.  **Content Section:** This section serves as the heart of the repository, encapsulating the actual knowledge pertaining to medical device systems engineering. It encompasses a diverse range of content formats to cater to various learning styles and information needs. Here's a breakdown of the content block types:
+
+    -   **Text:** This block represents core textual content, including articles, research papers, technical specifications, design documents, and user manuals.
+
+    -   **Image:** This block encompasses visual content such as diagrams, schematics, flowcharts, anatomical illustrations, and photographs of medical devices.
+
+    -   **Video:** This block signifies instructional videos, animations, demonstrations of medical device functionalities, and surgical procedures.
+
+    -   **Audio:** This block represents audio content, such as lectures, presentations, and interviews with medical device experts.
+
+    -   **Reference:** This block allows referencing other knowledge elements within the repository, fostering a network of interconnected information.
+
+    -   **Diagram:** This block specifically addresses technical diagrams beyond general schematics, potentially including block diagrams, system architecture diagrams, and system behavior diagrams.
+
+    -   **Graph:** This block incorporates visualizations of data related to medical devices, such as performance charts, reliability graphs, and risk assessment histograms.
+
+    -   **Photo:** This block focuses on high-resolution photographs of medical devices, their components, or specific functionalities.
+
+    -   **Attachment:** This block caters to non-standard content formats, including external documents (e.g., spreadsheets, simulation results), software code snippets, and design files.
+
+    -   **Hyperlink:** This block facilitates linking to external resources relevant to the medical device domain, such as online databases, regulatory guidelines, and manufacturer websites.
+
+2.  **Metadata:** This section complements the Content Section by providing additional information about the content pieces. It serves as a crucial indexing mechanism for efficient knowledge retrieval.
+
+### **Relationship Representation:**
+
+The arrows connecting the blocks depict the relationships between different content types. These relationships are typically directed with cardinalities specifying the number of instances involved. Here's an interpretation of some key relationships:
+
+-   **Content Section** can have **zero or more** instances of each specific content type (Text, Image, Video, etc.). This flexibility accommodates diverse knowledge representation within the repository.
+
+-   A specific content type block (e.g., Text) can only belong to **one Content Section**. This ensures proper organization and avoids content duplication.
+
+-   **Reference** block establishes connections between content elements, enabling users to navigate the knowledge base and discover related information.

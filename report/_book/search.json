@@ -524,7 +524,7 @@
     "href": "physical_architecture.html",
     "title": "12  Physical Architecture",
     "section": "",
-    "text": "12.1 Top Level System Breakdown\nThe image is a SysML block definition diagram (BDD) for a physical architecture. It shows the breakdown of a system into its parts at a high level. Here’s a breakdown of the components:\nThe diagram also shows the relationships between these blocks. For example, the search engine has a part relationship with the knowledge repository. This means that the search engine is a component of the knowledge repository. The user interface also has a content relationship with the content block. This means that the user interface displays content.",
+    "text": "12.1 Top Level System Breakdown\nFigure 12.1 is a SysML block definition diagram (BDD) for a physical architecture. It shows the breakdown of a system into it assemblies at a high level.\nHere’s a breakdown of the assemblies:\nThe diagram also shows the relationships between these blocks. For example, the search engine has a part relationship with the knowledge repository. This means that the search engine is a component of the knowledge repository. The user interface also has a content relationship with the content block. This means that the user interface displays content.",
     "crumbs": [
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Physical Architecture</span>"
     ]
@@ -534,19 +534,39 @@
     "href": "physical_architecture.html#top-level-system-breakdown",
     "title": "12  Physical Architecture",
     "section": "",
-    "text": "Knowledge Repository: This block stores knowledge, the data that the system operates on.\nSearch Engine: This block finds information within the knowledge repository. It takes a search query as input and provides results.\nMaintenance Mechanism: This block is responsible for maintaining the system. It includes an update mechanism and access control.\n\nUpdate Mechanism: This block updates the knowledge repository.\nAccess Control: This block controls access to the system, by authenticating users.\n\nStorage: This block stores data, the knowledge repository or other system data.\nUser Interface: This block allows users to interact with the system. It provides content to the user and can receive content from the user.\nDisplay: This block presents information to the user.\nContent: This block refers to the data that is presented by the user interface and displayed.\nMetadata: This block provides data about other blocks in the system.",
+    "text": "Figure 12.1: Top Level Physical Architecture\n\n\n\n\n\nKnowledge Repository: This block stores knowledge, the data that the system operates on.\nSearch Engine: This block finds information within the knowledge repository. It takes a search query as input and provides results.\nMaintenance Mechanism: This block is responsible for maintaining the system. It includes an update mechanism and access control.\n\nUpdate Mechanism: This block updates the knowledge repository.\nAccess Control: This block controls access to the system, by authenticating users.\n\nStorage: This block stores data, the knowledge repository or other system data.\nUser Interface: This block allows users to interact with the system. It provides content to the user and can receive content from the user.\nDisplay: This block presents information to the user.\nContent Section: This block refers to the data that is presented by the user interface and displayed.",
     "crumbs": [
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Physical Architecture</span>"
     ]
   },
   {
+    "objectID": "physical_architecture.html#medse-knowledge-repository-content-and-metadata-structure",
+    "href": "physical_architecture.html#medse-knowledge-repository-content-and-metadata-structure",
+    "title": "12  Physical Architecture",
+    "section": "12.2 MedSE Knowledge Repository Content and Metadata Structure",
+    "text": "12.2 MedSE Knowledge Repository Content and Metadata Structure\nFigure 12.2 is SysML block definition diagram depicts the content structure of the MedSE knowledge repository. It represents the various content types and their interrelationships.\n\n\n\n\n\n\nFigure 12.2: Content Physical Architecture\n\n\n\n\n12.2.1 Content Breakdown:\nThe diagram is segregated into two primary sections:\n\nContent Section: This section serves as the heart of the repository, encapsulating the actual knowledge pertaining to medical device systems engineering. It encompasses a diverse range of content formats to cater to various learning styles and information needs. Here’s a breakdown of the content block types:\n\nText: This block represents core textual content, including articles, research papers, technical specifications, design documents, and user manuals.\nImage: This block encompasses visual content such as diagrams, schematics, flowcharts, anatomical illustrations, and photographs of medical devices.\nVideo: This block signifies instructional videos, animations, demonstrations of medical device functionalities, and surgical procedures.\nAudio: This block represents audio content, such as lectures, presentations, and interviews with medical device experts.\nReference: This block allows referencing other knowledge elements within the repository, fostering a network of interconnected information.\nDiagram: This block specifically addresses technical diagrams beyond general schematics, potentially including block diagrams, system architecture diagrams, and system behavior diagrams.\nGraph: This block incorporates visualizations of data related to medical devices, such as performance charts, reliability graphs, and risk assessment histograms.\nPhoto: This block focuses on high-resolution photographs of medical devices, their components, or specific functionalities.\nAttachment: This block caters to non-standard content formats, including external documents (e.g., spreadsheets, simulation results), software code snippets, and design files.\nHyperlink: This block facilitates linking to external resources relevant to the medical device domain, such as online databases, regulatory guidelines, and manufacturer websites.\n\nMetadata: This section complements the Content Section by providing additional information about the content pieces. It serves as a crucial indexing mechanism for efficient knowledge retrieval.\n\n\n\n12.2.2 Relationship Representation:\nThe arrows connecting the blocks depict the relationships between different content types. These relationships are typically directed with cardinalities specifying the number of instances involved. Here’s an interpretation of some key relationships:\n\nContent Section can have zero or more instances of each specific content type (Text, Image, Video, etc.). This flexibility accommodates diverse knowledge representation within the repository.\nA specific content type block (e.g., Text) can only belong to one Content Section. This ensures proper organization and avoids content duplication.\nReference block establishes connections between content elements, enabling users to navigate the knowledge base and discover related information.",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Physical Architecture</span>"
+    ]
+  },
+  {
+    "objectID": "system_req.html",
+    "href": "system_req.html",
+    "title": "13  System Requirements",
+    "section": "",
+    "text": "Table 13.1 is the MedSE Knowledge Repository System Requirements. The requirements were modeled as a SysML requirements table and exported as an HTML file that was embedded to this report.\n\n\n\n\nTable 13.1: System Requirements",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>System Requirements</span>"
+    ]
+  },
+  {
     "objectID": "conclusions.html",
     "href": "conclusions.html",
-    "title": "13  Conclusions",
+    "title": "14  Conclusions",
     "section": "",
     "text": "Caution\n\n\n\nThe report published on this website is a draft and subject to frequent updates. Please be aware that the content may change over time as revisions are made. Thank you for your understanding.\n\n\n\n\n\n\n\n\nTip\n\n\n\nIf you have questions, comments, or feedback, please contact Esteban Solorzano.\nesteban.solorzano@gmail.com\n\n\nThe following are the conclusions of the project:\n\nExplain the importance of a systematic and comprehensive approach to medical device development, particularly emphasizing the integration of systems engineering principles.\nHighlight the evolving landscape of healthcare technology, the critical need to prioritize safety, efficacy, and compliance in device development, and the unique challenges posed by medical devices within this context.\nExplain the proposed project’s objectives, methodology, and collaborative approach, recognizing the value of creating a cohesive resource that synthesizes knowledge, educates stakeholders, provides practical guidance, and fosters deeper understanding of regulatory requirements.\nEphasize the significance of addressing these considerations holistically to ensure the successful development and deployment of safe and effective medical devices.",
     "crumbs": [
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Conclusions</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Conclusions</span>"
     ]
   },
   {
@@ -700,17 +720,6 @@
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>E</span>  <span class='chapter-title'>Medical Device Systems Engineer Job Descriptions</span>"
-    ]
-  },
-  {
-    "objectID": "snippets.html",
-    "href": "snippets.html",
-    "title": "Appendix F — Snippets",
-    "section": "",
-    "text": "Publishing Testing Enviornment\n\n\n\nTable F.1: Example Caption",
-    "crumbs": [
-      "Appendices",
-      "<span class='chapter-number'>F</span>  <span class='chapter-title'>Snippets</span>"
     ]
   }
 ]

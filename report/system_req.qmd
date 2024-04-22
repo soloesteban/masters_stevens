@@ -1,0 +1,17 @@
+---
+title: "System Requirements"
+format: html
+---
+
+@tbl-system_requirements is the MedSE Knowledge Repository System Requirements. The requirements were modeled as a SysML requirements table and exported as an HTML file that was embedded to this report.
+
+<!--
+Use Visual Studio to remove the references to images and the main table header from the system requirements html file.
+-->
+::: {#tbl-system_requirements}
+```{=html}
+<iframe width="900" height="780" src="system requirements.html" title="System Requierments"></iframe>
+```
+
+System Requirements
+:::

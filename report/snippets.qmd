@@ -5,10 +5,13 @@ format: html
 
 Publishing Testing Enviornment
 
+<!--
+Use Visual Studio to remove the references to images and the main table header from the system requirements html file.
+-->
 ::: {#tbl-sandbox}
 ```{=html}
 <iframe width="900" height="780" src="system requirements.html" title="System Requierments"></iframe>
 ```
 
-Example Caption
+System Requirements
 :::

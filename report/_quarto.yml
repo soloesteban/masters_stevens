@@ -21,6 +21,7 @@ book:
     - goals_objectives.qmd
     - operational_analysis.qmd
     - physical_architecture.qmd
+    - system_req.qmd
     - conclusions.qmd
     - references.qmd
   appendices:
@@ -28,8 +29,7 @@ book:
     - standards.qmd
     - definitions.qmd
     - risks.qmd
-    - job_descriptions.qmd
-    - snippets.qmd
+    - job_descriptions.qmd    
 
 
 bibliography: references.bib

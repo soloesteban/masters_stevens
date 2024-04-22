@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./conclusions.html" rel="next">
+<link href="./system_req.html" rel="next">
 <link href="./operational_analysis.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -190,8 +190,14 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./system_req.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">System Requirements</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./conclusions.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Conclusions</span></span></a>
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Conclusions</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -239,12 +245,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">Medical Device Systems Engineer Job Descriptions</span></span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./snippets.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">Snippets</span></span></a>
-  </div>
-</li>
       </ul>
   </li>
     </ul>
@@ -258,6 +258,11 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#top-level-system-breakdown" id="toc-top-level-system-breakdown" class="nav-link active" data-scroll-target="#top-level-system-breakdown"><span class="header-section-number">12.1</span> Top Level System Breakdown</a></li>
+  <li><a href="#medse-knowledge-repository-content-and-metadata-structure" id="toc-medse-knowledge-repository-content-and-metadata-structure" class="nav-link" data-scroll-target="#medse-knowledge-repository-content-and-metadata-structure"><span class="header-section-number">12.2</span> <strong>MedSE Knowledge Repository Content and Metadata Structure</strong></a>
+  <ul class="collapse">
+  <li><a href="#content-breakdown" id="toc-content-breakdown" class="nav-link" data-scroll-target="#content-breakdown"><span class="header-section-number">12.2.1</span> <strong>Content Breakdown:</strong></a></li>
+  <li><a href="#relationship-representation" id="toc-relationship-representation" class="nav-link" data-scroll-target="#relationship-representation"><span class="header-section-number">12.2.2</span> <strong>Relationship Representation:</strong></a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -316,8 +321,18 @@ Tip
 <p>The Physical Analysis perspective defines the finalized architecture of the system, as it should be completed and integrated. It adds the functions required by the implementation and technical choices, and reveals the behavioral components that perform these functions. These behavioral components are then implemented using host implementation components that offer them the necessary material resource.</p>
 <section id="top-level-system-breakdown" class="level2" data-number="12.1">
 <h2 data-number="12.1" class="anchored" data-anchor-id="top-level-system-breakdown"><span class="header-section-number">12.1</span> Top Level System Breakdown</h2>
-<p><img src="images/paste-1.png" class="img-fluid"></p>
-<p>The image is a SysML block definition diagram (BDD) for a physical architecture. It shows the breakdown of a system into its parts at a high level. Here’s a breakdown of the components:</p>
+<p><a href="#fig-physical_top_level" class="quarto-xref">Figure&nbsp;<span>12.1</span></a> is a SysML block definition diagram (BDD) for a physical architecture. It shows the breakdown of a system into it assemblies at a high level.</p>
+<div id="fig-physical_top_level" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-physical_top_level-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/paste-44.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-physical_top_level-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;12.1: Top Level Physical Architecture
+</figcaption>
+</figure>
+</div>
+<p>Here’s a breakdown of the assemblies:</p>
 <ul>
 <li><p><strong>Knowledge Repository:</strong> This block stores knowledge, the data that the system operates on.</p></li>
 <li><p><strong>Search Engine:</strong> This block finds information within the knowledge repository. It takes a search query as input and provides results.</p></li>
@@ -329,12 +344,54 @@ Tip
 <li><p><strong>Storage:</strong> This block stores data, the knowledge repository or other system data.</p></li>
 <li><p><strong>User Interface:</strong> This block allows users to interact with the system. It provides content to the user and can receive content from the user.</p></li>
 <li><p><strong>Display:</strong> This block presents information to the user.</p></li>
-<li><p><strong>Content:</strong> This block refers to the data that is presented by the user interface and displayed.</p></li>
-<li><p><strong>Metadata:</strong> This block provides data about other blocks in the system.</p></li>
+<li><p><strong>Content Section:</strong> This block refers to the data that is presented by the user interface and displayed.</p></li>
 </ul>
 <p>The diagram also shows the relationships between these blocks. For example, the search engine has a part relationship with the knowledge repository. This means that the search engine is a component of the knowledge repository. The user interface also has a content relationship with the content block. This means that the user interface displays content.</p>
+</section>
+<section id="medse-knowledge-repository-content-and-metadata-structure" class="level2" data-number="12.2">
+<h2 data-number="12.2" class="anchored" data-anchor-id="medse-knowledge-repository-content-and-metadata-structure"><span class="header-section-number">12.2</span> <strong>MedSE Knowledge Repository Content and Metadata Structure</strong></h2>
+<p><a href="#fig-Content_Physical_Architecture" class="quarto-xref">Figure&nbsp;<span>12.2</span></a> is SysML block definition diagram depicts the content structure of the MedSE knowledge repository. It represents the various content types and their interrelationships.</p>
+<div id="fig-Content_Physical_Architecture" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-Content_Physical_Architecture-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/paste-46.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-Content_Physical_Architecture-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;12.2: Content Physical Architecture
+</figcaption>
+</figure>
+</div>
+<section id="content-breakdown" class="level3" data-number="12.2.1">
+<h3 data-number="12.2.1" class="anchored" data-anchor-id="content-breakdown"><span class="header-section-number">12.2.1</span> <strong>Content Breakdown:</strong></h3>
+<p>The diagram is segregated into two primary sections:</p>
+<ol type="1">
+<li><p><strong>Content Section:</strong> This section serves as the heart of the repository, encapsulating the actual knowledge pertaining to medical device systems engineering. It encompasses a diverse range of content formats to cater to various learning styles and information needs. Here’s a breakdown of the content block types:</p>
+<ul>
+<li><p><strong>Text:</strong> This block represents core textual content, including articles, research papers, technical specifications, design documents, and user manuals.</p></li>
+<li><p><strong>Image:</strong> This block encompasses visual content such as diagrams, schematics, flowcharts, anatomical illustrations, and photographs of medical devices.</p></li>
+<li><p><strong>Video:</strong> This block signifies instructional videos, animations, demonstrations of medical device functionalities, and surgical procedures.</p></li>
+<li><p><strong>Audio:</strong> This block represents audio content, such as lectures, presentations, and interviews with medical device experts.</p></li>
+<li><p><strong>Reference:</strong> This block allows referencing other knowledge elements within the repository, fostering a network of interconnected information.</p></li>
+<li><p><strong>Diagram:</strong> This block specifically addresses technical diagrams beyond general schematics, potentially including block diagrams, system architecture diagrams, and system behavior diagrams.</p></li>
+<li><p><strong>Graph:</strong> This block incorporates visualizations of data related to medical devices, such as performance charts, reliability graphs, and risk assessment histograms.</p></li>
+<li><p><strong>Photo:</strong> This block focuses on high-resolution photographs of medical devices, their components, or specific functionalities.</p></li>
+<li><p><strong>Attachment:</strong> This block caters to non-standard content formats, including external documents (e.g., spreadsheets, simulation results), software code snippets, and design files.</p></li>
+<li><p><strong>Hyperlink:</strong> This block facilitates linking to external resources relevant to the medical device domain, such as online databases, regulatory guidelines, and manufacturer websites.</p></li>
+</ul></li>
+<li><p><strong>Metadata:</strong> This section complements the Content Section by providing additional information about the content pieces. It serves as a crucial indexing mechanism for efficient knowledge retrieval.</p></li>
+</ol>
+</section>
+<section id="relationship-representation" class="level3" data-number="12.2.2">
+<h3 data-number="12.2.2" class="anchored" data-anchor-id="relationship-representation"><span class="header-section-number">12.2.2</span> <strong>Relationship Representation:</strong></h3>
+<p>The arrows connecting the blocks depict the relationships between different content types. These relationships are typically directed with cardinalities specifying the number of instances involved. Here’s an interpretation of some key relationships:</p>
+<ul>
+<li><p><strong>Content Section</strong> can have <strong>zero or more</strong> instances of each specific content type (Text, Image, Video, etc.). This flexibility accommodates diverse knowledge representation within the repository.</p></li>
+<li><p>A specific content type block (e.g., Text) can only belong to <strong>one Content Section</strong>. This ensures proper organization and avoids content duplication.</p></li>
+<li><p><strong>Reference</strong> block establishes connections between content elements, enabling users to navigate the knowledge base and discover related information.</p></li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -754,8 +811,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./conclusions.html" class="pagination-link" aria-label="Conclusions">
-        <span class="nav-page-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Conclusions</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./system_req.html" class="pagination-link" aria-label="System Requirements">
+        <span class="nav-page-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">System Requirements</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
