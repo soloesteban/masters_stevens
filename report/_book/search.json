@@ -454,7 +454,7 @@
     "href": "goals_objectives.html#sec-stakeholders_expectations",
     "title": "10  Goals and Objectives",
     "section": "10.2 Stakeholders expectations",
-    "text": "10.2 Stakeholders expectations\nStakeholder expectations were elicited from the stakeholders and documented in Table 10.3. The stakeholders were interviewed and/or surveyed to record their expectations. Not all stakeholders were addressed directly, this was case of the medical device regulatory bodies. Published medical device regulations were consulted to determine what are the expectations of the Regulatory Bodies.\n\n\n\nTable 10.2: Stakeholders expectations\n\n\n\n\n\n\n\n\n\n\n\n\nID\nExpectation Title\nExpectation Description\nExpectation type [capability, characteristic]\nStakeholder ID",
+    "text": "10.2 Stakeholders expectations\nStakeholder expectations were elicited from the stakeholders and documented in Table 10.3. The stakeholders were interviewed and/or surveyed to record their expectations. Not all stakeholders were addressed directly, this was case of the medical device regulatory bodies. Published medical device regulations were consulted to determine what are the expectations of the Regulatory Bodies.\n\n\n\n\nTable 10.2: Stakeholders expectations\n\n\n\n\n\n\n\n\n\n\n\n\nID\nExpectation Title\nExpectation Description\nSource Stakeholder\nValidation Method\n\n\nSTK1\nSTK1 Knowledge Access\nAccess to comprehensive and up-to-date knowledge related to medical device systems engineering.\nMedical Device Systems Engineers\nDemonstration\n\n\nSTK2\nSTK2 Regulatory Information\nAccess to regulatory standards, guidelines, and documentation relevant to medical device systems engineering.\nRegulatory Compliance Officers\nDemonstration\n\n\nSTK3\nSTK3 Quality Management\nInformation on quality management systems, validation, verification, and testing methodologies for medical devices.\nQuality Assurance Professionals\nDemonstration\n\n\nSTK4\nSTK4 Research and Innovation\nAccess to research papers, patents, and emerging technologies in medical device systems engineering.\nResearch and Development Teams\nDemonstration\n\n\nSTK5\nSTK5 Clinical Requirements\nKnowledge of clinical requirements, usability considerations, and human factors engineering in medical device design.\nClinical Specialists\nDemonstration\n\n\nSTK6\nSTK6 Market Insights\nInsights into market trends, customer needs, and competitive analysis for medical devices.\nProduct Managers\nDemonstration\n\n\nSTK7\nSTK7 Safe and Effective Devices\nSafe and effective medical devices that meet their clinical needs and preferences.\nEnd Users (Healthcare Professionals and Patients)\nAnalysis\n\n\nSTK8\nSTK8 Repository Management\nOversight and management of the knowledge repository, including resource allocation and performance monitoring.\nAdministrators and Decision Makers\nDemonstration\n\n\nSTK9\nSTK9 Content Type\nVariety of content type such as articles, videos, interactive content.\nMedical Device Systems Engineers\nInspection",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Goals and Objectives</span>"
     ]
@@ -700,6 +700,17 @@
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>E</span>  <span class='chapter-title'>Medical Device Systems Engineer Job Descriptions</span>"
+    ]
+  },
+  {
+    "objectID": "snippets.html",
+    "href": "snippets.html",
+    "title": "Appendix F — Snippets",
+    "section": "",
+    "text": "Publishing Testing Enviornment\n\n\n\nTable F.1: Example Caption",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>F</span>  <span class='chapter-title'>Snippets</span>"
     ]
   }
 ]

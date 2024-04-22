@@ -14,7 +14,7 @@ This document contains snippets of content, ideas, tasks
 - [ ] Define stakeholder needs. Define system requirements: functional and non-functional  <!-- refer to Stevens classwork on how requirements are classified -->
 - [ ] Put meetings with masters project reviewers: Dr. Verma, Howard, Collins, Sandy, Nathan, Adam, Bijan, Dr. Salado.
 - [X] Consider migrating the .md files of the masters project to .qmd in order to generate the final report. I would need to create a Quarto project for the final report.
-- [ ] Inform reviewers of draft report. Facilitate hyperlink.
+- [X] Inform reviewers of draft report. Facilitate hyperlink.
 
 
 ## QR code for handing out in conferences

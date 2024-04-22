@@ -76,5 +76,5 @@ If you have questions, comments, or feedback, please contact Esteban Solorzano.
 | V&V            | Verification and Validation                                                                                                                                                                                                        |
 +----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-Definitions
+Definitions {.striped .hover}
 :::

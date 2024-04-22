@@ -52,7 +52,7 @@ The following methodology was used for the Masters Project in Systems Engineerin
 | Tables              | All table templates are customized for purposes of this report. There is no work instruction or standard operating procedure that is define the table layouts to use. |
 | Document Navigation | Hyperlinks are embedded in the document to facilitate navigation of information with identifications.                                                                 |
 
-Systems Engineering Constraints and Considerations
+Systems Engineering Constraints and Considerations {.striped .hover}
 :::
 
 ### Systems Engineering Model

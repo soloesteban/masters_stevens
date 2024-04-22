@@ -1,0 +1,14 @@
+---
+title: "Snippets"
+format: html
+---
+
+Publishing Testing Enviornment
+
+::: {#tbl-sandbox}
+```{=html}
+<iframe width="900" height="780" src="system requirements.html" title="System Requierments"></iframe>
+```
+
+Example Caption
+:::

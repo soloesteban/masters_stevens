@@ -538,7 +538,7 @@ The eight job descriptions for Medical Device Systems Engineers were examined to
 | Lead brainstorming sessions                        | 1                          |
 | Manage intellectual property                       | 1                          |
 
-Medical Device Systems Engineer Responsibilities (Most Common to Least Common)
+Medical Device Systems Engineer Responsibilities (Most Common to Least Common) {.striped .hover}
 :::
 
 ### Medical Device Systems Engineer - Systems Engineering Skills (Most Common to Least Common)
@@ -559,7 +559,7 @@ Medical Device Systems Engineer Responsibilities (Most Common to Least Common)
 | Trade-off analysis (considering various factors) | 1                          |
 | Systems integration and deployment               | 1                          |
 
-Medical Device Systems Engineer - Systems Engineering Skills (Most Common to Least Common)
+Medical Device Systems Engineer - Systems Engineering Skills (Most Common to Least Common) {.striped .hover}
 :::
 
 ### Medical Device Systems Engineer - Medical Device Skills (Most Common to Least Common)
@@ -574,7 +574,7 @@ Medical Device Systems Engineer - Systems Engineering Skills (Most Common to Lea
 | Experience with specific medical device technologies (e.g., implantable sensors) | 2                          |
 | Experience in a specific medical device domain (e.g., Renal Care)                | 1                          |
 
-Medical Device Systems Engineer - Medical Device Skills (Most Common to Least Common)
+Medical Device Systems Engineer - Medical Device Skills (Most Common to Least Common) {.striped .hover}
 :::
 
 ### Medical Device Systems Soft Skills (Most Common to Least Common)
@@ -597,7 +597,7 @@ Medical Device Systems Engineer - Medical Device Skills (Most Common to Least Co
 | Public speaking                              | 1                          |
 | Teaching/Mentoring                           | 1                          |
 
-Soft Skills (Most Common to Least Common)
+Soft Skills (Most Common to Least Common) {.striped .hover}
 :::
 
 ### Medical Device Systems Engineer Qualifications (Most Common to Least Common)
@@ -620,7 +620,7 @@ Soft Skills (Most Common to Least Common)
 | Advanced degree (Ph.D. or Post-Graduate)                                         | 1                          |
 | Experience in a specific medical device domain (e.g., Renal Care)                | 1                          |
 
-Medical Device Systems Engineer Qualifications (Most Common to Least Common)
+Medical Device Systems Engineer Qualifications (Most Common to Least Common) {.striped .hover}
 :::
 
 ### Medical Device Systems Engineer - Preferred Qualifications (Most Common to Least Common)
@@ -638,7 +638,7 @@ Medical Device Systems Engineer Qualifications (Most Common to Least Common)
 | Proficiency in generating system/subsystem specifications                        | 1                          |
 | Familiarity with advanced needs and requirements definition methods              | 1                          |
 
-Medical Device Systems Engineer - Preferred Qualifications (Most Common to Least Common)
+Medical Device Systems Engineer - Preferred Qualifications (Most Common to Least Common) {.striped .hover}
 :::
 
 The following sources for the MedSE Knowledge Repository was obtained from the analysis of the eight job descriptions:

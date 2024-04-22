@@ -202,7 +202,7 @@ Most of the articles were published in Springer.
 | Transportation    | 20139             | 23044                 | 43183 |
 | Manufacturing     | 21205             | 28341                 | 49546 |
 
-Quantity of peer reviewed systems engineering articles per application field since 1980
+Quantity of peer reviewed systems engineering articles per application field since 1980 {.striped .hover}
 :::
 
 ### Lack of books and literature of systems engineering of medical devices

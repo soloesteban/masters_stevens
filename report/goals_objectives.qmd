@@ -3,16 +3,15 @@ title: "Goals and Objectives"
 format: html
 ---
 
-::: {.callout-caution}
+::: callout-caution
 The report published on this website is a draft and subject to frequent updates. Please be aware that the content may change over time as revisions are made. Thank you for your understanding.
 :::
 
-::: {.callout-tip}
+::: callout-tip
 If you have questions, comments, or feedback, please contact Esteban Solorzano.
 
-[esteban.solorzano@gmail.com](esteban.solorzano@gmail.com)
+[esteban.solorzano\@gmail.com](esteban.solorzano@gmail.com)
 :::
-
 
 @sec-stakeholders provides the list of active, passive and sponsor stakeholders of the programmable playground system. @sec-stakeholders_expectations provides the list of stakeholder expectations that are classified as either capability or characteristic. @sec-sacred_expectations extracts which stakeholder expectations are considered sacred. @sec-objectives provides the system objectives. @sec-concept_operations explains the concept of operations of the system.
 
@@ -32,6 +31,8 @@ Stakeholders
 
 Stakeholder expectations were elicited from the stakeholders and documented in @tbl-sacred_expectations. The stakeholders were interviewed and/or surveyed to record their expectations. Not all stakeholders were addressed directly, this was case of the medical device regulatory bodies. Published medical device regulations were consulted to determine what are the expectations of the Regulatory Bodies.
 
+```{=html}
+<!--
 ::: {#tbl-stakeholders_expectations}
 | ID  | Expectation Title | Expectation Description | Expectation type \[capability, characteristic\] | Stakeholder ID |
 |---------------|---------------|---------------|---------------|---------------|
@@ -40,6 +41,24 @@ Stakeholder expectations were elicited from the stakeholders and documented in @
 |     |                   |                         |                                                 |                |
 
 Stakeholders expectations
+:::
+-->
+```
+::: {#tbl-stakeholders_expectations}
+|        |                                 |                                                                                                                       |                                                   |                       |
+|-------------|-------------|----------------------|-------------|-------------|
+| **ID** | **Expectation Title**           | **Expectation Description**                                                                                           | **Source Stakeholder**                            | **Validation Method** |
+| STK1   | STK1 Knowledge Access           | Access to comprehensive and up-to-date knowledge related to medical device systems engineering.                       | Medical Device Systems Engineers                  | Demonstration         |
+| STK2   | STK2 Regulatory Information     | Access to regulatory standards, guidelines, and documentation relevant to medical device systems engineering.         | Regulatory Compliance Officers                    | Demonstration         |
+| STK3   | STK3 Quality Management         | Information on quality management systems, validation, verification, and testing methodologies for medical devices.   | Quality Assurance Professionals                   | Demonstration         |
+| STK4   | STK4 Research and Innovation    | Access to research papers, patents, and emerging technologies in medical device systems engineering.                  | Research and Development Teams                    | Demonstration         |
+| STK5   | STK5 Clinical Requirements      | Knowledge of clinical requirements, usability considerations, and human factors engineering in medical device design. | Clinical Specialists                              | Demonstration         |
+| STK6   | STK6 Market Insights            | Insights into market trends, customer needs, and competitive analysis for medical devices.                            | Product Managers                                  | Demonstration         |
+| STK7   | STK7 Safe and Effective Devices | Safe and effective medical devices that meet their clinical needs and preferences.                                    | End Users (Healthcare Professionals and Patients) | Analysis              |
+| STK8   | STK8 Repository Management      | Oversight and management of the knowledge repository, including resource allocation and performance monitoring.       | Administrators and Decision Makers                | Demonstration         |
+| STK9   | STK9 Content Type               | Variety of content type such as articles, videos, interactive content.                                                | Medical Device Systems Engineers                  | Inspection            |
+
+Stakeholders expectations {.striped .hover}
 :::
 
 ## Sacred expectations {#sec-sacred_expectations}
@@ -57,21 +76,23 @@ Sacred stakeholder expectations
 :::
 
 ## Objectives {#sec-objectives}
+
+```{=html}
 <!--
 March 11, 2024. Need to revisit the objectives.
 -->
-
+```
 @tbl-objectives provides the list of the system objectives.
 
 ::: {#tbl-objectives}
 | ID      | Objective                                                                                                                                                                                 |
-|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|------------------|------------------------------------------------------|
 | OBJ0001 | Design a system that will compile and synthesize knowledge and best practices related to systems engineering in medical device development.                                               |
 | OBJ0002 | Provide a comprehensive resource that educates professionals and students in the field of systems engineering about the unique challenges and considerations specific to medical devices. |
 | OBJ0003 | Offer practical guidance and tools for applying systems engineering principles throughout the entire lifecycle of medical device development.                                             |
 | OBJ0004 | Foster a deeper understanding of the regulatory requirements and standards governing medical devices and how they intersect with systems engineering processes.                           |
 
-Objectives
+Objectives {.striped .hover}
 :::
 
 ## Concept of Operations {#sec-concept_operations}
