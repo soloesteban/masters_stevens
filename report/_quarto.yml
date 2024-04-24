@@ -29,8 +29,9 @@ book:
     - standards.qmd
     - definitions.qmd
     - risks.qmd
-    - job_descriptions.qmd    
-
+    - job_descriptions.qmd
+  sidebar:
+    logo: logoMedSE.jpg
 
 bibliography: references.bib
 
