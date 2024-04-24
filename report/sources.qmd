@@ -13,7 +13,6 @@ If you have questions, comments, or feedback, please contact Esteban Solorzano.
 [esteban.solorzano@gmail.com](esteban.solorzano@gmail.com)
 :::
 
-
 ```{=html}
 <!-- 
 Make a digram of the sources of the needs, requirements. Use as references the sources viewpoint from the book on Systems Engineering dymistified.
@@ -28,7 +27,11 @@ Interviews of systems engineers
 Papers
 -->
 ```
+This section discusses the sources of the stakeholder needs that feed into the modeling and design of the MedSE Knowledge Repository.
+
 ## Source model
+
+@fig-sources_needs_requirements is a SysML block definition diagram that shows the sources of needs and requirements for designing a MedSE knowledge repository. The blocks in the diagram represent different sources of information that can be used to identify the needs and requirements of the knowledge repository.
 
 ::: {#fig-sources_needs_requirements}
 ![](images/paste-16.png)
@@ -36,31 +39,20 @@ Papers
 The MedSE Knowledge Repository System sources of needs and requirements
 :::
 
-@fig-sources_needs_requirements is a SysML block definition diagram that shows the sources of needs and requirements for designing a MedSE knowledge repository. The blocks in the diagram represent different sources of information that can be used to identify the needs and requirements of the knowledge repository.
+The diagram lists valid (credible) sources:
 
-The diagram lists valid (legal source element) sources:
+* Job descriptions
+* Training material
+* Literature
+* Publications
+* Articles
+* Standards
+* Databases
+* Surveys
+* Interviews
+* Webinars
 
--   Job descriptions
-
--   Training material
-
--   Literature
-
--   Publications
-
--   Articles
-
--   Standards
-
--   Databases
-
--   Surveys
-
--   Interviews
-
--   Webinars
-
-The inclusion of "Forbidden Source Element" highlights the importance of critical evaluation when selecting information sources. Reliable and verifiable sources like publications, standards, and legal databases should be prioritized for designing the knowledge repository.
+The inclusion of "Forbidden Source Element" highlights the importance of a critical evaluation when selecting information sources. Reliable and verifiable sources like publications, standards, and legal databases should be prioritized for designing the knowledge repository.
 
 ## Articles
 
@@ -212,7 +204,11 @@ Webinars that discuss systems engineering in the medical device industry can ser
 
 ### MassMEDIC Sponsored Webinar: Systems Engineering for Medical Device Development by Sunrise Labs, Inc [@massmedi2022].
 
-This webinar discussed how Systems Engineering contributes to success in complex medical device development. It discussed the role of a Systems Engineer and described the Systems Engineering process. From this webinar, the MedSE knowledge repository should incorporate the following key points:
+A webinar titled "Systems Engineering for Medical Device Development" discussed how Systems Engineering contributes to success in complex medical device development.
+
+{{< video https://www.youtube.com/watch?v=X-jzjOzocDA width="400" height="300" >}}
+
+The webinar discussed the role of a Systems Engineer and described the Systems Engineering process. From this webinar, the MedSE knowledge repository should incorporate the following key points:
 
 -   **Foundational Concepts:**
     -   Define Medical Device Systems Engineering and its role in the development lifecycle.
@@ -250,71 +246,56 @@ About our Speakers: Katie McHugh, Lead Systems Engineer, MPR Associates, Inc. Ka
 Key moments
 -->
 ```
-This webinar discussed how usability engineering can be integrated into the systems engineering process for medical device development. From this webinar, the MedSE knowledge repository should incorporate the following key points:
+A webinar titled "Systems Perspective Engineering : A webinar on Medical Device product development" discussed how usability engineering can be integrated into the systems engineering process for medical device development.
 
--   **Usability Engineering Process:**
+{{< video https://www.youtube.com/watch?v=r_Eh-VEm55E width="400" height="300" >}}
 
-    -   Iterative process applied throughout development.
+From this webinar, the MedSE knowledge repository should incorporate the following key points:
 
-    -   Complements design control and risk management.
+**Usability Engineering Process:**
 
-    -   Follows IEC 62366 and FDA guidance.
+* Iterative process applied throughout development.
+* Complements design control and risk management.
+* Follows IEC 62366 and FDA guidance.
+* Involves user research, task analysis, risk analysis, formative evaluations, and summative validation.
 
-    -   Involves user research, task analysis, risk analysis, formative evaluations, and summative validation.
+**Systems Engineering Approach (V Model):**
 
--   **Systems Engineering Approach (V Model):**
+* Starts with understanding user needs and defining requirements.
+* Breaks down the system into manageable pieces.
+* Focuses on mitigating technical risks early.
+* Integrates different disciplines throughout development.
 
-    -   Starts with understanding user needs and defining requirements.
+**Why Integrate Usability into Systems Engineering?**
+* Usability is a project-level risk that should be mitigated early.
+* Usability engineering tools complement the V model.
+* Early integration reduces design risk and rework later.
 
-    -   Breaks down the system into manageable pieces.
+**Who Owns Usability?**
 
-    -   Focuses on mitigating technical risks early.
+* Ideally, the systems engineer due to their focus on mitigating risks.
+* Can be someone else with influence to plan and integrate usability activities.
 
-    -   Integrates different disciplines throughout development.
+**Usability Engineering Strategy:**
 
--   **Why Integrate Usability into Systems Engineering?**
+* Should be planned early and scaled based on device risk.
+* Defines the types of evaluations and resources needed throughout development.
+* Integrates usability activities throughout all development phases.
 
-    -   Usability is a project-level risk that should be mitigated early.
+**Recommendations for Reducing Usability Risk:**
 
-    -   Usability engineering tools complement the V model.
-
-    -   Early integration reduces design risk and rework later.
-
--   **Who Owns Usability?**
-
-    -   Ideally, the systems engineer due to their focus on mitigating risks.
-
-    -   Can be someone else with influence to plan and integrate usability activities.
-
--   **Usability Engineering Strategy:**
-
-    -   Should be planned early and scaled based on device risk.
-
-    -   Defines the types of evaluations and resources needed throughout development.
-
-    -   Integrates usability activities throughout all development phases.
-
--   **Recommendations for Reducing Usability Risk:**
-
-    -   Consider usability risk mitigation early in system architecture planning.
-
-    -   Shift usability evaluation of critical hardware subsystems earlier.
-
-    -   Evaluate software user interfaces before coding and implementation.
-
-    -   Develop instructions for use and training as subsystems to be iterated on.
-
-    -   Strategically sequence development of features based on usability risk.
-
-    -   Plan ahead for materials and control of devices for usability studies.
+* Consider usability risk mitigation early in system architecture planning.
+* Shift usability evaluation of critical hardware subsystems earlier.
+* Evaluate software user interfaces before coding and implementation.
+* Develop instructions for use and training as subsystems to be iterated on.
+* Strategically sequence development of features based on usability risk.
+* Plan ahead for materials and control of devices for usability studies.
 
 **Additionally, the webinar covered:**
 
--   Examples of usability engineering tools used throughout the development process.
-
--   How to develop a usability engineering plan.
-
--   How to conduct usability studies at different development phases.
+* Examples of usability engineering tools used throughout the development process.
+* How to develop a usability engineering plan.
+* How to conduct usability studies at different development phases.
 
 ## Courses directed to systems engineers who work in the medical device industry
 
@@ -481,7 +462,7 @@ https://vantagemedtech.com/medical-device-design/
 ```
 ## Job Profiles of Systems Engineers of medical device companies
 
-[Appendix Medical Device Systems Engineer Job Descriptions](/job_descriptions.qmd) contains a sample of eight job descriptions that showcase the variety of roles and responsibilities under the title "Systems Engineer" in the medical device industry. The source of the Job Descriptions was from LinkedIn.
+[Appendix Medical Device Systems Engineer (MDSE) Job Descriptions](/job_descriptions.qmd) contains a sample of eight job descriptions that showcase the variety of roles and responsibilities under the title "Systems Engineer" in the medical device industry. The source of the Job Descriptions was from LinkedIn.
 
 Here's a breakdown of key findings of the eight job descriptions:
 
@@ -513,9 +494,9 @@ Here's a breakdown of key findings of the eight job descriptions:
 
 The eight job descriptions for Medical Device Systems Engineers were examined to identify the required qualifications, responsibilities, and skills. The information is presented in several tables for clarity.
 
-### Medical Device Systems Engineer Responsibilities (Most Common to Least Common)
+### MDSE Responsibilities
 
-@tbl-MDSE_Responsibilities ranks the responsibilities based on how often they appeared in the job descriptions. Participating in cross-functional teams, managing projects, and developing system requirements are the most common. Less frequent responsibilities include conducting training and managing intellectual property.
+@tbl-MDSE_Responsibilities ranks from most common to least common the responsibilities based on how often they appeared in the job descriptions. Participating in cross-functional teams, managing projects, and developing system requirements are the most common. Less frequent responsibilities include conducting training and managing intellectual property.
 
 ::: {#tbl-MDSE_Responsibilities}
 | **Responsibility**                                 | **\# of Job Descriptions** |
@@ -541,9 +522,9 @@ The eight job descriptions for Medical Device Systems Engineers were examined to
 Medical Device Systems Engineer Responsibilities (Most Common to Least Common) {.striped .hover}
 :::
 
-### Medical Device Systems Engineer - Systems Engineering Skills (Most Common to Least Common)
+### MDSE Systems Engineering Skills
 
-@tbl-MDSE_Systems_Engineering_Skills focuses on skills specific to systems engineering. Complex systems thinking, system requirements development, and system design and architecture are the most common. Test plan development and execution, and trade-off analysis are less frequently mentioned.
+@tbl-MDSE_Systems_Engineering_Skills focuses on skills specific to systems engineering, ranked from most common to least common. Complex systems thinking, system requirements development, and system design and architecture are the most common. Test plan development and execution, and trade-off analysis are less frequently mentioned.
 
 ::: {#tbl-MDSE_Systems_Engineering_Skills}
 | **Skill**                                        | **\# of Job Descriptions** |
@@ -562,9 +543,9 @@ Medical Device Systems Engineer Responsibilities (Most Common to Least Common) {
 Medical Device Systems Engineer - Systems Engineering Skills (Most Common to Least Common) {.striped .hover}
 :::
 
-### Medical Device Systems Engineer - Medical Device Skills (Most Common to Least Common)
+### MDSE Medical Device Skills
 
-@tbl-MDSE_Medical_Device_Skills highlights medical device specific skills. General medical device experience and knowledge of regulatory affairs (FDA, ISO) are common requirements. Experience with specific technologies or domains are less frequent.
+@tbl-MDSE_Medical_Device_Skills highlights medical device specific skills, ranked from most common to least common. General medical device experience and knowledge of regulatory affairs (FDA, ISO) are common requirements. Experience with specific technologies or domains are less frequent.
 
 ::: {#tbl-MDSE_Medical_Device_Skills}
 | **Skill**                                                                        | **\# of Job Descriptions** |
@@ -577,9 +558,9 @@ Medical Device Systems Engineer - Systems Engineering Skills (Most Common to Lea
 Medical Device Systems Engineer - Medical Device Skills (Most Common to Least Common) {.striped .hover}
 :::
 
-### Medical Device Systems Soft Skills (Most Common to Least Common)
+### MDSE Soft Skills
 
-@tbl-Soft_Skills categorizes soft skills required for the role, with communication, collaboration, and problem-solving being the most sought-after. Public speaking and teaching/mentoring are the least common skills mentioned.
+@tbl-Soft_Skills categorizes soft skills required for the role from most common to least common, with communication, collaboration, and problem-solving being the most sought-after. Public speaking and teaching/mentoring are the least common skills mentioned.
 
 ::: {#tbl-Soft_Skills}
 | **Skill**                                    | **\# of Job Descriptions** |
@@ -600,7 +581,7 @@ Medical Device Systems Engineer - Medical Device Skills (Most Common to Least Co
 Soft Skills (Most Common to Least Common) {.striped .hover}
 :::
 
-### Medical Device Systems Engineer Qualifications (Most Common to Least Common)
+### MDSE Qualifications
 
 @tbl-MDSE_Qualifications ranks the qualifications listed in the job descriptions by frequency. A Bachelor's degree in Engineering and strong communication skills are the most common requirements, while an advanced degree (Ph.D. or Post-Graduate) and experience in a specific medical device domain are the least common.
 
@@ -623,9 +604,9 @@ Soft Skills (Most Common to Least Common) {.striped .hover}
 Medical Device Systems Engineer Qualifications (Most Common to Least Common) {.striped .hover}
 :::
 
-### Medical Device Systems Engineer - Preferred Qualifications (Most Common to Least Common)
+### MDSE Preferred Qualifications
 
-@tbl-MDSE_Preferred_Qualifications summarizes qualifications that are desirable but not always mandatory. A Master's degree, leadership experience, and expertise in specific medical device technologies are preferred by some employers.
+@tbl-MDSE_Preferred_Qualifications summarizes qualifications that are desirable but not always mandatory from most common to least common. A Master's degree, leadership experience, and expertise in specific medical device technologies are preferred by some employers.
 
 ::: {#tbl-MDSE_Preferred_Qualifications}
 | **Qualification**                                                                | **\# of Job Descriptions** |

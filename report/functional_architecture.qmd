@@ -1,0 +1,41 @@
+---
+title: "Functional Architecture"
+format: html
+---
+
+::: callout-caution
+The report published on this website is a draft and subject to frequent updates. Please be aware that the content may change over time as revisions are made. Thank you for your understanding.
+:::
+
+::: callout-tip
+If you have questions, comments, or feedback, please contact Esteban Solorzano.
+
+[esteban.solorzano\@gmail.com](esteban.solorzano@gmail.com)
+:::
+
+This section explains the functional archicture of the MedSE Knowledge Repository system.
+
+<!--
+Functional Decomposition. Use IDEF0 preferibly
+
+Some ideas of functions:
+
+add content
+update content
+remove content
+store content
+view content
+decode content (video, text)
+serach content
+browse content
+protect content (access rights)
+backup content
+
+
+Perform a trace matrix to use cases. Use Gemini to suggest functions from the sequence diagrams.
+
+Perform a trace matrix to requirements. I would need to trace requirements to functions. Probably this trace matrix would be better to be shown in the requirements section of this report.
+
+Perform allocation to physical components from the Physical Architecture.
+
+-->
