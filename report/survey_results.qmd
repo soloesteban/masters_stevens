@@ -15,7 +15,9 @@ If you have questions, comments, or feedback, please contact Esteban Solorzano.
 
 This section contains the survey results for a total of 22 respondents.
 
-## Question 1: Please identify the primary challenges you have encountered in the systems engineering process for medical devices. Select all that apply from the following options:
+## Question 1
+
+> *Please identify the primary challenges you have encountered in the systems engineering process for medical devices. Select all that apply from the following options:*
 
 ```{=html}
 <!--
@@ -48,7 +50,9 @@ Other challenges faced by systems engineers working on medical devices include:
 
 -   **Other** (4 respondents)
 
-## Question 2: What tools do you find indispensable in your daily tasks as a systems engineer? Please select all that apply from the following options:
+## Question 2
+
+> *What tools do you find indispensable in your daily tasks as a systems engineer? Please select all that apply from the following options:*
 
 ```{=html}
 <!--
@@ -87,7 +91,9 @@ Here’s a deeper look into some of the other tools selected by the respondents:
 
 -   **Quality management systems** (5 respondents)
 
-## Question 3: Could you please elaborate on why you find the selected tools valuable in your day-to-day work as a systems engineer? Feel free to provide specific examples or experiences that illustrate their importance.
+## Question 3
+
+> *Could you please elaborate on why you find the selected tools valuable in your day-to-day work as a systems engineer? Feel free to provide specific examples or experiences that illustrate their importance.*
 
 ```{=html}
 <!--
@@ -130,7 +136,9 @@ The analysis of the results of this follow-up question reveals several key theme
 -   There's a recognition that the "best" tools depend on the specific role and project within medical device systems engineering.
 :::
 
-## Question 4: Which methodologies do you consider most beneficial in your daily tasks as a systems engineer working with medical devices? Please select all that apply from the following options:
+## Question 4
+
+> *Which methodologies do you consider most beneficial in your daily tasks as a systems engineer working with medical devices? Please select all that apply from the following options:*
 
 ```{=html}
 <!--
@@ -175,7 +183,9 @@ Here’s a closer look at some of the other methodologies selected by the respon
 
 -   **Innovative Design Approaches (e.g., TRIZ)** (5 respondents)
 
-## Question 5: Could you please provide insights into why you find the selected methodologies valuable in your day-to-day work as a systems engineer for medical devices? Describe the outcomes or benefits you've experienced by employing these methodologies. Additionally, if applicable, mention any alternative methodologies that were considered but not chosen, and the rationale behind your selection.
+## Question 5
+
+> *Could you please provide insights into why you find the selected methodologies valuable in your day-to-day work as a systems engineer for medical devices? Describe the outcomes or benefits you've experienced by employing these methodologies. Additionally, if applicable, mention any alternative methodologies that were considered but not chosen, and the rationale behind your selection.*
 
 @fig-Question5_results is word cloud of question 5 results.
 
@@ -216,7 +226,9 @@ The follow-up survey question provided valuable insights into why specific metho
 
 -   A few responses suggested that regulatory requirements should not solely dictate the chosen methodologies. However, a well-defined systems engineering approach can facilitate regulatory compliance. (Example: "Again, many of processes listed did not strike me as medical device specific. I also think regulatory should not drive systems engineering but good systems engineering should deliver what you need to get the product approved in many cases.")
 
-## Question 6: Which job roles do you primarily engage with in your daily activities?
+## Question 6
+
+> *Which job roles do you primarily engage with in your daily activities?*
 
 ```{=html}
 <!--
@@ -265,7 +277,9 @@ Here's a look at some of the less frequent interactions, but still important for
 
 -   **Marketing/Sales** (6 respondents)
 
-## Question 7: Please indicate which job roles, in your opinion, possess a good understanding of the deliverables and artifacts produced by systems engineers?
+## Question 7
+
+> *Please indicate which job roles, in your opinion, possess a good understanding of the deliverables and artifacts produced by systems engineers?*
 
 ```{=html}
 <!--
@@ -298,7 +312,9 @@ The follow-up question also highlights some roles that may benefit from a strong
 
 Overall, the survey results suggest that while some roles naturally have a better understanding of systems engineers' deliverables due to close collaboration (e.g., project managers, QA/QC engineers), there's an opportunity to improve communication and knowledge sharing across disciplines (e.g., software engineers, design engineers). This can enhance overall collaboration and ensure everyone involved has a clear understanding of how their work contributes to the medical device development process.
 
-## Question 8: Could you share examples of books, articles, or papers that have resonated with you as a systems engineer working with medical devices? Please provide one or more titles and, if possible, briefly explain how they impacted your work or perspective. Your insights will help us better understand valuable resources in this field.
+## Question 8
+
+> *Could you share examples of books, articles, or papers that have resonated with you as a systems engineer working with medical devices? Please provide one or more titles and, if possible, briefly explain how they impacted your work or perspective. Your insights will help us better understand valuable resources in this field.*
 
 @fig-Question8_results is a word cloud of question 8 results.
 
@@ -353,7 +369,9 @@ The following is a breakdown of the mentioned resources and how they resonated w
 
 -   **Soft Skills:** Resources on collaboration, communication, and team dynamics can be beneficial for systems engineers working in a cross-functional environment.
 
-## Question 9: In your opinion, what regulations or standards should be covered in a comprehensive medical device systems engineering book? Please provide your suggestions below.
+## Question 9
+
+> *In your opinion, what regulations or standards should be covered in a comprehensive medical device systems engineering book? Please provide your suggestions below.*
 
 ```{=html}
 <!--
@@ -410,7 +428,9 @@ The survey question provide information for what regulations and standards shoul
 
 -   The presentation of information should be structured and hierarchical, allowing readers to find information based on their level of understanding.
 
-## Question 10: What learning formats do you find most accessible and beneficial? Please select all that apply from the following options:
+## Question 10
+
+> *What learning formats do you find most accessible and beneficial? Please select all that apply from the following options:*
 
 ```{=html}
 <!--

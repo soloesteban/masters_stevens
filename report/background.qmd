@@ -185,55 +185,32 @@ Many life saving devices come with significant risk which must be mitigated thro
 
 ## Role as Medical Device Systems Engineer
 
-Medical device systems engineers interact with internal and external stakeholders.
+On their day to day, Medical device Systems Engineers (MDSE) interact with internal and external stakeholders.
 
 ### Internal stakeholders
 
--   Bioinformatics
+Some of the internal stakeholders that MDSEs interact with are:
+
+-   Bioinformatics: These disciplines involve the use of computational tools and biological data to develop technologies and software for managing biological information, genomics, and drug development.
 -   Biotechnology
--   Biomedical Engineering
--   Chemical Engineering
+-   Biomedical Engineering: This discipline is at the core of medical system development. Biomedical engineers apply principles of engineering to healthcare and medical fields. They work on devices, imaging technology, prosthetics, and various medical equipment.
+-   Chemical Engineering: In the development of pharmaceuticals, drug delivery systems, and the manufacturing of medical substances, chemical engineers play a significant role in ensuring the efficiency and safety of these elements.
 -   Clinical Research
--   Control Engineering
+-   Control Engineering: Control engineers work on systems that require precise control, such as automated drug delivery systems, robotics in surgery, or other systems where accurate control is necessary.
 -   Data Science and Analytics
 -   Design Quality Assurance
--   Electrical Engineering
+-   Electrical Engineering: Electrical engineers play a crucial role in medical systems, especially in the design of medical devices that involve electronics, sensors, and control systems. They work on everything from circuit design to signal processing.
 -   Finance
--   Industrial Engineering
--   Materials Engineering
--   Mechanical Engineering
+-   Industrial Engineering: Industrial engineers may focus on optimizing healthcare systems, streamlining processes in hospitals or clinics, and improving the overall efficiency of healthcare delivery.
+-   Materials Engineering: Developing new materials that are biocompatible, durable, and safe for medical devices, implants, and equipment is crucial. Materials engineers contribute their expertise in selecting and designing materials suitable for medical use.
+-   Mechanical Engineering: Mechanical engineers contribute to the design and development of medical devices, ranging from prosthetics to complex imaging equipment and robotic surgical systems. They focus on mechanics, materials, and product design.
 -   Project Management
 -   Regulatory Affairs and Compliance
 -   Software Engineering
--   Computer Science
+-   Computer Science: With the advancement of medical technology, software engineers and computer scientists are essential in developing the software that operates medical devices, manages patient data, and enables communication between different systems.
 -   Supply Engineering
 -   Systems Engineering
 
-```{=html}
-<!--
-I could probably put the following in a table format.
-
-
-Biomedical Engineering: This discipline is at the core of medical system development. Biomedical engineers apply principles of engineering to healthcare and medical fields. They work on devices, imaging technology, prosthetics, and various medical equipment.
-
-Electrical Engineering: Electrical engineers play a crucial role in medical systems, especially in the design of medical devices that involve electronics, sensors, and control systems. They work on everything from circuit design to signal processing.
-
-Mechanical Engineering: Mechanical engineers contribute to the design and development of medical devices, ranging from prosthetics to complex imaging equipment and robotic surgical systems. They focus on mechanics, materials, and product design.
-
-Software Engineering and Computer Science: With the advancement of medical technology, software engineers and computer scientists are essential in developing the software that operates medical devices, manages patient data, and enables communication between different systems.
-
-Bioinformatics and Biotechnology: These disciplines involve the use of computational tools and biological data to develop technologies and software for managing biological information, genomics, and drug development.
-
-Chemical Engineering: In the development of pharmaceuticals, drug delivery systems, and the manufacturing of medical substances, chemical engineers play a significant role in ensuring the efficiency and safety of these elements.
-
-Materials Engineering: Developing new materials that are biocompatible, durable, and safe for medical devices, implants, and equipment is crucial. Materials engineers contribute their expertise in selecting and designing materials suitable for medical use.
-
-Industrial Engineering: Industrial engineers may focus on optimizing healthcare systems, streamlining processes in hospitals or clinics, and improving the overall efficiency of healthcare delivery.
-
-Control Engineering: Control engineers work on systems that require precise control, such as automated drug delivery systems, robotics in surgery, or other systems where accurate control is necessary.
-
---->
-```
 ### External stakeholders
 
 ```{=html}
@@ -241,6 +218,8 @@ Control Engineering: Control engineers work on systems that require precise cont
 Review if all the important external stakeholders have been identified
 -->
 ```
+Some of the external stakeholders that MDSEs interact with are:
+
 -   Patients
 -   Medicine and Healthcare Professionals
 -   Insurance Companies
@@ -251,7 +230,10 @@ Review if all the important external stakeholders have been identified
 
 # Medical Device Systems Engineering
 
-Medical Device Systems Engineering is a multidisciplinary field that encompasses the design, development, and implementation of medical devices. It integrates engineering concepts, medical knowledge, regulatory compliance, and user-centered design principles to ensure the seamless functioning of complex medical systems. This approach bridges the gap between technical innovation and patient-centric care, leading to the creation of advanced devices that address healthcare challenges. <!--
+Medical Device Systems Engineering is a multidisciplinary field that encompasses the design, development, and implementation of medical devices. It integrates engineering concepts, medical knowledge, regulatory compliance, and user-centered design principles to ensure the seamless functioning of complex medical systems. This approach bridges the gap between technical innovation and patient-centric care, leading to the creation of advanced devices that address healthcare challenges.
+
+<!--
+
 Citation
 
 C. Nocchi, “Mastering Medical Device Systems Engineering: A Holistic Approach to Healthcare Innovation | LinkedIn.” [Online]. Available: https://www.linkedin.com/pulse/mastering-medical-device-systems-engineering-holistic-chris-nocchi/
@@ -309,6 +291,8 @@ in Medical Technology?
 
 -->
 ```
+Chris Unger (Chief Systems Engineer, GE Healthcare, ESEP) presented to the INCOSE Healthcare Working group key points that makes medical device systems engineering from the rest of the systems engineering:
+
 -   Compliance with regulations: Food and Drug Administration (FDA), International Electrotechnical Commission (IEC; French: Commission électrotechnique internationale), International Organization for Standardization (ISO), Health Insurance Portability and Accountability Act (HIPAA), International Classification of Diseases (ICD-10), etc.<!---Provide definitions of the acronyms listed in this sentence -->
 -   Defects are VERY costly to handle (audit, warning letters, recalls, ...)
 -   Most products are developed in a geographically distributed way
