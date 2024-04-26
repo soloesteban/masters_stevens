@@ -5,14 +5,13 @@ book:
   title: "Medical Device Systems Engineering Knowledge Repository Report"
   author:
     - name: "Esteban Solorzano"
-      url: https://soloesteban.github.io/masters_stevens/
       email: esteban.solorzano@gmail.com
       affiliation: 
       - name: Stevens Institute of Technology
         city: Hoboken
         state: NJ
         url: www.stevens.edu
-  date: "4/24/2024"
+  date: "4/25/2024"
   downloads: pdf
   sharing: linkedin
   chapters:

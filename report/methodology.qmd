@@ -57,7 +57,7 @@ Systems Engineering Constraints and Considerations {.striped .hover}
 
 ### Systems Engineering Model
 
-@fig-strategy shows the system engineering roadmap used for the Programmable Playground system. The roadmap source of information is course SYS 625.
+@fig-strategy shows the system engineering roadmap used for the MedSE Knowledge Repository. This roadmap provides a structured approach to system engineering.
 
 ::: {#fig-strategy}
 ```{mermaid}
@@ -84,3 +84,23 @@ flowchart TD
 
 System Engineering Strategy
 :::
+
+The roadmap outlines the following key steps in the system engineering process:
+
+-   **Functional/Operational Deficiency:** Identify areas where the operation of interest may be lacking.
+
+-   **Stakeholder Expectations/User Needs:** Gather requirements and expectations from stakeholders and users3.
+
+-   **System Concepts/System Context:** Define the system’s context and generate concepts.
+
+-   **Operational View & System Objectives:** Establish the operational perspective and objectives of the system.
+
+-   **System Requirements:** Detail the requirements that the system must fulfill.
+
+-   **Functional View:** Develope a view of the system’s functions.
+
+-   **Physical View:** Create a view of the system’s physical components.
+
+-   **System Model:** Build a model that represents the system.
+
+-   **Design Detail:** Work out the detailed design of the system.
