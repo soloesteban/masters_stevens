@@ -6,12 +6,7 @@ This is the GitHub repository of a Masters Project for Systems Engineering at th
 
 The project consists of modeling and documenting a system to capture, manage and publish knowledge of best practices how to perform systems engineering of medical devices.
 
-Several of the documents and artifacts of this project are modeled using SysML and documented in markdown (.md and .qmd). This enables:
-- platform independence,
-- standerization,
-- publishing flexibility,
-- reuse,
-- and transfer.
+Several of the documents and artifacts of this project are modeled using SysML and documented in markdown (.md and .qmd). This enables: - platform independence, - standardization, - publishing flexibility, - reuse, - and transfer.
 
 The markdown files were primarily edited using Visual Studio Code and rendered with Pandoc/Quarto.
 
@@ -23,13 +18,13 @@ The following links facilitate navigation of the project artifacts.
 
 [Introduction](introduction.md#introduction)
 
-- [Problem](/Problem.md)
+-   [Problem](/Problem.md)
 
-- [Scope](introduction.md#scope)
+-   [Scope](introduction.md#scope)
 
-- [Background](/introduction.md#background)
+-   [Background](/introduction.md#background)
 
-    - What is a medical device systems engineer?
+    -   What is a medical device systems engineer?
 
 Makes Innovative Systems to improve people’s lives.
 
@@ -37,48 +32,34 @@ Makes Innovative Systems to improve people’s lives.
 
 Makes “Meaningful” Innovative Systems to improve people’s lives
 
-
 A Successful System … meets the user’s requirements, operates successfully in the field, has a long, useful operating life and can be upgraded easily to accommodate new requirements and technological innovation
 
+-   [Project Stakeholders](stakeholders.md)
 
-- [Project Stakeholders](stakeholders.md)
-
-- [Methodology](Methodology.md)
+-   [Methodology](Methodology.md)
 
 ## System Model
 
-- [ ] Add an explanation of the modeling framework being used.
+-   [ ] Add an explanation of the modeling framework being used.
 
-- [Functional Deficiency Operational Deficiency]
-<!--This section is a step of the systems engineering flow -->
+-   \[Functional Deficiency Operational Deficiency\] <!--This section is a step of the systems engineering flow -->
 
-- [Identify Stakeholder Expectations (User Needs)]
-<!--This section is a step of the systems engineering flow -->
+-   \[Identify Stakeholder Expectations (User Needs)\] <!--This section is a step of the systems engineering flow -->
 
-- Generate System Concepts, Define System Context
-<!--This section is a step of the systems engineering flow -->
+-   Generate System Concepts, Define System Context <!--This section is a step of the systems engineering flow -->
 
-- [Identify Operational View and System Objectives](capella_model/Operational%20Analysis.md)
-<!--This section is a step of the systems engineering flow -->
-<!--This section is a step of the Arcadia Method -->
+-   [Identify Operational View and System Objectives](capella_model/Operational%20Analysis.md) <!--This section is a step of the systems engineering flow --> <!--This section is a step of the Arcadia Method -->
 
-- [System Requirements]
-<!--This section is a step of the systems engineering flow -->
+-   \[System Requirements\] <!--This section is a step of the systems engineering flow -->
 
-- [System Analysis](capella_model/System%20Analysis.md)
+-   [System Analysis](capella_model/System%20Analysis.md)
 
-- [Develop Functional View](capella_model/Logical%20analysis.md)
-<!--This section is a step of the systems engineering flow -->
-<!--This section is a step of the Arcadia Method -->
+-   [Develop Functional View](capella_model/Logical%20analysis.md) <!--This section is a step of the systems engineering flow --> <!--This section is a step of the Arcadia Method -->
 
-- [Develop Physical View](capella_model/Logical%20analysis.md)
-<!--This section is a step of the systems engineering flow -->
-<!--This section is a step of the Arcadia Method -->
+-   [Develop Physical View](capella_model/Logical%20analysis.md) <!--This section is a step of the systems engineering flow --> <!--This section is a step of the Arcadia Method -->
 
-- [System Model]
-<!--This section is a step of the systems engineering flow -->
+-   [System Model] <!--This section is a step of the systems engineering flow -->
 
-- [Design Detail]
-<!--This section is a step of the systems engineering flow -->
+-   \[Design Detail\] <!--This section is a step of the systems engineering flow -->
 
-- [Configuration/Implementation]
+-   \[Configuration/Implementation\]
