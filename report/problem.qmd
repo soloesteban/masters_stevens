@@ -3,14 +3,14 @@ title: "Problem"
 format: html
 ---
 
-::: {.callout-caution}
+::: callout-caution
 The report published on this website is a draft and subject to frequent updates. Please be aware that the content may change over time as revisions are made. Thank you for your understanding.
 :::
 
-::: {.callout-tip}
+::: callout-tip
 If you have questions, comments, or feedback, please contact Esteban Solorzano.
 
-[esteban.solorzano@gmail.com](esteban.solorzano@gmail.com)
+[esteban.solorzano\@gmail.com](esteban.solorzano@gmail.com)
 :::
 
 ## Problem Statement
@@ -180,6 +180,7 @@ Counting CT Scanner
 ```
 An article database query was performed using a software called IHS Goldfire [@goldfire] to determine how many peer reviewed articles (including articles within books) discuss systems engineering of a medical device. IHS Goldfire is a software platform developed by IHS Markit that contains tools for knowledge discovery, problem-solving, technology scouting, innovation management, and intellectual property management. @tbl-query_results_papers shows the query results per application field. Between 1980 and 2024 there were a total of 3432 articles that discuss systems engineering of a medical device. This is significantly less than the 40732 peer reviewed articles found for systems engineering for military applications.
 
+```{=html}
 <!--
 Optional content for this section
 
@@ -189,7 +190,7 @@ Most of the articles were published in Springer.
 
 ![](images/paste-19.png)
 -->
-
+```
 ::: {#tbl-query_results_papers}
 | Application Field | Articles in books | Articles and Journals | Total |
 |-------------------|-------------------|-----------------------|-------|
@@ -207,11 +208,13 @@ Quantity of peer reviewed systems engineering articles per application field sin
 
 ### Lack of books and literature of systems engineering of medical devices
 
-The are very few books that teach systems engineering in the context of medical device development. Of the few books found are the following:
+The are very few books that discuss or teach systems engineering in the context of medical device development. Of the few books found are the following:
 
 -   "*Robust Systems Engineering for Medical Device Design*" by Mr. Martin A. Coe. Description: This book introduces practical systems engineering methods for the design and development of commercially engineered systems, focused on the design of medical devices. It begins with systems engineering definitions, fundamentals and proceeds by integrating systems engineering activities into the development process to demonstrate a successful system design [@coe2019].
 
 -   "*Healthcare Systems Engineering*" by Paul M. Griffin, et al. Description: Offers comprehensive coverage of the healthcare system, healthcare delivery, and healthcare systems modeling [@healthca].
+
+The INCOSE Systems Engineering Handbook only has one page and a half that talks about Biomedical and Healthcare Systems [@incoses2023a].
 
 ```{=html}
 <!--

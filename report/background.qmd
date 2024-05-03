@@ -75,8 +75,6 @@ Include photos of examples of medical devices
 
 [^background-10]: Image source: <https://us.myteleflex.com/en/USD/All-Categories/Interventional-Cardiology-%26-Radiology/Mechanical-Circulatory-Support-%26-Cardiac-Diagnostics/Intra-Aortic-Balloon-Catheters/Arrow%C2%AE-Intra-Aortic-Balloon-Catheter/p/arrow_iabp_catheters>
 
--   Medical Information Management System
-
 -   Endoilluminator
 
 ![[^background-11]](images/paste-13.png){#endoilluminator}
@@ -297,7 +295,7 @@ Chris Unger (Chief Systems Engineer, GE Healthcare, ESEP) presented to the INCOS
 -   Defects are VERY costly to handle (audit, warning letters, recalls, ...)
 -   Most products are developed in a geographically distributed way
 -   Rapid technology evolution is impacting development and delivery
-    -   AI, IoT, product variants, Mobile Medical Apps, complex deployment models, cloud.
+    -   Artificial Intelligence (AI), Internet of Things (IoT), product variants, Mobile Medical Apps, complex deployment models, cloud.
 -   Extreme time to market pressures: 1st to market usually gains 80% share. <!--Courtesy of Kim Cobb, IBM Rational-->
 -   Market Driven versus Contract Driven.
     -   Customer of “systems engineering” is internal (marketing, product management).

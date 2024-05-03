@@ -15,6 +15,7 @@ If you have questions, comments, or feedback, please contact Esteban Solorzano.
 
 This section explains the functional archicture of the MedSE Knowledge Repository system.
 
+```{=html}
 <!--
 Functional Decomposition. Use IDEF0 preferibly
 
@@ -39,3 +40,56 @@ Perform a trace matrix to requirements. I would need to trace requirements to fu
 Perform allocation to physical components from the Physical Architecture.
 
 -->
+```
+## IDEF0 Diagram of Medical Device Systems Engineering Knowledge Repository
+
+**Function:** Medical Device Systems Engineering Knowledge Repository
+
+**Parent Function:** (Not Applicable)
+
+**Inputs:**
+
+-   Update Knowledge (Arrow): This arrow represents data flowing into the system from an administrator who wants to update existing knowledge within the repository.
+
+-   Delete Knowledge (Arrow): This arrow represents data flowing into the system from an administrator who wants to delete knowledge from the repository.
+
+-   Knowledge Sources (Arrow): This arrow represents data flowing into the system from various sources such as literature, experts, academics, standards, and regulations.
+
+
+**Outputs:**
+
+-   Systems Engineering Information (Arrow): This arrow represents data flowing out of the system to a systems engineer who is consulting the repository for information on performing systems engineering of a medical device.
+
+
+**Controls:**
+
+-   Access Control (Arrow): This arrow represents a control mechanism that restricts access to update and delete functions to authorized administrators only.
+
+
+**Mechanisms:**
+
+-   Knowledge Base (Box): This box represents the core function of the system, which is to store the knowledge related to medical device systems engineering.
+
+-   Knowledge Management (Box): This box represents the functions responsible for processing knowledge updates and deletions initiated by administrators.
+
+-   Information Retrieval (Box): This box represents the function responsible for retrieving relevant systems engineering information based on a systems engineer's query.
+
+
+**Child Functions:**
+
+-   Maintain Knowledge Base (Arrow): This arrow represents the breakdown of the Knowledge Base function into a child diagram that would detail the processes for storing, organizing, and indexing knowledge within the system.
+
+-   Process Update Request (Arrow): This arrow represents the breakdown of the Knowledge Management function into a child diagram that would detail the steps involved in processing an administrator's request to update knowledge.
+
+-   Process Delete Request (Arrow): This arrow represents the breakdown of the Knowledge Management function into a child diagram that would detail the steps involved in processing an administrator's request to delete knowledge.
+
+-   Generate Systems Engineering Information (Arrow): This arrow represents the breakdown of the Information Retrieval function into a child diagram that would detail the process of searching the knowledge base and compiling relevant information based on a systems engineer's query.
+
+An IDEF0 diagram, also known as Integration Definition for Function Modeling, is a graphical tool used to depict the functionalities of a system or process. It's essentially a flowchart that breaks down activities and how they interact with data and controls. Some aspects of IDEF0 diagrams:
+
+
+-   **Function Modeling:** They focus on the functions, decisions, and actions that take place within a system \[2\].
+
+-   **Standardized Symbols:** IDEF0 uses a specific set of symbols to represent activities (boxes), data flows (arrows), mechanisms (arrows), and controls (arrows) \[3\].
+
+-   **Hierarchical Breakdown:** Complex processes can be broken down into smaller, more manageable sub-processes using a series of interconnected diagrams \[6\].

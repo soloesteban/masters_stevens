@@ -36,7 +36,7 @@ The medical device systems engineer can be both a customer and a source (SME for
 MedSE Knowledge Repository Stakeholders View 
 :::
 
-@fig-stakeholders_diagram depicts a SysML block definition diagram (bdd) centered on a block named “Knowledge Repository” which represents the MedSE knowledge repository. The diagram showcases various stakeholders that have an interest in this repository.
+@fig-stakeholders_diagram depicts a SysML block definition diagram (bdd) centered on a block named “Knowledge Repository” which represents the MedSE knowledge repository. The diagram showcases various stakeholders that have an interest in the system.
 
 There are three categories of stakeholders [@sterman2000], which are as follows:
 

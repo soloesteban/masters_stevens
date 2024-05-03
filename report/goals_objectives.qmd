@@ -18,15 +18,48 @@ If you have questions, comments, or feedback, please contact Esteban Solorzano.
 ## Stakeholders {#sec-stakeholders}
 
 ::: {#tbl-stakeholders}
-| ID  | Stakeholder | Description | Type \[active, passive, sponsor\] |
-|-----|-------------|-------------|-----------------------------------|
-|     |             |             |                                   |
-|     |             |             |                                   |
-|     |             |             |                                   |
++---------+---------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+
+| ID      | Stakeholder                           | Description                                                                                                                                                                                               | Type \[active, passive, sponsor\] |
++=========+=======================================+===========================================================================================================================================================================================================+===================================+
+| STH0001 | Medical Device Systems Engineer       | Oversees the systems engineering of a medical device during its lifecycle, from initial concept and development, through regulatory approval and market launch, to ongoing sustaining and improvement.    | active                            |
+|         |                                       |                                                                                                                                                                                                           |                                   |
+|         |                                       | Primary user of the Medical Device Systems Engineering Knowledge Repository.                                                                                                                              |                                   |
++---------+---------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+
+| STH0002 | Regulatory Compliance Officer         | Also referred to as a Quality Regulatory Compliance Officer (QRCO), is a role that ensures a company's medical devices are developed, manufactured, and marketed according to all applicable regulations. | passive                           |
++---------+---------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+
+| STH0003 | Quality Assurance Professional        | Ensures medical devices meet quality standards from design to production.                                                                                                                                 | passive                           |
++---------+---------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+
+| STH0004 | Research and Development Team         | Group responsible for creating new and innovative medical devices. This team typically consists of a variety of specialists, including engineers, scientists, and researchers.                            | sponsor                           |
++---------+---------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+
+| STH0005 | Clinical Specialist                   | Serves as a bridge between the manufacturer and healthcare providers. Typically has a background in healthcare and technology.                                                                            | passive                           |
++---------+---------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+
+| STH0006 | Product Manager                       | Manages the lifecycle of a medical device, from initial concept and development, through regulatory approval and market launch, to ongoing management and improvement.                                    | passive                           |
++---------+---------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+
+| STH0007 | Healthcare Professionals and Patients | Users and end users of medical devices                                                                                                                                                                    | passive                           |
++---------+---------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+
+| STH0008 | Administrators and Decision Maker     | The administrator of the Medical Device Systems Engineering Knowledge Repository.                                                                                                                         | active                            |
++---------+---------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+
 
 Stakeholders
 :::
 
+```{=html}
+<!--
+A Medical Device Systems Engineer is an engineer who applies systems engineering principles to the development of medical devices. They  work to ensure the entire medical device,  from concept to fruition, functions cohesively and meets all regulatory requirements.
+
+Here's a breakdown of their role:
+
+- Big Picture Thinkers: They consider the entire medical device system, including hardware, software, and user interface, ensuring everything works together seamlessly [2].
+
+- Standards and Regulations: Medical device development is highly regulated to ensure patient safety. These engineers understand and adhere to relevant standards like FDA regulations in the US [2].
+
+- From Concept to Completion: They are involved in various stages of the development lifecycle, from defining user needs and translating them into technical requirements to design, testing, and production [3, 5].
+
+- Technical Expertise: They possess a strong foundation in engineering principles often with a focus on electromechanical systems [3].
+
+- Communication and Collaboration: They collaborate effectively with a cross-functional team including designers, software engineers, and regulatory specialists [3].
+-->
+```
 ## Stakeholders expectations {#sec-stakeholders_expectations}
 
 Stakeholder expectations were elicited from the stakeholders and documented in @tbl-sacred_expectations. The stakeholders were interviewed and/or surveyed to record their expectations. Not all stakeholders were addressed directly, this was case of the medical device regulatory bodies. Published medical device regulations were consulted to determine what are the expectations of the Regulatory Bodies.
@@ -45,18 +78,27 @@ Stakeholders expectations
 -->
 ```
 ::: {#tbl-stakeholders_expectations}
-|        |                                 |                                                                                                                       |                                                   |                       |
-|-------------|-------------|----------------------|-------------|-------------|
-| **ID** | **Expectation Title**           | **Expectation Description**                                                                                           | **Source Stakeholder**                            | **Validation Method** |
-| STK1   | STK1 Knowledge Access           | Access to comprehensive and up-to-date knowledge related to medical device systems engineering.                       | Medical Device Systems Engineers                  | Demonstration         |
-| STK2   | STK2 Regulatory Information     | Access to regulatory standards, guidelines, and documentation relevant to medical device systems engineering.         | Regulatory Compliance Officers                    | Demonstration         |
-| STK3   | STK3 Quality Management         | Information on quality management systems, validation, verification, and testing methodologies for medical devices.   | Quality Assurance Professionals                   | Demonstration         |
-| STK4   | STK4 Research and Innovation    | Access to research papers, patents, and emerging technologies in medical device systems engineering.                  | Research and Development Teams                    | Demonstration         |
-| STK5   | STK5 Clinical Requirements      | Knowledge of clinical requirements, usability considerations, and human factors engineering in medical device design. | Clinical Specialists                              | Demonstration         |
-| STK6   | STK6 Market Insights            | Insights into market trends, customer needs, and competitive analysis for medical devices.                            | Product Managers                                  | Demonstration         |
-| STK7   | STK7 Safe and Effective Devices | Safe and effective medical devices that meet their clinical needs and preferences.                                    | End Users (Healthcare Professionals and Patients) | Analysis              |
-| STK8   | STK8 Repository Management      | Oversight and management of the knowledge repository, including resource allocation and performance monitoring.       | Administrators and Decision Makers                | Demonstration         |
-| STK9   | STK9 Content Type               | Variety of content type such as articles, videos, interactive content.                                                | Medical Device Systems Engineers                  | Inspection            |
++---------+---------------------------------+-----------------------------------------------------------------------------------------------------------------------+---------------------------------------+-----------------------+
+| **ID**  | **Expectation Title**           | **Expectation Description**                                                                                           | **Source Stakeholder**                | **Validation Method** |
++---------+---------------------------------+-----------------------------------------------------------------------------------------------------------------------+---------------------------------------+-----------------------+
+| STK0001 | STK1 Knowledge Access           | Access to comprehensive and up-to-date knowledge related to medical device systems engineering.                       | Medical Device Systems Engineers      | Demonstration         |
++---------+---------------------------------+-----------------------------------------------------------------------------------------------------------------------+---------------------------------------+-----------------------+
+| STK0002 | STK2 Regulatory Information     | Access to regulatory standards, guidelines, and documentation relevant to medical device systems engineering.         | Regulatory Compliance Officers        | Demonstration         |
++---------+---------------------------------+-----------------------------------------------------------------------------------------------------------------------+---------------------------------------+-----------------------+
+| STK0003 | STK3 Quality Management         | Information on quality management systems, validation, verification, and testing methodologies for medical devices.   | Quality Assurance Professionals       | Demonstration         |
++---------+---------------------------------+-----------------------------------------------------------------------------------------------------------------------+---------------------------------------+-----------------------+
+| STK0004 | STK4 Research and Innovation    | Access to research papers, patents, and emerging technologies in medical device systems engineering.                  | Research and Development Teams        | Demonstration         |
++---------+---------------------------------+-----------------------------------------------------------------------------------------------------------------------+---------------------------------------+-----------------------+
+| STK0005 | STK5 Clinical Requirements      | Knowledge of clinical requirements, usability considerations, and human factors engineering in medical device design. | Clinical Specialists                  | Demonstration         |
++---------+---------------------------------+-----------------------------------------------------------------------------------------------------------------------+---------------------------------------+-----------------------+
+| STK0006 | STK6 Market Insights            | Insights into market trends, customer needs, and competitive analysis for medical devices.                            | Product Managers                      | Demonstration         |
++---------+---------------------------------+-----------------------------------------------------------------------------------------------------------------------+---------------------------------------+-----------------------+
+| STK0007 | STK7 Safe and Effective Devices | Safe and effective medical devices that meet their clinical needs and preferences.                                    | Healthcare Professionals and Patients | Analysis              |
++---------+---------------------------------+-----------------------------------------------------------------------------------------------------------------------+---------------------------------------+-----------------------+
+| STK0008 | STK8 Repository Management      | Oversight and management of the knowledge repository, including resource allocation and performance monitoring.       | Administrators and Decision Makers    | Demonstration         |
++---------+---------------------------------+-----------------------------------------------------------------------------------------------------------------------+---------------------------------------+-----------------------+
+| STK0009 | STK9 Content Type               | Variety of content type such as articles, videos, interactive content.                                                | Medical Device Systems Engineers      | Inspection            |
++---------+---------------------------------+-----------------------------------------------------------------------------------------------------------------------+---------------------------------------+-----------------------+
 
 Stakeholders expectations {.striped .hover}
 :::
@@ -66,11 +108,15 @@ Stakeholders expectations {.striped .hover}
 @tbl-sacred_expectations shows the stakeholder expectations determines as “sacred”.
 
 ::: {#tbl-sacred_expectations}
++----------------------------+-------------------+-------------------------+
 | Stakeholder expectation ID | Expectation Title | Expectation Description |
-|----------------------------|-------------------|-------------------------|
++============================+===================+=========================+
 |                            |                   |                         |
++----------------------------+-------------------+-------------------------+
 |                            |                   |                         |
++----------------------------+-------------------+-------------------------+
 |                            |                   |                         |
++----------------------------+-------------------+-------------------------+
 
 Sacred stakeholder expectations
 :::
@@ -85,12 +131,17 @@ March 11, 2024. Need to revisit the objectives.
 @tbl-objectives provides the list of the system objectives.
 
 ::: {#tbl-objectives}
-| ID      | Objective                                                                                                                                                                                 |
-|------------------|------------------------------------------------------|
-| OBJ0001 | Design a system that will compile and synthesize knowledge and best practices related to systems engineering in medical device development.                                               |
-| OBJ0002 | Provide a comprehensive resource that educates professionals and students in the field of systems engineering about the unique challenges and considerations specific to medical devices. |
-| OBJ0003 | Offer practical guidance and tools for applying systems engineering principles throughout the entire lifecycle of medical device development.                                             |
-| OBJ0004 | Foster a deeper understanding of the regulatory requirements and standards governing medical devices and how they intersect with systems engineering processes.                           |
++-----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ID        | Objective                                                                                                                                                                                 |
++===========+===========================================================================================================================================================================================+
+| OBJ0001   | Design a system that will compile and synthesize knowledge and best practices related to systems engineering in medical device development.                                               |
++-----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| OBJ0002   | Provide a comprehensive resource that educates professionals and students in the field of systems engineering about the unique challenges and considerations specific to medical devices. |
++-----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| OBJ0003   | Offer practical guidance and tools for applying systems engineering principles throughout the entire lifecycle of medical device development.                                             |
++-----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| OBJ0004   | Foster a deeper understanding of the regulatory requirements and standards governing medical devices and how they intersect with systems engineering processes.                           |
++-----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Objectives {.striped .hover}
 :::
@@ -103,18 +154,54 @@ A context diagram is a diagram that defines the boundary between the system, or 
 
 The context diagram shows the system’s inputs and outputs and sets a baseline for developing the internal architecture [@larson2009]. Context is what surrounds the system. It contains entities that are “just on the outside of the system” but are relevant to it [@crawley2015].
 
-@fig-system_context shows the Medical Device System context.
+@fig-system_context is a SysML diagram of the system context for the Medical Device Systems Engineering Knowledge Repository. It depicts the system and its interaction with external entities.
 
 <!--Insert system context diagram image here. Create caption and update cross references -->
 
 ::: {#fig-system_context}
-![](images/paste-3.png)
+<!--![](images/paste-3.png)-->
+
+![](images/paste-47.png)
 
 Medical Device System Context Diagram
 :::
 
+The following is a breakdown of the system context diagram:
+
+**Blocks:**
+
+-   **Knowledge Repository:** This is the central block of the system, which stores medical device systems engineering knowledge.
+
+-   **Medical Device Systems Engineer:** This block represents the users of the system who can request knowledge from the repository.
+
+-   **Administrator:** This block represents the system administrator who can manage the knowledge repository, including adding, updating, and deleting knowledge.
+
+-   **Standards Organizations:** This block represents external organizations that provide medical device systems engineering standards and regulations.
+
+-   **Academics:** This block represents academic institutions that contribute medical device systems engineering knowledge to the repository.
+
+-   **Non-Profit Organizations:** This block represents non-profit organizations that contribute medical device systems engineering knowledge to the repository.
+
+**Flows:**
+
+-   **Knowledge:** This flow shows the knowledge that is stored in the repository. It goes in two directions, indicating that knowledge can be added to the repository and retrieved from it.
+
+-   **Knowledge Request:** This flow shows the request for knowledge from a medical device systems engineer to the knowledge repository.
+
+-   **Commands:** This flow shows the commands issued by the administrator to manage the knowledge repository.
+
+-   **Knowledge Feedback:** This flow shows the feedback provided by a medical device systems engineer on the knowledge retrieved from the repository. This feedback loop allows for improvement of the knowledge repository over time.
+
 ```{=html}
 <!--
-Provide an explanation of the system context diagram
+The SysML internal block diagram provides a high-level overview of the knowledge repository system for medical device systems engineering knowledge. It shows the system's components, the users who interact with it, and the types of information that flow through the system.
+
+Here are some additional points to consider:
+
+- The specific types of knowledge that will be stored in the repository.
+- The mechanisms for searching and retrieving knowledge from the repository.
+- The security measures that will be in place to protect the confidentiality and integrity of the knowledge in the repository.
+- The way in which the knowledge repository will be kept up-to-date with the latest standards and regulations.
+
 -->
 ```

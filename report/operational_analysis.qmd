@@ -3,14 +3,14 @@ title: "Operational Analysis"
 format: html
 ---
 
-::: {.callout-caution}
+::: callout-caution
 The report published on this website is a draft and subject to frequent updates. Please be aware that the content may change over time as revisions are made. Thank you for your understanding.
 :::
 
-::: {.callout-tip}
+::: callout-tip
 If you have questions, comments, or feedback, please contact Esteban Solorzano.
 
-[esteban.solorzano@gmail.com](esteban.solorzano@gmail.com)
+[esteban.solorzano\@gmail.com](esteban.solorzano@gmail.com)
 :::
 
 ```{=html}
@@ -24,20 +24,29 @@ The Operational Analysis perspective analyses the issue of operational users (ac
 
 ### Knowledge Repository
 
-The core element of the system is the **Knowledge Repository** block. This block represents a database or information storage system that houses the medical device systems engineering knowledge base. The knowledge base is comprised of multiple **Content** elements, indicated by the notation "\[1..\*\]". This multiplicity signifies that the repository must contain at least one content element, and the number of content elements can be limitless. The content would likely encompasses details about regulatory, risk management, requirements management, and other relevant medical device systems engineering information.
+@fig-system_decomposition_components is a SysML block definition diagram that shows how the MedSE Knowledge Repository is decomposed.
 
-The knowledge repository also includes a **Search Engine** component. This component plays a critical role in facilitating efficient retrieval of information from the content base. Users can leverage the search engine to locate specific knowledge items based on their needs.
+::: {#fig-system_decomposition_components}
+![](images/paste-49.png)
 
-The knowledge repository possesses two key properties:
+MedSE Knowledge Repository System Decomposition
+:::
 
--   **Maintenance Mechanism:** This property acknowledges the importance of maintaining the accuracy and completeness of the knowledge base over time. The specific mechanisms for maintenance are not explicitly shown in the diagram but could involve processes for adding, updating, and removing content.
--   **Storage:** This property refers to the physical infrastructure responsible for storing the knowledge repository. While the specific technology is not depicted, it likely involves a database server, physical medium or cloud-based storage solution.
+The core element of the system is the **Knowledge Repository** block. This block represents a database or information storage system that houses the medical device systems engineering knowledge. The system stores multiple **Content Section** elements, indicated by the notation "\[1..\*\]". This multiplicity signifies that the repository must contain at least one content section element, and the number of content section elements can be limitless. The content would likely encompasses details about regulatory, risk management, requirements management, and other relevant medical device systems engineering information.
 
+The knowledge repository also includes a **Search Engine** component. This component plays a critical role in facilitating efficient retrieval of information from the knowledge repository. Users can leverage the search engine to locate specific knowledge items based on their needs.
+
+The knowledge repository possesses the following key components:
+
+-   **Maintenance Mechanism:** This component maintains the accuracy and completeness of the knowledge over time. The specific mechanisms for maintenance are not explicitly shown in the diagram but could involve processes for adding, updating, and removing content.
+-   **Storage:** This content refers to the physical infrastructure responsible for storing the content. While the specific technology is not depicted, it likely involves a database server, physical medium or cloud-based storage solution.
+<!--
 **Interaction and Data Flow**
 
 The diagram depicts two key data flows associated with the knowledge repository:
-
--   **User Interface:** This bidirectional flow signifies the interaction between users and the knowledge repository. Users can provide input, such as search queries, through the user interface. The system, in turn, can deliver output, such as search results or retrieved information, through the same channel.
+-->
+-   **User Interface:** <!--This bidirectional flow signifies the interaction between users and the knowledge repository.--> Users can provide input, such as search queries, through the user interface. The system, in turn, can deliver output, such as search results or retrieved information, through the same channel.
+<!--
 -   **Knowledge Item:** This flow represents the movement of knowledge items between the knowledge repository and potentially other parts of the system or external actors. Knowledge items could be retrieved from the repository by authorized users or potentially transferred to other system components for further processing.
 
 ### Actors and System Stakeholders
@@ -46,10 +55,13 @@ The diagram identifies two primary actors that interact with the system:
 
 -   **Administrator:** This actor plays a crucial role in managing the knowledge repository. Their responsibilities likely include adding, updating, and deleting content within the repository. Additionally, the administrator is responsible for managing access control, ensuring that only authorized users can access and modify the knowledge base.
 -   **Medical Device Systems Engineer** and **Consultant:** These actors represent the primary consumers of information within the knowledge repository. They can leverage the search engine functionality to locate relevant knowledge items pertinent to their work in medical device development or consultation.
-
+-->
 <!-- Conclusion -->
 
-The SysML block definition diagram portrays a knowledge repository for medical device systems engineering. The repository stores and manages essential information related to medical device systems engineering. Authorized users, such as systems engineers and consultants, can access and search the repository using a search engine. An administrator maintains the knowledge base and ensures its integrity through appropriate maintenance mechanisms. This system architecture facilitates knowledge sharing and access within the medical service domain. Further analysis could explore the internal structure of the knowledge repository, including the specific data model used to represent medical service information, to gain a deeper understanding of the system's knowledge representation and retrieval capabilities.
+The SysML block definition diagram portrays a knowledge repository for medical device systems engineering. The repository stores and manages essential information related to medical device systems engineering. Authorized users, such as systems engineers and consultants, can access and search the repository using a search engine. An administrator maintains the knowledge repository and ensures its integrity through appropriate maintenance mechanisms. This system architecture facilitates knowledge sharing and access within the medical device industry.
+<!--
+Further analysis could explore the internal structure of the knowledge repository, including the specific data model used to represent medical service information, to gain a deeper understanding of the system's knowledge representation and retrieval capabilities.
+-->
 
 <!-- Conclusion -->
 
@@ -74,10 +86,10 @@ System Use Cases
 
 **Use Cases and System Functionality:**
 
--   **Browse Knowledge Base:** This use case allows actors to explore the knowledge repository freely, potentially leading to serendipitous discovery of relevant information.
+-   **Browse Knowledge:** This use case allows actors to explore the knowledge repository freely, potentially leading to serendipitous discovery of relevant information.
 -   **Contribute Knowledge:** This use case empowers qualified actors, such as engineers and consultants, to enrich the repository by adding new knowledge.
--   **Manage Knowledge:** This use case enables actors to maintain the accuracy and relevance of the repository by allowing them to update existing information.
--   **Manage Access Control (Administrator):** This restricted use case allows administrators to define and enforce access permissions, ensuring the integrity and security of the knowledge base.
+-   **Manage Knowledge:** This use case enables actors to maintain the accuracy and relevance of the repository by allowing them to add and update content.
+-   **Manage Access Control (Administrator):** This restricted use case allows administrators to define and enforce access permissions, ensuring the integrity and security of the knowledge repository.
 
 ### Browse Knowledge Use Case
 
@@ -88,7 +100,7 @@ Document the browse knowledge use case
 ```
 #### Medical Device Systems Engineer Perspective
 
-@fig-use_case_browse_knowledge_MDSE_perspective is a diagram of the use case Browse Knowledge Base from the perspective of the Medical Device Systems Engineer. This use case signifies the core function where the Medical Device Systems Engineer (MDSE) can navigate and explore the MDSE knowledge repository.
+@fig-use_case_browse_knowledge_MDSE_perspective is a diagram of the use case Browse Knowledge from the perspective of the Medical Device Systems Engineer. This use case signifies the core function where the Medical Device Systems Engineer (MDSE) can navigate and explore the MDSE knowledge repository.
 
 ::: {#fig-use_case_browse_knowledge_MDSE_perspective}
 ![](images/paste-24.png)
@@ -177,7 +189,7 @@ System Main Function Sequence Diagram
 The sequence diagram focuses on two primary actors:
 
 -   **Medical Device Systems Engineer:** This actor represents the user of the system, an engineer seeking knowledge pertinent to medical device design or development.
--   **Knowledge Repository:** This block represents the system component housing the relevant knowledge base for medical devices.
+-   **Knowledge Repository:** This block represents the system component housing the relevant knowledge for medical device systems engineering.
 
 The interaction commences with the activation of the **Medical Device Systems Engineer**. This signifies the engineer encountering a **knowledge need**, prompting them to initiate a search within the knowledge repository. The engineer transmits a request to the knowledge repository, likely specifying the desired knowledge domain or specific keywords related to their need.
 
@@ -213,7 +225,23 @@ By delving deeper into these aspects, a more comprehensive understanding of the 
 SysML Sequence Diagram: Browse Knowledge Base (MDSE)
 :::
 
-The message sequence is the following: 1. MDSE Activates System: The MDSE initiates the interaction by activating the Knowledge Repository system, likely by launching the application or visiting a website. 2. System Provides Browse Options: The Knowledge Repository system responds by presenting the MDSE with browse options. These options might include browsing by category, topic, or keyword search. 3. MDSE Selects Browse Option: The MDSE selects a desired browse option. In this specific diagram, the option chosen is to browse by category. 4. System Sends Category List: The Knowledge Repository system sends a list of available categories to the MDSE. 5. MDSE Selects Category: The MDSE selects a category of interest from the list provided by the system. 6. System Sends Knowledge Base Entries: The Knowledge Repository system retrieves knowledge base entries matching the selected category and sends them to the MDSE. 7. MDSE Reviews Entries: The MDSE reviews the list of knowledge base entries provided by the system. This might involve reading titles, descriptions, or summaries to determine if the entries are relevant to the MDSE’s needs. 8. (Optional) MDSE Selects Entry: If an entry is of particular interest, the MDSE might select it for further exploration (e.g., clicking on an article title to view its details).
+The message sequence is the following:
+
+1. MDSE Activates System: The MDSE initiates the interaction by activating the Knowledge Repository system, likely by launching the application or visiting a website.
+
+2. System Provides Browse Options: The Knowledge Repository system responds by presenting the MDSE with browse options. These options might include browsing by category, topic, or keyword search.
+
+3. MDSE Selects Browse Option: The MDSE selects a desired browse option. In this specific diagram, the option chosen is to browse by category.
+
+4. System Sends Category List: The Knowledge Repository system sends a list of available categories to the MDSE.
+
+5. MDSE Selects Category: The MDSE selects a category of interest from the list provided by the system.
+
+6. System Sends Knowledge Base Entries: The Knowledge Repository system retrieves knowledge base entries matching the selected category and sends them to the MDSE.
+
+7. MDSE Reviews Entries: The MDSE reviews the list of knowledge base entries provided by the system. This might involve reading titles, descriptions, or summaries to determine if the entries are relevant to the MDSE’s needs.
+
+8. (Optional) MDSE Selects Entry: If an entry is of particular interest, the MDSE might select it for further exploration (e.g., clicking on an article title to view its details).
 
 The diagram highlights the key interactions:
 
@@ -310,6 +338,7 @@ Sequence Diagram: Filter Knowledge Base by Category (Actor: Medical Device Syste
 
     -   This interaction provides flexibility to the MDSE in exploring the filtered results based on their specific requirements or preferences.
 
+```{=html}
 <!--
 Derived requirements from the sequence diagram
 
@@ -330,8 +359,7 @@ Security: The system shall ensure the confidentiality and integrity of the knowl
 Availability: The system shall be available for use by the MDSE during specified operational hours, with minimal downtime for maintenance or updates.
 Compatibility: The system shall be compatible with various devices and browsers commonly used by the MDSE, ensuring seamless access and functionality across different platforms.
 -->
-
-
+```
 ### Contribute Knowledge Operational Scenario
 
 ```{=html}
@@ -343,14 +371,23 @@ Document the contribute knowledge operational scenario
 
 #### Update Content
 
+```{=html}
+<!--
 @fig-update_content_sequence_diagram is a sequence diagram demonstrates a simplified content update process within the knowledge repository system. It highlights the interaction between the engineer and the knowledge repository, but doesn't show details like content format validation or error handling.
+-->
+```
+@fig-update_content_sequence_diagram is a SysML sequence diagram that focuses on the use case, "Manage Knowledge," identified in @fig-Manage_Knowledge_Base_Content_Use_Case_Administrator_Perspective from the Administrator Perspective. It illustrates the interaction between the Administrator and the MedSE Knowledge Repository System for adding a new content entry.
 
 ::: {#fig-update_content_sequence_diagram}
-![](images/paste-5.png)
+<!--![](images/paste-5.png)-->
+
+![](images/paste-48.png)
 
 Update Content Sequence Diagram
 :::
 
+```{=html}
+<!--
 The image depicts a SysML sequence diagram for updating content in the knowledge repository system. The diagram showcases the interaction between a medical device systems engineer and the knowledge repository.
 
 Here's a breakdown of the interaction sequence:
@@ -361,42 +398,42 @@ Here's a breakdown of the interaction sequence:
 4.  The `knowledge repository` then performs the `saveContent()` function to store the updated content.
 5.  After successful update, the `knowledge repository` sends a confirmation message through the `updateSuccessful()` function.
 
-```{=html}
-<!--
-
-**SysML Sequence Diagram: Manage Knowledge Base Content**
-
-This sequence diagram focuses on the primary use case, "Manage Knowledge Base Content," identified in the Administrator use case diagram. It illustrates the interaction between the Knowledge Repository Administrator and the Knowledge Base System for adding a new knowledge base entry.
-
+#### SysML Sequence Diagram: Manage Knowledge Base Content
+-->
+```
 **Elements:**
 
 -   **Actors:**
 
-    -   Knowledge Repository Administrator
+    -   MedSE Knowledge Repository Administrator
 
 -   **Lifelines:** Vertical dashed lines representing the actors and the system.
 
--   **System:** Knowledge Base System
+-   **System:** MedSE Knowledge Repository System
 
 -   **Messages:** Arrows depicting the interaction flow between the Administrator and the System.
 
 **Message Sequence:**
 
-1.  **Knowledge Repository Administrator:** Activates the system by initiating the "Add Knowledge Base Entry" functionality.
+1.  **Administrator:** Activates the system by initiating the "Add Content Entry" functionality.
 
-2.  **Knowledge Base System:** Sends a message to the Administrator requesting details for the new entry. This might involve title, description, category selection, and potentially file upload options.
+2.  **Knowledge Repository:** Sends a message to the Administrator requesting details for the new entry. This might involve title, description, category selection, and potentially file upload options.
 
-3.  **Knowledge Repository Administrator:** Provides the required information for the new entry.
+3.  **Administrator:** Provides the required information for the new entry.
 
-4.  **Knowledge Base System:** Validates the information provided by the Administrator. This could involve checking for missing fields or ensuring compliance with formatting guidelines.
+4.  **Knowledge Repository:** Validates the information provided by the Administrator. This could involve checking for missing fields or ensuring compliance with formatting guidelines.
 
-5.  **Knowledge Base System (Success):** If validation is successful, the system stores the new entry in the knowledge base and sends a confirmation message to the Administrator.
+5.  **Knowledge Repository (Success):** If validation is successful, the system stores the new entry in the knowledge base and sends a confirmation message to the Administrator.
 
-6.  **Knowledge Base System (Failure):** If validation fails, the system sends an error message to the Administrator explaining the issue and requesting corrections.
+6.  **Knowledge Repository (Failure):** If validation fails, the system sends an error message to the Administrator explaining the issue and requesting corrections.
 
-7.  **Knowledge Repository Administrator (Success):** The Administrator acknowledges the confirmation message (optional).
+7.  **Administrator (Success):** The Administrator acknowledges the confirmation message (optional).
 
-8.  **Knowledge Repository Administrator (Failure):** The Administrator reviews the error message, makes necessary changes to the entry details, and repeats steps 3-8.
+8.  **Administrator (Failure):** The Administrator reviews the error message, makes necessary changes to the entry details, and repeats steps 3-8.
+
+```{=html}
+<!--
+The following was already drawn into a SysML sequence diagram on May 1, 2024.
 
 @startuml actor "Knowledge Repository Administrator" as Admin participant "Knowledge Base System" as System
 
@@ -417,7 +454,6 @@ opt Success Admin --\> System: Acknowledge confirmation end
 opt Failure Admin -\> Admin: Review error message\nMake necessary changes\nRepeat steps 3-8 end
 
 @enduml
-
 -->
 ```
 ### Manage Access Control Operational Scenario
