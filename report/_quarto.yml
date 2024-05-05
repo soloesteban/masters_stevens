@@ -11,26 +11,31 @@ book:
         city: Hoboken
         state: NJ
         url: www.stevens.edu
-  date: "5/03/2024"
+  date: "6/04/2024"
   downloads: pdf
   sharing: linkedin
   chapters:
     - index.qmd
     - summary.qmd
     - intro.qmd
-    - background.qmd
-    - industry_differences.qmd
+    - part: "Background"
+      chapters: 
+      - background.qmd
+      - industry_differences.qmd
     - methodology.qmd
     - problem.qmd
     - mission.qmd
-    - sources.qmd
-    - survey_results.qmd
+    - part: "Sources"
+      chapters:
+      - sources.qmd
+      - survey_results.qmd
     - stakeholders.qmd
     - goals_objectives.qmd
     - part: "System Modeling"
       chapters: 
       - operational_analysis.qmd
       - physical_architecture.qmd
+      - functional_architecture.qmd
       - system_req.qmd
     - conclusions.qmd
     - references.qmd

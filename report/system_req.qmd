@@ -13,7 +13,7 @@ If you have questions, comments, or feedback, please contact Esteban Solorzano.
 [esteban.solorzano@gmail.com](esteban.solorzano@gmail.com)
 :::
 
-@tbl-system_requirements is the MedSE Knowledge Repository System Requirements. The requirements were modeled as a SysML requirements table and exported as an HTML file that was embedded to this report.
+@tbl-system_requirements is the Medical Device Systems Engineering Knowledge Repository (MDSE-KR) System Requirements. The requirements were modeled as a SysML requirements table and exported as an HTML file that was embedded to this report.
 
 <!--
 Use Visual Studio to remove the references to images and the main table header from the system requirements html file.

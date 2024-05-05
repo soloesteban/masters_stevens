@@ -13,10 +13,183 @@ If you have questions, comments, or feedback, please contact Esteban Solorzano.
 [esteban.solorzano\@gmail.com](esteban.solorzano@gmail.com)
 :::
 
-This section explains the functional archicture of the MedSE Knowledge Repository system.
+This section details the functional architecture of the Medical Device Systems Engineering Knowledge Repository (MDSE-KR) utilizing SysML diagrams. The functional architecture establishes the foundation for further system design, detailing the essential functionalities to achieve the desired system behavior.
+
+@fig-functional_top_level is a SysML activity diagram that shows how the MDSE-KR interacts with actors and knowledge sources to fulfill its core function of providing comprehensive and up-to-date knowledge for performing systems engineering on medical devices.
+
+::: {#fig-functional_top_level}
+![](images/paste-52.png)
+
+Functional Architecture Top Level Diagram
+:::
+
+## Actors
+
+The functional architecture employs two primary actors:
+
+-   **Systems Engineers:** They are the primary users who interact with the system to retrieve knowledge on performing Systems Engineering (SE) for medical devices. This could involve searching for specific information, understanding best practices, or navigating relevant standards.
+
+-   **Administrator:** This role manages the knowledge repository, ensuring its accuracy and effectiveness. Responsibilities include:
+
+    -   Updating the knowledge base with new information from various sources.
+
+    -   Deleting outdated or irrelevant content.
+
+    -   Processing user feedback to identify areas for improvement.
+
+## Knowledge Source
+
+The knowledge base acts as the repository for all information related to Medical Device Systems Engineering. @fig-functional_top_level highlights various sources that contribute to this knowledge pool. The sources can be but not limited to:
+
+-   **Expert Systems Engineers:** Their expertise in medical devices and SE practices serves as a valuable knowledge source.
+
+-   **Standards:** Regulatory bodies provide critical guidelines and best practices for medical device development.
+
+-   **Academics:** Research findings and publications from academic institutions contribute to the knowledge base.
+
+-   **Consultants:** Industry specialists can offer practical insights and solutions to specific challenges.
+
+-   **Regulations:** Regulatory requirements for medical devices must be considered and reflected in the knowledge repository.
+
+## Main System Function
+
+The core function of the MDSE-KR revolves around processing knowledge requests from Systems Engineers. The activity diagram outlines four main request types:
+
+-   **Search Knowledge Request:** Systems Engineers utilize this function to search the repository for specific information related to medical device SE. The system retrieves relevant knowledge based on the search criteria and presents it to the user.
+
+-   **Update Knowledge Request:** The system allows users to submit updates to the knowledge base. This might involve providing new information, correcting existing entries, or suggesting improvements. The administrator reviews and integrates these updates into the repository after proper vetting.
+
+-   **Delete Knowledge Request:** Outdated or inaccurate information can be removed through this function. Systems Engineers might identify such discrepancies, or the administrator may find them during maintenance activities.
+
+-   **Feedback Knowledge:** The system facilitates user feedback submission. This feedback allows the administrator to gauge the system's effectiveness and identify areas for improvement. It can be used to prioritize updates, refine search algorithms, or enhance the overall user experience.
+
+## Internal System Functions
+
+This section uses a SysML activity diagram to provide a comprehensive analysis of the functionalities within the Medical Device Systems Engineering Knowledge Repository (MDSE-KR).
+
+```{=html}
+<!-- It provides a understanding of the internal workings is crucial for ensuring the system effectively supports Systems Engineers performing medical device SE tasks.
+
+### Processing Knowledge Requests
+-->
+```
+@fig-internal_functions is SysML activity diagram that shows how the MDSE-KR handles various knowledge requests initiated by Systems Engineers and the administrator.
+
+::: {#fig-internal_functions}
+![](images/paste-53.png)
+
+Internal Functional Architecture
+:::
+
+Here's a breakdown of the three functions depicted in @fig-internal_functions for each request type:
+
+-   **Retrieve Knowledge Function:**
+
+    1.  **Receive Search Request:** The system receives a search query from a Systems Engineer seeking information related to medical device systems engineering.
+
+    2.  **Parse Search Criteria:** The system analyzes the search query to identify keywords or filters used by the Systems Engineer to narrow down the search.
+
+    3.  **Search Knowledge Repository:** The system utilizes the parsed search criteria to query the knowledge repository. This might involve searching by topic, keyword, regulatory standard, or other relevant attributes.
+
+    4.  **Deliver Search Results:** The system retrieves relevant information from the knowledge repository based on the search criteria and presents it to the Systems Engineer in a user-friendly format.
+
+    5.  **Refine Search (Optional):** The Systems Engineer might have the flexibility to refine their search based on the initial results. This could involve applying additional filters or modifying keywords to achieve a more precise information retrieval.
+
+-   **Maintain Knowledge Base Function**
+
+    -   **Process Update Knowledge Request:**
+
+        1.  **Receive Update Request:** The system receives a request to update the knowledge repository, likely initiated by the administrator. This request might involve adding new information, correcting existing entries, or removing outdated content.
+
+        2.  **Validate Update Request:** The system verifies the user's permission to edit the knowledge base and performs checks to ensure the update request is consistent and free of errors or inconsistencies.
+
+        3.  **Review Update Request (Optional):** Depending on the system configuration, an additional step might involve routing the update request to an administrator for review and approval before integrating it into the knowledge repository.
+
+        4.  **Update Knowledge Repository:** Once validated (and potentially approved), the system incorporates the update into the knowledge repository, ensuring the information remains current and accurate.
+
+    -   **Process Delete Knowledge Request:**
+
+        1.  **Receive Delete Request:** The system receives a request to delete information from the knowledge repository. This request might originate from a Systems Engineer who identified inaccurate information or from the administrator during maintenance activities.
+
+        2.  **Validate Delete Request:** The system verifies the user's permission to delete information and assesses potential consequences of the deletion on other parts of the knowledge repository. This step helps avoid unintended disruptions to the knowledge base.
+
+        3.  **Delete Knowledge:** If the deletion is deemed appropriate, the system removes the specified information from the knowledge repository, ensuring the information repository remains accurate and relevant.
+
+-   **Store Knowledge Function:**
+
+    -   **Intake Data:** This function handles the initial intake of new knowledge intended for the MDSE-KR. It might involve functionalities such as:
+
+        1.  Receive new information from various sources (expert engineers, standards documents, academic publications, etc.).
+
+        2.  Parse and format the received information to ensure consistency with the existing knowledge base structure.
+
+        3.  Assign relevant metadata (e.g., author, source, date) to the new knowledge for future reference and traceability.
+
+    -   **Validate Knowledge:** Before integrating new information, the "Store Knowledge Function" might perform some level of validation to ensure its quality and accuracy. This could involve:
+
+        1.  Check for factual inconsistencies with existing knowledge in the repository.
+
+        2.  Verify the credibility of the source from which the information originated.
+
+        3.  Allow for user review or approval (administrator or designated expert) for particularly complex or critical information.
+
+    -   **Integrate Knowledge:** Once validated, the function would likely integrate the new knowledge into the MDSE-KR. This might involve:
+
+        1.  Store the information in an appropriate format within the knowledge repository.
+
+        2.  Establish connections or links between the new knowledge and existing related information within the repository for improved searchability and user experience.
+
+        3.  Update relevant indexes or search algorithms to ensure the newly stored knowledge can be effectively retrieved by users.
+
+    -   **Process Feedback Knowledge:**
+
+        1.  **Receive Feedback:** The system receives user feedback submitted by a Systems Engineer. This feedback can be positive, negative, or offer suggestions for improvement.
+
+        2.  **Process Feedback:** The system analyzes the feedback to understand its nature and categorize it accordingly. This might involve sentiment analysis techniques to classify the feedback as positive, negative, or containing suggestions.
+
+        3.  **Store Feedback:** The system stores the feedback in a designated location for future reference. This allows for historical analysis of user experiences and facilitates continuous improvement of the MDSE-KR.
+
+        4.  **Analyze Feedback (Optional):** The administrator may periodically review user feedback to identify trends, prioritize knowledge base updates based on user needs, or implement improvements to the system's functionalities based on user suggestions.
+
+## Allocation Matrix
+
+@fig-function_component_allocation is SysML allocation matrix that illustrates how elements in one part of a system relate to elements in another part. In the context of the MDSE-KR, the matrix shows how the system's functionalities (rows) are allocated to specific physical components (columns).
+
+::: {#fig-function_component_allocation}
+![](images/paste-54.png)
+
+System Functions to Component Allocation Matrix
+:::
+
+The cells in the allocation matrix will contain an arrow symbol to indicate that a function (row) is allocated to a specific component (column). This signifies that the component is responsible for implementing that particular functionality.
+
+The SysML allocation matrix provides insights for:
+
+-   System Design and Development: It ensures all functionalities are assigned to specific components, avoiding gaps or overlaps in responsibility.
+
+-   Verification and Validation: It helps verify if each component implements its allocated functions correctly and validates if the overall system meets its requirements.
+
+-   Communication and Traceability: It facilitates communication between stakeholders by clearly showing how system functions are realized by physical components. It also allows for traceability of requirements to specific parts of the system design.
 
 ```{=html}
 <!--
+Additional Insights from the SysML Activity Diagram
+
+The SysML activity diagram might also reveal valuable details regarding:
+
+-   **User Interface Interaction:** How the system interacts with the user interface to receive requests and deliver responses to the Systems Engineer or administrator.
+
+-   **Error Handling:** How the system responds to invalid requests, missing information, or technical issues that may arise during knowledge request processing.
+
+By providing a comprehensive view of these internal functionalities, the SysML activity diagram serves as a cornerstone for understanding how the MDSE-KR functions and fulfills user requests. This level of detail is instrumental during system development, testing, and ongoing maintenance to ensure the system effectively supports the needs of Systems Engineers performing medical device development tasks.
+
+-->
+```
+```{=html}
+<!--
+This section explains the functional archicture of the MedSE Knowledge Repository system.
+
+
 Functional Decomposition. Use IDEF0 preferibly
 
 Some ideas of functions:
@@ -39,8 +212,8 @@ Perform a trace matrix to requirements. I would need to trace requirements to fu
 
 Perform allocation to physical components from the Physical Architecture.
 
--->
-```
+Use Gemini to solve tracing of requirements to functions and components.
+
 ## IDEF0 Diagram of Medical Device Systems Engineering Knowledge Repository
 
 **Function:** Medical Device Systems Engineering Knowledge Repository
@@ -93,3 +266,6 @@ An IDEF0 diagram, also known as Integration Definition for Function Modeling, is
 -   **Standardized Symbols:** IDEF0 uses a specific set of symbols to represent activities (boxes), data flows (arrows), mechanisms (arrows), and controls (arrows) \[3\].
 
 -   **Hierarchical Breakdown:** Complex processes can be broken down into smaller, more manageable sub-processes using a series of interconnected diagrams \[6\].
+
+-->
+```

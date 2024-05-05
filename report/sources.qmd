@@ -27,7 +27,7 @@ Interviews of systems engineers
 Papers
 -->
 ```
-This section discusses the sources of the stakeholder needs that feed into the modeling and design of the MedSE Knowledge Repository.
+This section discusses the sources of the stakeholder needs that feed into the modeling and design of the Medical Device Systems Engineering Knowledge Repository (MDSE-KR).
 
 ## Source model
 
@@ -36,7 +36,7 @@ This section discusses the sources of the stakeholder needs that feed into the m
 ::: {#fig-sources_needs_requirements}
 ![](images/paste-16.png)
 
-The MedSE Knowledge Repository System sources of needs and requirements
+The MDSE-KR System sources of needs and requirements
 :::
 
 The diagram lists valid (credible) sources:
@@ -56,7 +56,7 @@ The inclusion of "Forbidden Source Element" highlights the importance of a criti
 
 ## Articles
 
-Articles that talk about the systems engineering of medical devices can serve as source for the design of the MedSE Knowledge Repository. Some example articles found that can serve as source for the design of the MedSE knowledge repository are:
+Articles that talk about the systems engineering of medical devices can serve as source for the design of the MDSE-KR. Some example articles found that can serve as source for the design of the MDSE-KR are:
 
 -   Jones, D.J. and Masters, M.T. (2008), 11.1.3 Medical Device Development Process. INCOSE International Symposium, 18: 1215-1230. https://doi.org/10.1002/j.2334-5837.2008.tb00873.x [@jones2008]
 
@@ -200,7 +200,7 @@ Include it as reference
 
 -->
 ```
-Webinars that discuss systems engineering in the medical device industry can serve as sources for the needs and requirements of the MedSE knowledge repository. Two examples of webinars that were analyzed to extract source information were the following.
+Webinars that discuss systems engineering in the medical device industry can serve as sources for the needs and requirements of the MDSE-KR. Two examples of webinars that were analyzed to extract source information were the following.
 
 ### MassMEDIC Sponsored Webinar: Systems Engineering for Medical Device Development by Sunrise Labs, Inc [@massmedi2022].
 
@@ -208,7 +208,7 @@ A webinar titled "Systems Engineering for Medical Device Development" discussed 
 
 {{< video https://www.youtube.com/watch?v=X-jzjOzocDA width="400" height="300" >}}
 
-The webinar discussed the role of a Systems Engineer and described the Systems Engineering process. From this webinar, the MedSE knowledge repository should incorporate the following key points:
+The webinar discussed the role of a Systems Engineer and described the Systems Engineering process. From this webinar, the MDSE-KR should incorporate the following key points:
 
 -   **Foundational Concepts:**
     -   Define Medical Device Systems Engineering and its role in the development lifecycle.
@@ -250,7 +250,7 @@ A webinar titled "Systems Perspective Engineering : A webinar on Medical Device 
 
 {{< video https://www.youtube.com/watch?v=r_Eh-VEm55E width="400" height="300" >}}
 
-From this webinar, the MedSE knowledge repository should incorporate the following key points:
+From this webinar, the MDSE-KR should incorporate the following key points:
 
 **Usability Engineering Process:**
 
@@ -386,7 +386,7 @@ This course is for professionals and decision-makers involved in various stages 
 
 -   Creating a Culture of Transparency and Accountability in Development Teams
 
-An analysis of the course objectives and outline derived the following MedSE Knowledge Repository needs and requirements.
+An analysis of the course objectives and outline derived the following MDSE-KR needs and requirements.
 
 **Needs:**
 
@@ -622,7 +622,7 @@ Medical Device Systems Engineer Qualifications (Most Common to Least Common) {.s
 Medical Device Systems Engineer - Preferred Qualifications (Most Common to Least Common) {.striped .hover}
 :::
 
-The following sources for the MedSE Knowledge Repository was obtained from the analysis of the eight job descriptions:
+The following sources for the MDSE-KR was obtained from the analysis of the eight job descriptions:
 
 **Foundational Engineering Knowledge:**
 
@@ -673,9 +673,14 @@ Include an explanation of the survey. Results and reference the sections in the 
 ```
 This section dives into the insights gleaned from a survey conducted in April 2024. The survey targeted systems engineers working in the field of medical device development. The survey received responses from a diverse group of professionals from leading companies including Boston Scientific, the FDA, Nudge BG, BIOTRONIK, and others. The primary objective of this survey was to identify the knowledge and resources that are most valuable to medical device systems engineers in their daily work.
 
-The analysis of the survey responses was aimed to inform the development of the MedSE knowledge repository.
+The analysis of the survey responses was aimed to inform the development of the MDSE-KR.
 
-The following section will present a detailed analysis of the survey findings.<!--Explore the  methodologies, tools, and regulations  considered most valuable by medical device systems engineers.  We will also examine the learning formats they find most accessible and beneficial  for  professional development. These insights will guide the content selection and structure of the knowledge repository, ensuring it effectively addresses the needs and preferences of its target audience.-->
+The following section will present a detailed analysis of the survey findings.
+
+<!--
+
+Explore the  methodologies, tools, and regulations  considered most valuable by medical device systems engineers.  We will also examine the learning formats they find most accessible and beneficial  for  professional development. These insights will guide the content selection and structure of the knowledge repository, ensuring it effectively addresses the needs and preferences of its target audience.
+-->
 
 For reference, the template used for the survey questions is included in [Appendix Survey](/survey.qmd) of this report. This will allow readers to gain a deeper understanding of the specific questions asked and the context surrounding the survey responses.
 

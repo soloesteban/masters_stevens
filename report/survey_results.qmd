@@ -386,7 +386,7 @@ Gemini: Analyze the results for the following survey question done to systems en
 Question 9 results
 :::
 
-The survey question provide information for what regulations and standards should be covered in the MedSE knowledge repository. Here's a breakdown of the suggestions:
+The survey question provide information for what regulations and standards should be covered in the Medical Device Systems Engineering knowledge repository (MDSE-KR). Here's a breakdown of the suggestions:
 
 **Essential Standards:**
 
@@ -408,7 +408,7 @@ The survey question provide information for what regulations and standards shoul
 
 -   Several respondents emphasized the importance of presenting the regulations and standards in a hierarchical manner, starting with foundational concepts and then progressing to more specific details.
 
--   One respondent highlighted the need for the MedSE knowledge repository to explain how these regulations apply within the context of ISO 13485, the core quality management system standard for medical devices.
+-   One respondent highlighted the need for the MDSE-KR to explain how these regulations apply within the context of ISO 13485, the core quality management system standard for medical devices.
 
 **Beyond Just Standards:**
 
@@ -422,9 +422,9 @@ The survey question provide information for what regulations and standards shoul
 
 -   Additional standards may be relevant depending on the specific device being developed.
 
--   The MedSE knowledge repository should explain how these regulations and standards are applied within the medical device development process.
+-   The MDSE-KR should explain how these regulations and standards are applied within the medical device development process.
 
--   Foundational systems engineering principles should be integrated throughout the MedSE knowledge repository.
+-   Foundational systems engineering principles should be integrated throughout the MDSE-KR.
 
 -   The presentation of information should be structured and hierarchical, allowing readers to find information based on their level of understanding.
 

@@ -22,7 +22,7 @@ The Physical Analysis perspective defines the finalized architecture of the syst
 @fig-physical_top_level is a SysML block definition diagram (BDD) for a physical architecture. It shows the breakdown of a system into it assemblies at a high level.
 
 ::: {#fig-physical_top_level}
-![](images/paste-44.png)
+![](images/paste-50.png)
 
 Top Level Physical Architecture
 :::
@@ -49,9 +49,9 @@ Here’s a breakdown of the assemblies:
 
 The diagram also shows the relationships between these blocks. For example, the search engine has a part relationship with the knowledge repository. This means that the search engine is a component of the knowledge repository. The user interface also has a content relationship with the content block. This means that the user interface displays content.
 
-## **MedSE Knowledge Repository Content and Metadata Structure**
+## **MDSE-KR Content and Metadata Structure**
 
-@fig-Content_Physical_Architecture is SysML block definition diagram depicts the content structure of the MedSE knowledge repository. It represents the various content types and their interrelationships.
+@fig-Content_Physical_Architecture is SysML block definition diagram depicts the content structure of the MDSE-KR. It represents the various content types and their interrelationships.
 
 ::: {#fig-Content_Physical_Architecture}
 ![](images/paste-46.png)

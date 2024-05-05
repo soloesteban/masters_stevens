@@ -23,7 +23,7 @@ If you have questions, comments, or feedback, please contact Esteban Solorzano.
 +=========+=======================================+===========================================================================================================================================================================================================+===================================+
 | STH0001 | Medical Device Systems Engineer       | Oversees the systems engineering of a medical device during its lifecycle, from initial concept and development, through regulatory approval and market launch, to ongoing sustaining and improvement.    | active                            |
 |         |                                       |                                                                                                                                                                                                           |                                   |
-|         |                                       | Primary user of the Medical Device Systems Engineering Knowledge Repository.                                                                                                                              |                                   |
+|         |                                       | Primary user of the Medical Device Systems Engineering Knowledge Repository (MDSE-KR).                                                                                                                    |                                   |
 +---------+---------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+
 | STH0002 | Regulatory Compliance Officer         | Also referred to as a Quality Regulatory Compliance Officer (QRCO), is a role that ensures a company's medical devices are developed, manufactured, and marketed according to all applicable regulations. | passive                           |
 +---------+---------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+
@@ -131,24 +131,24 @@ March 11, 2024. Need to revisit the objectives.
 @tbl-objectives provides the list of the system objectives.
 
 ::: {#tbl-objectives}
-+-----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ID        | Objective                                                                                                                                                                                 |
-+===========+===========================================================================================================================================================================================+
-| OBJ0001   | Design a system that will compile and synthesize knowledge and best practices related to systems engineering in medical device development.                                               |
-+-----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| OBJ0002   | Provide a comprehensive resource that educates professionals and students in the field of systems engineering about the unique challenges and considerations specific to medical devices. |
-+-----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| OBJ0003   | Offer practical guidance and tools for applying systems engineering principles throughout the entire lifecycle of medical device development.                                             |
-+-----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| OBJ0004   | Foster a deeper understanding of the regulatory requirements and standards governing medical devices and how they intersect with systems engineering processes.                           |
-+-----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ID      | Objective                                                                                                                                                                                 |
++=========+===========================================================================================================================================================================================+
+| OBJ0001 | Design a system that will compile and synthesize knowledge and best practices related to systems engineering in medical device development.                                               |
++---------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| OBJ0002 | Provide a comprehensive resource that educates professionals and students in the field of systems engineering about the unique challenges and considerations specific to medical devices. |
++---------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| OBJ0003 | Offer practical guidance and tools for applying systems engineering principles throughout the entire lifecycle of medical device development.                                             |
++---------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| OBJ0004 | Foster a deeper understanding of the regulatory requirements and standards governing medical devices and how they intersect with systems engineering processes.                           |
++---------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Objectives {.striped .hover}
 :::
 
 ## Concept of Operations {#sec-concept_operations}
 
-This section defines the system context for the MedSE knowledge repository. The analysis employs a SysML block definition diagram.
+This section defines the system context for the MDSE-KR. The analysis employs a SysML block definition diagram.
 
 A context diagram is a diagram that defines the boundary between the system, or part of a system, and its environment, showing the entities that interact with it. [@systemc2019] 
 

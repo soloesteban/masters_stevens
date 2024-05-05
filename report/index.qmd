@@ -10,4 +10,4 @@ If you have questions, comments, or feedback, please contact Esteban Solorzano.
 [esteban.solorzano@gmail.com](esteban.solorzano@gmail.com)
 :::
 
-This is the report of the Medical Device Systems Engineering (MedSE) Knowledge Repository. The report was written in markdown (a markup language) using the Visual Studio IDE, it was rendered in Quarto to publish html and PDF outputs. This report can be easily re-generated, maintained, transferrable and even upgraded.
+This is the report of the Medical Device Systems Engineering Knowledge Repository (MDSE-KR). The report was written in markdown (a markup language) using the Visual Studio IDE, it was rendered in Quarto to publish html and PDF outputs. This report can be easily re-generated, maintained, transferrable and even upgraded.

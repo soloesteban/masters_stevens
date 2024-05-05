@@ -3,22 +3,22 @@ title: "Methodology"
 format: html
 ---
 
-::: {.callout-caution}
+::: callout-caution
 The report published on this website is a draft and subject to frequent updates. Please be aware that the content may change over time as revisions are made. Thank you for your understanding.
 :::
 
-::: {.callout-tip}
+::: callout-tip
 If you have questions, comments, or feedback, please contact Esteban Solorzano.
 
-[esteban.solorzano@gmail.com](esteban.solorzano@gmail.com)
+[esteban.solorzano\@gmail.com](esteban.solorzano@gmail.com)
 :::
 
-The study adopts a Systems Engineering approach, which involves analyzing the entire content management process as a system with interconnected components. This methodology allows for a holistic understanding of the system's requirements, interactions, and potential improvements. The research methodology encompasses:
+The study adopts a Systems Engineering approach, which involves analyzing the entire Medical Device Systems Engineering content management process as a system with interconnected components. This methodology allows for a holistic understanding of the system's requirements, interactions, and potential improvements. The research methodology encompasses:
 
 1.  **Requirement Analysis:** Identifying the key requirements for efficient content management, including version control, compatibility with various file formats, and ease of collaboration.
-2.  **System Modeling:** Utilizing SysML (Systems Modeling Language) to create diagrams such as sequence diagrams, activity diagrams, and state machine diagrams to visualize the content management process and its interactions.
-3.  **Evaluation:** Assessing existing tools and technologies for content management, including Quatro and its capabilities in rendering content into different formats like HTML and PDF.
-4.  **Proposal:** Proposing a refined content management methodology tailored to the specific needs of online reference books in medical device systems engineering.
+2.  **System Modeling:** Utilizing SysML (Systems Modeling Language) based on ISO/IEC 19514:2017 (Information technology - Object management group systems modeling language (OMG SysML)) [@iso/iec] to model and create diagrams such as use case diagrams, block definition diagrams, sequence diagrams, and activity diagrams to visualize the content management process and its interactions.
+3.  **Evaluation:** Assessing existing tools and technologies for content management, including Quatro and its capabilities in rendering content into different formats like HTML and PDF.<!-- review if this method was executed -->
+4.  **Proposal:** Proposing a refined content management methodology tailored to the specific needs of online reference books in medical device systems engineering.<!-- review if this method was executed -->
 
 ## General methods
 
@@ -43,7 +43,7 @@ The following methodology was used for the Masters Project in Systems Engineerin
 
 ::: {#tbl-panel}
 |                     |                                                                                                                                                                       |
-|--------------------|----------------------------------------------------|
+|---------------------|---------------------------------------------------|
 | **Domain**          | **Plan**                                                                                                                                                              |
 | Strategy            | The generation of the system engineering artifacts will follow the roadmap provided in course document SYS-625                                                        |
 | Documentation       | The system engineering documentation will be generated as Quatro report that is rendered in HTML and PDF.                                                             |
@@ -57,7 +57,7 @@ Systems Engineering Constraints and Considerations {.striped .hover}
 
 ### Systems Engineering Model
 
-@fig-strategy shows the system engineering roadmap used for the MedSE Knowledge Repository. This roadmap provides a structured approach to system engineering.
+@fig-strategy shows the system engineering roadmap used for the Medical Device Knowledge Repository (MDSE-KR). This roadmap provides a structured approach to system engineering.
 
 ::: {#fig-strategy}
 ```{mermaid}
