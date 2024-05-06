@@ -37,6 +37,7 @@ book:
       - physical_architecture.qmd
       - functional_architecture.qmd
       - system_req.qmd
+      - content_outlines.qmd
     - conclusions.qmd
     - references.qmd
   appendices:

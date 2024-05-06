@@ -13,7 +13,95 @@ If you have questions, comments, or feedback, please contact Esteban Solorzano.
 [esteban.solorzano@gmail.com](esteban.solorzano@gmail.com)
 :::
 
-The following are the conclusions of the project:
+The following are the conclusions of this report:
+
+## How Medical Device Systems Engineering differ to other industries
+
+-   **Comparative Analysis**: The report provided a detailed comparative analysis of systems engineering practices across the Medical Device, Aerospace, Automotive, and Consumer Electronics industries, highlighting the unique challenges and approaches of each.
+
+-   **Industry-Specific Practices**: It emphasizes the importance of safety and regulatory compliance in the Medical Device industry, contrasting it with the performance, reliability, and cost considerations in other sectors.
+
+-   **Stakeholder Considerations**: The report discussed how systems engineering in the Medical Device industry must cater to a broader range of stakeholders, including patients, doctors, and regulatory bodies, which influences the development process.
+
+-   **Risk Management Focus**: A key conclusion is the critical focus on risk management in the Medical Device industry, where patient safety is paramount, necessitating stringent control processes and regulatory oversight.
+
+## Problem
+
+-   **Systems Engineering in Medical Devices**: The field of medical device systems engineering is crucial due to the complexity of devices and stringent regulatory requirements, yet there is a scarcity of resources and literature dedicated to this discipline.
+
+-   **Understanding Gap**: There is a lack of clarity among non-systems engineers and disagreement among systems engineers about the value and definition of medical device systems engineering, leading to challenges in its adoption and implementation.
+
+-   **Causal Loop Analysis**: A causal loop diagram illustrates that investment in systems engineering can lead to reduced unsuccessful medical devices, which in turn increases profits and resources for further systems engineering efforts.
+
+-   **Industry Comparison**: Systems engineering is more prevalent in industries like aerospace, automotive, and IT, while the medical device industry lags behind in adopting these practices, as evidenced by fewer publications and specialized literature.
+
+## Analysis of User Need Sources
+
+-   **Source Evaluation**: The MDSE-KR system design emphasized the importance of selecting credible and verifiable sources, such as job descriptions, standards, and publications, to design a comprehensive knowledge repository for medical device systems engineering.
+
+-   **Medical Device Trends**: The FDA’s classification and registration data reveal that Class III devices are the most registered, while implantable devices constitute a smaller percentage compared to non-implantable ones.
+
+-   **Systems Engineering Education**: Courses like TONEX’s “Systems Engineering for Medical Device Development” provide essential knowledge and skills for professionals, highlighting the need for a deep understanding of systems engineering principles applied to medical device development.
+
+-   **Professional Insights**: Job profiles and survey results from systems engineers in the medical device industry underscore the necessity for strong engineering fundamentals, systems thinking, and regulatory knowledge to succeed in this field.
+
+-   **Survey Insights**: The survey results from 22 respondents reveal that **Systems Integration** is the primary challenge in systems engineering for medical devices, followed by **Interdisciplinary Collaboration** and **Safety and Efficacy**.
+
+-   **Tool Preferences**: Systems engineers favor **Requirement Management Software** and **Documentation Tools**, indicating a significant portion of their time is dedicated to managing requirements and documenting processes.
+
+-   **Methodology Adoption**: **Model-Based Approaches** and **Quality and Compliance** methodologies like FMEA are highly valued for their structure and guidance, crucial for meeting safety and regulatory compliance in the medical device industry.
+
+-   **Learning Resources**: A diverse range of learning formats is utilized, with **E-books**, **Webinars**, and **Interactive Online Courses** being the most accessible and beneficial for systems engineers in the medical device field.
+
+## System Stakeholder Analysis
+
+-   **Stakeholder Categories**: The MDSE-KR system identified three main stakeholder categories: **Customer**, **External**, and **Supplier**, each with distinct interests and roles in the medical device systems engineering knowledge repository.
+
+-   **Diverse Interests**: Stakeholders range from **government entities** and **non-profit organizations** to **systems engineering tool vendors** and **medical device systems engineers**, highlighting the wide-ranging interest in the knowledge repository.
+
+-   **Primary Users**: **Medical device systems engineers** are likely the primary users, utilizing the repository to design and develop medical devices, while **academics** and **consultants** use it to share research and stay informed.
+
+-   **Repository Management**: The **Repository Host** and **Administrator** play crucial roles in hosting and maintaining the knowledge repository, ensuring it remains a valuable resource for all stakeholders.
+
+
+## Operational Analysis
+
+-   **Operational Analysis**: The Operational Analysis provided an in-depth analysis of operational users and their interactions with the system, focusing on high-level operational capabilities and needs without specifying the system-of-interest.
+
+<!--
+-   **Knowledge Repository**: It details the structure and components of the Medical Device Knowledge Repository (MDSE-KR), emphasizing the importance of the Knowledge Repository block, Search Engine component, and Maintenance Mechanism.
+-->
+
+-   **Use Cases and Actors**: The Use Cases outlines various roles of actors such as Medical Device Systems Engineers, Consultants, and Regulatory Bodies, highlighting their interactions with the knowledge repository.
+
+<!--
+-   **Collaboration and Knowledge Sharing**: It underscores the collaborative nature of the knowledge repository system, facilitating knowledge sharing within the medical device industry among diverse stakeholders.
+-->
+
+## Physical Architecture
+
+-   **System Architecture**: The physical architecture defined the finalized structure of the system, detailing the implementation functions and technical choices, along with the behavioral components that execute these functions.
+
+-   **Component Breakdown**: The system is broken down into assemblies such as Knowledge Repository, Search Engine, Maintenance Mechanism, Storage, User Interface, Display, and Content Section, each with specific responsibilities and relationships.
+
+-   **Content and Metadata**: The MDSE-KR content structure is depicted as various content types: Text, Image, Video, Audio, and their interrelationships, along with Metadata that serves as an indexing mechanism for knowledge retrieval.
+
+<!--
+-   **Diagram Interpretation**: Relationships between content types are represented by arrows in the diagrams, indicating part and content relationships, ensuring organized knowledge representation and avoiding duplication.
+-->
+
+## Functional Architecture
+
+-   **Functional Architecture Overview**: The Medical Device Systems Engineering Knowledge Repository (MDSE-KR) is designed with a functional architecture that supports systems engineers and administrators in managing and retrieving medical device systems engineering knowledge.
+
+-   **Actors and Knowledge Sources**: Systems engineers are the primary users, while administrators ensure the accuracy and effectiveness of the knowledge repository. Expert systems engineers, standards, academics, consultants, and regulations serve as key knowledge sources.
+
+-   **Core System Functions**: The MDSE-KR processes knowledge requests, including searching, updating, deleting, and providing feedback, to maintain a comprehensive and up-to-date knowledge base for medical device systems engineering.
+
+-   **Internal and Feedback Mechanisms**: Detailed SysML activity diagrams illustrated the internal system functions for handling knowledge requests, while feedback mechanisms allow continuous improvement of the MDSE-KR based on user input.
+
+
+<!--
 
 - Explain the importance of a systematic and comprehensive approach to medical device development, particularly emphasizing the integration of systems engineering principles.
 
@@ -22,3 +110,5 @@ The following are the conclusions of the project:
 - Explain the proposed project's objectives, methodology, and collaborative approach, recognizing the value of creating a cohesive resource that synthesizes knowledge, educates stakeholders, provides practical guidance, and fosters deeper understanding of regulatory requirements.
 
 - Ephasize the significance of addressing these considerations holistically to ensure the successful development and deployment of safe and effective medical devices.
+
+-->
