@@ -3,64 +3,64 @@ title: "Risks"
 format: html
 ---
 
-::: {.callout-caution}
+::: callout-caution
 The report published on this website is a draft and subject to frequent updates. Please be aware that the content may change over time as revisions are made. Thank you for your understanding.
 :::
 
-::: {.callout-tip}
+::: callout-tip
 If you have questions, comments, or feedback, please contact Esteban Solorzano.
 
-[esteban.solorzano@gmail.com](esteban.solorzano@gmail.com)
+[esteban.solorzano\@gmail.com](esteban.solorzano@gmail.com)
 :::
 
+```{=html}
 <!--
 
 Put the risks in table format, refer to a Stevens report for examples.
 
 -->
+```
+The following business risks were identified for medical device companies that can be mitigated with medical device systems engineering. The risks were consulted from the Boston Scientific [@bostonsa] and Abbot [@secfili2024] 10-k forms submitted to the U.s. Securities and Exchange Comission (SEC):
 
+-   Labor shortages such as qualified systems engineers for medical device industry cost of direct labor,
 
-The following risks have been identified for medical device companies that can be mitigated with medical device systems engineering:
+-   The impact of disruptions in the supply of the materials and components used in manufacturing our products or the sterilization of our products,
 
-- Labor shortages such as qualified systems engineers for medical device industry cost of direct labor,
+-   The performance of, and physician and patient confidence in medical products and technologies,
 
-- The impact of disruptions in the supply of the materials and components used in manufacturing our products or the sterilization of our products,
+-   The impact and outcome of ongoing and future clinical trials and market studies,
 
-- The performance of, and physician and patient confidence in medical products and technologies,
+-   Variations in clinical results, reliability or product performance,
 
-- The impact and outcome of ongoing and future clinical trials and market studies,
- 
-- Variations in clinical results, reliability or product performance,
+-   Ability to acquire or develop, launch and supply new or next-generation products and technologies worldwide and in line with commercialization strategies in a timely and successful manner,
 
-- Ability to acquire or develop, launch and supply new or next-generation products and technologies worldwide and in line with commercialization strategies in a timely and successful manner,
+-   Ability to attract and retain talent, including key personnel associated with acquisitions,
 
-- Ability to attract and retain talent, including key personnel associated with acquisitions,
+-   The impact of enhanced requirements to obtain and maintain regulatory approval in the U.S. and around the world, including EU MDR and the associated timing and cost of product approval,
 
-- The impact of enhanced requirements to obtain and maintain regulatory approval in the U.S. and around the world, including EU MDR and the associated timing and cost of product approval,
- 
 **Regulatory Compliance, Litigation and Data Protection**
 
-- Risks associated with our regulatory compliance and quality systems and activities in the U.S., the EU and around the world, including meeting regulatory standards applicable to manufacturing and quality processes,
+-   Risks associated with our regulatory compliance and quality systems and activities in the U.S., the EU and around the world, including meeting regulatory standards applicable to manufacturing and quality processes,
 
-- The effect of global legal, regulatory or market responses to climate change and sustainability matters, including increased compliance burdens and costs to meet regulatory obligations,
+-   The effect of global legal, regulatory or market responses to climate change and sustainability matters, including increased compliance burdens and costs to meet regulatory obligations,
 
-- Ability to minimize or avoid future field actions or FDA warning letters relating to our products and processes and the ongoing inherent risk of potential physician advisories related to our or our competitors' products,
+-   Ability to minimize or avoid future field actions or FDA warning letters relating to our products and processes and the ongoing inherent risk of potential physician advisories related to our or our competitors' products,
 
-- Ability to secure information systems that support business operations and protect data integrity and products from a cyber-attack or other breach that may have a material adverse effect on our business, reputation or results of operations 
+-   Ability to secure information systems that support business operations and protect data integrity and products from a cyber-attack or other breach that may have a material adverse effect on our business, reputation or results of operations
 
 **Innovation and Certain Growth Initiatives**
 
-- The timing, size and nature of strategic growth initiatives and market opportunities, including with respect to internal research and development platforms and externally available research and development platforms and technologies and the ultimate cost and success of those initiatives and opportunities,
+-   The timing, size and nature of strategic growth initiatives and market opportunities, including with respect to internal research and development platforms and externally available research and development platforms and technologies and the ultimate cost and success of those initiatives and opportunities,
 
-- Ability to identify and prioritize our internal research and development project portfolio and our external investment portfolio on profitable net sales growth opportunities as well as to maintain the estimated timing and costs of such projects and expected revenue levels for the resulting products and technologies,
+-   Ability to identify and prioritize our internal research and development project portfolio and our external investment portfolio on profitable net sales growth opportunities as well as to maintain the estimated timing and costs of such projects and expected revenue levels for the resulting products and technologies,
 
-- Ability to develop, manufacture and market new products and technologies successfully and in a timely manner and the ability of competitors and other third parties to develop products or technologies that render products or technologies noncompetitive or obsolete,
+-   Ability to develop, manufacture and market new products and technologies successfully and in a timely manner and the ability of competitors and other third parties to develop products or technologies that render products or technologies noncompetitive or obsolete,
 
-- Ability to execute appropriate decisions to discontinue, write-down or reduce the funding of any research and development projects, including projects from in-process research and development from acquisitions, in growth adjacencies or otherwise,
+-   Ability to execute appropriate decisions to discontinue, write-down or reduce the funding of any research and development projects, including projects from in-process research and development from acquisitions, in growth adjacencies or otherwise,
 
-- Dependence on acquisitions, alliances or investments to introduce new products or technologies and to enter new or adjacent growth markets and ability to fund them or to fund contingent payments with respect to those acquisitions, alliances and investments.
+-   Dependence on acquisitions, alliances or investments to introduce new products or technologies and to enter new or adjacent growth markets and ability to fund them or to fund contingent payments with respect to those acquisitions, alliances and investments.
 
-
+```{=html}
 <!--
 
 Risks captured from the Abbott 10-k available at https://www.abbottinvestor.com/node/36356/html
@@ -83,3 +83,4 @@ New products and technological advances by Abbott’s competitors may negatively
 Abbott’s products face intense competition from competitors' products and technological advances. Competitors’ products may be safer, more effective, more effectively marketed or sold, or have lower prices or superior performance features than Abbott’s products. Further, the development of new technology, health care products and medicines, and the development of new treatments for disease could significantly change the competitive landscape of the health care industry and negatively impact the demand for certain Abbott products. Abbott cannot predict with certainty the timing or impact of the introduction of competitors’ products and technological advances.
 
 -->
+```

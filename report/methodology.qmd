@@ -19,6 +19,7 @@ The study adopts a Systems Engineering approach, which involves analyzing the en
 2.  **System Modeling:** Utilizing SysML (Systems Modeling Language) based on ISO/IEC 19514:2017 (Information technology - Object management group systems modeling language (OMG SysML)) [@iso/iec] to model and create diagrams such as use case diagrams, block definition diagrams, sequence diagrams, and activity diagrams to visualize the content management process and its interactions.
 3.  **Evaluation:** Assessing existing tools and technologies for content management, including Quatro and its capabilities in rendering content into different formats like HTML and PDF.<!-- review if this method was executed -->
 4.  **Proposal:** Proposing a refined content management methodology tailored to the specific needs of online reference books in medical device systems engineering.<!-- review if this method was executed -->
+5.  **Standards that specify Knowledge Management for Systems Engineering:** Apply the knowledge management process as defined in IEC 15288 [@iso/iec/]. The main goal of this process is to empower organizations to exploit opportunities to reuse existing knowledge. Also the INCOSE Systems Engineering Handbook [@incoses2023b] defines the Knowledge Management process as a way to leverage existing knowledge within an organization for systems engineering projects.
 
 ## General methods
 
@@ -52,9 +53,9 @@ The following methodology was used for the Masters Project in Systems Engineerin
 
 ::: {#tbl-panel}
 |                     |                                                                                                                                                                       |
-|---------------------|---------------------------------------------------|
+|-----------------------|-------------------------------------------------|
 | **Domain**          | **Plan**                                                                                                                                                              |
-| Strategy            | The generation of the system engineering artifacts will follow the roadmap provided in course document SYS-625                                                        |
+| Strategy            | The generation of the system engineering artifacts will follow the systems engineering framework provided in Stevens Institute of Technology course SYS-625.          |
 | Documentation       | The system engineering documentation will be generated as Quatro report that is rendered in HTML and PDF.                                                             |
 | Units               | The system of units used in this document will be the International System of Units (SI) unless otherwise indicated.                                                  |
 | Diagrams            | System modeling will be made using OMG Systems Modeling Language (OMG SysML).[@noauthor_about_2023]                                                                   |

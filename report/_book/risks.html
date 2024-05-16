@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -363,7 +383,7 @@ Tip
 Put the risks in table format, refer to a Stevens report for examples.
 
 -->
-<p>The following risks have been identified for medical device companies that can be mitigated with medical device systems engineering:</p>
+<p>The following business risks were identified for medical device companies that can be mitigated with medical device systems engineering. The risks were consulted from the Boston Scientific <span class="citation" data-cites="bostonsa">(<a href="references.html#ref-bostonsa" role="doc-biblioref"><span>“Boston Scientific SEC Filings,”</span> n.d.</a>)</span> and Abbot <span class="citation" data-cites="secfili2024">(<a href="references.html#ref-secfili2024" role="doc-biblioref"><span>“SEC Filings | Abbott Laboratories”</span> 2024</a>)</span> 10-k forms submitted to the U.s. Securities and Exchange Comission (SEC):</p>
 <ul>
 <li><p>Labor shortages such as qualified systems engineers for medical device industry cost of direct labor,</p></li>
 <li><p>The impact of disruptions in the supply of the materials and components used in manufacturing our products or the sterilization of our products,</p></li>
@@ -413,6 +433,14 @@ Abbott’s products face intense competition from competitors' products and tech
 -->
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-bostonsa" class="csl-entry" role="listitem">
+<span>“Boston Scientific SEC Filings.”</span> n.d. <a href="https://investors.bostonscientific.com/financials-and-filings/sec-filings">https://investors.bostonscientific.com/financials-and-filings/sec-filings</a>.
+</div>
+<div id="ref-secfili2024" class="csl-entry" role="listitem">
+<span>“SEC Filings | Abbott Laboratories.”</span> 2024. <a href="https://www.abbottinvestor.com/financials/sec-filings/">https://www.abbottinvestor.com/financials/sec-filings/</a>.
+</div>
+</div>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

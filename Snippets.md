@@ -107,3 +107,18 @@ Emerging Technologies and their Impact: The medical device field is constantly e
 In addition to these specific topics, having a textbook that emphasizes the importance of soft skills like communication, collaboration, and stakeholder management would be a huge benefit.  Medical device development requires effective communication across various engineering disciplines, as well as with regulatory bodies and clinicians.
 
 By incorporating these elements, your textbook can become a valuable resource for engineers like myself, bridging the gap between theoretical systems engineering principles and the practical realities of developing life-saving medical devices.
+
+
+- Project was presented in meeting during the 2024 INCOSE Healthcare conference. The meeting on April 24, 2024 was attended by:
+
+    - Chris Unger, retired Chief Systems Engineer of GE Healthcare and INCOSE Healthcare working group lead
+
+    - Katherine Garvey, Medtronic Systems Engineering Program Director
+
+    - Courtney Wright, INCOSE Certification Program Manager
+
+    - Ozgur Butun,  Senior Director of Systems Engineering at Phillips
+
+    - Dr. Farzan Sasangohar, Texas A&M University College of Engineering
+
+    - David Cronin, Chief Business Officer of Cognition Corporation

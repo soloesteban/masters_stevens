@@ -4,5 +4,16 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"cSpell.words": [
+			"AAMI",
+			"Butun",
+			"Farzan",
+			"INCOSE",
+			"Ozgur",
+			"Sasangohar",
+			"Unger",
+			"Weininger"
+		]
+	}
 }
