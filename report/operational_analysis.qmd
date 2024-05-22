@@ -41,6 +41,7 @@ The knowledge repository possesses the following key components:
 -   **Maintenance Mechanism:** This component maintains the accuracy and completeness of the knowledge over time. The specific mechanisms for maintenance are not explicitly shown in the diagram but could involve processes for adding, updating, and removing content.
 -   **Storage:** This content refers to the physical infrastructure responsible for storing the content. While the specific technology is not depicted, it likely involves a database server, physical medium or cloud-based storage solution.
 
+```{=html}
 <!--
 
         **Interaction and Data Flow**
@@ -48,9 +49,10 @@ The knowledge repository possesses the following key components:
         The diagram depicts two key data flows associated with the knowledge repository:
 
 -->
-
+```
 -   **User Interface:** <!--This bidirectional flow signifies the interaction between users and the knowledge repository.--> Users can provide input, such as search queries, through the user interface. The system, in turn, can deliver output, such as search results or retrieved information, through the same channel.
 
+```{=html}
 <!--
         -   **Knowledge Item:** This flow represents the movement of knowledge items between the knowledge repository and potentially other parts of the system or external actors. Knowledge items could be retrieved from the repository by authorized users or potentially transferred to other system components for further processing.
 
@@ -62,17 +64,18 @@ The knowledge repository possesses the following key components:
         -   **Medical Device Systems Engineer** and **Consultant:** These actors represent the primary consumers of information within the knowledge repository. They can leverage the search engine functionality to locate relevant knowledge items pertinent to their work in medical device development or consultation.
         
 -->
-
+```
 <!-- Conclusion -->
 
 The SysML block definition diagram portrays a knowledge repository for medical device systems engineering. The repository stores and manages essential information related to medical device systems engineering. Authorized users, such as systems engineers and consultants, can access and search the repository using a search engine. An administrator maintains the knowledge repository and ensures its integrity through appropriate maintenance mechanisms. This system architecture facilitates knowledge sharing and access within the medical device industry.
 
+```{=html}
 <!--
 
 Further analysis could explore the internal structure of the knowledge repository, including the specific data model used to represent medical service information, to gain a deeper understanding of the system's knowledge representation and retrieval capabilities.
 
 -->
-
+```
 <!-- Conclusion -->
 
 ## System Use Cases

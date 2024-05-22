@@ -1,12 +1,12 @@
 ---
 title: "Meeting Minutes"
 author: Esteban Solorzano
-date: Monday May 20, 2024
+date: Tuesday May 21, 2024
 ---
 
 ## Attendees
 
-- [Dr. Dinesh Verma](mailto:dverma@stevens.edu)
+- [Bijan Elahi](mailto:bijan@medtechsafety.com)
 
 - [Esteban Solórzano](mailto:esteban.solorzano@gmail.com)
 
@@ -17,6 +17,8 @@ date: Monday May 20, 2024
 - Definition of next steps.
 
 ## Minutes
+
+- [Bijan Elahi](mailto:bijan@medtechsafety.com) will support the development of the Risk Management section of the book.
 
 - Project was presented in a meeting at the 2024 INCOSE Healthcare Conference. The meeting on April 24, 2024 was attended by:
 
@@ -42,12 +44,6 @@ date: Monday May 20, 2024
 
 - In person Poster Presentation in the Boston Scientific Global Technology Exposition (GTE) to occur at Arden Hills, MN on May 29.
 
-- [Esteban Solórzano](mailto:esteban.solorzano@gmail.com) offers to provide in the future some lectures based on sections of the book we are developing on Medical Device Systems Engineering (MDSE). This would serve a dual purpose:
-
-    - Validate Book Content: present draft chapters to students and gather valuable feedback on their clarity, usefulness, and comprehensiveness. Note: Tailor the lectures to align with relevant courses in the Masters in Systems Engineering program.
-
-    - Prepare for PhD Path: The lectures will provide an opportunity to practice and refine teaching skills, which would be beneficial as [Esteban Solórzano](mailto:esteban.solorzano@gmail.com) considers pursuing a PhD.
-
 ## References
 
 - [Project Report](https://soloesteban.github.io/masters_stevens/)
@@ -56,21 +52,20 @@ date: Monday May 20, 2024
 
 ## Tasks
 
-- [ ] [Esteban Solórzano](mailto:esteban.solorzano@gmail.com) draft paper based on the report. Discuss the need for a book/ebook for medical device systems engineering. Publish to the INCOSE journal or INCOSE INSIGHT. Include [Dr. Dinesh Verma](mailto:dverma@stevens.edu) as co-author. Send draft to [Dr. Dinesh Verma](mailto:dverma@stevens.edu) by June 21.
+- [ ] Next meeting will be in the week of June 24th.
 
-- [ ] [Esteban Solórzano](mailto:esteban.solorzano@gmail.com) talk to [Mo Mansouri](mailto:mmansour@stevens.edu) about the GRE requirements for PhD application.
+- [ ] [Bijan Elahi](mailto:bijan@medtechsafety.com) will review the [report located here](https://soloesteban.github.io/masters_stevens/)
+
 
 <!--
 
-SERC. Look at format for INCOSE journal
-
 Some additional notes:
-- Presentation of project book at the BSC GTE at Arden Hills.
 - INCOSE CAB representative for Boston Scientific.
+
 - IEC TC62 for 60601-1 4th edition.
-- Library of Congress library card.
-- Helping in translation into Spanish of the INCOSE Systems Engineering Handbook.
-- David Walden, INCOSE Handbook editor. Need to get his attention about the MDSE book.
-- Become member of SERC as observer?
+
+Sandy can help with the Regulatory chapter. People are interested in streamline approval of medical devices.
+
+Monday 24th June, EST time, set meeting with Bijan. Afternoons are good.
 
 -->
