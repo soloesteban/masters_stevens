@@ -1,0 +1,18 @@
+# Fdb version 4
+["pdflatex"] 1716843988.48313 "c:/Users/solorze/OneDrive - Boston Scientific/Documents 1/GitHub/masters_stevens/paper/paper.tex" "paper.pdf" "paper" 1716843989.17404 0
+  "c:/Users/solorze/OneDrive - Boston Scientific/Documents 1/GitHub/masters_stevens/paper/paper.tex" 1716843986 151 f2ff1c46ff5e6ccf5c55adc47974b3c6 ""
+  "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1716825684 35752 024fb6c41858982481f6968b5fc26508 ""
+  "c:/texlive/2024/texmf-dist/tex/latex/base/article.cls" 1716832053 20144 147463a6a579f4597269ef9565205cfe ""
+  "c:/texlive/2024/texmf-dist/tex/latex/base/size10.clo" 1716832053 8448 dbc0dbf4156c0bb9ba01a1c685d3bad0 ""
+  "c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1716831963 29785 9f93ab201fe5dd053afcc6c1bcf7d266 ""
+  "c:/texlive/2024/texmf-dist/web2c/texmf.cnf" 1716825368 41983 7ec6bfd6bf34339a61f0f08f42298e60 ""
+  "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1716839157 5529302 90924f286bd62ce7380ad2a7c245cc29 ""
+  "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1716839407 8225874 9ca05d83b7287f5387cec504a99f3a28 ""
+  "c:/texlive/2024/texmf.cnf" 1716839138 713 e69b156964470283e0530f5060668171 ""
+  "paper.aux" 1716843989 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "paper.tex" 1716843986 151 f2ff1c46ff5e6ccf5c55adc47974b3c6 ""
+  (generated)
+  "paper.aux"
+  "paper.log"
+  "paper.pdf"
+  (rewritten before read)

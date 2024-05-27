@@ -122,3 +122,10 @@ By incorporating these elements, your textbook can become a valuable resource fo
     - Dr. Farzan Sasangohar, Texas A&M University College of Engineering
 
     - David Cronin, Chief Business Officer of Cognition Corporation
+
+
+Modified Windows Enviornmental Variables
+
+Removed
+C:\Program Files\MiKTeX\miktex\bin\x64\
+C:\texlive\2023\bin\windows
