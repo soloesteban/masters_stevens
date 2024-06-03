@@ -1,5 +1,213 @@
-\documentclass{article}
+\documentclass[alpha-refs]{wiley-article}
+
+\usepackage{graphicx}
+\usepackage[space]{grffile}
+\usepackage{latexsym}
+\usepackage{textcomp}
+\usepackage{longtable}
+\usepackage{tabulary}
+\usepackage{booktabs,array,multirow}
+\usepackage{amsfonts,amsmath,amssymb}
+\usepackage{natbib}
+\usepackage{url}
+\usepackage{hyperref}
+\hypersetup{colorlinks=false,pdfborder={0 0 0}}
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\@combinedblfloats{\box\@outputbox}{\unvbox\@outputbox}{}{%
+  \errmessage{\noexpand\@combinedblfloats could not be patched}%
+}%
+\makeatother
+% You can conditionalize code for latexml or normal latex using this.
+\newif\iflatexml\latexmlfalse
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}%
+
+\AtBeginDocument{\DeclareGraphicsExtensions{.pdf,.PDF,.eps,.EPS,.png,.PNG,.tif,.TIF,.jpg,.JPG,.jpeg,.JPEG}}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+% Add any additional LaTeX packages and macros here
+\usepackage{siunitx}
+
+%---
+
+\iflatexml
+% Add any LateXML specific commands here
+
+%---
+
+\else
+% The commands below will only change the exported PDF. Edit or remove as needed
+
+\paperfield{Field of the paper}
+\abbrevs{ABC, a black cat; DEF, doesn't ever fret; GHI, goes home immediately.}
+\corraddress{Author One PhD, Department, Institution, City, State or Province, Postal Code, Country}
+\corremail{correspondingauthor@email.com}
+\presentadd{Department, Institution, City, State or Province, Postal Code, Country}
+\fundinginfo{Funder One, Funder One Department, Grant/Award Number: 123456, 123457 and 123458; Funder Two, Funder Two Department, Grant/Award Number: 123459}
+\fi
+
+%---
+
+\papertype{Original Article}
+
+\title{Systems Engineering Template}
+
+
+\author[1]{Alberto Pepe}
+
+\affil[1]{Authorea}
+
+
+
+\runningauthor{Alberto Pepe}
+
 \begin{document}
-First document. This is a simple example, with no 
-extra parameters or packages included.
+
+\maketitle
+\selectlanguage{english}
+\begin{abstract}
+This is a generic template designed for use by the~\textbf{Systems
+Engineering Journal}. Please consult the journal's author guidelines in
+order to confirm that your manuscript complies with the journal's
+requirements. When you are ready to submit your manuscript, download /
+export it in LaTeX, Word, or PDF format and submit your document via the
+submission portal. Please replace this text with your abstract.
+
+\textbf{Keywords} --- keyword 1,~\emph{keyword 2}, keyword 3, keyword 4,
+keyword 5, keyword 6, keyword 7%
+\end{abstract}%
+
+
+
+
+\section*{First Level Heading}
+
+{\label{707961}}
+
+Please lay out your article using the section headings and example
+objects below, and remember to delete all help text prior to submitting
+your article to the journal.\selectlanguage{english}
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.70\columnwidth]{figures/example-image-rectangle/example-image-rectangle}
+\caption{{\textbf{Please replace this figure.} Although we encourage authors to
+send us the highest-quality figures possible, for peer-review purposes
+we are can accept a wide variety of formats, sizes, and resolutions.
+Legends should be concise but comprehensive -- the figure and its legend
+must be understandable without reference to the text. Include
+definitions of any symbols used and define/explain all abbreviations and
+units of measurement.
+{\label{div-126281}}%
+}}
+\end{center}
+\end{figure}
+
+\par\null
+
+\subsection*{Second Level Heading}\label{second-level-heading}
+
+If data, scripts or other artefacts used to generate the analyses
+presented in the article are available via a publicly available data
+repository, please include a reference to the location of the material
+within the article.
+
+\par\null
+
+\subsection*{LaTeX and Mathematical notation}
+\label{sec:latex}
+You can also include LaTeX code in your documents. Here is a simple inline equation $e^{i\pi}=-1$ and here's a longer equation, numbered:
+
+\begin{equation}
+\label{eqn:some}
+\int_0^{+\infty}e^{-x^2}dx=\frac{\sqrt{\pi}}{2}
+\end{equation}
+
+\par\null
+
+\subsection*{Adding Citations and a References
+List}
+
+You can cite bibliographic entries easily in Authorea. For example, here
+are a couple of citations~\cite{Cavalleri_2016,Gregory_2015}. By default citations are
+formatted according to a format accepted by the journal. Here is one
+more citation~\cite{Meskine_2019}
+
+\par\null
+
+\subsection*{Customizing the exported
+PDF}
+
+{\label{730632}}
+
+You can add packages, create aliases and macros (newcommands), as well
+as specify corresponding address, corresponding email, funding
+information etc by clicking ``Settings'', ``Edit Macros''.
+
+\par\null
+
+\subsubsection*{Third Level Heading}
+
+Supporting information will be included with the published article. For
+submission any supporting information should be supplied as separate
+files but referred to in the text. Appendices will be published after
+the references. For submission they should be supplied as separate files
+but referred to in the text.
+
+\par\null
+
+\begin{quote}
+The significant problems we have cannot be solved at the same level of
+thinking with which we created them.
+\end{quote}
+
+Measurements should be given in SI or SI-derived units. Chemical
+substances should be referred to by the generic name only. Trade names
+should not be used. Drugs should be referred to by their generic names.
+If proprietary drugs have been used in the study, refer to these by
+their generic name, mentioning the proprietary name, and the name and
+location of the manufacturer, in parentheses.\selectlanguage{english}
+\begin{table}[h!]
+\centering
+\normalsize\begin{tabulary}{1.0\textwidth}{CCCCC}
+Variables & JKL1 (n=30) & Control (n=40) & MN2 & t (68) \\
+Age at testing & 38 & 58 & 504.48 & 58 ms \\
+Age at testing & 38 & 58 & 504.48 & 58 ms \\
+Age at testing & 38 & 58 & 504.48 & 58 ms \\
+Age at testing & 38 & 58 & 504.48 & 58 ms \\
+Age at testing & 38 & 58 & 504.48 & 58 ms \\
+Age at testing & 38 & 58 & 504.48 & 58 ms \\
+\end{tabulary}
+\caption{{This is a table. Tables should be self-contained and complement, but not
+duplicate, information contained in the text. They should be not be
+provided as images. Legends should be concise but comprehensive -- the
+table, legend and footnotes must be understandable without reference to
+the text.
+{\label{536540}}%
+}}
+\end{table}\section*{Acknowledgements}\label{acknowledgements}
+
+Acknowledgements should include contributions from anyone who does not
+meet the criteria for authorship (for example, to recognize
+contributions from people who provided technical help, collation of
+data, writing assistance, acquisition of funding, or a department
+chairperson who provided general support), as well as any funding or
+other support information.
+
+\section*{Conflict of interest}
+
+{\label{644442}}
+
+You may be asked to provide a conflict of interest statement during the
+submission process. Please check the journal's author guidelines for
+details on what to include in this section. Please ensure you liaise
+with all co-authors to confirm agreement with the final statement.
+
+\selectlanguage{english}
+\FloatBarrier
+\bibliography{bibliography/converted_to_latex.bib%
+}
+
 \end{document}
+
