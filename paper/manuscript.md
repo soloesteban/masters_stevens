@@ -14,7 +14,7 @@ The development of medical devices is a complex and multidisciplinary field that
 
 ### **2. Methodology**
 
-The creation of the Medical Device Systems Engineering Book (MDSE-B) involved several systematic steps:
+The creation of the Medical Device Systems Engineering Book (MDSE-B) involves several systematic steps:
 
 1.  **Literature Review**: An extensive review of existing literature, research papers, and relevant resources in systems engineering and medical devices.
 
