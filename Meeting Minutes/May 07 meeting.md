@@ -4,9 +4,9 @@ Tuesday May 07, 2024
 
 ## Attendees
 
-- [Sandy Weininger](Sandy.Weininger@fda.hhs.gov)
+- [Sandy Weininger](mailto:Sandy.Weininger@fda.hhs.gov)
 
-- [Esteban Solórzano](esteban.solorzano@gmail.com)
+- [Esteban Solórzano](mailto:esteban.solorzano@gmail.com)
 
 ## Agenda
 

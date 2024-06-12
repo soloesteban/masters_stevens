@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.27)  27 MAY 2024 16:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.27)  8 JUN 2024 17:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -283,86 +283,86 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package color Info: Redefining color ojcolor on input line 11.
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 36.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 38.
  (c:/texlive/2024/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
-** ATTENTION: \authorrefmark is deprecated (line 49). Use \IEEEauthorrefmark instead.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 49.
+** ATTENTION: \authorrefmark is deprecated (line 51). Use \IEEEauthorrefmark instead.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 51.
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 49.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 51.
  (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-** ATTENTION: \authorrefmark is deprecated (line 49). Use \IEEEauthorrefmark instead.
-** ATTENTION: \authorrefmark is deprecated (line 49). Use \IEEEauthorrefmark instead.
-LaTeX Font Info:    Calculating math sizes for size <6.6> on input line 49.
+** ATTENTION: \authorrefmark is deprecated (line 51). Use \IEEEauthorrefmark instead.
+** ATTENTION: \authorrefmark is deprecated (line 51). Use \IEEEauthorrefmark instead.
+LaTeX Font Info:    Calculating math sizes for size <6.6> on input line 51.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <3.3> not available
-(Font)              size <5> substituted on input line 49.
+(Font)              size <5> substituted on input line 51.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <3.3> not available
-(Font)              size <5> substituted on input line 49.
+(Font)              size <5> substituted on input line 51.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <3.3> not available
-(Font)              size <5> substituted on input line 49.
+(Font)              size <5> substituted on input line 51.
 
-LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 52.
+LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 54.
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--58
+Underfull \hbox (badness 10000) in paragraph at lines 54--60
 []\OT1/ptm/m/n/10.03749 HIS doc-u-ment is a tem-plate for L[]T[]X. If
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--58
+Underfull \hbox (badness 10000) in paragraph at lines 54--60
 \OT1/ptm/m/n/10.03749 you are read-ing a pa-per or PDF ver-sion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--58
+Underfull \hbox (badness 10000) in paragraph at lines 54--60
 \OT1/ptm/m/n/10.03749 of this doc-u-ment, please down-load the elec-tronic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--58
+Underfull \hbox (badness 10000) in paragraph at lines 54--60
 \OT1/ptm/m/n/10.03749 file, trans[]jour.tex, from the IEEE Web site at
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--58
+Underfull \hbox (badness 10000) in paragraph at lines 54--60
 []$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--58
+Underfull \hbox (badness 10000) in paragraph at lines 54--60
 []$
  []
 
 
-Underfull \hbox (badness 4242) in paragraph at lines 52--58
+Underfull \hbox (badness 4242) in paragraph at lines 54--60
 \OT1/ptm/m/n/10.03749 You can also ex-plore us-ing the Over-leaf ed-i-tor at
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--58
+Underfull \hbox (badness 10000) in paragraph at lines 54--60
 \OT1/ptm/m/n/10.03749 https://www.overleaf.com/blog/278-how-to-use-overleaf-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--58
+Underfull \hbox (badness 10000) in paragraph at lines 54--60
 \OT1/ptm/m/n/10.03749 with-ieee-collabratec-your-quick-guide-to-getting-started
  []
 
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <9> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 66.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 68.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 82.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 84.
  (c:/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
@@ -379,13 +379,13 @@ Overfull \vbox (8.922pt too high) has occurred while \output is active []
 
 ]
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <6> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 121.
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 123.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 123.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 125.
  (c:/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 205.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 207.
 
 Overfull \vbox (12.859pt too high) has occurred while \output is active []
 
@@ -393,19 +393,19 @@ Overfull \vbox (12.859pt too high) has occurred while \output is active []
 Overfull \vbox (12.75748pt too high) has occurred while \output is active []
 
  [2]
-Underfull \hbox (badness 2591) in paragraph at lines 261--262
+Underfull \hbox (badness 2591) in paragraph at lines 263--264
 []|\OT1/ptm/m/n/8 1 erg/(G$\OMS/cmsy/m/n/8 ^^A$\OT1/ptm/m/n/8 g) $\OT1/cmr/m/n/8 =$ \OT1/ptm/m/n/8 1 emu/g $\OMS/cmsy/m/n/8 !$ \OT1/ptm/m/n/8 1
  []
 
 
-Overfull \hbox (11.0pt too wide) in paragraph at lines 235--295
+Overfull \hbox (11.0pt too wide) in paragraph at lines 237--297
 [][]
  []
 
 <fig1.png, id=23, 249.3315pt x 189.22694pt>
 File: fig1.png Graphic file (type png)
 <use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 298.
+Package pdftex.def Info: fig1.png  used on input line 300.
 (pdftex.def)             Requested size: 252.94499pt x 191.96947pt.
 
 Overfull \hbox (1.2pt too wide) has occurred while \output is active
@@ -433,40 +433,40 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (13.27089pt too high) has occurred while \output is active []
 
  [5]
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 517.
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 519.
  (c:/texlive/2024/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.03749> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 517.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 519.
 
-Underfull \hbox (badness 10000) in paragraph at lines 517--524
+Underfull \hbox (badness 10000) in paragraph at lines 519--526
 \OT1/ptm/m/n/10.03749 Number foot-notes sep-a-rately in su-per-scripts
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 542.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 544.
 (c:/texlive/2024/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/b/it' in size <9> not available
-(Font)              Font shape `TS1/phv/b/sl' tried instead on input line 542.
+(Font)              Font shape `TS1/phv/b/sl' tried instead on input line 544.
 
-Underfull \hbox (badness 10000) in paragraph at lines 543--552
+Underfull \hbox (badness 10000) in paragraph at lines 545--554
 \OT1/ptm/m/n/10.03749 sub-mis-sion and peer-review sys-tem, Schol-arOne\TS1/ptm/m/n/10.03749 ®
  []
 
 
-Underfull \hbox (badness 4266) in paragraph at lines 543--552
+Underfull \hbox (badness 4266) in paragraph at lines 545--554
 \OT1/ptm/m/n/10.03749 that par-tic-i-pate in Schol-arOne at http://www.ieee.org/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 543--552
+Underfull \hbox (badness 10000) in paragraph at lines 545--554
 \OT1/ptm/m/n/10.03749 publications[]standards/publications/authors/authors[]
  []
 
 
-Underfull \hbox (badness 2951) in paragraph at lines 543--552
+Underfull \hbox (badness 2951) in paragraph at lines 545--554
 \OT1/ptm/m/n/10.03749 submission.html First check if you have an ex-ist-ing
  []
 
@@ -477,7 +477,7 @@ Overfull \vbox (12.859pt too high) has occurred while \output is active []
 Overfull \vbox (12.75748pt too high) has occurred while \output is active []
 
  [6]
-Underfull \hbox (badness 1472) in paragraph at lines 697--698
+Underfull \hbox (badness 1472) in paragraph at lines 699--700
 []\OT1/ptm/m/it/8 Motorola Semi-con-duc-tor Data Man-ual\OT1/ptm/m/n/8 , Mo-torola Semi-con-duc-tor
  []
 
@@ -493,22 +493,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (13.27089pt too high) has occurred while \output is active []
 
  [7]
-Underfull \hbox (badness 2142) in paragraph at lines 747--748
+Underfull \hbox (badness 2142) in paragraph at lines 749--750
 \OT1/ptm/m/n/8 nolo-gies de-ployed be-hind the fire-wall for cor-po-rate pro-duc-tiv-
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 747--748
+Underfull \hbox (badness 1603) in paragraph at lines 749--750
 \OT1/ptm/m/n/8 ity. Pre-sented at INET96 An-nual Meet-ing. [On-line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 2126) in paragraph at lines 763--764
+Underfull \hbox (badness 2126) in paragraph at lines 765--766
 []\OT1/ptm/m/n/8 Teralyzer. Lytera UG, Kirch-hain, Ger-many [On-line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 1867) in paragraph at lines 763--764
+Underfull \hbox (badness 1867) in paragraph at lines 765--766
 \OT1/ptm/m/it/8 http://www.lytera.de/Terahertz[]THz[]Spectroscopy.php?id=home\OT1/ptm/m/n/8 , Ac-
  []
 
@@ -522,12 +522,17 @@ Overfull \vbox (12.75748pt too high) has occurred while \output is active []
 <a1.png, id=50, 72.27pt x 90.3375pt>
 File: a1.png Graphic file (type png)
 <use a1.png>
-Package pdftex.def Info: a1.png  used on input line 875.
+Package pdftex.def Info: a1.png  used on input line 876.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 File: a1.png Graphic file (type png)
 <use a1.png>
-Package pdftex.def Info: a1.png  used on input line 875.
+Package pdftex.def Info: a1.png  used on input line 876.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
+
+Underfull \hbox (badness 1354) in paragraph at lines 876--900
+\OT1/ptm/m/n/8 Tech-nol-ogy) and all au-thors may in-clude bi-
+ []
+
 <a2.png, id=53, 72.27pt x 90.3375pt>
 File: a2.png Graphic file (type png)
 <use a2.png>
@@ -577,7 +582,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  57i,15n,65p,1434b,368s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "MDSE paper.pdf" (9 pages, 496839 bytes).
+Output written on "MDSE paper.pdf" (9 pages, 496941 bytes).
 PDF statistics:
  153 PDF objects out of 1000 (max. 8388607)
  89 compressed objects within 1 object stream

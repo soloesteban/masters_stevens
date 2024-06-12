@@ -1,18 +1,14 @@
 # Fdb version 4
-["bibtex Systems Engineering Template"] 0 "Systems Engineering Template.aux" "Systems Engineering Template.bbl" "Systems Engineering Template" 1716843825.53815 0
-  "Systems Engineering Template.aux" 0 -1 0 "pdflatex"
+["bibtex paper"] 0 "paper.aux" "paper.bbl" "paper" 1717885849.98302 0
   "bibliography/converted_to_latex.bib" 0 -1 0 ""
+  "paper.aux" 0 -1 0 "pdflatex"
   "rss.bst" 0 -1 0 ""
   (generated)
-  "Systems Engineering Template.bbl"
-  "Systems Engineering Template.blg"
+  "paper.bbl"
+  "paper.blg"
   (rewritten before read)
-["pdflatex"] 1716843821.72704 "c:/Users/solorze/OneDrive - Boston Scientific/Documents 1/GitHub/masters_stevens/paper/Systems Engineering Template.tex" "Systems Engineering Template.pdf" "Systems Engineering Template" 1716843825.539 2
-  "Systems Engineering Template.aux" 1716843824 2928 14d699a2bbbe6deb9fc5a0645813fcbe "pdflatex"
-  "Systems Engineering Template.bbl" 0 -1 0 "bibtex Systems Engineering Template"
-  "Systems Engineering Template.out" 1716843824 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Systems Engineering Template.tex" 1716592008 7015 5498d1a7edf51dd8dbb5fcb748ee0f6b ""
-  "c:/Users/solorze/OneDrive - Boston Scientific/Documents 1/GitHub/masters_stevens/paper/Systems Engineering Template.tex" 1716592008 7015 5498d1a7edf51dd8dbb5fcb748ee0f6b ""
+["pdflatex"] 1717885845.37729 "c:/Users/solorze/OneDrive - Boston Scientific/Documents 1/GitHub/masters_stevens/paper/paper.tex" "paper.pdf" "paper" 1717885849.98444 2
+  "c:/Users/solorze/OneDrive - Boston Scientific/Documents 1/GitHub/masters_stevens/paper/paper.tex" 1716845995 7228 5498d1a7edf51dd8dbb5fcb748ee0f6b ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc" 1716832259 2908 33404fff2a7b8e169974e96af0be5333 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1716830170 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm0800.tfm" 1716829246 3584 49064b465390a8e316a3c8417a050403 ""
@@ -309,10 +305,14 @@
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1716839407 8225874 9ca05d83b7287f5387cec504a99f3a28 ""
   "c:/texlive/2024/texmf.cnf" 1716839138 713 e69b156964470283e0530f5060668171 ""
   "figures/example-image-rectangle/example-image-rectangle" 0 -1 0 ""
+  "paper.aux" 1717885848 2928 14d699a2bbbe6deb9fc5a0645813fcbe "pdflatex"
+  "paper.bbl" 0 -1 0 "bibtex paper"
+  "paper.out" 1717885848 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "paper.tex" 1716845995 7228 5498d1a7edf51dd8dbb5fcb748ee0f6b ""
   "wiley-article.cls" 1716598606 20085 d050ed5138313743da856847194e9119 ""
   (generated)
-  "Systems Engineering Template.aux"
-  "Systems Engineering Template.log"
-  "Systems Engineering Template.out"
-  "Systems Engineering Template.pdf"
+  "paper.aux"
+  "paper.log"
+  "paper.out"
+  "paper.pdf"
   (rewritten before read)

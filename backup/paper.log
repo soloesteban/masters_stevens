@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.27)  27 MAY 2024 16:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.27)  8 JUN 2024 17:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/solorze/OneDrive - Boston Scientific/Documents 1/GitHub/masters_stevens/paper/Systems Engineering Template.tex"
-(c:/Users/solorze/OneDrive - Boston Scientific/Documents 1/GitHub/masters_stevens/paper/Systems Engineering Template.tex
+**"c:/Users/solorze/OneDrive - Boston Scientific/Documents 1/GitHub/masters_stevens/paper/paper.tex"
+(c:/Users/solorze/OneDrive - Boston Scientific/Documents 1/GitHub/masters_stevens/paper/paper.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-05-08>
 (./wiley-article.cls
@@ -1284,7 +1284,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 Package hyperref Info: Option `colorlinks' set `false' on input line 14.
 
-c:/Users/solorze/OneDrive - Boston Scientific/Documents 1/GitHub/masters_stevens/paper/Systems Engineering Template.tex:19: \@combinedblfloats could not be patched.
+c:/Users/solorze/OneDrive - Boston Scientific/Documents 1/GitHub/masters_stevens/paper/paper.tex:19: \@combinedblfloats could not be patched.
 <argument> ...mbinedblfloats could not be patched}
                                                   
 l.19 }
@@ -1420,8 +1420,8 @@ Package hyperref Warning: Ignoring empty anchor on input line 44.
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 (Font)              scaled to size 6.0pt on input line 44.
-(./Systems Engineering Template.aux)
-\openout1 = `"Systems Engineering Template.aux"'.
+(./paper.aux)
+\openout1 = `paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxsfmi/m/it on input line 66.
 LaTeX Font Info:    ... okay on input line 66.
@@ -1544,7 +1544,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tran
 Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 66.
 Package hyperref Info: Link coloring OFF on input line 66.
 \@outlinefile=\write4
-\openout4 = `"Systems Engineering Template.out"'.
+\openout4 = `paper.out'.
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/eb/n' will be
 (Font)              scaled to size 8.0pt on input line 69.
@@ -1639,7 +1639,7 @@ LaTeX Font Info:    Font shape `T1/lato-TLF/b/sc' will be
 LaTeX Font Info:    Font shape `OT1/lato-TLF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 85.
 
-c:/Users/solorze/OneDrive - Boston Scientific/Documents 1/GitHub/masters_stevens/paper/Systems Engineering Template.tex:94: LaTeX Error: File `figures/example-image-rectangle/example-image-rectangle' not found.
+c:/Users/solorze/OneDrive - Boston Scientific/Documents 1/GitHub/masters_stevens/paper/paper.tex:94: LaTeX Error: File `figures/example-image-rectangle/example-image-rectangle' not found.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -1684,7 +1684,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/sc' will be
 (Font)              scaled to size 10.0pt on input line 189.
 [2]
-c:/Users/solorze/OneDrive - Boston Scientific/Documents 1/GitHub/masters_stevens/paper/Systems Engineering Template.tex:208: Undefined control sequence.
+c:/Users/solorze/OneDrive - Boston Scientific/Documents 1/GitHub/masters_stevens/paper/paper.tex:208: Undefined control sequence.
 l.208 \FloatBarrier
                    
 The control sequence at the end of the top line
@@ -1693,11 +1693,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-No file "Systems Engineering Template".bbl.
+No file paper.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-[3] (./Systems Engineering Template.aux)
+[3] (./paper.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1717,24 +1717,24 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
-Package rerunfilecheck Warning: File `"Systems Engineering Template".out' has changed.
+Package rerunfilecheck Warning: File `paper.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
-Package rerunfilecheck Info: Checksums for `"Systems Engineering Template".out':
+Package rerunfilecheck Info: Checksums for `paper.out':
 (rerunfilecheck)             Before: <no file>
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 37498 strings out of 473992
- 740119 string characters out of 5745042
+ 37495 strings out of 473992
+ 739536 string characters out of 5745042
  1948907 words of memory out of 5000000
- 59222 multiletter control sequences out of 15000+600000
+ 59219 multiletter control sequences out of 15000+600000
  1206014 words of font info for 255 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 123i,21n,131p,1114b,1135s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 123i,21n,131p,1091b,1135s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb><c:/texlive/2024/texmf-dist/fonts/type1/typoland/lato/Lato-Heavy.pfb><c:/texlive/2024/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb><c:/texlive/2024/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/newtx/txsys.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/newtxsf/zsfmi-reg.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/newtxsf/zsfmia-reg.pfb>
-Output written on "Systems Engineering Template.pdf" (3 pages, 116820 bytes).
+Output written on paper.pdf (3 pages, 116820 bytes).
 PDF statistics:
  70 PDF objects out of 1000 (max. 8388607)
  48 compressed objects within 1 object stream

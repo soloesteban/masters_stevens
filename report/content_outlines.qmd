@@ -9,6 +9,7 @@ This section provided some proposed configurations for the MDSEE-KR content sect
 
 The following content section configuration was designed to provide a comprehensive understanding of systems engineering as applied to the medical device industry, emphasizing practical application and regulatory compliance.
 
+<!--the following sections were added to the book content design structure matrix -->
 -   **Introduction to Medical Device Systems Engineering**
 
     -   Overview of systems engineering principles
@@ -45,9 +46,9 @@ Systems Engineering Fundamentals
 
 -   Understanding the V-Model and Systems Development Lifecycle
 
--   Applying Requirements Engineering Principles (FRCs, DRCs, Traceability)
+-   Applying Requirements Engineering Principles (FRCs, DRCs, Traceability)<!--sections added to the book content design structure matrix -->
 
--   Introduction to Modeling and Simulation Techniques (e.g., UML, SysML)
+-   Introduction to Modeling and Simulation Techniques (e.g., UML, SysML)<!--sections added to the book content design structure matrix -->
 
 -   Risk Management Fundamentals (FMEA, HACCP, Hazard Identification)
 
@@ -55,23 +56,23 @@ Systems Engineering Fundamentals
 
 Medical Device Specific Knowledge
 
--   Overview of the Medical Device Development Lifecycle (Concept to Market)
+-   Overview of the Medical Device Development Lifecycle (Concept to Market)<!--sections added to the book content design structure matrix -->
 
--   Essential Regulatory Affairs for Medical Devices (ISO 13485, IEC 60601 Series)
+-   Essential Regulatory Affairs for Medical Devices (ISO 13485, IEC 60601 Series)<!--sections added to the book content design structure matrix -->
 
--   Introduction to Human Factors and Usability Engineering (HFMEA Principles)
+-   Introduction to Human Factors and Usability Engineering (HFMEA Principles)<!--sections added to the book content design structure matrix -->
 
 -   Design for Manufacturability and Assembly (DFMA) Considerations
 
 Advanced Topics and Applications
 
--   Model-Based Systems Engineering (MBSE) for Medical Devices (Benefits, Methodologies)
+-   Model-Based Systems Engineering (MBSE) for Medical Devices (Benefits, Methodologies)<!--sections added to the book content design structure matrix -->
 
--   Software Considerations in Medical Device Systems (Safety, Integration)
+-   Software Considerations in Medical Device Systems (Safety, Integration)<!--sections added to the book content design structure matrix -->
 
--   Cybersecurity for Medical Devices (Risk Management, Secure Design Practices)
+-   Cybersecurity for Medical Devices (Risk Management, Secure Design Practices)<!--sections added to the book content design structure matrix -->
 
--   Interoperability and Integration of Medical Devices (Standards, Communication Protocols)
+-   Interoperability and Integration of Medical Devices (Standards, Communication Protocols)<!--sections added to the book content design structure matrix -->
 
 ### Structure 2: Learning Path Approach
 
@@ -93,11 +94,11 @@ Deep Dive into Medical Device Systems Engineering
 
 Mastering Medical Device Systems Engineering
 
--   Analyzing Case Studies and Best Practices in Medical Device Development
+-   Analyzing Case Studies and Best Practices in Medical Device Development<!--sections added to the book content design structure matrix -->
 
--   Exploring Emerging Technologies in Medical Devices (AI, Machine Learning)
+-   Exploring Emerging Technologies in Medical Devices (AI, Machine Learning)<!--sections added to the book content design structure matrix -->
 
--   Identifying Continuous Learning Resources and Strategies (Professional Development)
+-   Identifying Continuous Learning Resources and Strategies (Professional Development)<!--sections added to the book content design structure matrix -->
 
 ### Structure 3: Competency-Based Learning
 
