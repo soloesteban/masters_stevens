@@ -2,12 +2,18 @@
 \IEEEoverridecommandlockouts
 % The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
 % template source is https://www.ieee.org/conferences/publishing/templates.html
+\usepackage{array}
+% The array package helps with advanced table formatting. 
+\usepackage{caption}
+% The caption package is used to adjust caption styles.
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{algorithmic}
 \usepackage{graphicx}
 \usepackage{textcomp}
 \usepackage{xcolor}
+\usepackage{comment}
+
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
@@ -20,17 +26,17 @@
 Hoboken, New Jersey \\
 dverma@stevens.edu}
 \and
-\IEEEauthorblockN{2\textsuperscript{nd} Esteban M. Solorzano Zeledon}
-\IEEEauthorblockA{\textit{Electronic Medical Equipment} \\
+\IEEEauthorblockN{2\textsuperscript{nd} Joseph Green}
+\IEEEauthorblockA{\textit{Patient Care Systems} \\
+\textit{Medtronic}\\
+Minneapolis, Minnesota \\
+joseph.green@medtronic.com}
+\and
+\IEEEauthorblockN{3\textsuperscript{rd} Esteban M. Solorzano Zeledon}
+\IEEEauthorblockA{\textit{Electronic Medical Systems} \\
 \textit{Boston Scientific}\\
 Arden Hills, Minnesota \\
 solorze@bsci.com}
-\and
-\IEEEauthorblockN{3\textsuperscript{rd} Given Name Surname}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
-email address or ORCID}
 }
 
 \maketitle
@@ -224,6 +230,118 @@ email address or ORCID}
 
 \section{How Medical Device Systems Engineering differ to other industries}
 
+Table.~\ref{tab:industry-comparison-part1} and Table.~\ref{tab:industry-comparison-part2} presents a comparative analysis of systems engineering practices 
+across four diverse industries: Medical Device, Aerospace, Automotive, 
+and Consumer Electronics. Each industry operates within distinct 
+regulatory frameworks, market demands, and stakeholder expectations, 
+leading to unique approaches in managing safety, performance, cost, 
+complexity, and customization in product development.
+
+    \begin{table*}[t]
+        \caption{Comparative Analysis of Systems Engineering Characteristics Across Industries: Medical Device, Aerospace, Automotive, and Consumer Electronics (Part 1)}
+        \label{tab:industry-comparison-part1}
+        \centering
+        \begin{tabular}{|p{2.5cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|}
+        \hline
+        \textbf{Feature} & \textbf{Medical Device} & \textbf{Aerospace} & \textbf{Automotive} & \textbf{Consumer Electronics} \\ \hline
+        \textbf{Focus} & Safety and regulatory compliance (FDA requirements) & Performance, reliability, and safety for critical applications & Safety, cost-effectiveness, and manufacturability & Cost, functionality, and user experience \\ \hline
+        \textbf{Life Cycle} & Highly regulated with strict change control processes & Long development cycles with significant upfront investment & Cyclical development with model year changes & Fast-paced development with shorter product lifecycles \\ \hline
+        \textbf{Stakeholders} & Broader range including patients, doctors, and regulatory bodies & Primarily engineers, government agencies, and airline customers & Consumers, dealerships, and regulatory bodies & Consumers, retailers, and internal marketing/design teams \\ \hline
+        \end{tabular}
+    \end{table*}
+    
+    \begin{table*}[t]
+        \caption{Comparative Analysis of Systems Engineering Characteristics Across Industries: Medical Device, Aerospace, Automotive, and Consumer Electronics (Part 2)}
+        \label{tab:industry-comparison-part2}
+        \centering
+        \begin{tabular}{|p{2.5cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|}
+        \hline
+        \textbf{Feature} & \textbf{Medical Device} & \textbf{Aerospace} & \textbf{Automotive} & \textbf{Consumer Electronics} \\ \hline
+        \textbf{Risk Management} & Extremely high focus on mitigating risks to patient safety & High focus on mitigating risks of catastrophic failure & Focus on safety while balancing cost and manufacturability & Focus on user safety and product liability \\ \hline
+        \textbf{Cost Considerations} & Balancing cost-effectiveness with safety and regulatory requirements & Cost is a major driver, but safety remains paramount & Balancing cost with performance and consumer expectations & Cost is a major driver, with emphasis on economies of scale \\ \hline
+        \textbf{Complexity} & Devices can be complex with software, hardware, and user interaction & Highly complex systems with long development timelines and extreme performance demands & Complex systems with a focus on integration and manufacturability & Range from simple to complex, with emphasis on user experience and ease of use \\ \hline
+        \textbf{Customization} & Typically low customization allowed for medical devices & Limited customization, with focus on platform development for different variants & Some customization for different markets and customer segments & High degree of customization for specific features and functionalities \\ \hline
+        \end{tabular}
+    \end{table*}
+
+    Table.~\ref{tab:industry_features_part1} and Table.~\ref{tab:industry_features_part2} provides examples of differences between systems 
+    engineering in medical device industry and other 
+    industries.
+    
+    % Insert table here
+
+    \begin{table*}[t]
+    \caption{Examples of feature differences across industries (Part 1)}
+    \label{tab:industry_features_part1}
+    \centering
+    \begin{tabular}{|p{2.5cm}|p{6.5cm}|p{6.5cm}|}
+    \hline
+    \textbf{Feature}         & \textbf{Medical Device Industry}                                                                                                                                                                                                                                                                                                                                                                               & \textbf{Other Industries}                                                                                                                                                                                                                                                                                                                                                                                                                                   \\ \hline
+    \textbf{Focus}           & Safety and Regulatory Compliance                                                                                                                                                                                                                                                                                                                                                                               & Performance and Technical Specifications                                                                                                                                                                                                                                                                                                                                                                                                                    \\ \hline
+    \textbf{Example}         & A cardiac pacemaker is being developed. Systems engineers focus on volume, power efficiency, and therapy performance to achieve optimal therapy performance and longevity.                                                                                                                                                                                                                                     & An airplane wing is being designed. Systems engineers focus on weight, strength, and aerodynamic efficiency to achieve optimal fuel consumption and flight performance.                                                                                                                                                                                                                                                                                     \\ \hline
+    \textbf{Life Cycle}      & Highly Variable Regulation and Change Control Processes                                                                                                                                                                                                                                                                                                                                                        & More Flexible and Iterative Development Cycles                                                                                                                                                                                                                                                                                                                                                                                                              \\ \hline
+    \textbf{Example}         & A significant software bug is discovered in a blood glucose monitor after initial release. A software patch is prioritized, developed, verified, validated, and released relatively quickly through a field update. A minor software bug is discovered in a remote monitoring system for blood glucose monitors after initial release.  A software patch can be released quickly through a nightly deployment. & During the development of a new car model, engineers discover a significant issue with the Advanced Driver Assistance Systems (ADAS).  A software patch is prioritized, developed, certified, and released relatively quickly through an over-the-air update. During the development of a new car model, engineers discover a minor issue with the infotainment system. A software patch can be released relatively quickly through an over-the-air update. \\ \hline
+    \end{tabular}
+    \end{table*}
+
+    \begin{table*}[t]
+    \caption{Examples of feature differences across industries (Part 2)}
+    \label{tab:industry_features_part2}
+    \centering
+    \begin{tabular}{|p{2.5cm}|p{6.5cm}|p{6.5cm}|}
+    \hline
+    \textbf{Feature}         & \textbf{Medical Device Industry}                                                                                                                                                                                                                                                                                                                                                                               & \textbf{Other Industries}                                                                                                                                                                                                                                                                                                                                                                                                                                   \\ \hline
+    \textbf{Stakeholders}    & Broader Range Including Patients, Doctors, and Regulatory Bodies                                                                                                                                                                                                                                                                                                                                               & Primarily Engineers and Internal Stakeholders                                                                                                                                                                                                                                                                                                                                                                                                               \\ \hline
+    \textbf{Example}         & Systems engineers for a new insulin pump consider not only technical specifications but also user needs (e.g., easy for elderly patients to operate) and feedback from doctors regarding functionality and integration with existing hospital systems.                                                                                                                                                         & While developing a new type of engine, the primary focus for systems engineers might be on meeting internal performance targets set by the company and collaborating with mechanical and electrical engineers on achieving those goals.                                                                                                                                                                                                                     \\ \hline
+    \textbf{Risk Management} & Focus on Mitigating Risks to Patient Safety                                                                                                                                                                                                                                                                                                                                                                    & Risk Management is Important, But Tolerances May Be Higher                                                                                                                                                                                                                                                                                                                                                                                                  \\ \hline
+    \textbf{Example}         & A potential risk identified during the development of a surgical robot is the possibility of unintended arm movement during delicate procedures. Systems engineers use design for reliability to identify the required tolerance for minimizing the risk, and evaluate the design concepts against the required tolerance using cost-benefit analysis and engineering calculations.                            & When designing a new bridge, there's a risk of structural failure during an earthquake. While safety is crucial, there might be a tolerance for a certain level of risk based on cost-benefit analysis and engineering calculations.                                                                                                                                                                                                                        \\ \hline
+    \end{tabular}
+    \end{table*}
+
+    The main differences between how systems engineering is 
+    performed in the medical device industry versus other 
+    industries are as follows:
+
+    \begin{enumerate}
+        \item Funding and procurement require MedTech to self-fund or 
+        seek financing leading to a market-driven expectation. 
+        This leads to several differences in the systems 
+        engineering role: the need to understand the stakeholder 
+        business, negotiate trade-offs between a large number 
+        of (conflicting) external stakeholders, and make 
+        trade-offs throughout the program duration based on 
+        market fluctuations.
+
+        \item The strong, and growing, overlap between Tech and MedTech 
+        industries drive stakeholder expectations that MedTech 
+        provides similar user experience and cadence as Tech 
+        while maintaining reliability expectations of traditional 
+        MedTech. This leads to several differences in the systems 
+        engineering role: the need to understand and maintain 
+        knowledge of current Tech industry trends, adopt or at 
+        least accommodate agile methodologies, plan and execute 
+        the delivery of incremental value on short(er) timelines, 
+        and accommodate/compensate for the lower reliability 
+        of Tech products while integrating more of them into 
+        the healthcare environment.
+
+        \item The environments of use (i.e., use conditions) are very 
+        harsh and difficult to reduce to first principles. This 
+        leads to several differences in the systems engineering 
+        role: the need to continually reassess applicability 
+        of known use conditions, and identify and develop 
+        unique models for each application.
+
+        \item The cadence of release is highly variable and highly 
+        sensitive to market conditions. This leads to several 
+        differences in the systems engineering role: the need 
+        to dynamically negotiate and alter project scope based 
+        on competitive analysis and announcements, and 
+        continually and simultaneously focus on both increasing 
+        capability and reducing cost.
+
+    \end{enumerate}
+
 \section{Survey Insights: A Glimpse into the World of Medical Device Systems Engineers}
 
 %Include the survey results visualizations
@@ -234,36 +352,62 @@ email address or ORCID}
     garnered responses from a diverse group of systems engineers 
     employed at leading medical device companies and regulatory 
     agencies. The survey results shed light on several key aspects 
-    of their work:
+    of their work:%cite the web link of the survey results
 
     \begin{enumerate}
 
-        \item \textbf{Primary Challenges:} Respondents identified systems 
+        \item \textbf{Primary Challenges:} Figure.~\ref{fig_challenges} 
+        shows that respondents identified systems 
         integration, interdisciplinary collaboration, and ensuring safety 
         and efficacy as the most pressing challenges in their daily work. 
         These findings underscore the need for effective communication, 
         coordination, and risk management strategies in medical device 
         development.
-    
-        \item \textbf{Indispensable Tools:} Requirement management software 
-        and documentation tools emerged as the most indispensable tools 
+
+        \begin{figure}[htbp]
+            \centerline{\includegraphics[width=\linewidth]{../report/_book/images/paste-31.png}}
+            \caption{Primary challenges encountered in the systems engineering 
+            process for medical devices}
+            \label{fig_challenges}
+        \end{figure}
+            
+        \item \textbf{Indispensable Tools:} Figure.~\ref{fig_tools} shows that
+        requirement management software and documentation tools emerged as the most indispensable tools 
         for medical device systems engineers. This highlights the critical 
         importance of clear, well-defined requirements and meticulous 
         documentation throughout the development process.
+
+        \begin{figure}[htbp]
+            \centerline{\includegraphics[width=\linewidth]{../report/_book/images/paste-32.png}}
+            \caption{Tools indispensable for medical device systems engineer's daily tasks}
+            \label{fig_tools}
+        \end{figure}
     
-        \item \textbf{Beneficial Methodologies:} Model-Based Systems 
-        Engineering (MBSE) and quality and compliance methodologies like 
+        \item \textbf{Beneficial Methodologies:} Figure.~\ref{fig_methods} shows that 
+        Model-Based Systems Engineering (MBSE) and quality and compliance methodologies like 
         Failure Modes and Effects Analysis (FMEA) were highly regarded 
         by respondents. These methodologies provide a structured framework 
         for system design, risk assessment, and ensuring regulatory 
         compliance.
+
+        \begin{figure}[htbp]
+            \centerline{\includegraphics[width=\linewidth]{../report/_book/images/paste-35.png}}
+            \caption{Methodologies most beneficial for medical device systems engineer's daily tasks}
+            \label{fig_methods}
+        \end{figure}
     
-        \item \textbf{Learning Preferences:} The survey revealed a 
+        \item \textbf{Learning Preferences:} Figure.~\ref{fig_learning_preferences} shows that the survey revealed a 
         preference for e-books, webinars, and interactive online courses 
         as the most accessible and beneficial learning formats. This suggests 
         a need for educational resources that are readily available, 
         engaging, and tailored to the specific needs of medical device 
         systems engineers.
+
+        \begin{figure}[htbp]
+            \centerline{\includegraphics[width=\linewidth]{../report/_book/images/paste-41.png}}
+            \caption{Learning formats most accessible and beneficial for medical device systems engineers}
+            \label{fig_learning_preferences}
+        \end{figure}
 
     \end{enumerate}
 
@@ -284,9 +428,12 @@ email address or ORCID}
     medical technology, ultimately improving patient care and outcomes 
     on a global scale.
 
+
+\begin{comment}
+    
 \section{Ease of Use}
 
-\subsection{Maintaining the Integrity of the Specifications}
+    \subsection{Maintaining the Integrity of the Specifications}
 
 The IEEEtran class file is used to format your paper and style the text. All margins, 
 column widths, line spaces, and text fonts are prescribed; please do not 
@@ -295,6 +442,8 @@ measures proportionately more than is customary. This measurement
 and others are deliberate, using specifications that anticipate your paper 
 as one part of the entire proceedings, and not as an independent document. 
 Please do not revise any of the current designations.
+
+
 
 \section{Prepare Your Paper Before Styling}
 Before you begin to format your paper, first write and save the content as a 
@@ -486,6 +635,8 @@ element symbols.
 For papers published in translation journals, please give the English 
 citation first, followed by the original foreign-language citation \cite{b6}.
 
+
+
 \begin{thebibliography}{00}
 \bibitem{b1} G. Eason, B. Noble, and I. N. Sneddon, ``On certain integrals of Lipschitz-Hankel type involving products of Bessel functions,'' Phil. Trans. Roy. Soc. London, vol. A247, pp. 529--551, April 1955.
 \bibitem{b2} J. Clerk Maxwell, A Treatise on Electricity and Magnetism, 3rd ed., vol. 2. Oxford: Clarendon, 1892, pp.68--73.
@@ -499,5 +650,7 @@ citation first, followed by the original foreign-language citation \cite{b6}.
 %\vspace{12pt}
 %\color{red}
 %IEEE conference templates contain guidance text for composing and formatting conference papers. Please ensure that all template text is removed from your conference paper prior to submission to the conference. Failure to remove the template text from your paper may result in your paper not being published.
+
+\end{comment}
 
 \end{document}
