@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.27)  15 JUN 2024 20:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.27)  16 JUN 2024 19:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -308,84 +308,84 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 42.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 44.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 44.
  (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
  (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 ]
-Underfull \hbox (badness 2443) in paragraph at lines 247--247
+Underfull \hbox (badness 2443) in paragraph at lines 249--249
 []|\OT1/ptm/m/n/8 Performance, re-li-a-bil-ity, and
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 248--248
+Underfull \hbox (badness 1603) in paragraph at lines 250--250
 []|\OT1/ptm/m/n/8 Highly reg-u-lated with strict
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--248
+Underfull \hbox (badness 10000) in paragraph at lines 250--250
 []|\OT1/ptm/m/n/8 Cyclical de-vel-op-ment with
  []
 
 
-Underfull \hbox (badness 1953) in paragraph at lines 249--249
+Underfull \hbox (badness 1953) in paragraph at lines 251--251
 []|\OT1/ptm/m/n/8 Primarily en-gi-neers, gov-ern-
  []
 
 
-Underfull \hbox (badness 1931) in paragraph at lines 249--249
+Underfull \hbox (badness 1931) in paragraph at lines 251--251
 []|\OT1/ptm/m/n/8 Consumers, deal-er-ships, and
  []
 
 
-Overfull \hbox (15.8704pt too wide) in paragraph at lines 244--251
+Overfull \hbox (15.8704pt too wide) in paragraph at lines 246--253
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
+Underfull \hbox (badness 10000) in paragraph at lines 263--263
 []|\OT1/ptm/m/n/8 Balancing cost-effectiveness
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 261--261
+Underfull \hbox (badness 5316) in paragraph at lines 263--263
 \OT1/ptm/m/n/8 with safety and reg-u-la-tory
  []
 
 
-Underfull \hbox (badness 1881) in paragraph at lines 261--261
+Underfull \hbox (badness 1881) in paragraph at lines 263--263
 []|\OT1/ptm/m/n/8 Balancing cost with per-for-
  []
 
 
-Underfull \hbox (badness 4205) in paragraph at lines 261--261
+Underfull \hbox (badness 4205) in paragraph at lines 263--263
 \OT1/ptm/m/n/8 em-pha-sis on economies of
  []
 
 
-Underfull \hbox (badness 6032) in paragraph at lines 262--262
+Underfull \hbox (badness 6032) in paragraph at lines 264--264
 \OT1/ptm/m/n/8 long de-vel-op-ment time-lines
  []
 
 
-Underfull \hbox (badness 2781) in paragraph at lines 263--263
+Underfull \hbox (badness 2781) in paragraph at lines 265--265
 []|\OT1/ptm/m/n/8 Typically low cus-tomiza-tion
  []
 
 
-Underfull \hbox (badness 3088) in paragraph at lines 263--263
+Underfull \hbox (badness 3088) in paragraph at lines 265--265
 []|\OT1/ptm/m/n/8 Limited cus-tomiza-tion, with
  []
 
 
-Overfull \hbox (15.8704pt too wide) in paragraph at lines 257--265
+Overfull \hbox (15.8704pt too wide) in paragraph at lines 259--267
  [][] 
  []
 
@@ -393,18 +393,18 @@ Overfull \hbox (15.8704pt too wide) in paragraph at lines 257--265
 <../report/_book/images/paste-31.png, id=13, 693.59125pt x 346.29375pt>
 File: ../report/_book/images/paste-31.png Graphic file (type png)
 <use ../report/_book/images/paste-31.png>
-Package pdftex.def Info: ../report/_book/images/paste-31.png  used on input line 368.
+Package pdftex.def Info: ../report/_book/images/paste-31.png  used on input line 370.
 (pdftex.def)             Requested size: 252.0pt x 125.81757pt.
 <../report/_book/images/paste-32.png, id=15, 694.595pt x 436.63126pt>
 File: ../report/_book/images/paste-32.png Graphic file (type png)
 <use ../report/_book/images/paste-32.png>
-Package pdftex.def Info: ../report/_book/images/paste-32.png  used on input line 381.
+Package pdftex.def Info: ../report/_book/images/paste-32.png  used on input line 383.
 (pdftex.def)             Requested size: 252.0pt x 158.41301pt.
  [3]
 <../report/_book/images/paste-35.png, id=19, 692.5875pt x 473.77pt>
 File: ../report/_book/images/paste-35.png Graphic file (type png)
 <use ../report/_book/images/paste-35.png>
-Package pdftex.def Info: ../report/_book/images/paste-35.png  used on input line 394.
+Package pdftex.def Info: ../report/_book/images/paste-35.png  used on input line 396.
 (pdftex.def)             Requested size: 252.0pt x 172.37881pt.
 
 Underfull \vbox (badness 2903) has occurred while \output is active []
@@ -412,7 +412,7 @@ Underfull \vbox (badness 2903) has occurred while \output is active []
 <../report/_book/images/paste-41.png, id=20, 707.64375pt x 663.47874pt>
 File: ../report/_book/images/paste-41.png Graphic file (type png)
 <use ../report/_book/images/paste-41.png>
-Package pdftex.def Info: ../report/_book/images/paste-41.png  used on input line 407.
+Package pdftex.def Info: ../report/_book/images/paste-41.png  used on input line 409.
 (pdftex.def)             Requested size: 252.0pt x 236.27057pt.
  [4 <../report/_book/images/paste-31.png> <../report/_book/images/paste-32.png>] Excluding 'comment' comment.
 
@@ -443,7 +443,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  57i,11n,65p,1014b,396s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (5 pages, 141665 bytes).
+Output written on paper.pdf (5 pages, 141663 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  26 compressed objects within 1 object stream
